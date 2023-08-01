@@ -1,0 +1,1593 @@
+{
+  "accepted_cards": {
+    "a11y": {
+      "cards_accepted": "'Nous acceptons __cards__'"
+    }
+  },
+  "account_locked": {
+    "customer_support_link": "Communiquer avec le service à la clientèle",
+    "description": "Veuillez réessayer plus tard ou saisir les informations de votre carte sur l'écran d'accueil pour continuer.",
+    "header": "L'accès à votre compte a été temporairement verrouillé",
+    "notifications": {
+      "unable_to_confirm": "Désolé, nous n'avons pas pu confirmer votre code."
+    },
+    "primary_cta_text": "Continuer vos achats",
+    "secondary_cta_text": "Saisir la carte"
+  },
+  "add_card": {
+    "cancel": "Annuler",
+    "header": "Ajouter une carte",
+    "submit": "Continuer",
+    "errors": {
+      "try_again": "Nos excuses, nous n'avons pas pu traiter votre demande. Veuillez réessayer.",
+      "generic_error": "Un problème est survenu Essayez une autre carte ou réessayez plus tard."
+    },
+    "single_card_deleted": "Votre carte a été supprimée avec succès.",
+    "src": {
+      "sub_heading": "Configurez votre carte afin de cliquer pour payer"
+    }
+  },
+  "card_list": {
+    "add": "Nouvelle carte",
+    "add_a11y": "Ajouter une nouvelle carte.",
+    "card_a11y": "__type__ __network__ se terminant par __lastFour__.",
+    "credit": "Crédit",
+    "debit": "débit",
+    "header": "Choisir une carte",
+    "errors": {
+      "api_error": "Un problème est survenu Essayez une autre carte ou réessayez plus tard.",
+      "cardid_missing_one_card": "Nous ne pouvons pas traiter cette carte. Veuillez ajouter une nouvelle carte.",
+      "cardid_missing_mult_cards": "Nous ne pouvons pas traiter cette carte. Veuillez en essayer une autre."
+    },
+    "notifications": {
+      "deleted": "Votre carte a été supprimée avec succès"
+    },
+    "electron": "Electron (débit)",
+    "prepaid": "Carte prépayée",
+    "src": {
+      "sub_heading": "Sélectionnez parmi vos cartes configurées pour Click to Pay"
+    }
+  },
+  "cardBrands": {
+    "amex": "American Express",
+    "discover": "Discover",
+    "elo": "Elo",
+    "mastercard": "Mastercard",
+    "visa": "Visa",
+    "electron": "Visa Electron",
+    "maestro": "Maestro"
+  },
+  "component_addr_disp": {
+    "masked_address_message": "Masqué pour des raisons de sécurité"
+  },
+  "component_addr_list": {
+    "address": "Adresse"
+  },
+  "component_card_number": {
+    "brands": {
+      "amex": "American Express",
+      "discover": "Discover",
+      "electron": "Electron",
+      "elo": "Elo",
+      "mastercard": "Mastercard",
+      "visa": "Visa",
+      "maestro": "Maestro"
+    },
+    "enter_card": "Entrez votre numéro de carte ici.",
+    "invalid": "invalide",
+    "label": "Numéro de carte",
+    "label_error": "Numéro de carte",
+    "not_accepted": "Pas acceptée",
+    "placeholder": "Numéro de 15 à 16 chiffres",
+    "card_brand_entered": "Carte __cardBrand__ saisie"
+  },
+  "component_combobox": {
+    "aria": {
+      "filters": "filtres lors de la saisie",
+      "item": "article",
+      "items": "articles",
+      "of": "sur",
+      "selected": "sélectionné(s)"
+    },
+    "country": {
+      "error": "Pays invalide",
+      "label": "Pays/Région",
+      "placeholder": "Sélectionner ou entrer un pays"
+    },
+    "dial_code": {
+      "error": "Pays invalide",
+      "placeholder": "Sélectionner ou entrer un pays"
+    },
+    "no_match_message": "Aucune sélection correspondante. Veuillez modifier votre saisie.",
+    "phone": {
+      "label": "Numéro de téléphone (obligatoire)",
+      "placeholder": "Numéro de téléphone (obligatoire)"
+    }
+  },
+  "component_cvv": {
+    "label": {
+      "error": "Code de sécurité non valide.",
+      "name": "Code de sécurité"
+    },
+    "enter_code": "Entrez le code de sécurité de votre carte ici.",
+    "amex_helper": "Le code à 4 chiffres sur le devant de votre carte.",
+    "non_amex_helper": "Le code à 3 chiffres au dos de votre carte."
+  },
+  "component_exp_date": {
+    "label": {
+      "description": "apparaît au format MM/AA lors de la saisie",
+      "error": "Date invalide",
+      "name": "Expire",
+      "labelled_by": "Apparaît au format MM/AA lors de la saisie"
+    },
+    "placeholder": "MM / AA"
+  },
+  "component_notification": {
+    "CLOSE": "Fermer la bannière",
+    "error": "Notification d'erreur",
+    "info": "Notification d'information",
+    "lower_environment_warning": "NON DESTINÉ AU CONSOMMATEUR! - ENVIRONNEMENT DE TEST __env__",
+    "success": "Notification de succès",
+    "warning": "Notification d'alerte"
+  },
+  "component_phone_input": {
+    "phone_number_field": {
+      "ariaLabel": "Numéro de téléphone cellulaire. Nous pouvons envoyer un code à usage unique à ce numéro pour vérifier qu'il s'agit bien de vous. Des frais de messagerie et de données peuvent s'appliquer.",
+      "error": "Numéro de téléphone cellulaire invalide",
+      "label": "Numéro de téléphone (obligatoire)"
+    },
+    "dial_code": {
+      "error": "Pays invalide",
+      "label": "Pays",
+      "placeholder": "Sélectionner ou entrer un pays",
+      "toggle_button_aria_label": ", sélecteur de code de pays"
+    },
+    "no_match_message": "Aucune sélection correspondante. Veuillez modifier votre saisie."
+  },
+  "cookie_banner": {
+    "a11y": {
+      "close_button": "Fermer la bannière"
+    },
+    "link_text": "Examiner/Refuser les témoins.",
+    "message": "Nous utilisons des témoins à des fins de sécurité, d'amélioration de votre expérience sur le site, de comptabilisation des visites et d’activités marketing pour Visa. __CookiePolicyLink__",
+    "ok_button": "Accepter"
+  },
+  "country_map": {
+    "AF": "Afghanistan",
+    "AL": "Albanie",
+    "DZ": "Algérie",
+    "AS": "Samoa américaines",
+    "AD": "Andorre",
+    "AO": "Angola",
+    "AI": "Anguilla",
+    "AG": "Antigua-et-Barbuda",
+    "AR": "Argentine",
+    "AM": "Arménie",
+    "AW": "Aruba",
+    "AU": "Australie",
+    "AT": "Autriche",
+    "AZ": "Azerbaïdjan",
+    "BS": "Bahamas",
+    "BH": "Bahreïn",
+    "BD": "Bangladesh",
+    "BB": "Barbade",
+    "BY": "Bélarus",
+    "BE": "Belgique",
+    "BZ": "Belize",
+    "BJ": "Bénin",
+    "BM": "Bermudes",
+    "BT": "Bhoutan",
+    "BO": "Bolivie",
+    "BA": "Bosnie-Herzégovine",
+    "BW": "Botswana",
+    "BR": "Brésil",
+    "IO": "Territoire britannique de l'océan Indien",
+    "VG": "Îles Vierges britanniques",
+    "BN": "Brunei",
+    "BG": "Bulgarie",
+    "BF": "Burkina Faso",
+    "BI": "Burundi",
+    "KH": "Cambodge",
+    "CM": "Cameroun",
+    "CA": "Canada",
+    "CV": "Cap-Vert",
+    "BQ": "Caraïbes",
+    "KY": "Îles Caïmans",
+    "CF": "République centrafricaine",
+    "TD": "Tchad",
+    "CL": "Chili",
+    "CN": "Chine Contintentale",
+    "CO": "Colombie",
+    "KM": "Comores",
+    "CD": "Congo (RDC)",
+    "CG": "Congo (République)",
+    "CK": "Îles Cook",
+    "CR": "Costa Rica",
+    "CI": "Côte d'Ivoire",
+    "HR": "Croatie",
+    "CU": "Cuba",
+    "CW": "Curaçao",
+    "CY": "Chypre",
+    "CZ": "République tchèque",
+    "DK": "Danemark",
+    "DJ": "Djibouti",
+    "DM": "Dominique",
+    "DO": "République dominicaine",
+    "EC": "Équateur",
+    "EG": "Égypte",
+    "SV": "Salvador",
+    "GQ": "Guinée équatoriale",
+    "ER": "Érythrée",
+    "ES": "Espagne",
+    "ET": "Éthiopie",
+    "FK": "Îles Falkland",
+    "FO": "Îles Féroé",
+    "FJ": "Fidji",
+    "FI": "Finlande",
+    "FR": "France",
+    "GF": "Guinée française",
+    "PF": "Polynésie française",
+    "GA": "Gabon",
+    "GM": "Gambie",
+    "GE": "Géorgie",
+    "DE": "Allemagne",
+    "GH": "Ghana",
+    "GI": "Gibraltar",
+    "GR": "Grèce",
+    "GL": "Groenland",
+    "GD": "Grenade",
+    "GP": "Guadeloupe",
+    "GU": "Guam",
+    "GT": "Guatemala",
+    "GN": "Guinée",
+    "GW": "Guinée-Bissau",
+    "GY": "Guyana",
+    "HT": "Haïti",
+    "HN": "Honduras",
+    "HK": "Hong Kong",
+    "HU": "Hongrie",
+    "IS": "Islande",
+    "IN": "Inde",
+    "ID": "Indonésie",
+    "IR": "Iran",
+    "IQ": "Irak",
+    "IE": "Irlande",
+    "IL": "Israël",
+    "IT": "Italie",
+    "JM": "Jamaïque",
+    "JP": "Japon",
+    "JO": "Jordanie",
+    "KZ": "Kazakhstan",
+    "KE": "Kenya",
+    "KI": "Kiribati",
+    "KW": "Koweït",
+    "KG": "Kirghizistan",
+    "LA": "Laos",
+    "LV": "Lettonie",
+    "LB": "Liban",
+    "LS": "Lesotho",
+    "LR": "Liberia",
+    "LY": "Libye",
+    "LI": "Liechtenstein",
+    "LT": "Lituanie",
+    "LU": "Luxembourg",
+    "MO": "Macao",
+    "MK": "Macédoine",
+    "MG": "Madagascar",
+    "MW": "Malawi",
+    "MY": "Malaisie",
+    "MV": "Maldives",
+    "ML": "Mali",
+    "MT": "Malte",
+    "MH": "Îles Marshall",
+    "MQ": "Martinique",
+    "MR": "Mauritanie",
+    "MU": "Maurice",
+    "MX": "Mexique",
+    "FM": "Micronésie",
+    "MD": "Moldavie",
+    "MC": "Monaco",
+    "MN": "Mongolie",
+    "ME": "Monténégro",
+    "MS": "Montserrat",
+    "MA": "Maroc",
+    "MZ": "Mozambique",
+    "MM": "Myanmar",
+    "NA": "Namibie",
+    "NR": "Nauru",
+    "NP": "Népal",
+    "NL": "Pays-Bas",
+    "NC": "Nouvelle-Calédonie",
+    "NZ": "Nouvelle-Zélande",
+    "NI": "Nicaragua",
+    "NE": "Niger",
+    "NG": "Nigeria",
+    "NU": "Niue",
+    "NF": "Île Norfolk",
+    "KP": "Corée du Nord",
+    "MP": "Îles Mariannes du Nord",
+    "NO": "Norvège",
+    "OM": "Oman",
+    "PK": "Pakistan",
+    "PW": "Palaos",
+    "PS": "Palestine",
+    "PA": "Panama",
+    "PG": "Papouasie-Nouvelle-Guinée",
+    "PY": "Paraguay",
+    "PE": "Pérou",
+    "PH": "Philippines",
+    "PL": "Pologne",
+    "PT": "Portugal",
+    "PR": "Porto Rico",
+    "QA": "Qatar",
+    "RE": "La Réunion",
+    "RO": "Roumanie",
+    "RU": "Russie",
+    "RW": "Rwanda",
+    "BL": "Saint-Barthélemy",
+    "SH": "Sainte-Hélène",
+    "KN": "Saint-Christophe-et-Niévès",
+    "LC": "Sainte-Lucie",
+    "MF": "Saint-Martin",
+    "PM": "Saint-Pierre-et-Miquelon",
+    "VC": "Saint-Vincent-et-les-Grenadines",
+    "WS": "Samoa",
+    "SM": "Saint-Marin",
+    "ST": "São Tomé-et-Principe",
+    "SA": "Arabie saoudite",
+    "SN": "Sénégal",
+    "RS": "Serbie",
+    "SC": "Seychelles",
+    "SL": "Sierra Leone",
+    "SG": "Singapour",
+    "SX": "Sint Maarten",
+    "SK": "Slovaquie",
+    "SI": "Slovénie",
+    "SB": "Îles Salomon",
+    "SO": "Somalie",
+    "ZA": "Afrique du Sud",
+    "KR": "Corée du Sud",
+    "SS": "Soudan du Sud",
+    "LK": "Sri Lanka",
+    "SD": "Soudan",
+    "SR": "Suriname",
+    "SZ": "Swaziland",
+    "SE": "Suède",
+    "CH": "Suisse",
+    "SY": "Syrie",
+    "TW": "Taïwan",
+    "TJ": "Tadjikistan",
+    "TZ": "Tanzanie",
+    "TH": "Thaïlande",
+    "TL": "Timor oriental",
+    "TG": "Togo",
+    "TK": "Tokelau",
+    "TO": "Tonga",
+    "TT": "Trinité-et-Tobago",
+    "TN": "Tunisie",
+    "TR": "Turquie",
+    "TM": "Turkménistan",
+    "TC": "Îles Turques-et-Caïques",
+    "TV": "Tuvalu",
+    "VI": "Îles Vierges des États-Unis",
+    "UG": "Ouganda",
+    "GB": "Royaume-Uni",
+    "US": "États-Unis d’Amérique",
+    "UZ": "Ouzbékistan",
+    "VU": "Vanuatu",
+    "VA": "Vatican",
+    "VE": "Vénézuela",
+    "VN": "Viêt Nam",
+    "WF": "Wallis-et-Futuna",
+    "YE": "Yémen",
+    "ZM": "Zambie",
+    "ZW": "Zimbabwe",
+    "AE": "Émirats arabes unis",
+    "UA": "Ukraine",
+    "UY": "Uruguay",
+    "EE": "Estonie",
+    "UM": "Îles mineures éloignées des États-Unis",
+    "XK": "Kosovo"
+  },
+  "cvv_learn_more": {
+    "learn_more": {
+      "close_ally": "Fermer la fenêtre En savoir plus",
+      "content": "Le code à 3 chiffres au dos de votre carte.",
+      "content_amex": "Le code à 4 chiffres sur le devant de votre carte.",
+      "open_ally": "En savoir plus sur le code de sécurité.",
+      "title": "Code de sécurité"
+    }
+  },
+  "device_locked": {
+    "description": "Veuillez réessayer plus tard ou utiliser un autre appareil."
+  },
+  "errors": {
+    "validation": {
+      "card": {
+        "card_cant_be_used": "Cette carte ne peut pas être utilisée. Veuillez en essayer une autre.",
+        "unsupported_billing_address": "Le pays de l'adresse de facturation n'est pas accepté par ce marchand.",
+        "unsupported_billing_address_country": "Ce marchand n'accepte pas les adresses de facturation situées dans ce pays : __country__.",
+        "unsupported_shipping_address": "Ce marchand ne livre pas dans le pays de cette adresse.",
+        "card_expired": "Cette carte est expirée.",
+        "merchant_unsupported_card_brand": "Ce marchand n'accepte pas __cardBrand__.",
+        "card_failed_threeds": "Votre institution financière n'a pas pu authentifier cette carte.",
+        "partial_billing_address": "Veuillez modifier l'adresse de facturation de cette carte pour passer une commande avec ce marchand.",
+        "unsupported_canadian_card": "Ce marchand n’accepte pas cette carte.",
+        "unaccepted_card_brand": "Le marchand n'accepte pas __cardBrandX__. Vous devez utiliser une carte __cardBrandY__ pour continuer.",
+        "card_not_verified": "Des renseignements supplémentaires sont requis avant de pouvoir utiliser cette carte.",
+        "merchant_unsupported_card_brand_type": "Ce marchand n'accepte pas la carte __cardBrand____cardType__.",
+        "generic_error": "Cette carte ne peut pas être utilisée. Veuillez en essayer une autre."
+      },
+      "unbind": "Nos excuses, un problème est survenu. La déconnexion n’a pas été finalisée.",
+      "password": {
+        "has_consecutive_chars": "Mot de passe invalide",
+        "has_consecutive_chars_page": "Votre mot de passe ne peut pas contenir plus de 3 caractères répétés consécutivement.",
+        "has_spaces": "Mot de passe invalide",
+        "has_spaces_page": "Désolé, votre mot de passe ne peut pas comporter d’espaces.",
+        "has_unsupported": "Mot de passe invalide",
+        "has_unsupported_page": "Nos excuses, votre mot de passe Visa Checkout ne peut contenir que des lettres, des chiffres ou les caractères ! @ $ % & * ?.",
+        "has_username": "Mot de passe invalide",
+        "has_username_page": "Nous sommes désolés, mais votre mot de passe ne peut comporter aucun segment de votre adresse courriel ou de votre numéro de téléphone mobile.",
+        "same_as_previous": "Mot de passe invalide",
+        "same_as_previous_page": "Votre nouveau mot de passe ne peut pas être identique à votre mot de passe précédent. Veuillez saisir un nouveau mot de passe.",
+        "too_long": "Mot de passe invalide",
+        "too_long_page": "Votre mot de passe ne doit pas comporter plus de 32 caractères.",
+        "too_short": "Mot de passe invalide",
+        "too_short_page": "Nous sommes désolés, mais votre mot de passe doit comporter au moins 6 caractères."
+      },
+      "add_card": {
+        "all_fields_empty": "Veuillez entrer les informations de votre carte pour continuer.",
+        "unaccepted_card_brand": "Cette carte ne peut pas être utilisée avec « Click to Pay » actuellement. Veuillez utiliser une autre carte ou retourner au commerçant.",
+        "incomplete_card_number": "Veuillez entrer un numéro de carte valide pour continuer.",
+        "past_expiry_date": "Vous avez entré une date d'expiration échue. Veuillez réessayer.",
+        "future_expiry_date": "Vous avez entré une date d'expiration incorrecte. Veuillez réessayer.",
+        "invalid_month": "Vous avez entré un mois qui n’existe pas.",
+        "invalid_security_code": "Veuillez entrer un code de sécurité valide pour continuer.",
+        "merchant": {
+          "accepted_discover": {
+            "second_digit_unaccepted": "Nous sommes désolés, mais les chiffres que vous avez saisis ne sont pas reconnus comme un numéro Discover valide."
+          },
+          "accepted_amex": {
+            "second_digit_unaccepted": "Nous sommes désolés, mais le deuxième numéro que vous avez saisi n’est pas reconnu comme un numéro American Express valide."
+          }
+        },
+        "disabled_card_brand": "Cette carte ne peut pas être utilisée avec « Click to Pay » actuellement. Veuillez utiliser une autre carte ou retourner au commerçant."
+      },
+      "review_and_signup": {
+        "accept_tnc": "Vous devez cocher la case pour accepter les conditions et continuer."
+      }
+    },
+    "login": {
+      "account_disabled": "Désolés, nous ne pouvons pas traiter votre demande actuellement. Pour votre protection, votre session a été temporairement fermée. Veuillez communiquer avec le service à la clientèle.",
+      "empty_form": "Veuillez entrer votre identifiant d’ouverture de session.",
+      "forget_password": "oublié votre mot de passe?",
+      "incorrect": "Vous avez saisi des. renseignements erronés.",
+      "incorrect_2": "Vous avez entré des renseignements erronés. Avez-vous oublié votre mot de passe?",
+      "locked": "Désolés, pour votre protection, votre session a été temporairement fermée. Veuillez réessayer plus tard ou saisissez les informations de votre carte sur l'écran d'accueil pour continuer.",
+      "max_attempts": "Vous avez dépassé le nombre maximal de tentatives autorisé. Veuillez réessayer dans quelques heures ou communiquer avec le service à la clientèle.",
+      "unavailable": "Nos excuses, nous ne pouvons pas traiter votre demande pour l'instant. Veuillez réessayer plus tard."
+    }
+  },
+  "footer": {
+    "host": "Hébergé par Visa",
+    "ad_preference": "Ajuster les préférences publicitaires",
+    "cookies": "Témoins",
+    "language_selector": "Sélecteur de pays et de langue. Sélection : __countryName__",
+    "legal": {
+      "native": {
+        "disclaimer": "Visa Checkout peut partager des renseignements sur votre utilisation de cette carte dans Visa Checkout avec votre institution financière, à des fins de service à la clientèle, d'analyse, de prévention de la fraude et d'opérations marketing."
+      }
+    },
+    "privacy": "Confidentialité",
+    "select_country": "Sélectionnez votre pays",
+    "support": "Service à la clientèle",
+    "terms": "Conditions",
+    "toggle_language": "Changer la sélection de langue",
+    "country_selector_selection": "Sélection : __countryName__"
+  },
+  "form": {
+    "error": {
+      "empty_form": "Veuillez saisir les renseignements nécessaires pour continuer.",
+      "generic": "Nous éprouvons des difficultés techniques. Veuillez réessayer plus tard.",
+      "one_or_more": "Vous avez une ou plusieurs erreurs. Veuillez les corriger pour continuer."
+    }
+  },
+  "ghost_layer": {
+    "cancel_and_return": "Annuler et retourner à __merchantName__",
+    "find_button": "La trouver",
+    "message": "Où est passée la fenêtre de paiement?",
+    "message_iOS_safari": "Votre fenêtre de paiement a disparu?",
+    "restart_button": "Recommencer le paiement"
+  },
+  "header": {
+    "a11y": {
+      "logo_alt_text_vdcp": "Logo Visa",
+      "logo_alt_text": "Logo Visa Checkout"
+    }
+  },
+  "installments": {
+    "card": {
+      "eligible": "Admissible aux versements"
+    }
+  },
+  "learn-more": {
+    "close": "Fermer",
+    "close_panel": "Fermer la fenêtre En savoir plus",
+    "collapsed_panel": "En savoir plus",
+    "learn_more": "En savoir plus",
+    "more_info": "Plus"
+  },
+  "lib_address": {
+    "name": {
+      "first": {
+        "value": "Prénom",
+        "error": "Prénom invalide"
+      },
+      "last": {
+        "value": "Nom de famille",
+        "error": "Vous avez saisi un caractère invalide. Veuillez saisir votre nom de famille à nouveau."
+      }
+    },
+    "country": {
+      "value": "Pays/Région",
+      "placeholder": "Sélectionnez ou entrez un pays/une région"
+    },
+    "address": {
+      "line1": {
+        "value": "Ligne d'adresse 1",
+        "error": "Ligne d'adresse 1 invalide"
+      },
+      "line2": {
+        "value": "Ligne d'adresse 2 (facultatif)",
+        "error": "Ligne d'adresse 2 invalide",
+        "placeholder": "Appartement, bâtiment, étage, etc."
+      },
+      "state_province_code": {
+        "value": "Province",
+        "error": "Province invalide"
+      }
+    },
+    "AR": {
+      "address": {
+        "city": {
+          "value": "Ville",
+          "error": "Ville invalide"
+        },
+        "state_province_code": {
+          "value": "État/Province",
+          "error": "État/province invalide"
+        },
+        "postal_code": {
+          "value": "Code postal",
+          "error": "Code postal invalide"
+        },
+        "line2": {
+          "placeholder": "Appartement, bâtiment, étage, etc."
+        }
+      }
+    },
+    "AU": {
+      "address": {
+        "city": {
+          "value": "Ville",
+          "error": "Ville invalide"
+        },
+        "state_province_code": {
+          "value": "État",
+          "error": "État invalide",
+          "placeholder": "2 à 3 lettres"
+        },
+        "postal_code": {
+          "value": "Code postal",
+          "error": "Code postal invalide",
+          "placeholder": "XXXX"
+        },
+        "line2": {
+          "placeholder": "Appartement, bâtiment, étage, etc."
+        }
+      }
+    },
+    "BR": {
+      "address": {
+        "postal_code": {
+          "value": "CEP",
+          "error": "CEP invalide",
+          "placeholder": "XXXXX - XXX"
+        },
+        "street_name": {
+          "value": "Adresse",
+          "error": "Adresse invalide"
+        },
+        "street_number": {
+          "value": "Numéro (obligatoire)",
+          "error": "Le numéro de carte que vous avez saisi est incorrect. Veuillez réessayer."
+        },
+        "additional_location": {
+          "value": "Informations complémentaires (optionnel)",
+          "error": "Complément invalide"
+        },
+        "line2": {
+          "value": "Voisinage",
+          "error": "Quartier invalide"
+        },
+        "line3": {
+          "value": "Point de repère (facultatif)",
+          "error": "Point de repère invalide"
+        },
+        "city": {
+          "value": "Ville",
+          "error": "Ville invalide"
+        },
+        "state_province_code": {
+          "value": "État",
+          "error": "État invalide",
+          "placeholder": "XX"
+        }
+      }
+    },
+    "CA": {
+      "address": {
+        "city": {
+          "value": "Ville",
+          "error": "Ville invalide"
+        },
+        "state_province_code": {
+          "value": "Province",
+          "error": "Province invalide",
+          "placeholder": "XX"
+        },
+        "postal_code": {
+          "value": "Code postal",
+          "error": "Code postal invalide",
+          "placeholder": "XXX XXX"
+        }
+      }
+    },
+    "CL": {
+      "address": {
+        "city": {
+          "value": "Ville",
+          "error": "Ville invalide"
+        },
+        "state_province_code": {
+          "value": "État/Province",
+          "error": "État/province invalide"
+        },
+        "postal_code": {
+          "value": "Code postal",
+          "error": "Code postal invalide"
+        },
+        "line2": {
+          "placeholder": "Appartement, bâtiment, étage, etc."
+        }
+      }
+    },
+    "CN": {
+      "address": {
+        "city": {
+          "value": "Ville",
+          "error": "Ville invalide"
+        },
+        "state_province_code": {
+          "value": "État/Province",
+          "error": "État/province invalide"
+        },
+        "postal_code": {
+          "value": "Code postal",
+          "error": "Code postal invalide"
+        },
+        "line2": {
+          "placeholder": "Appartement, bâtiment, étage, etc."
+        }
+      }
+    },
+    "CO": {
+      "address": {
+        "city": {
+          "value": "Ville",
+          "error": "Ville invalide"
+        },
+        "state_province_code": {
+          "value": "État/Province",
+          "error": "État/province invalide"
+        },
+        "postal_code": {
+          "value": "Code postal",
+          "error": "Code postal invalide"
+        },
+        "line2": {
+          "placeholder": "Appartement, bâtiment, étage, etc."
+        }
+      }
+    },
+    "DO": {
+      "address": {
+        "city": {
+          "value": "Ville",
+          "error": "Ville invalide"
+        },
+        "state_province_code": {
+          "value": "État/Province",
+          "error": "État/province invalide"
+        },
+        "postal_code": {
+          "value": "Code postal",
+          "error": "Code postal invalide"
+        },
+        "line1": {
+          "value": "Ligne d'adresse 1 (facultatif)",
+          "error": "Ligne d'adresse 1 invalide"
+        },
+        "line2": {
+          "value": "Ligne d'adresse 2 (facultatif)",
+          "placeholder": "Ligne d'adresse 2 (facultatif)",
+          "error": "Ligne d'adresse 2 invalide"
+        }
+      }
+    },
+    "FR": {
+      "address": {
+        "line1": {
+          "placeholder": "Numéro et nom de rue"
+        },
+        "line2": {
+          "placeholder": "Appartement, bâtiment, étage, etc."
+        },
+        "city": {
+          "value": "Ville",
+          "error": "Ville invalide"
+        },
+        "postal_code": {
+          "value": "Code postal",
+          "error": "Code postal invalide",
+          "placeholder": "XXXXX"
+        }
+      }
+    },
+    "GI": {
+      "address": {
+        "city": {
+          "value": "Ville",
+          "error": "Ville invalide"
+        },
+        "state_province_code": {
+          "value": "État/Province",
+          "error": "État/province invalide"
+        },
+        "postal_code": {
+          "value": "Code postal",
+          "error": "Code postal invalide"
+        }
+      }
+    },
+    "GT": {
+      "address": {
+        "city": {
+          "value": "Ville",
+          "error": "Ville invalide"
+        },
+        "state_province_code": {
+          "value": "État/Province",
+          "error": "État/province invalide"
+        },
+        "postal_code": {
+          "value": "Code postal",
+          "error": "Code postal invalide"
+        }
+      }
+    },
+    "HK": {
+      "address": {
+        "city": {
+          "value": "Quartier",
+          "error": "Arrondissement invalide"
+        },
+        "line2": {
+          "placeholder": "Appartement, bâtiment, étage, etc."
+        }
+      }
+    },
+    "IN": {
+      "address": {
+        "line3": {
+          "value": "Point de repère",
+          "error": "Point de repère invalide"
+        },
+        "city": {
+          "value": "Ville",
+          "error": "Ville invalide"
+        },
+        "state_province_code": {
+          "value": "État",
+          "error": "État invalide"
+        },
+        "postal_code": {
+          "value": "NIP",
+          "error": "NIP invalide",
+          "placeholder": "XXXXXX"
+        },
+        "line2": {
+          "placeholder": "Appartement, bâtiment, étage, etc."
+        }
+      }
+    },
+    "IE": {
+      "address": {
+        "line2": {
+          "placeholder": "Localité"
+        },
+        "city": {
+          "value": "Ville/village",
+          "error": "Ville/village invalide"
+        },
+        "county": {
+          "value": "Comté",
+          "error": "Comté invalide",
+          "placeholder": "Sélectionner ou entrer un comté"
+        },
+        "postal_code": {
+          "value": "Code postal (optionnel)",
+          "error": "Code postal invalide",
+          "placeholder": "Code régional Dublin ou Eircode"
+        }
+      }
+    },
+    "JP": {
+      "address": {
+        "city": {
+          "value": "Ville",
+          "error": "Ville invalide"
+        },
+        "state_province_code": {
+          "value": "État/Province",
+          "error": "État/province invalide"
+        },
+        "postal_code": {
+          "value": "Code postal",
+          "error": "Code postal invalide"
+        }
+      }
+    },
+    "KW": {
+      "address": {
+        "line1": {
+          "placeholder": "maison, rue, îlot, quartier"
+        },
+        "line2": {
+          "placeholder": "P. ex. complexe, immeuble"
+        },
+        "city": {
+          "value": "Ville",
+          "error": "Ville invalide"
+        },
+        "state_province_code": {
+          "value": "État/Province",
+          "error": "État/province invalide"
+        },
+        "postal_code": {
+          "value": "Code postal (optionnel)",
+          "error": "Code postal invalide"
+        }
+      }
+    },
+    "MY": {
+      "address": {
+        "city": {
+          "value": "Ville/village",
+          "error": "Ville/village invalide"
+        },
+        "state_province_code": {
+          "value": "État/Province",
+          "error": "État/province invalide"
+        },
+        "postal_code": {
+          "value": "Code postal",
+          "error": "Code postal invalide"
+        },
+        "line2": {
+          "placeholder": "Appartement, bâtiment, étage, etc."
+        }
+      }
+    },
+    "MX": {
+      "address": {
+        "postal_code": {
+          "value": "Code postal",
+          "error": "Code postal invalide",
+          "placeholder": "XXXXX"
+        },
+        "street_name": {
+          "value": "Rue",
+          "error": "Rue invalide"
+        },
+        "street_number": {
+          "value": "Numéro extérieur",
+          "error": "Numéro externe invalide"
+        },
+        "additional_location": {
+          "value": "Numéro intérieur (optionnel)",
+          "error": "Numéro interne invalide"
+        },
+        "neighborhood": {
+          "value": "Colonie",
+          "error": "Colonie invalide"
+        },
+        "county": {
+          "value": "Comté ou municipalité",
+          "error": "Comté ou municipalité invalide"
+        },
+        "city": {
+          "value": "Ville",
+          "error": "Ville invalide"
+        },
+        "state_province_code": {
+          "value": "État",
+          "error": "État invalide"
+        },
+        "point_of_reference": {
+          "value": "Point de repère (facultatif)",
+          "error": "Point de repère invalide"
+        }
+      }
+    },
+    "PE": {
+      "address": {
+        "city": {
+          "value": "Ville",
+          "error": "Ville invalide"
+        },
+        "state_province_code": {
+          "value": "État/Province",
+          "error": "État/province invalide"
+        },
+        "postal_code": {
+          "value": "Code postal",
+          "error": "Code postal invalide"
+        },
+        "line2": {
+          "placeholder": "Appartement, bâtiment, étage, etc."
+        }
+      }
+    },
+    "PL": {
+      "address": {
+        "street_name": {
+          "value": "Rue",
+          "error": "Rue invalide"
+        },
+        "street_number": {
+          "value": "Numéro d'appartement",
+          "error": "Numéro de maison/d'appartement invalide"
+        },
+        "city": {
+          "value": "Ville",
+          "error": "Ville invalide"
+        },
+        "postal_code": {
+          "value": "Code postal",
+          "error": "Code postal invalide",
+          "placeholder": "XX-XXX"
+        }
+      }
+    },
+    "QA": {
+      "address": {
+        "line1": {
+          "placeholder": "Numéro et nom de rue, appartement ou casier postal"
+        },
+        "line2": {
+          "placeholder": "P. ex. complexe, immeuble"
+        },
+        "city": {
+          "value": "Ville",
+          "error": "Ville invalide"
+        },
+        "state_province_code": {
+          "value": "Ville/Province",
+          "error": "Ville ou province invalide"
+        },
+        "postal_code": {
+          "value": "Code postal (optionnel)",
+          "error": "Code postal invalide"
+        }
+      }
+    },
+    "NZ": {
+      "address": {
+        "city": {
+          "value": "Ville/village",
+          "error": "Ville/village invalide"
+        },
+        "postal_code": {
+          "value": "Code postal",
+          "error": "Code postal invalide",
+          "placeholder": "XXXX"
+        },
+        "line2": {
+          "placeholder": "Appartement, bâtiment, étage, etc."
+        }
+      }
+    },
+    "SA": {
+      "address": {
+        "line1": {
+          "placeholder": "Numéro et nom de rue, appartement ou casier postal"
+        },
+        "line2": {
+          "placeholder": "P. ex. complexe, immeuble, etc."
+        },
+        "city": {
+          "value": "Ville",
+          "error": "Ville invalide"
+        },
+        "state_province_code": {
+          "value": "Région",
+          "error": "Région invalide"
+        },
+        "postal_code": {
+          "value": "Code postal (optionnel)",
+          "error": "Code postal invalide"
+        }
+      }
+    },
+    "SG": {
+      "address": {
+        "city": {
+          "value": "Ville/village",
+          "error": "Ville/village invalide"
+        },
+        "state_province_code": {
+          "value": "État/Province",
+          "error": "État/province invalide"
+        },
+        "postal_code": {
+          "value": "Code postal",
+          "error": "Code postal invalide"
+        },
+        "line2": {
+          "placeholder": "Appartement, bâtiment, étage, etc."
+        }
+      }
+    },
+    "ZA": {
+      "address": {
+        "city": {
+          "value": "Ville",
+          "error": "Ville invalide"
+        },
+        "state_province_code": {
+          "value": "État/Province",
+          "error": "État/province invalide"
+        },
+        "postal_code": {
+          "value": "Code postal",
+          "error": "Code postal invalide"
+        },
+        "line2": {
+          "placeholder": "Appartement, bâtiment, étage, etc."
+        }
+      }
+    },
+    "SK": {
+      "address": {
+        "city": {
+          "value": "Ville",
+          "error": "Ville invalide"
+        },
+        "state_province_code": {
+          "value": "État/Province",
+          "error": "État/province invalide"
+        },
+        "postal_code": {
+          "value": "Code postal",
+          "error": "Code postal invalide"
+        }
+      }
+    },
+    "TW": {
+      "address": {
+        "city": {
+          "value": "Ville",
+          "error": "Ville invalide"
+        },
+        "state_province_code": {
+          "value": "État/Province",
+          "error": "État/province invalide"
+        },
+        "postal_code": {
+          "value": "Code postal",
+          "error": "Code postal invalide"
+        }
+      }
+    },
+    "ES": {
+      "address": {
+        "line1": {
+          "placeholder": "Rue, numéro, étage, porte, etc."
+        },
+        "city": {
+          "value": "Ville",
+          "error": "Ville invalide"
+        },
+        "state_province_code": {
+          "value": "Province",
+          "error": "Province invalide",
+          "placeholder": "Sélectionner ou entrer une province"
+        },
+        "postal_code": {
+          "value": "Code postal",
+          "error": "Code postal invalide",
+          "placeholder": "XXXXX"
+        },
+        "line2": {
+          "placeholder": "Appartement, bâtiment, étage, etc."
+        }
+      }
+    },
+    "TH": {
+      "address": {
+        "city": {
+          "value": "Ville",
+          "error": "Ville invalide"
+        },
+        "state_province_code": {
+          "value": "État/Province",
+          "error": "État/province invalide"
+        },
+        "postal_code": {
+          "value": "Code postal",
+          "error": "Code postal invalide"
+        }
+      }
+    },
+    "AE": {
+      "address": {
+        "city": {
+          "value": "Ville",
+          "error": "Ville invalide"
+        },
+        "state_province_code": {
+          "value": "État/Province",
+          "error": "État/province invalide"
+        },
+        "postal_code": {
+          "value": "Code postal",
+          "error": "Code postal invalide"
+        },
+        "line2": {
+          "placeholder": "Appartement, bâtiment, étage, etc."
+        }
+      }
+    },
+    "GB": {
+      "address": {
+        "city": {
+          "value": "Village/ville",
+          "error": "Village/ville invalide"
+        },
+        "postal_code": {
+          "value": "Code postal",
+          "error": "Code postal invalide",
+          "placeholder": "De 5 à 7 caractères"
+        }
+      }
+    },
+    "UA": {
+      "address": {
+        "line1": {
+          "placeholder": "Rue"
+        },
+        "line2": {
+          "placeholder": "Rue, résidence, appartement"
+        },
+        "line3": {
+          "value": "Adresse ligne 3 (optionnel)",
+          "error": "Ligne d'adresse 3 invalide",
+          "placeholder": "Quartier"
+        },
+        "city": {
+          "value": "Ville",
+          "error": "Ville invalide"
+        },
+        "state_province_code": {
+          "value": "Région",
+          "error": "Région invalide"
+        },
+        "postal_code": {
+          "value": "Code postal",
+          "error": "Code postal invalide"
+        }
+      }
+    },
+    "US": {
+      "address": {
+        "city": {
+          "value": "Ville",
+          "error": "Ville invalide"
+        },
+        "state_province_code": {
+          "value": "État",
+          "error": "État invalide",
+          "placeholder": "XX"
+        },
+        "postal_code": {
+          "value": "Code Zip",
+          "error": "Code postal invalide",
+          "placeholder": "XXXXX"
+        },
+        "line1": {
+          "value": "Adresse ligne 1",
+          "error": "Ligne d'adresse 1 invalide"
+        },
+        "line2": {
+          "placeholder": "Appartement, bâtiment, étage, etc."
+        }
+      }
+    },
+    "UK": {
+      "address": {
+        "line2": {
+          "placeholder": "Appartement, bâtiment, étage, etc."
+        }
+      }
+    }
+  },
+  "loading": {
+    "address_list_ally": "Veuillez patienter pendant le chargement de vos adresses.",
+    "card_list_ally": "Veuillez patienter pendant le chargement de vos cartes.",
+    "welcome_ally": "Veuillez patienter pendant le chargement de Visa Checkout."
+  },
+  "locale": {
+    "country": {
+      "Argentina": "Argentine",
+      "Australia": "Australie",
+      "Brazil": "Brésil",
+      "Canada": "Canada",
+      "Chile": "Chili",
+      "China": "Chine Contintentale",
+      "Colombia": "Colombie",
+      "DominicanRepublic": "République dominicaine",
+      "France": "France",
+      "Gibraltar": "Gibraltar",
+      "Guatemala": "Guatemala",
+      "HongKong": "Hong Kong",
+      "India": "Inde",
+      "Ireland": "Irlande",
+      "Japan": "Japon",
+      "Kuwait": "Koweït",
+      "Malaysia": "Malaisie",
+      "Mexico": "Mexique",
+      "NewZealand": "Nouvelle-Zélande",
+      "Peru": "Pérou",
+      "Poland": "Pologne",
+      "Qatar": "Qatar",
+      "SaudiArabia": "Arabie saoudite",
+      "Singapore": "Singapour",
+      "SouthAfrica": "Afrique du Sud",
+      "SouthKorea": "Corée du Sud",
+      "Spain": "Espagne",
+      "Taiwan": "Taïwan",
+      "Thailand": "Thaïlande",
+      "UAE": "Émirats arabes unis",
+      "USA": "États-Unis d’Amérique",
+      "Ukraine": "Ukraine",
+      "UnitedKingdom": "Royaume-Uni",
+      "Germany": "Allemagne",
+      "Switzerland": "Suisse",
+      "Austria": "Autriche",
+      "Italy": "Italie",
+      "Portugal": "le Portugal",
+      "Norway": "Norvège",
+      "Sweden": "Suède",
+      "Finland": "Finlande",
+      "Denmark": "Danemark",
+      "CzechRepublic": "République Tchèque",
+      "Hungary": "Hongrie",
+      "Slovakia": "La slovaquie",
+      "Netherlands": "Pays-Bas",
+      "Ecuador": "Équateur",
+      "ElSalvador": "Salvador",
+      "CostaRica": "Costa Rica",
+      "Panama": "Panama",
+      "Paraguay": "Paraguay",
+      "Uruguay": "Uruguay",
+      "Nicaragua": "Nicaragua",
+      "Honduras": "Honduras",
+      "Jordan": "Jordanie"
+    }
+  },
+  "locked": {
+    "cta": {
+      "return_to_merchant": "Retournez à",
+      "try_another_card": "Essayez une autre carte"
+    },
+    "account": {
+      "header_top": "Alerte de sécurité",
+      "header_bottom": "Trop de tentatives infructueuses",
+      "description": "Vos cartes Visa seront temporairement indisponibles. Veuillez réessayer plus tard ou utiliser une autre carte."
+    },
+    "device": {
+      "header": "Nous avons détecté un problème",
+      "description": "Pour votre sécurité, nous ne pouvons pas ajouter votre carte Visa pour le moment. Veuillez réessayer plus tard ou utiliser une autre carte."
+    }
+  },
+  "login": {
+    "did_you": "Avez-vous"
+  },
+  "merchant": {
+    "name": "__merchantName__"
+  },
+  "mini": {
+    "error_message": {
+      "p1": "Désolé, ressemble à quelque chose qui a mal tourné.",
+      "p2": "Pour continuer, veuillez saisir votre adresse courriel sur l'écran d'accueil."
+    }
+  },
+  "non_roman": {
+    "content": "Vous devez utiliser __ACTION__. Visa Checkout ne prend en charge aucun autre caractère pour le moment.",
+    "content_bold": "Caractères romains uniquement",
+    "cta_text": "Confirmer et continuer",
+    "header": "Veuillez confirmer"
+  },
+  "otp": {
+    "verify": {
+      "resend_code_link": "Renvoyer le code",
+      "cta_text": "Continuer",
+      "description": "Saisissez le code unique qui a été envoyé à",
+      "header": "Heureux de vous revoir!",
+      "input_label": "Code à usage unique",
+      "invalid_input_label": "Code invalide",
+      "remember_me": {
+        "checkbox": {
+          "label_p1": "Se souvenir de moi sur cet appareil",
+          "label_p2": "(Non recommandé pour les appareils partagés)"
+        },
+        "learn_more": {
+          "eu": "Aidez-nous à nous souvenir de vous en enregistrant votre courriel ou votre numéro de téléphone mobile. Désormais, chaque fois que vous utiliserez Visa Checkout, nous nous souviendrons de vous et de vos cartes préférées sur cet appareil. Vous n’aurez plus qu’à saisir un code à usage unique ou votre mot de passe.",
+          "p1": "Aidez-nous à nous souvenir de vous en enregistrant votre courriel ou votre numéro de téléphone mobile. Désormais, chaque fois que vous utiliserez Visa Checkout, nous nous souviendrons de vous et de vos cartes préférées sur cet appareil. Vous n’aurez plus qu’à saisir un code à usage unique ou votre mot de passe.",
+          "p2": "Visa Checkout affichera une représentation de votre carte de crédit ou de débit afin de vous offrir une expérience d'achat plus personnalisée.",
+          "p2_IR": "Une représentation de votre carte de débit ou de crédit sera affichée dans Visa Checkout afin de vous offrir une expérience d'achat plus personnalisée."
+        },
+        "close_a11y": "Fermer la fenêtre En savoir plus",
+        "open_a11y": "En savoir plus."
+      },
+      "use_password_link": "UTILISER MON MOT DE PASSE",
+      "resend_link": "Renvoyer le code"
+    },
+    "provider": {
+      "description": "Saisissez le code à usage unique que __provider__  a envoyé à",
+      "description_email": "Entrez le code à usage unique que __provider__ a envoyé par courriel à",
+      "description_text": "Entrez le code à usage unique que __provider__ a envoyé par message texte à"
+    },
+    "not_you": {
+      "not_you_a11y": "Revenez à l'étape précédente si ce n'est pas vous",
+      "left_paren": "(",
+      "link_text": "Ce n’est pas vous?",
+      "right_paren": ")"
+    },
+    "errors": {
+      "expired_resend": "Ce code a expiré. Veuillez cliquer sur « Renvoyer » pour obtenir un nouveau code.",
+      "invalid": "Désolé, nous n'avons pas pu confirmer votre code.",
+      "invalid_code": "Désolés, le code que vous avez entré est incorrect.",
+      "retries_exceeded": "Trop de tentatives infructueuses de saisie du code unique. Essayez avec une autre carte.",
+      "account_inaccessible": "Nous ne pouvons pas accéder à vos informations enregistrées pour l'instant. Saisissez les informations de la carte pour continuer.",
+      "generic_error": "Nos excuses, nous n'avons pas pu traiter votre demande. Veuillez faire une nouvelle demande de code."
+    },
+    "notifications": {
+      "resend": "Un autre code a été envoyé à __name__",
+      "sent": "Code envoyé à __name__",
+      "resend_email": "Un autre courriel a été envoyé à __name__",
+      "resend_text": "Un autre message texte a été envoyé à __name__",
+      "sms_email_resend": "Le code à usage unique a été renvoyé"
+    },
+    "step_up": {
+      "cta_text": "Confirmer",
+      "header": "Pour votre sécurité, veuillez saisir votre mot de passe",
+      "password": {
+        "a11y": {
+          "enter": "Entrez votre mot de passe sécurisé Visa Checkout pour __username__",
+          "hide": "Cacher le mot de passe",
+          "show": "Afficher le mot de passe"
+        },
+        "forgot_link": "Oublié?",
+        "hide": "Cacher",
+        "input_label": "Mot de passe",
+        "invalid_input_label": "Mot de passe invalide",
+        "show": "Afficher"
+      }
+    },
+    "step_up_otp": {
+      "cancel": "Annuler"
+    },
+    "validation_channel": {
+      "sms_email_a11y": "__phone__ et __email__"
+    }
+  },
+  "otp_card_entry": {
+    "description": "Il semble que vous avez déjà utilisé Visa Checkout. Veuillez entrer le code à usage unique que nous vous avons envoyé à cette adresse afin de confirmer votre identité."
+  },
+  "page": {
+    "cancel_and_return": "Annuler et retourner à __merchantName__",
+    "change": "Modifier",
+    "merchant_name_default": "marchand"
+  },
+  "prefill_consent": {
+    "header": "La manière la plus simple de payer en ligne",
+    "description": "Pour faciliter le processus, vous pouvez permettre à __merchantName__ de préremplir vos informations de base.",
+    "more_info_a11y": "Cliquez pour en savoir plus.",
+    "more_info": "Plus d'infos.",
+    "more_info_content": "Les informations que __merchantName__ peut partager avec l’expérience de paiement en ligne de Visa comprennent le nom et le prénom, le numéro de téléphone et l’adresse de courriel.",
+    "cta": "Préremplir mes informations",
+    "cancel": "Non merci",
+    "errors": {
+      "no_merchant_data": "Nos excuses, __merchantName__ n’a pas pu préremplir vos informations. Toutefois, vous pouvez toujours continuer avec l’expérience de paiement en ligne de Visa."
+    },
+    "disclaimer": "En cliquant sur « Préremplir mes informations », vous autorisez __merchantName__ à transférer votre nom, prénom, numéro de téléphone et adresse de courriel au système de paiement en ligne de Visa et acceptez la __privacyPolicy__ de Visa.",
+    "privacy_policy": "Avis de confidentialité"
+  },
+  "sdklite": {
+    "accessibility": {
+      "button": "Cliquez pour payer avec l'icône de paiement",
+      "locked_button": "Service de paiement par Visa. Indisponible.",
+      "spinner": "Chargement",
+      "spinner_close": "Annuler et renvoyer au marchand",
+      "fingerprint_icon": "Icône d'empreinte digitale"
+    },
+    "logging": {
+      "lock_reason": "Désactivation du bouton car cet environnement n'est pas pris en charge. Veuillez essayer un système d'exploitation plus récent.",
+      "not_initialized": "Le SDK n'a pas encore été initialisé.",
+      "no_network": "Il n'y a pas de connexion réseau, donc les informations de paiement n'ont pas été mises à jour.",
+      "already_launched": "Le flux de paiement a déjà été lancé.",
+      "invalid_params": "Les paramètres sont invalides ou nuls.",
+      "internal_error": "Visa Checkout a rencontré une erreur interne et ne peut pas traiter la demande.",
+      "corr_id_session": "L'ID de corrélation pour cette session est __correlationid__",
+      "api_check": "Les appareils fonctionnant au niveau API  __apilevel__ et aux niveaux supérieurs peuvent utiliser la fonctionnalité Visa Checkout.",
+      "objc_bridge_warning": "Avertissement - Objective-C ne peut pas relier les valeurs de tableau définies sur __property__. Veuillez utiliser la propriété .rawValue dans l'énumération __enum__."
+    },
+    "ui": {
+      "biometric_signin": "Ouvrir une session",
+      "biometric_cancel": "Annuler",
+      "fingerprint_recognized": "Empreinte digitale reconnue",
+      "fingerprint_unrecognized": "Empreinte digitale non reconnue. Réessayez",
+      "fingerprint_continue": "Confirmez l'empreinte digitale pour continuer",
+      "fingerprint_confirm": "Confirmer votre empreinte digitale maintenant.",
+      "touch_sensor": "Touchez au capteur"
+    }
+  },
+  "service_unavailable": {
+    "header": "Service indisponible",
+    "primary_cta_text": "Ouvrir une session",
+    "secondary_cta_text": "Fermer",
+    "subtext": "Nous sommes désolés, quelque chose d’inattendu s’est produit et votre session s’est fermée. Veuillez réessayer."
+  },
+  "session": {
+    "expired": {
+      "header": "Votre session est expirée",
+      "message": "Pour votre sécurité, votre session a expiré pour cause d'inactivité. Veuillez saisir votre adresse de courriel sur l'écran d'accueil à nouveau.",
+      "primary_cta_alt_text": "Aller à la page d’ouverture de session",
+      "primary_cta_text": "Continuer",
+      "secondary_cta_text": "Fermer"
+    },
+    "warning_modal": {
+      "header": "Votre session est sur le point d’expirer.",
+      "message": "Sélectionnez la manière dont vous désirez procéder ci-dessous.",
+      "primary_cta_text": "Continuer la session",
+      "secondary_cta_text": "Fermer"
+    }
+  },
+  "src_app": {
+    "a11y": {
+      "description": "Cliquer pour payer"
+    }
+  },
+  "tell_me_more": {
+    "disabled": {
+      "header": "Visa Checkout a migré vers Cliquer pour payer __srcIcon__",
+      "intro": "Visa Checkout n'est pas disponible sur cette page de paiement du marchand.",
+      "intro_pt_2": "En attendant, veuillez utiliser un autre mode de paiement proposé par ce marchand."
+    },
+    "legacy": {
+      "close": "Fermer",
+      "close_aria_label": "Fermer la fenêtre d'information de Visa Checkout",
+      "create_action": "Créer un compte Visa Checkout",
+      "feature_list_1": "Payez rapidement en ouvrant une seule session",
+      "feature_list_2": "Utilisez toutes les cartes de crédit ou de débit principales",
+      "feature_list_3": "Un service de Visa, la compagnie que vous connaissez et en qui vous avez confiance",
+      "feature_list_4_1": "Et c'est",
+      "feature_list_4_2": "GRATUIT!",
+      "intro": "Créez un compte une seule fois. Vous n'aurez plus jamais à saisir vos données de carte et votre adresse de facturation partout où Visa Checkout est disponible.",
+      "login_action": "Ouvrez une session pour vous connecter à votre compte Visa Checkout.",
+      "logo_alt": "En savoir plus au sujet de Visa Checkout",
+      "title": "En savoir plus"
+    },
+    "src": {
+      "close": "Fermer",
+      "close_aria_label": "Fermer la fenêtre d'information de Visa Checkout",
+      "create_action": "S'inscrire",
+      "feature_list_1": "Payez plus rapidement; plus de longs formulaires à remplir ou de mots de passe à retenir.",
+      "feature_list_2": "Il suffit de saisir les informations de la carte une seule fois; nul besoin de saisir vos informations chaque fois que vous payez.",
+      "feature_list_3": "Cherchez l'icône Cliquer pour payer __srcIcon__ chez des centaines de milliers de détaillants en ligne; accédez à vos informations en toute sécurité pour payer.",
+      "feature_list_4": "Vous pouvez aussi choisir de mémoriser vos informations sur votre appareil et votre navigateur pour un paiement plus rapide.",
+      "header": "Cliquez pour payer avec __srcIcon__",
+      "intro": "Payez en toute confiance avec les mêmes marques de paiement que vous utilisez aujourd'hui. L'expérience Cliquer pour payer repose sur les normes de sécurité de l'industrie pour les transactions en ligne. Pour payer de façon intelligente et simple, il suffit de cliquer pour payer là où vous voyez l'icône Cliquer pour payer __srcIcon__ et où votre carte est acceptée. C'est facile à utiliser :",
+      "login_action": "Connectez-vous ou accédez à Mon profil",
+      "logo_alt": "En savoir plus au sujet de Visa Checkout"
+    }
+  },
+  "user_info": {
+    "menu_ally": "Informations sur le compte de __name__",
+    "sign_out": "Déconnexion",
+    "sign_out_a11y": "Fermer la session de __user__"
+  },
+  "vco_component_add_card": {
+    "first_name": {
+      "label": "Prénom",
+      "label_a11y": "Saisissez votre prénom ici.",
+      "invalid_first_name": "Prénom invalide"
+    },
+    "last_name": {
+      "label": "Nom de famille",
+      "label_a11y": "Saisissez votre nom de famille ici.",
+      "invalid_last_name": "Vous avez saisi un caractère invalide. Veuillez saisir votre nom de famille à nouveau."
+    }
+  },
+  "vco-component-identification": {
+    "email_label_a11y": "Saisissez votre adresse de courriel ici."
+  },
+  "welcome": {
+    "a11y": {
+      "cta": "Continuer en utilisant Visa Checkout",
+      "page_title": "Visa Checkout : le mode de paiement en ligne le plus simple"
+    },
+    "cta_text": "Continuer",
+    "description": "Pour commencer, veuillez saisir votre adresse de courriel.",
+    "header": "La manière la plus simple de payer en ligne",
+    "input_label": "Adresse électronique",
+    "invalid_input_label": "Adress courriel invalide",
+    "errors": {
+      "lockout": "Nous ne pouvons pas accéder à vos informations enregistrées pour l'instant. Saisissez les informations de la carte pour continuer.",
+      "lookup_unavailable": "La recherche ne peut pas être utilisée pour votre adresse de courriel. Veuillez entrer les informations de votre carte pour continuer."
+    },
+    "create_account": {
+      "new_user": "Il semble que vous débutiez avec Cliquer pour payer. Pour commencer, saisissez les informations de votre carte.",
+      "cta": "Continuer",
+      "tab": {
+        "label_a11y": "Nouvel utilisateur",
+        "label": "Nouveau"
+      },
+      "legal_info": "Vos informations seront partagées avec les réseaux de paiement participants ainsi que les fournisseurs de services afin qu'ils puissent vous fournir l'expérience adéquate."
+    },
+    "sign_in": {
+      "tab": {
+        "label": "Existant",
+        "label_a11y": "Ancien utilisateur"
+      },
+      "cta": "Continuer",
+      "legal_info": "En saisissant votre adresse de courriel, vous donnez aux réseaux de paiement participants accès à vos informations."
+    },
+    "src": {
+      "create_account": {
+        "new_user": "Pour débuter, veuillez activer votre carte de crédit ou de débit en saisissant les informations ci-dessous."
+      },
+      "cta": {
+        "message": {
+          "new_user": "Vos informations seront partagées avec les réseaux de paiement participants, les fournisseurs de services et selon les autres dispositions de notre __privacyNotice__ pour nous permettre de vous offrir l'expérience appropriée.",
+          "returning_user": "En continuant, vous acceptez l'__privacyNotice__ de Visa."
+        }
+      },
+      "legal": {
+        "privacy_notice": "Avis de confidentialité",
+        "terms": "Conditions d'Utilisation"
+      },
+      "header": "Paiement en ligne intelligent et facile",
+      "we_accept": "Nous acceptons",
+      "errors": {
+        "lockout": "Nous ne pouvons pas accéder à vos informations enregistrées pour l'instant. Saisissez les informations de la carte pour continuer."
+      },
+      "sub_heading": {
+        "new": "Payez en toute confiance avec Click to Pay",
+        "returning": "Payez en toute confiance avec Click to Pay"
+      }
+    }
+  }
+}

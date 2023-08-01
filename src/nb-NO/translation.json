@@ -1,0 +1,1593 @@
+{
+  "accepted_cards": {
+    "a11y": {
+      "cards_accepted": "\"Vi godtar __cards__\""
+    }
+  },
+  "account_locked": {
+    "customer_support_link": "Kontakt kundestøtte",
+    "description": "Prøv igjen senere, eller skriv inn kortinformasjonen på velkomstskjermen for å fortsette.",
+    "header": "Du har blitt midlertidig utestengt",
+    "notifications": {
+      "unable_to_confirm": "Beklager, vi kunne ikke bekrefte koden din."
+    },
+    "primary_cta_text": "Fortsette å handle",
+    "secondary_cta_text": "Skriv inn kortet"
+  },
+  "add_card": {
+    "cancel": "Avbryt",
+    "header": "Legg til kort",
+    "submit": "Fortsett",
+    "errors": {
+      "try_again": "Beklager, vi kunne ikke behandle forespørselen din. Prøv på nytt.",
+      "generic_error": "Beklager, noe gikk galt. Prøv et annet kort, eller prøv igjen senere."
+    },
+    "single_card_deleted": "Kortet ditt ble slettet!",
+    "src": {
+      "sub_heading": "Sett opp kortet ditt for å bruke Click to Pay"
+    }
+  },
+  "card_list": {
+    "add": "Nytt kort",
+    "add_a11y": "Legg til nytt kort.",
+    "card_a11y": "__network__ __type__ slutter på __lastFour__.",
+    "credit": "Kreditt",
+    "debit": "Debet",
+    "header": "Velg Kort",
+    "errors": {
+      "api_error": "Beklager, noe gikk galt. Prøv et annet kort, eller prøv igjen senere.",
+      "cardid_missing_one_card": "Vi kan ikke fortsette med dette kortet. Legg til et nytt kort.",
+      "cardid_missing_mult_cards": "Vi kan ikke fortsette med dette kortet. Prøv et annet.."
+    },
+    "notifications": {
+      "deleted": "Kortet ditt ble slettet"
+    },
+    "electron": "Elektron (debet)",
+    "prepaid": "Forhåndsbetalt",
+    "src": {
+      "sub_heading": "Velg mellom kortene dine som er satt opp for å bruke Click to Pay"
+    }
+  },
+  "cardBrands": {
+    "amex": "American Express",
+    "discover": "Discover",
+    "elo": "Elo",
+    "mastercard": "MasterCard",
+    "visa": "Visa",
+    "electron": "Visa Electron",
+    "maestro": "Maestro"
+  },
+  "component_addr_disp": {
+    "masked_address_message": "Maskert av sikkerhetsmessige årsaker"
+  },
+  "component_addr_list": {
+    "address": "Adresse"
+  },
+  "component_card_number": {
+    "brands": {
+      "amex": "American Express",
+      "discover": "Discover",
+      "electron": "Elektron",
+      "elo": "Elo",
+      "mastercard": "MasterCard",
+      "visa": "Visa",
+      "maestro": "Maestro"
+    },
+    "enter_card": "Skriv inn kortnummeret ditt her.",
+    "invalid": "Ugyldig",
+    "label": "Kortnummer",
+    "label_error": "Kortnummer",
+    "not_accepted": "Ikke godtatt.",
+    "placeholder": "15 til 16 tegn",
+    "card_brand_entered": "__cardBrand__ -kort skrevet inn"
+  },
+  "component_combobox": {
+    "aria": {
+      "filters": "filtre mens du skriver",
+      "item": "element",
+      "items": "elementer",
+      "of": "av",
+      "selected": "valgt"
+    },
+    "country": {
+      "error": "Ugyldig land",
+      "label": "Land/region",
+      "placeholder": "Velg eller skriv inn et land"
+    },
+    "dial_code": {
+      "error": "Ugyldig land",
+      "placeholder": "Velg eller skriv inn et land"
+    },
+    "no_match_message": "Det ble ikke funnet noen land som samsvarer med det du har skrevet inn. Oppføringen må endres.",
+    "phone": {
+      "label": "Telefonnummer (obligatorisk)",
+      "placeholder": "Telefonnummer (obligatorisk)"
+    }
+  },
+  "component_cvv": {
+    "label": {
+      "error": "Ugyldig sikkerhetskode.",
+      "name": "Sikkerhetskode"
+    },
+    "enter_code": "Skriv inn kortets sikkerhetskode her.",
+    "amex_helper": "Den firesifrede koden på forsiden av kortet ditt.",
+    "non_amex_helper": "Den tresifrede koden på baksiden av kortet ditt."
+  },
+  "component_exp_date": {
+    "label": {
+      "description": "formateres som MM/YY mens du skriver",
+      "error": "Ugyldig dato",
+      "name": "Utløper",
+      "labelled_by": "MM/YY-utløpsdatoen formateres mens du skriver"
+    },
+    "placeholder": "MM/ÅÅ"
+  },
+  "component_notification": {
+    "CLOSE": "Lukk banner",
+    "error": "Feilmelding",
+    "info": "Informasjonsvarsling",
+    "lower_environment_warning": "IKKE TIL BRUK FOR FORBRUKER! __env__ TESTMILJØ",
+    "success": "Suksessvarsling",
+    "warning": "Advarsel"
+  },
+  "component_phone_input": {
+    "phone_number_field": {
+      "ariaLabel": "Vi kan sende en engangskode til dette nummeret for å bekrefte at det er deg. Avgifter for meldinger og datatrafikk kan gjelde.",
+      "error": "Ugyldig telefonnummer",
+      "label": "Mobilnummer (obligatorisk)"
+    },
+    "dial_code": {
+      "error": "Ugyldig land",
+      "label": "Land",
+      "placeholder": "Velg eller skriv inn et land",
+      "toggle_button_aria_label": ", landskodevalg"
+    },
+    "no_match_message": "Det ble ikke funnet noen land som samsvarer med det du har skrevet inn. Oppføringen må endres."
+  },
+  "cookie_banner": {
+    "a11y": {
+      "close_button": "Lukk banner"
+    },
+    "link_text": "Gjennomgå / avvis informasjonskapsler.",
+    "message": "Vi bruker informasjonskapsler for å opprettholde sikkerheten, forbedre nettstedopplevelsen, måle besøk på nettstedene våre og aktivere Visa-markedsføringsaktiviteter.  __CookiePolicyLink__",
+    "ok_button": "Godta"
+  },
+  "country_map": {
+    "AF": "Afghanistan",
+    "AL": "Albania",
+    "DZ": "Algerie",
+    "AS": "Amerikansk Samoa",
+    "AD": "Andorra",
+    "AO": "Angola",
+    "AI": "Anguilla",
+    "AG": "Antigua og Barbuda",
+    "AR": "Argentina",
+    "AM": "Armenia",
+    "AW": "Aruba",
+    "AU": "Australia",
+    "AT": "Østerrike",
+    "AZ": "Aserbajdsjan",
+    "BS": "Bahamas",
+    "BH": "Bahrain",
+    "BD": "Bangladesh",
+    "BB": "Barbados",
+    "BY": "Hviterussland",
+    "BE": "Belgia",
+    "BZ": "Belize",
+    "BJ": "Benin",
+    "BM": "Bermuda",
+    "BT": "Bhutan",
+    "BO": "Bolivia",
+    "BA": "Bosnia og Herzegovina",
+    "BW": "Botswana",
+    "BR": "Brasil",
+    "IO": "Det britiske territoriet i Indiahavet",
+    "VG": "De britiske jomfruøyene",
+    "BN": "Brunei",
+    "BG": "Bulgaria",
+    "BF": "Burkina Faso",
+    "BI": "Burundi",
+    "KH": "Kambodsja",
+    "CM": "Kamerun",
+    "CA": "Canada",
+    "CV": "Kapp Verde",
+    "BQ": "Karibisk Nederland",
+    "KY": "Caymanøyene",
+    "CF": "Den sentralafrikanske republikk",
+    "TD": "Tsjad",
+    "CL": "Chile",
+    "CN": "Kina (fastlandet)",
+    "CO": "Colombia",
+    "KM": "Komorene",
+    "CD": "Den demokratiske republikken Kongo",
+    "CG": "Republikken Kongo",
+    "CK": "Cookøyene",
+    "CR": "Costa Rica",
+    "CI": "Elfenbenskysten",
+    "HR": "Kroatia",
+    "CU": "Cuba",
+    "CW": "Curaçao",
+    "CY": "Kypros",
+    "CZ": "Tsjekkia",
+    "DK": "Danmark",
+    "DJ": "Djibouti",
+    "DM": "Dominica",
+    "DO": "Den dominikanske republikk",
+    "EC": "Ecuador",
+    "EG": "Egypt",
+    "SV": "El Salvador",
+    "GQ": "Ekvatorial-Guinea",
+    "ER": "Eritrea",
+    "ES": "Spania",
+    "ET": "Etiopia",
+    "FK": "Falklandsøyene",
+    "FO": "Færøyene",
+    "FJ": "Fiji",
+    "FI": "Finland",
+    "FR": "Frankrike",
+    "GF": "Fransk Guinea",
+    "PF": "Fransk Polynesia",
+    "GA": "Gabon",
+    "GM": "Gambia",
+    "GE": "Georgia",
+    "DE": "Tyskland",
+    "GH": "Ghana",
+    "GI": "Gibraltar",
+    "GR": "Hellas",
+    "GL": "Grønland",
+    "GD": "Grenada",
+    "GP": "Guadalupe",
+    "GU": "Guam",
+    "GT": "Guatemala",
+    "GN": "Guinea",
+    "GW": "Guinea-Bissau",
+    "GY": "Guyana",
+    "HT": "Haiti",
+    "HN": "Honduras",
+    "HK": "Hong Kong",
+    "HU": "Ungarn",
+    "IS": "Island",
+    "IN": "India",
+    "ID": "Indonesia",
+    "IR": "Iran",
+    "IQ": "Irak",
+    "IE": "Irland",
+    "IL": "Israel",
+    "IT": "Italia",
+    "JM": "Jamaica",
+    "JP": "Japan",
+    "JO": "Jordan",
+    "KZ": "Kasakhstan",
+    "KE": "Kenya",
+    "KI": "Kiribati",
+    "KW": "Kuwait",
+    "KG": "Kirgisistan",
+    "LA": "Laos",
+    "LV": "Latvia",
+    "LB": "Libanon",
+    "LS": "Lesotho",
+    "LR": "Liberia",
+    "LY": "Libya",
+    "LI": "Liechtenstein",
+    "LT": "Litauen",
+    "LU": "Luxembourg",
+    "MO": "Macau",
+    "MK": "Makedonia",
+    "MG": "Madagaskar",
+    "MW": "Malawi",
+    "MY": "Malaysia",
+    "MV": "Maldivene",
+    "ML": "Mali",
+    "MT": "Malta",
+    "MH": "Marshalløyene",
+    "MQ": "Martinique",
+    "MR": "Mauritania",
+    "MU": "Mauritius",
+    "MX": "Mexico",
+    "FM": "Mikronesia",
+    "MD": "Moldova",
+    "MC": "Monaco",
+    "MN": "Mongolia",
+    "ME": "Montenegro",
+    "MS": "Montserrat",
+    "MA": "Marokko",
+    "MZ": "Mosambik",
+    "MM": "Myanmar",
+    "NA": "Namibia",
+    "NR": "Nauru",
+    "NP": "Nepal",
+    "NL": "Nederland",
+    "NC": "Ny Caledonia",
+    "NZ": "New Zealand",
+    "NI": "Nicaragua",
+    "NE": "Niger",
+    "NG": "Nigeria",
+    "NU": "Niue",
+    "NF": "Norfolk Island",
+    "KP": "Nord-Korea",
+    "MP": "Nord-Marianene",
+    "NO": "Norge",
+    "OM": "Oman",
+    "PK": "Pakistan",
+    "PW": "Palau",
+    "PS": "Palestina",
+    "PA": "Panama",
+    "PG": "Papua Ny-Guinea",
+    "PY": "Paraguay",
+    "PE": "Peru",
+    "PH": "Filippinene",
+    "PL": "Polen",
+    "PT": "Portugal",
+    "PR": "Puerto Rico",
+    "QA": "Qatar",
+    "RE": "Réunion",
+    "RO": "Romania",
+    "RU": "Russland",
+    "RW": "Rwanda",
+    "BL": "Saint-Barthélemy",
+    "SH": "Sankt Helena",
+    "KN": "Saint Kitts og Nevis",
+    "LC": "Saint Lucia",
+    "MF": "Saint Martin",
+    "PM": "Saint Pierre og Miquelon",
+    "VC": "Saint Vincent og Grenadinene",
+    "WS": "Samoa",
+    "SM": "San Marino",
+    "ST": "São Tomé og Príncipe",
+    "SA": "Saudi-Arabia",
+    "SN": "Senegal",
+    "RS": "Serbia",
+    "SC": "Seychellene",
+    "SL": "Sierra Leone",
+    "SG": "Singapore",
+    "SX": "Sint Maarten",
+    "SK": "Slovakia",
+    "SI": "Slovenia",
+    "SB": "Solomonøyene",
+    "SO": "Somalia",
+    "ZA": "Sør-Afrika",
+    "KR": "Sør-Korea",
+    "SS": "Sør-Sudan",
+    "LK": "Sri Lanka",
+    "SD": "Sudan",
+    "SR": "Surivalue",
+    "SZ": "Swaziland",
+    "SE": "Sverige",
+    "CH": "Sveits",
+    "SY": "Syria",
+    "TW": "Taiwan",
+    "TJ": "Tadsjikistan",
+    "TZ": "Tanzania",
+    "TH": "Thailand",
+    "TL": "Øst-Timor",
+    "TG": "Togo",
+    "TK": "Tokelau",
+    "TO": "Tonga",
+    "TT": "Trinidad og Tobago",
+    "TN": "Tunisia",
+    "TR": "Tyrkia",
+    "TM": "Turkmenistan",
+    "TC": "Turks- og Caicosøyene",
+    "TV": "Tuvalu",
+    "VI": "De amerikanske jomfruøyene",
+    "UG": "Uganda",
+    "GB": "Storbritannia",
+    "US": "USA",
+    "UZ": "Usbekistan",
+    "VU": "Vanuatu",
+    "VA": "Vatikanet",
+    "VE": "Venezuela",
+    "VN": "Vietnam",
+    "WF": "Wallis og Futuna",
+    "YE": "Jemen",
+    "ZM": "Zambia",
+    "ZW": "Zimbabwe",
+    "AE": "De forente arabiske emirater",
+    "UA": "Ukraina",
+    "UY": "Uruguay",
+    "EE": "Estland",
+    "UM": "USAs ytre øyer",
+    "XK": "Kosovo"
+  },
+  "cvv_learn_more": {
+    "learn_more": {
+      "close_ally": "Les mindre.",
+      "content": "Den tresifrede koden på baksiden av kortet ditt.",
+      "content_amex": "Den tresifrede koden på baksiden av kortet ditt.",
+      "open_ally": "Les mer om sikkerhetskoden.",
+      "title": "Sikkerhetskode"
+    }
+  },
+  "device_locked": {
+    "description": "Prøv igjen senere, eller bruk en annen enhet"
+  },
+  "errors": {
+    "validation": {
+      "card": {
+        "card_cant_be_used": "Dette kortet kan ikke brukes. Prøv et annet.",
+        "unsupported_billing_address": "Landet med denne faktureringsadressen godtas ikke av denne forhandleren.",
+        "unsupported_billing_address_country": "Denne forhandleren godtar ikke faktureringsadresser i __country__.",
+        "unsupported_shipping_address": "Denne selgeren leverer ikke til landet for denne adressen",
+        "card_expired": "Dette kortet er utløpt.",
+        "merchant_unsupported_card_brand": "Denne forhandleren godtar ikke __cardBrand__.",
+        "card_failed_threeds": "Beklager, banken din kunne ikke godkjenne dette kortet.",
+        "partial_billing_address": "Rediger faktureringsadressen til dette kortet for å betale hos denne forhandleren.",
+        "unsupported_canadian_card": "Denne forhandleren godtar ikke dette kortet.",
+        "unaccepted_card_brand": "Forhandleren godtar ikke __cardBrandX__. Du må bruke __cardBrandY__ for å fortsette.",
+        "card_not_verified": "Ytterligere informasjon er nødvendig før du kan bruke dette kortet.",
+        "merchant_unsupported_card_brand_type": "Denne forhandleren godtar ikke __cardBrand__ __cardType__.",
+        "generic_error": "Dette kortet kan ikke brukes. Prøv et annet."
+      },
+      "unbind": "Beklager, noe gikk galt. Du ble ikke helt logget av",
+      "password": {
+        "has_consecutive_chars": "Ugyldig passord",
+        "has_consecutive_chars_page": "Beklager, du kan ikke ha tre identiske tegn etter hverandre i et passord.",
+        "has_spaces": "Ugyldig passord",
+        "has_spaces_page": "Beklager, passordet ditt kan ikke inneholde mellomrom.",
+        "has_unsupported": "Ugyldig passord",
+        "has_unsupported_page": "Beklager, du kan bare bruke bokstaver, tall eller! @ # $ % & * * ? i et Visa Checkout-passord.",
+        "has_username": "Ugyldig passord",
+        "has_username_page": "Beklager, passordet ditt kan ikke inneholde en del av e-postadressen eller mobilnummeret ditt.",
+        "same_as_previous": "Ugyldig passord",
+        "same_as_previous_page": "Det nye passordet ditt kan ikke være det samme som det forrige. Velg et annet passord.",
+        "too_long": "Ugyldig passord",
+        "too_long_page": "Passordet ditt kan ikke inneholde mer enn 32 tegn.",
+        "too_short": "Ugyldig passord",
+        "too_short_page": "Beklager, minst 6 tegn kreves i et passord."
+      },
+      "add_card": {
+        "all_fields_empty": "Skriv inn kortinformasjonen din for å fortsette.",
+        "unaccepted_card_brand": "Dette kortet er for øyeblikket ikke tilgjengelig med Click to Pay. Bruk et annet kort, eller gå tilbake til forhandleren.",
+        "incomplete_card_number": "Angi en gyldig by for å fortsette.",
+        "past_expiry_date": "Beklager, du har angitt en gammel utløpsdato. Prøv på nytt.",
+        "future_expiry_date": "Beklager, du har angitt feil utløpsdato. Prøv på nytt.",
+        "invalid_month": "Beklager, du har angitt en måned som ikke eksisterer.",
+        "invalid_security_code": "Angi en gyldig sikkerhetskode for å fortsette.",
+        "merchant": {
+          "accepted_discover": {
+            "second_digit_unaccepted": "Beklager, tallene du skrev inn, er ikke et gyldig Discover-kortnummer."
+          },
+          "accepted_amex": {
+            "second_digit_unaccepted": "Beklager, det andre nummeret du skrev inn, er ikke et gyldig American Express-nummer."
+          }
+        },
+        "disabled_card_brand": "Dette kortet er for øyeblikket ikke tilgjengelig med Click to Pay. Bruk et annet kort, eller gå tilbake til forhandleren."
+      },
+      "review_and_signup": {
+        "accept_tnc": "Du må merke av for å godta vilkår og fortsette."
+      }
+    },
+    "login": {
+      "account_disabled": "Beklager, vi kan ikke behandle forespørselen din akkurat nå. Av sikkerhetsårsaker er du midlertidig utestengt. Kontakt kundestøtte.",
+      "empty_form": "Skriv inn påloggingsinformasjonen din.",
+      "forget_password": "glemt passordet ditt?",
+      "incorrect": "Du har angitt feil brukernavn eller passord.",
+      "incorrect_2": "Du har angitt feil påloggingsinformasjon. Har du glemt passordet ditt?",
+      "locked": "Av sikkerhetsårsaker har du blitt midlertidig utestengt. Prøv igjen senere, eller skriv inn kortinformasjonen på velkomstskjermen for å fortsette.",
+      "max_attempts": "Du har overskredet maksimalt antall tillatte forsøk. Prøv igjen etter noen timer, eller kontakt kundestøtte.",
+      "unavailable": "Beklager, vi kan ikke behandle forespørselen din akkurat nå. Prøv igjen senere"
+    }
+  },
+  "footer": {
+    "host": "Arrangert av Visa",
+    "ad_preference": "Juster annonseinnstillinger",
+    "cookies": "Informasjonskapsler",
+    "language_selector": "Land- og språkvelger, __countryName__ er valgt",
+    "legal": {
+      "native": {
+        "disclaimer": "Visa Checkout kan dele informasjon om hvordan du bruker dette kortet i Visa Checkout med banken som utstedte kortet for kundestøtte, bruksanalyse, forebygging av svindel og markedsføring knyttet til Visa Checkout."
+      }
+    },
+    "privacy": "Personvern",
+    "select_country": "Velg land",
+    "support": "Brukerstøtte",
+    "terms": "Vilkår",
+    "toggle_language": "Språkvelger bytter til",
+    "country_selector_selection": "__countryName__ valgt"
+  },
+  "form": {
+    "error": {
+      "empty_form": "Skriv inn informasjonen din for å fortsette.",
+      "generic": "Vi har tekniske problemer. Prøv på nytt.",
+      "one_or_more": "Du har én eller flere feil. Løs dem for å fortsette."
+    }
+  },
+  "ghost_layer": {
+    "cancel_and_return": "Avbryt og gå tilbake til __merchantName__",
+    "find_button": "Finn det nå",
+    "message": "Hvor ble det av betalingsvinduet mitt?",
+    "message_iOS_safari": "Mangler betalingsvinduet?",
+    "restart_button": "Start betalingen på nytt"
+  },
+  "header": {
+    "a11y": {
+      "logo_alt_text_vdcp": "Visa-logo",
+      "logo_alt_text": "Visa Checkout-logo"
+    }
+  },
+  "installments": {
+    "card": {
+      "eligible": "Kvalifisert for Installments"
+    }
+  },
+  "learn-more": {
+    "close": "Lukk",
+    "close_panel": "Lukk Les mer-panel",
+    "collapsed_panel": "Les mer",
+    "learn_more": "Les mer",
+    "more_info": "Mer informasjon"
+  },
+  "lib_address": {
+    "name": {
+      "first": {
+        "value": "Fornavn",
+        "error": "Ugyldig fornavn"
+      },
+      "last": {
+        "value": "Etternavn",
+        "error": "Ugyldig etternavn"
+      }
+    },
+    "country": {
+      "value": "Land/region",
+      "placeholder": "Velg eller skriv inn et land / en region"
+    },
+    "address": {
+      "line1": {
+        "value": "Adresselinje 1",
+        "error": "Ugyldig adresselinje 1"
+      },
+      "line2": {
+        "value": "Adresselinje 2 (valgfritt)",
+        "error": "Ugyldig adresselinje 2",
+        "placeholder": "Leilighet, suite, etasje osv."
+      },
+      "state_province_code": {
+        "value": "Provincia",
+        "error": "Ugyldig provins"
+      }
+    },
+    "AR": {
+      "address": {
+        "city": {
+          "value": "By",
+          "error": "Ugyldig by"
+        },
+        "state_province_code": {
+          "value": "Stat/provins",
+          "error": "Ugyldig stat/provins"
+        },
+        "postal_code": {
+          "value": "Postnummer",
+          "error": "Ugyldig postnummer"
+        },
+        "line2": {
+          "placeholder": "Leilighet, suite, etasje osv."
+        }
+      }
+    },
+    "AU": {
+      "address": {
+        "city": {
+          "value": "By",
+          "error": "Ugyldig by"
+        },
+        "state_province_code": {
+          "value": "Stat",
+          "error": "Ugyldig stat",
+          "placeholder": "2 til 3 bokstaver"
+        },
+        "postal_code": {
+          "value": "Postnummer",
+          "error": "Ugyldig postnummer",
+          "placeholder": "XXXX"
+        },
+        "line2": {
+          "placeholder": "Leilighet, suite, etasje osv."
+        }
+      }
+    },
+    "BR": {
+      "address": {
+        "postal_code": {
+          "value": "CEP",
+          "error": "Ugyldig CEP",
+          "placeholder": "XXXXX - XXX"
+        },
+        "street_name": {
+          "value": "Adresse",
+          "error": "Ugyldig adresse"
+        },
+        "street_number": {
+          "value": "Antall (obligatorisk)",
+          "error": "Feil nummer"
+        },
+        "additional_location": {
+          "value": "Supplement (valgfritt)",
+          "error": "Ugyldig supplement"
+        },
+        "line2": {
+          "value": "Nabolag",
+          "error": "Ugyldig nabolag"
+        },
+        "line3": {
+          "value": "Referansepunkt (valgfritt)",
+          "error": "Ugyldig referansepunkt"
+        },
+        "city": {
+          "value": "By",
+          "error": "Ugyldig by"
+        },
+        "state_province_code": {
+          "value": "Stat",
+          "error": "Ugyldig stat",
+          "placeholder": "XX"
+        }
+      }
+    },
+    "CA": {
+      "address": {
+        "city": {
+          "value": "By",
+          "error": "Ugyldig by"
+        },
+        "state_province_code": {
+          "value": "Provins",
+          "error": "Ugyldig provins",
+          "placeholder": "XX"
+        },
+        "postal_code": {
+          "value": "Postnummer",
+          "error": "Ugyldig postnummer",
+          "placeholder": "XXX XXX"
+        }
+      }
+    },
+    "CL": {
+      "address": {
+        "city": {
+          "value": "By",
+          "error": "Ugyldig by"
+        },
+        "state_province_code": {
+          "value": "Stat/provins",
+          "error": "Ugyldig stat/provins"
+        },
+        "postal_code": {
+          "value": "Postnummer",
+          "error": "Ugyldig postnummer"
+        },
+        "line2": {
+          "placeholder": "Leilighet, suite, etasje osv."
+        }
+      }
+    },
+    "CN": {
+      "address": {
+        "city": {
+          "value": "By",
+          "error": "Ugyldig by"
+        },
+        "state_province_code": {
+          "value": "Stat/provins",
+          "error": "Ugyldig stat/provins"
+        },
+        "postal_code": {
+          "value": "Postnummer",
+          "error": "Ugyldig postnummer"
+        },
+        "line2": {
+          "placeholder": "Leilighet, suite, etasje osv."
+        }
+      }
+    },
+    "CO": {
+      "address": {
+        "city": {
+          "value": "By",
+          "error": "Ugyldig by"
+        },
+        "state_province_code": {
+          "value": "Stat/provins",
+          "error": "Ugyldig stat/provins"
+        },
+        "postal_code": {
+          "value": "Postnummer",
+          "error": "Ugyldig postnummer"
+        },
+        "line2": {
+          "placeholder": "Leilighet, suite, etasje osv."
+        }
+      }
+    },
+    "DO": {
+      "address": {
+        "city": {
+          "value": "By",
+          "error": "Ugyldig by"
+        },
+        "state_province_code": {
+          "value": "Stat/provins",
+          "error": "Ugyldig stat/provins"
+        },
+        "postal_code": {
+          "value": "Postnummer",
+          "error": "Ugyldig postnummer"
+        },
+        "line1": {
+          "value": "Adresselinje 1",
+          "error": "Ugyldig adresselinje 1"
+        },
+        "line2": {
+          "value": "Adresselinje 2",
+          "placeholder": "Adresselinje 2",
+          "error": "Ugyldig adresselinje 2"
+        }
+      }
+    },
+    "FR": {
+      "address": {
+        "line1": {
+          "placeholder": "Nummer og gatenavn"
+        },
+        "line2": {
+          "placeholder": "Leilighet, bygning, etasje osv."
+        },
+        "city": {
+          "value": "By",
+          "error": "Ugyldig by"
+        },
+        "postal_code": {
+          "value": "Postnummer",
+          "error": "Ugyldig postnummer",
+          "placeholder": "XXXXX"
+        }
+      }
+    },
+    "GI": {
+      "address": {
+        "city": {
+          "value": "By",
+          "error": "Ugyldig by"
+        },
+        "state_province_code": {
+          "value": "Stat/provins",
+          "error": "Ugyldig stat/provins"
+        },
+        "postal_code": {
+          "value": "Postnummer",
+          "error": "Ugyldig postnummer"
+        }
+      }
+    },
+    "GT": {
+      "address": {
+        "city": {
+          "value": "By",
+          "error": "Ugyldig by"
+        },
+        "state_province_code": {
+          "value": "Stat/provins",
+          "error": "Ugyldig stat/provins"
+        },
+        "postal_code": {
+          "value": "Postnummer",
+          "error": "Ugyldig postnummer"
+        }
+      }
+    },
+    "HK": {
+      "address": {
+        "city": {
+          "value": "Distrikt",
+          "error": "Ugyldig distrikt"
+        },
+        "line2": {
+          "placeholder": "Leilighet, suite, etasje osv."
+        }
+      }
+    },
+    "IN": {
+      "address": {
+        "line3": {
+          "value": "Landemerke",
+          "error": "Ugyldig landemerke"
+        },
+        "city": {
+          "value": "By",
+          "error": "Ugyldig by"
+        },
+        "state_province_code": {
+          "value": "Stat",
+          "error": "Ugyldig stat"
+        },
+        "postal_code": {
+          "value": "Pinkode",
+          "error": "Ugyldig pinkode",
+          "placeholder": "XXXXXX"
+        },
+        "line2": {
+          "placeholder": "Leilighet, suite, etasje osv."
+        }
+      }
+    },
+    "IE": {
+      "address": {
+        "line2": {
+          "placeholder": "Sted"
+        },
+        "city": {
+          "value": "By",
+          "error": "Ugyldig by"
+        },
+        "county": {
+          "value": "Fylke",
+          "error": "Ugyldig fylke",
+          "placeholder": "Velg eller skriv inn et fylke"
+        },
+        "postal_code": {
+          "value": "Postnummer (valgfritt)",
+          "error": "Ugyldig postnummer",
+          "placeholder": "Dublin-området eller Eircode"
+        }
+      }
+    },
+    "JP": {
+      "address": {
+        "city": {
+          "value": "By",
+          "error": "Ugyldig by"
+        },
+        "state_province_code": {
+          "value": "Stat/provins",
+          "error": "Ugyldig stat/provins"
+        },
+        "postal_code": {
+          "value": "Postnummer",
+          "error": "Ugyldig postnummer"
+        }
+      }
+    },
+    "KW": {
+      "address": {
+        "line1": {
+          "placeholder": "Hus, gate, blokk, område"
+        },
+        "line2": {
+          "placeholder": "F.eks. kompleks, bygning"
+        },
+        "city": {
+          "value": "By",
+          "error": "Ugyldig by"
+        },
+        "state_province_code": {
+          "value": "Stat/provins",
+          "error": "Ugyldig stat/provins"
+        },
+        "postal_code": {
+          "value": "Postnummer (valgfritt)",
+          "error": "Ugyldig postnummer"
+        }
+      }
+    },
+    "MY": {
+      "address": {
+        "city": {
+          "value": "By",
+          "error": "Ugyldig by"
+        },
+        "state_province_code": {
+          "value": "Stat/provins",
+          "error": "Ugyldig stat/provins"
+        },
+        "postal_code": {
+          "value": "Postnummer",
+          "error": "Ugyldig postnummer"
+        },
+        "line2": {
+          "placeholder": "Leilighet, suite, etasje osv."
+        }
+      }
+    },
+    "MX": {
+      "address": {
+        "postal_code": {
+          "value": "Postnummer",
+          "error": "Ugyldig postnummer",
+          "placeholder": "XXXXX"
+        },
+        "street_name": {
+          "value": "Gate",
+          "error": "Ugyldig gate"
+        },
+        "street_number": {
+          "value": "Utvendig nr.",
+          "error": "Ugyldig eksteriør nr."
+        },
+        "additional_location": {
+          "value": "Innvendig nr. (valgfritt)",
+          "error": "Ugyldig innvendig nr."
+        },
+        "neighborhood": {
+          "value": "Koloni",
+          "error": "Ugyldig koloni"
+        },
+        "county": {
+          "value": "Fylke eller kommune",
+          "error": "Ugyldig fylke eller kommune"
+        },
+        "city": {
+          "value": "By",
+          "error": "Ugyldig by"
+        },
+        "state_province_code": {
+          "value": "Stat",
+          "error": "Ugyldig stat"
+        },
+        "point_of_reference": {
+          "value": "Referansepunkt (valgfritt)",
+          "error": "Ugyldig referansepunkt"
+        }
+      }
+    },
+    "PE": {
+      "address": {
+        "city": {
+          "value": "By",
+          "error": "Ugyldig by"
+        },
+        "state_province_code": {
+          "value": "Stat/provins",
+          "error": "Ugyldig stat/provins"
+        },
+        "postal_code": {
+          "value": "Postnummer",
+          "error": "Ugyldig postnummer"
+        },
+        "line2": {
+          "placeholder": "Leilighet, suite, etasje osv."
+        }
+      }
+    },
+    "PL": {
+      "address": {
+        "street_name": {
+          "value": "Gate",
+          "error": "Ugyldig gate"
+        },
+        "street_number": {
+          "value": "Nummer på hus/leilighet",
+          "error": "Ugyldig hus/leilighetsnummer"
+        },
+        "city": {
+          "value": "By",
+          "error": "Ugyldig by"
+        },
+        "postal_code": {
+          "value": "Postnummer",
+          "error": "Ugyldig postnummer",
+          "placeholder": "XX-XXX"
+        }
+      }
+    },
+    "QA": {
+      "address": {
+        "line1": {
+          "placeholder": "Nummer og gate, leilighet eller postboks"
+        },
+        "line2": {
+          "placeholder": "F.eks. kompleks, bygning"
+        },
+        "city": {
+          "value": "By",
+          "error": "Ugyldig by"
+        },
+        "state_province_code": {
+          "value": "Sted/stat",
+          "error": "Ugyldig sted/stat"
+        },
+        "postal_code": {
+          "value": "Postnummer (valgfritt)",
+          "error": "Ugyldig postnummer"
+        }
+      }
+    },
+    "NZ": {
+      "address": {
+        "city": {
+          "value": "By",
+          "error": "Ugyldig by"
+        },
+        "postal_code": {
+          "value": "Postnummer",
+          "error": "Ugyldig postnummer",
+          "placeholder": "XXXX"
+        },
+        "line2": {
+          "placeholder": "Leilighet, suite, etasje osv."
+        }
+      }
+    },
+    "SA": {
+      "address": {
+        "line1": {
+          "placeholder": "Nummer og gate, leilighet eller postboks"
+        },
+        "line2": {
+          "placeholder": "F.eks. kompleks, bygning osv."
+        },
+        "city": {
+          "value": "By",
+          "error": "Ugyldig by"
+        },
+        "state_province_code": {
+          "value": "Region",
+          "error": "Ugyldig region"
+        },
+        "postal_code": {
+          "value": "Postnummer (valgfritt)",
+          "error": "Ugyldig postnummer"
+        }
+      }
+    },
+    "SG": {
+      "address": {
+        "city": {
+          "value": "By",
+          "error": "Ugyldig by"
+        },
+        "state_province_code": {
+          "value": "Stat/provins",
+          "error": "Ugyldig stat/provins"
+        },
+        "postal_code": {
+          "value": "Postnummer",
+          "error": "Ugyldig postnummer"
+        },
+        "line2": {
+          "placeholder": "Leilighet, suite, etasje osv."
+        }
+      }
+    },
+    "ZA": {
+      "address": {
+        "city": {
+          "value": "By",
+          "error": "Ugyldig by"
+        },
+        "state_province_code": {
+          "value": "Stat/provins",
+          "error": "Ugyldig stat/provins"
+        },
+        "postal_code": {
+          "value": "Postnummer",
+          "error": "Ugyldig postnummer"
+        },
+        "line2": {
+          "placeholder": "Leilighet, suite, etasje osv."
+        }
+      }
+    },
+    "SK": {
+      "address": {
+        "city": {
+          "value": "By",
+          "error": "Ugyldig by"
+        },
+        "state_province_code": {
+          "value": "Stat/provins",
+          "error": "Ugyldig stat/provins"
+        },
+        "postal_code": {
+          "value": "Postnummer",
+          "error": "Ugyldig postnummer"
+        }
+      }
+    },
+    "TW": {
+      "address": {
+        "city": {
+          "value": "By",
+          "error": "Ugyldig by"
+        },
+        "state_province_code": {
+          "value": "Stat/provins",
+          "error": "Ugyldig stat/provins"
+        },
+        "postal_code": {
+          "value": "Postnummer",
+          "error": "Ugyldig postnummer"
+        }
+      }
+    },
+    "ES": {
+      "address": {
+        "line1": {
+          "placeholder": "Gate, nummer, etasje, dør osv."
+        },
+        "city": {
+          "value": "By",
+          "error": "Ugyldig by"
+        },
+        "state_province_code": {
+          "value": "Provins",
+          "error": "Ugyldig provins",
+          "placeholder": "Velg eller skriv inn en provins"
+        },
+        "postal_code": {
+          "value": "Postnummer",
+          "error": "Ugyldig postnummer",
+          "placeholder": "XXXXX"
+        },
+        "line2": {
+          "placeholder": "Leilighet, suite, etasje osv."
+        }
+      }
+    },
+    "TH": {
+      "address": {
+        "city": {
+          "value": "By",
+          "error": "Ugyldig by"
+        },
+        "state_province_code": {
+          "value": "Stat/provins",
+          "error": "Ugyldig stat/provins"
+        },
+        "postal_code": {
+          "value": "Postnummer",
+          "error": "Ugyldig postnummer"
+        }
+      }
+    },
+    "AE": {
+      "address": {
+        "city": {
+          "value": "By",
+          "error": "Ugyldig by"
+        },
+        "state_province_code": {
+          "value": "Stat/provins",
+          "error": "Ugyldig stat/provins"
+        },
+        "postal_code": {
+          "value": "Postnummer",
+          "error": "Ugyldig postnummer"
+        },
+        "line2": {
+          "placeholder": "Leilighet, suite, etasje osv."
+        }
+      }
+    },
+    "GB": {
+      "address": {
+        "city": {
+          "value": "By",
+          "error": "Ugyldig by"
+        },
+        "postal_code": {
+          "value": "Postnummer",
+          "error": "Ugyldig postnummer",
+          "placeholder": "5 til 7 tegn"
+        }
+      }
+    },
+    "UA": {
+      "address": {
+        "line1": {
+          "placeholder": "Gate"
+        },
+        "line2": {
+          "placeholder": "Gate, hus, leilighet"
+        },
+        "line3": {
+          "value": "Adresselinje 3 (valgfritt)",
+          "error": "Ugyldig adresselinje 3",
+          "placeholder": "Distrikt"
+        },
+        "city": {
+          "value": "By",
+          "error": "Ugyldig by"
+        },
+        "state_province_code": {
+          "value": "Region",
+          "error": "Ugyldig region"
+        },
+        "postal_code": {
+          "value": "Postnummer",
+          "error": "Ugyldig postnummer"
+        }
+      }
+    },
+    "US": {
+      "address": {
+        "city": {
+          "value": "By",
+          "error": "Ugyldig by"
+        },
+        "state_province_code": {
+          "value": "Stat",
+          "error": "Ugyldig stat",
+          "placeholder": "XX"
+        },
+        "postal_code": {
+          "value": "Postnummer",
+          "error": "Ugyldig postnummer",
+          "placeholder": "XXXXX"
+        },
+        "line1": {
+          "value": "Adresselinje 1",
+          "error": "Ugyldig adresselinje 1"
+        },
+        "line2": {
+          "placeholder": "Leilighet, suite, etasje osv."
+        }
+      }
+    },
+    "UK": {
+      "address": {
+        "line2": {
+          "placeholder": "Leilighet, suite, etasje osv."
+        }
+      }
+    }
+  },
+  "loading": {
+    "address_list_ally": "Vent mens adressene dine lastes inn.",
+    "card_list_ally": "Vent mens kortene dine lastes inn.",
+    "welcome_ally": "Vent mens Visa Checkout lastes inn."
+  },
+  "locale": {
+    "country": {
+      "Argentina": "Argentina",
+      "Australia": "Australia",
+      "Brazil": "Brasil",
+      "Canada": "Canada",
+      "Chile": "Chile",
+      "China": "Kina (fastlandet)",
+      "Colombia": "Colombia",
+      "DominicanRepublic": "Den dominikanske republikk",
+      "France": "Frankrike",
+      "Gibraltar": "Gibraltar",
+      "Guatemala": "Guatemala",
+      "HongKong": "Hong Kong",
+      "India": "India",
+      "Ireland": "Irland",
+      "Japan": "Japan",
+      "Kuwait": "Kuwait",
+      "Malaysia": "Malaysia",
+      "Mexico": "Mexico",
+      "NewZealand": "New Zealand",
+      "Peru": "Peru",
+      "Poland": "Polen",
+      "Qatar": "Qatar",
+      "SaudiArabia": "Saudi-Arabia",
+      "Singapore": "Singapore",
+      "SouthAfrica": "Sør-Afrika",
+      "SouthKorea": "Sør-Korea",
+      "Spain": "Spania",
+      "Taiwan": "Taiwan",
+      "Thailand": "Thailand",
+      "UAE": "De forente arabiske emirater",
+      "USA": "USA",
+      "Ukraine": "Ukraina",
+      "UnitedKingdom": "Storbritannia",
+      "Germany": "Tyskland",
+      "Switzerland": "Sveits",
+      "Austria": "Østerrike",
+      "Italy": "Italia",
+      "Portugal": "Portugal",
+      "Norway": "Norge",
+      "Sweden": "Sverige",
+      "Finland": "Finland",
+      "Denmark": "Danmark",
+      "CzechRepublic": "Tsjekkia",
+      "Hungary": "Ungarn",
+      "Slovakia": "Slovakia",
+      "Netherlands": "Nederland",
+      "Ecuador": "Ecuador",
+      "ElSalvador": "El Salvador",
+      "CostaRica": "Costa Rica",
+      "Panama": "Panama",
+      "Paraguay": "Paraguay",
+      "Uruguay": "Uruguay",
+      "Nicaragua": "Nicaragua",
+      "Honduras": "Honduras",
+      "Jordan": "Jordan"
+    }
+  },
+  "locked": {
+    "cta": {
+      "return_to_merchant": "Tilbake til",
+      "try_another_card": "Prøv et annet kort"
+    },
+    "account": {
+      "header_top": "Sikkerhetsadvarsel",
+      "header_bottom": "For mange mislykkede forsøk",
+      "description": "Visa-kortene dine blir midlertidig utilgjengelige. Prøv igjen senere, eller bruk et annet kort."
+    },
+    "device": {
+      "header": "Vi har oppdaget et problem",
+      "description": "Av sikkerhetsårsaker kan vi ikke legge til Visa-kortet ditt for øyeblikket. Prøv igjen senere, eller bruk et annet kort."
+    }
+  },
+  "login": {
+    "did_you": "Har du"
+  },
+  "merchant": {
+    "name": "__merchantName__"
+  },
+  "mini": {
+    "error_message": {
+      "p1": "Beklager, det ser ut til at noe gikk galt.",
+      "p2": "Hvis du vil fortsette, kan du skrive inn e-postadressen din på velkomstskjermen"
+    }
+  },
+  "non_roman": {
+    "content": "Du må bruke __ACTION__. Visa Checkout tillater for øyeblikket ikke andre tegn å bli brukt.",
+    "content_bold": "Bare romerske tegn",
+    "cta_text": "Bekreft og fortsett",
+    "header": "Bekreft"
+  },
+  "otp": {
+    "verify": {
+      "resend_code_link": "Send koden på nytt",
+      "cta_text": "Fortsett",
+      "description": "Skriv inn engangskoden sendt til",
+      "header": "Velkommen tilbake",
+      "input_label": "Engangsbekreftelseskode",
+      "invalid_input_label": "Ugyldig kode",
+      "remember_me": {
+        "checkbox": {
+          "label_p1": "Husk meg på denne enheten",
+          "label_p2": "Anbefales ikke for delte enheter"
+        },
+        "learn_more": {
+          "eu": "Hjelp oss med å huske deg ved å lagre e-postadressen eller mobilnummeret ditt. Nå, hver gang du sjekker ut, husker vi deg og favorittkortene dine på denne enheten. Bare skriv inn en engangskode eller passordet ditt når du logger på.",
+          "p1": "Hjelp oss med å huske deg ved å lagre e-postadressen eller mobilnummeret ditt. Nå, hver gang du sjekker ut, husker vi deg og favorittkortene dine på denne enheten. Bare skriv inn en engangskode eller passordet ditt når du logger på.",
+          "p2": "Visa Checkout viser kreditt- eller debetkortdesignet ditt, og gir deg en mer personlig shoppingopplevelse.",
+          "p2_IR": "Visa Checkout viser debet- eller kredittkortdesignet ditt, og gir deg en mer personlig shoppingopplevelse."
+        },
+        "close_a11y": "Les mindre.",
+        "open_a11y": "Les mer om hvordan vi husker deg."
+      },
+      "use_password_link": "BRUK PASSORDET MITT",
+      "resend_link": "Send koden på nytt"
+    },
+    "provider": {
+      "description": "Skriv inn engangskoden __provider__ har sendt til",
+      "description_email": "Skriv inn engangskoden __provider__  har sendt til",
+      "description_text": "Skriv inn engangskoden __provider__  har sendt til"
+    },
+    "not_you": {
+      "not_you_a11y": "Gå tilbake hvis dette ikke er deg",
+      "left_paren": "(",
+      "link_text": "Ikke deg?",
+      "right_paren": ")"
+    },
+    "errors": {
+      "expired_resend": "Denne bekreftelseskoden har utløpt. Klikk på \"Send på nytt\" for å få en ny kode.",
+      "invalid": "Beklager, vi kunne ikke bekrefte koden din.",
+      "invalid_code": "Beklager, koden du skrev inn er feil.",
+      "retries_exceeded": "For mange mislykkede forsøk på å skrive inn engangskode. Prøv et annet kort.",
+      "account_inaccessible": "Vi har ikke tilgang til den lagrede informasjonen din for øyeblikket. Angi kortopplysninger for å fortsette.",
+      "generic_error": "Beklager, vi kunne ikke behandle forespørselen din. Prøv å sende en kode på nytt."
+    },
+    "notifications": {
+      "resend": "En annen e-post ble sendt til",
+      "sent": "Kode sendt til __name__",
+      "resend_email": "Det ble sendt en ny e-post til __name__",
+      "resend_text": "Det ble sendt en ny e-post til __name__",
+      "sms_email_resend": "Engangskoden har blitt sendt på nytt."
+    },
+    "step_up": {
+      "cta_text": "Bekreft",
+      "header": "Av sikkerhetsmessige årsaker, må du skrive inn passordet ditt",
+      "password": {
+        "a11y": {
+          "enter": "Skriv inn det sikre Visa Checkout-passordet ditt for __username__",
+          "hide": "Skjul passord",
+          "show": "Vis passordtegn"
+        },
+        "forgot_link": "Glemt?",
+        "hide": "Skjul",
+        "input_label": "Passord",
+        "invalid_input_label": "Ugyldig passord",
+        "show": "Vis"
+      }
+    },
+    "step_up_otp": {
+      "cancel": "Avbryt"
+    },
+    "validation_channel": {
+      "sms_email_a11y": "__phone__ og __email__"
+    }
+  },
+  "otp_card_entry": {
+    "description": "Det ser ut til at du har brukt denne e-postadressen før. Skriv inn engangskoden som er sendt til e-postadressen din, så vi vet at det er deg."
+  },
+  "page": {
+    "cancel_and_return": "Avbryt og gå tilbake til __merchantName__",
+    "change": "Endre",
+    "merchant_name_default": "forhandler"
+  },
+  "prefill_consent": {
+    "header": "Den enkleste måten å betale på når du er på nettet",
+    "description": "For å gjøre ting litt raskere, kan du la __merchantName__ fylle ut grunnleggende informasjon.",
+    "more_info_a11y": "Klikk for å få mer informasjon.",
+    "more_info": "Mer informasjon.",
+    "more_info_content": "Informasjon som __merchantName__ kan dele med Visas betalingsopplevelse på nett inkluderer for- og etternavn, telefonnummer og e-postadresse",
+    "cta": "Fyll ut informasjonen min",
+    "cancel": "Nei takk",
+    "errors": {
+      "no_merchant_data": "Beklager, __merchantName__ kunne ikke fylle ut informasjonen din. Men du kan fortsette med Visas betalingsopplevelse på nett."
+    },
+    "disclaimer": "Ved å klikke på “Fyll ut informasjonen min”, samtykker du i at __merchantName__ sender ditt for- og etternavn, telefonnummer og e-postadresse til Visas betalingsløsning på nett og __privacyPolicy__.",
+    "privacy_policy": "Personvernerklæring"
+  },
+  "sdklite": {
+    "accessibility": {
+      "button": "Klikk for å betale med betalingsikon",
+      "locked_button": "Betalingstjeneste med Visa. Ikke tilgjengelig.",
+      "spinner": "Laster inn",
+      "spinner_close": "Avbryt og gå tilbake til forhandleren",
+      "fingerprint_icon": "Fingeravtrykk-ikon"
+    },
+    "logging": {
+      "lock_reason": "Deaktiveringsknapp fordi denne plattformen ikke støttes, prøv et nyere operativsystem.",
+      "not_initialized": "SDK er ennå ikke initialisert.",
+      "no_network": "Det er ingen nettverkstilkobling, så betalingsinformasjonen ble ikke oppdatert.",
+      "already_launched": "Betalingsflyten er allerede igangsatt",
+      "invalid_params": "Parametrene er ugyldige eller null.",
+      "internal_error": "Visa Checkout hadde en intern feil og kan ikke fullføre forespørselen.",
+      "corr_id_session": "Korrelasjons-ID for denne økten er __correlationid__",
+      "api_check": "Enheter som kjører på API-nivå __apilevel__ og over, kan bruke Visa Checkout-funksjonalitet.",
+      "objc_bridge_warning": "Advarsel - Objective-C kan ikke bygge bro mellom verdiene som blir satt til __property__. Bruk egenskapen .rawValue på __enum__ enum."
+    },
+    "ui": {
+      "biometric_signin": "Logg inn",
+      "biometric_cancel": "Avbryt",
+      "fingerprint_recognized": "Fingeravtrykk gjenkjent",
+      "fingerprint_unrecognized": "Fingeravtrykket ble ikke gjenkjent. Prøv igjen",
+      "fingerprint_continue": "Bekreft fingeravtrykket for å fortsette",
+      "fingerprint_confirm": "Bekreft fingeravtrykket ditt nå.",
+      "touch_sensor": "Berøringssensor"
+    }
+  },
+  "service_unavailable": {
+    "header": "Tjenesten er utilgjengelig",
+    "primary_cta_text": "Logg inn",
+    "secondary_cta_text": "Lukk",
+    "subtext": "Beklager, noe uventet har skjedd, og økten din er avsluttet. Logg på igjen."
+  },
+  "session": {
+    "expired": {
+      "header": "Økten din har utløpt",
+      "message": "Av sikkerhetshensyn har økten din fått tidsavbrudd på grunn av inaktivitet. Hvis du vil fortsette, kan du skrive inn e-postadressen din på velkomstskjermen igjen.",
+      "primary_cta_alt_text": "Gå til innlogging",
+      "primary_cta_text": "Fortsett",
+      "secondary_cta_text": "Lukk"
+    },
+    "warning_modal": {
+      "header": "Økten din er i ferd med å utløpe.",
+      "message": "Velg hvordan du vil fortsette under.",
+      "primary_cta_text": "Fortsett økt",
+      "secondary_cta_text": "Lukk"
+    }
+  },
+  "src_app": {
+    "a11y": {
+      "description": "Click to Pay"
+    }
+  },
+  "tell_me_more": {
+    "disabled": {
+      "header": "Visa Checkout har migrert til Click to Pay __srcIcon__",
+      "intro": "Visa Checkout er ikke tilgjengelig på denne siden for kjøpere.",
+      "intro_pt_2": "Bruk en alternativ betalingsmåte som tilbys av denne selgeren i mellomtiden."
+    },
+    "legacy": {
+      "close": "Lukk",
+      "close_aria_label": "Lukk Visa Checkout-informasjonslaget",
+      "create_action": "Opprett en Visa Checkout-konto",
+      "feature_list_1": "Kom deg kjapt gjennom betalingen med én innlogging",
+      "feature_list_2": "Bruk et hvilket som helst av de mest kjente kreditt- eller debetkortene",
+      "feature_list_3": "Fra Visa, selskapet du kjenner og stoler på",
+      "feature_list_4_1": "Og selskapets",
+      "feature_list_4_2": "GRATIS!",
+      "intro": "Opprett en konto én gang. Du trenger aldri å oppgi kort- og adresseinformasjon når du ser Visa Checkout.",
+      "login_action": "Logg inn med Visa Checkout-kontoen din",
+      "logo_alt": "Les mer om Visa Checkout",
+      "title": "Fortell meg mer"
+    },
+    "src": {
+      "close": "Lukk",
+      "close_aria_label": "Lukk Visa Checkout-informasjonslaget",
+      "create_action": "Meld deg på",
+      "feature_list_1": "Betal med færre klikk - nå er det slutt på lange skjemaer og å huske passord.",
+      "feature_list_2": "Bare skriv inn kortinformasjonen én gang, du trenger ikke å oppgi informasjonen hver gang du betaler.",
+      "feature_list_3": "Se etter Click to Pay-ikonet __srcIcon__ hos flere hundre tusen nettbutikker, og få tilgang til informasjonen din på en trygg måte for å betale.",
+      "feature_list_4": "Du kan også velge å bli husket på enheten og nettleseren for få enda raskere betaling.",
+      "header": "Klikk for å betale med __srcIcon__",
+      "intro": "For øyeblikket er ikke Click to Pay tilgjengelig hos denne selgeren på denne betalingssiden. Click to Pay er bygget på bransjens sikkerhetsstandarder for netthandel. Hvis du ønsker en enkel og rask betaling, er det bare å velge Click to Pay-ikonet __srcIcon__ , så blir kortet ditt godtatt. Det er enkelt å bruke.",
+      "login_action": "Logg inn eller gå til Min profil",
+      "logo_alt": "Les mer om Visa Checkout"
+    }
+  },
+  "user_info": {
+    "menu_ally": "Kortinformasjonen til __name__",
+    "sign_out": "Logg ut",
+    "sign_out_a11y": "Logg av __user__"
+  },
+  "vco_component_add_card": {
+    "first_name": {
+      "label": "Fornavn",
+      "label_a11y": "Skriv inn fornavnet ditt her.",
+      "invalid_first_name": "Ugyldig fornavn"
+    },
+    "last_name": {
+      "label": "Etternavn",
+      "label_a11y": "Skriv inn etternavnet ditt her.",
+      "invalid_last_name": "Ugyldig etternavn"
+    }
+  },
+  "vco-component-identification": {
+    "email_label_a11y": "Skriv inn e-postadressen din her."
+  },
+  "welcome": {
+    "a11y": {
+      "cta": "Fortsett å bruke Visa Checkout",
+      "page_title": "Visa Checkout, den enkleste måten å betale på når du er på nett"
+    },
+    "cta_text": "Fortsett",
+    "description": "Skriv inn e-postadressen din for å komme i gang.",
+    "header": "Den enkleste måten å betale på når du er på nett",
+    "input_label": "E-postadresse",
+    "invalid_input_label": "Ugyldig e-postadresse",
+    "errors": {
+      "lockout": "Vi har ikke tilgang til den lagrede informasjonen din for øyeblikket. Angi kortopplysninger for å fortsette.",
+      "lookup_unavailable": "Oppslag kan ikke brukes til e-postadressen din. Skriv inn kortinformasjonen din for å fortsette."
+    },
+    "create_account": {
+      "new_user": "Det ser ut som om Click to Pay er nytt for deg. Du kommer i gang ved å skrive inn kortinformasjonen.",
+      "cta": "Fortsett",
+      "tab": {
+        "label_a11y": "Ny bruker",
+        "label": "Ny"
+      },
+      "legal_info": "Informasjonen din vil bli delt med utvalgte betalingsnettverk og tjenesteleverandører for å gi deg den riktige opplevelsen."
+    },
+    "sign_in": {
+      "tab": {
+        "label": "Returnerer",
+        "label_a11y": "Tilbakevendende bruker"
+      },
+      "cta": "Fortsett",
+      "legal_info": "Når du skriver inn e-postadressen din, gir du utvalgte betalingsnettverk tilgang til informasjonen din."
+    },
+    "src": {
+      "create_account": {
+        "new_user": "Det ser ut som om du er ny. Aktiver kreditt- eller debetkortet ditt ved å skrive inn detaljene nedenfor."
+      },
+      "cta": {
+        "message": {
+          "new_user": "Informasjonen din blir delt med utvalgte betalingsnettverk, tjenesteleverandører og som ellers beskrevet i __privacyNotice__ for å gi deg den riktige opplevelsen.",
+          "returning_user": "Når du fortsetter, godtar du Visas __privacyNotice__."
+        }
+      },
+      "legal": {
+        "privacy_notice": "Personvernerklæring",
+        "terms": "Tjenestevilkår"
+      },
+      "header": "Enkel og smart nettkasse",
+      "we_accept": "Vi aksepterer",
+      "errors": {
+        "lockout": "Vi har ikke tilgang til den lagrede informasjonen din for øyeblikket. Angi kortopplysninger for å fortsette."
+      },
+      "sub_heading": {
+        "new": "Betal med tillit med Click to Pay",
+        "returning": "Betal med tillit med Click to Pay"
+      }
+    }
+  }
+}

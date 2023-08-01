@@ -1,0 +1,1593 @@
+{
+  "accepted_cards": {
+    "a11y": {
+      "cards_accepted": "'Wij accepteren __cards__'"
+    }
+  },
+  "account_locked": {
+    "customer_support_link": "Neem contact op met de klantenservice",
+    "description": "Probeer het later opnieuw of voer uw kaartgegevens in op het welkomstscherm om door te gaan.",
+    "header": "Uw account is tijdelijk vergrendeld",
+    "notifications": {
+      "unable_to_confirm": "We konden uw code helaas niet bevestigen."
+    },
+    "primary_cta_text": "Doorgaan met winkelen",
+    "secondary_cta_text": "Kaart invoeren"
+  },
+  "add_card": {
+    "cancel": "Annuleren",
+    "header": "Een kaart toevoegen",
+    "submit": "Doorgaan",
+    "errors": {
+      "try_again": "Sorry, we konden uw verzoek niet verwerken. Probeer het opnieuw.",
+      "generic_error": "Sorry, er ging iets mis. Probeer een andere kaart of probeer het later opnieuw."
+    },
+    "single_card_deleted": "Uw kaart is verwijderd.",
+    "src": {
+      "sub_heading": "Stel uw kaart in om met één klik te betalen"
+    }
+  },
+  "card_list": {
+    "add": "Nieuwe kaart",
+    "add_a11y": "Nieuwe kaart toevoegen.",
+    "card_a11y": "__network__ __type__ eindigend op __lastFour__.",
+    "credit": "Krediet",
+    "debit": "Debet",
+    "header": "Selecteer kaart",
+    "errors": {
+      "api_error": "Sorry, er ging iets mis. Probeer een andere kaart of probeer het later opnieuw.",
+      "cardid_missing_one_card": "We kunnen niet verder gaan met deze kaart. Voeg een nieuwe kaart toe.",
+      "cardid_missing_mult_cards": "We kunnen niet verder gaan met deze kaart. Probeer een andere."
+    },
+    "notifications": {
+      "deleted": "Uw kaart is verwijderd."
+    },
+    "electron": "Elektron (debet)",
+    "prepaid": "Prepaid",
+    "src": {
+      "sub_heading": "Select from card(s) set up for Click to Pay"
+    }
+  },
+  "cardBrands": {
+    "amex": "American Express",
+    "discover": "Ontdekken",
+    "elo": "Elo",
+    "mastercard": "MasterCard",
+    "visa": "Visa",
+    "electron": "Visa Electron",
+    "maestro": "Maestro"
+  },
+  "component_addr_disp": {
+    "masked_address_message": "Verborgen om veiligheidsredenen"
+  },
+  "component_addr_list": {
+    "address": "Adres"
+  },
+  "component_card_number": {
+    "brands": {
+      "amex": "American Express",
+      "discover": "Ontdekken",
+      "electron": "Electron",
+      "elo": "Elo",
+      "mastercard": "MasterCard",
+      "visa": "Visa",
+      "maestro": "Maestro"
+    },
+    "enter_card": "Vul hier uw kaartnummer in.",
+    "invalid": "Ongeldig",
+    "label": "Kaartnummer",
+    "label_error": "Kaartnummer",
+    "not_accepted": "Niet geaccepteerd.",
+    "placeholder": "15 tot 16 tekens",
+    "card_brand_entered": "__cardBrand__ kaart ingevoerd"
+  },
+  "component_combobox": {
+    "aria": {
+      "filters": "filtert terwijl u typt",
+      "item": "item",
+      "items": "items",
+      "of": "van",
+      "selected": "geselecteerd"
+    },
+    "country": {
+      "error": "Ongeldig land",
+      "label": "Land/Regio",
+      "placeholder": "Selecteer of voer een land/regio in"
+    },
+    "dial_code": {
+      "error": "Ongeldig land",
+      "placeholder": "Selecteer of voer een land/regio in"
+    },
+    "no_match_message": "Er zijn geen landen gevonden die overeenkomen met wat u hebt ingevoerd. Wijzig uw invoer.",
+    "phone": {
+      "label": "Telefoonnummer (verplicht)",
+      "placeholder": "Telefoonnummer (verplicht)"
+    }
+  },
+  "component_cvv": {
+    "label": {
+      "error": "Ongeldige beveiligingscode",
+      "name": "Beveiligingscode"
+    },
+    "enter_code": "Voer hier de beveiligingscode van uw kaart in.",
+    "amex_helper": "De 4-cijferige code op de voorkant van uw kaart.",
+    "non_amex_helper": "De 3-cijferige code op de achterkant van uw kaart."
+  },
+  "component_exp_date": {
+    "label": {
+      "description": "indelingen zoals MM / JJ terwijl u typt",
+      "error": "Ongeldige datum",
+      "name": "Verloopt",
+      "labelled_by": "indelingen zoals MM / JJ terwijl u typt"
+    },
+    "placeholder": "MM / JJ"
+  },
+  "component_notification": {
+    "CLOSE": "Banner sluiten",
+    "error": "Foutmelding",
+    "info": "Infomelding",
+    "lower_environment_warning": "NIET VOOR CONSUMENTENGEBRUIK! - __env__TESTOMGEVING",
+    "success": "Succesmelding",
+    "warning": "Waarschuwingsmelding"
+  },
+  "component_phone_input": {
+    "phone_number_field": {
+      "ariaLabel": "Mobiel nummer. We kunnen een eenmalige code naar dit nummer sturen om uw identiteit te verifiëren. Bericht- en datatarieven kunnen van toepassing zijn.",
+      "error": "Ongeldig mobiel nummer",
+      "label": "Mobiel nummer (verplicht)"
+    },
+    "dial_code": {
+      "error": "Ongeldig land",
+      "label": "Land",
+      "placeholder": "Selecteer of voer een land/regio in",
+      "toggle_button_aria_label": ", landcodekiezer"
+    },
+    "no_match_message": "Er zijn geen landen gevonden die overeenkomen met wat u hebt ingevoerd. Wijzig uw invoer."
+  },
+  "cookie_banner": {
+    "a11y": {
+      "close_button": "Banner sluiten"
+    },
+    "link_text": "Beoordeel/weiger cookies.",
+    "message": "We gebruiken cookies om de veiligheid te handhaven, de site-ervaring te verbeteren, bezoeken aan onze sites te meten en Visa-marketingactiviteiten mogelijk te maken. __CookiePolicyLink__",
+    "ok_button": "Accepteren"
+  },
+  "country_map": {
+    "AF": "Afghanistan",
+    "AL": "Albanië",
+    "DZ": "Algerije",
+    "AS": "Amerikaans Samoa",
+    "AD": "Andorra",
+    "AO": "Angola",
+    "AI": "Anguilla",
+    "AG": "Antigua en Barbuda",
+    "AR": "Argentinië",
+    "AM": "Armenië",
+    "AW": "Aruba",
+    "AU": "Australië",
+    "AT": "Oostenrijk",
+    "AZ": "Azerbeidzjan",
+    "BS": "Bahamas",
+    "BH": "Bahrein",
+    "BD": "Bangladesh",
+    "BB": "Barbados",
+    "BY": "Wit-Rusland",
+    "BE": "België",
+    "BZ": "Belize",
+    "BJ": "Benin",
+    "BM": "Bermuda",
+    "BT": "Bhutan",
+    "BO": "Bolivia",
+    "BA": "Bosnië-Herzegovina",
+    "BW": "Botswana",
+    "BR": "Brazilië",
+    "IO": "Brits Indische Oceaanterritorium",
+    "VG": "Britse Maagdeneilanden",
+    "BN": "Brunei",
+    "BG": "Bulgarije",
+    "BF": "Burkina Faso",
+    "BI": "Boeroendi",
+    "KH": "Cambodja",
+    "CM": "Kameroen",
+    "CA": "Canada",
+    "CV": "Kaapverdië",
+    "BQ": "Caribisch Nederland",
+    "KY": "Kaaiman Eilanden",
+    "CF": "Centraal Afrikaanse Republiek",
+    "TD": "Tsjaad",
+    "CL": "Chili",
+    "CN": "China (vasteland",
+    "CO": "Colombia",
+    "KM": "Comoren",
+    "CD": "Kongo (DRC)",
+    "CG": "Kongo (Republiek)",
+    "CK": "Cook eilanden",
+    "CR": "Costa Rica",
+    "CI": "Ivoorkust",
+    "HR": "Kroatië",
+    "CU": "Cuba",
+    "CW": "Curacao",
+    "CY": "Cyprus",
+    "CZ": "Tsjechische Republiek",
+    "DK": "Denemarken",
+    "DJ": "Djibouti",
+    "DM": "Dominica",
+    "DO": "Dominicaanse Republiek",
+    "EC": "Ecuador",
+    "EG": "Egypte",
+    "SV": "El Salvador",
+    "GQ": "Equatoriaal-Guinea",
+    "ER": "Eritrea",
+    "ES": "Spanje",
+    "ET": "Ethiopië",
+    "FK": "Falkland Eilanden",
+    "FO": "Faeröer",
+    "FJ": "Fiji",
+    "FI": "Finland",
+    "FR": "Frankrijk",
+    "GF": "Frans-Guinee",
+    "PF": "Frans-Polynesië",
+    "GA": "Gabon",
+    "GM": "Gambia",
+    "GE": "Georgië",
+    "DE": "Duitsland",
+    "GH": "Ghana",
+    "GI": "Gibraltar",
+    "GR": "Griekenland",
+    "GL": "Groenland",
+    "GD": "Grenada",
+    "GP": "Guadalupe",
+    "GU": "Guam",
+    "GT": "Guatemala",
+    "GN": "Guinea",
+    "GW": "Guinee-Bissau",
+    "GY": "Guyana",
+    "HT": "Haïti",
+    "HN": "Honduras",
+    "HK": "Hong Kong",
+    "HU": "Hongarije",
+    "IS": "IJsland",
+    "IN": "Indië",
+    "ID": "Indonesië",
+    "IR": "Iran",
+    "IQ": "Irak",
+    "IE": "Ierland",
+    "IL": "Israël",
+    "IT": "Italië",
+    "JM": "Jamaica",
+    "JP": "Japan",
+    "JO": "Jordanië",
+    "KZ": "Kazachstan",
+    "KE": "Kenia",
+    "KI": "Kiribati",
+    "KW": "Koeweit",
+    "KG": "Kirgizië",
+    "LA": "Laos",
+    "LV": "Letland",
+    "LB": "Libanon",
+    "LS": "Lesotho",
+    "LR": "Liberia",
+    "LY": "Libië",
+    "LI": "Liechtenstein",
+    "LT": "Litouwen",
+    "LU": "Luxemburg",
+    "MO": "Macau",
+    "MK": "Macedonië",
+    "MG": "Madagascar",
+    "MW": "Malawi",
+    "MY": "Maleisië",
+    "MV": "Maldiven",
+    "ML": "Mali",
+    "MT": "Malta",
+    "MH": "Marshall eilanden",
+    "MQ": "Martinique",
+    "MR": "Mauritanië",
+    "MU": "Mauritius",
+    "MX": "Mexico",
+    "FM": "Micronesië",
+    "MD": "Moldavië",
+    "MC": "Monaco",
+    "MN": "Mongolië",
+    "ME": "Montenegro",
+    "MS": "Montserrat",
+    "MA": "Marokko",
+    "MZ": "Mozambique",
+    "MM": "Myanmar",
+    "NA": "Namibië",
+    "NR": "Nauru",
+    "NP": "Nepal",
+    "NL": "Nederland",
+    "NC": "Nieuw-Caledonië",
+    "NZ": "Nieuw Zeeland",
+    "NI": "Nicaragua",
+    "NE": "Niger",
+    "NG": "Nigeria",
+    "NU": "Niue",
+    "NF": "Norfolkeiland",
+    "KP": "Noord-Korea",
+    "MP": "Noordelijke Mariana eilanden",
+    "NO": "Noorwegen",
+    "OM": "Oman",
+    "PK": "Pakistan",
+    "PW": "Palau",
+    "PS": "Palestina",
+    "PA": "Panama",
+    "PG": "Papoea-Nieuw-Guinea",
+    "PY": "Paraguay",
+    "PE": "Peru",
+    "PH": "Filippijnen",
+    "PL": "Polen",
+    "PT": "Portugal",
+    "PR": "Puerto Rico",
+    "QA": "Katar",
+    "RE": "Réunion",
+    "RO": "Roemenië",
+    "RU": "Rusland",
+    "RW": "Rwanda",
+    "BL": "Sint-Bartholomeus",
+    "SH": "Sint-Helena",
+    "KN": "Saint Kitts en Nevis",
+    "LC": "Saint Lucia",
+    "MF": "Saint Martin",
+    "PM": "Saint-Pierre en Miquelon",
+    "VC": "Saint Vincent en de Grenadines",
+    "WS": "Samoa",
+    "SM": "San Marino",
+    "ST": "Sao Tomé en Principe",
+    "SA": "Saoedi-Arabië",
+    "SN": "Senegal",
+    "RS": "Servië",
+    "SC": "Seychellen",
+    "SL": "Sierra Leone",
+    "SG": "Singapore",
+    "SX": "Sint Maarten",
+    "SK": "Slowakije",
+    "SI": "Slovenië",
+    "SB": "Solomon eilanden",
+    "SO": "Somalië",
+    "ZA": "Zuid-Afrika",
+    "KR": "Zuid-Korea",
+    "SS": "Zuid Soedan",
+    "LK": "Sri Lanka",
+    "SD": "Soedan",
+    "SR": "Suriname",
+    "SZ": "Swaziland",
+    "SE": "Zweden",
+    "CH": "Zwitserland",
+    "SY": "Syrië",
+    "TW": "Taiwan",
+    "TJ": "Tadzjikistan",
+    "TZ": "Tanzania",
+    "TH": "Thailand",
+    "TL": "Oost-Timor",
+    "TG": "Gaan",
+    "TK": "Tokelau",
+    "TO": "Tonga",
+    "TT": "Trinidad en Tobago",
+    "TN": "Tunesië",
+    "TR": "Turkije",
+    "TM": "Turkmenistan",
+    "TC": "Turks- en Caicoseilanden",
+    "TV": "Tuvalu",
+    "VI": "Amerikaanse Maagdeneilanden",
+    "UG": "Oeganda",
+    "GB": "Verenigd Koningkrijk",
+    "US": "Verenigde Staten van Amerika",
+    "UZ": "Oezbekistan",
+    "VU": "Vanuatu",
+    "VA": "Vaticaanstad",
+    "VE": "Venezuela",
+    "VN": "Vietnam",
+    "WF": "Wallis en Futuna",
+    "YE": "Jemen",
+    "ZM": "Zambia",
+    "ZW": "Zimbabwe",
+    "AE": "Verenigde Arabische Emiraten",
+    "UA": "Oekraïne",
+    "UY": "Uruguay",
+    "EE": "Estland",
+    "UM": "Kleine Afgelegen Eilanden van de Verenigde Staten",
+    "XK": "Kosovo"
+  },
+  "cvv_learn_more": {
+    "learn_more": {
+      "close_ally": "Sluit meer leren.",
+      "content": "De 3-cijferige code op de achterkant van uw kaart.",
+      "content_amex": "De 4-cijferige code op de voorkant van uw kaart.",
+      "open_ally": "Meer informatie over beveiligingscode.",
+      "title": "Beveiligingscode"
+    }
+  },
+  "device_locked": {
+    "description": "Probeer het later opnieuw of gebruik een ander apparaat"
+  },
+  "errors": {
+    "validation": {
+      "card": {
+        "card_cant_be_used": "Deze kaart kan niet worden gebruikt. Probeer een andere.",
+        "unsupported_billing_address": "Het land van dit factuuradres wordt niet geaccepteerd door deze verkoper.",
+        "unsupported_billing_address_country": "Deze verkoper accepteert geen factuuradressen in __country__.",
+        "unsupported_shipping_address": "Deze verkoper levert niet in het land van dit adres.",
+        "card_expired": "Deze kaart is verlopen.",
+        "merchant_unsupported_card_brand": "Deze verkoper accepteert geen __cardBrand__.",
+        "card_failed_threeds": "Uw financiële instelling kan deze kaart niet verifiëren.",
+        "partial_billing_address": "Wijzig het factuuradres van deze kaart om af te rekenen bij deze verkoper.",
+        "unsupported_canadian_card": "Deze verkoper accepteert deze kaart niet.",
+        "unaccepted_card_brand": "De verkoper accepteert geen __cardBrandX__. U moet __cardBrandY__ gebruiken om door te gaan.",
+        "card_not_verified": "Er is aanvullende informatie nodig voordat u deze kaart kunt gebruiken.",
+        "merchant_unsupported_card_brand_type": "Deze verkoper accepteert geen __cardBrand__ __cardType__.",
+        "generic_error": "Deze kaart kan niet worden gebruikt. Probeer een andere."
+      },
+      "unbind": "Sorry, er ging iets mis. U bent niet volledig uitgelogd",
+      "password": {
+        "has_consecutive_chars": "Ongeldig wachtwoord",
+        "has_consecutive_chars_page": "Sorry, u kunt geen 3 opeenvolgende identieke tekens invoeren voor een wachtwoord.",
+        "has_spaces": "Ongeldig wachtwoord",
+        "has_spaces_page": "Sorry, uw wachtwoord mag geen spaties bevatten.",
+        "has_unsupported": "Ongeldig wachtwoord",
+        "has_unsupported_page": "U mag alleen letters, cijfers of ! @ # $ % & * ? gebruiken in een Visa Checkout-wachtwoord.",
+        "has_username": "Ongeldig wachtwoord",
+        "has_username_page": "Sorry, uw wachtwoord mag geen deel van uw e-mail of mobiele nummer bevatten.",
+        "same_as_previous": "Ongeldig wachtwoord",
+        "same_as_previous_page": "Uw nieuwe wachtwoord mag niet hetzelfde zijn als uw vorige. Voer een ander wachtwoord in.",
+        "too_long": "Ongeldig wachtwoord",
+        "too_long_page": "Uw wachtwoord mag niet meer dan 32 tekens bevatten.",
+        "too_short": "Ongeldig wachtwoord",
+        "too_short_page": "Sorry, er zijn minimaal 6 tekens vereist voor een wachtwoord."
+      },
+      "add_card": {
+        "all_fields_empty": "Voer uw kaartgegevens in om door te gaan.",
+        "unaccepted_card_brand": "Deze kaart is momenteel niet beschikbaar voor Click to Pay. Gebruik een andere kaart of ga terug naar de verkoper.",
+        "incomplete_card_number": "Voer een geldige plaats / stad in om door te gaan.",
+        "past_expiry_date": "Sorry, u hebt een oude vervaldatum ingevoerd. Probeer het opnieuw.",
+        "future_expiry_date": "Sorry, u hebt een onjuiste vervaldatum ingevoerd. Probeer het opnieuw.",
+        "invalid_month": "Sorry, u hebt een maand ingevoerd die niet bestaat.",
+        "invalid_security_code": "Voer een geldige plaats / stad in om door te gaan.",
+        "merchant": {
+          "accepted_discover": {
+            "second_digit_unaccepted": "Sorry, de nummers die u hebt ingevoerd, worden niet herkend als geldige Discover-kaartnummers."
+          },
+          "accepted_amex": {
+            "second_digit_unaccepted": "Sorry, het tweede nummer dat u heeft ingevoerd, wordt niet herkend als een geldig American Express-nummer."
+          }
+        },
+        "disabled_card_brand": "Deze kaart is momenteel niet beschikbaar voor Click to Pay. Gebruik een andere kaart of ga terug naar de verkoper."
+      },
+      "review_and_signup": {
+        "accept_tnc": "U moet het vakje aanvinken om de voorwaarden te accepteren en door te gaan."
+      }
+    },
+    "login": {
+      "account_disabled": "Sorry, we kunnen uw verzoek momenteel niet verwerken. Ter bescherming is uw account tijdelijk vergrendeld. Neem contact op met de klantenservice.",
+      "empty_form": "Voer uw inloggegevens in.",
+      "forget_password": "uw wachtwoord vergeten?",
+      "incorrect": "U heeft onjuiste inloggegevens ingevoerd.",
+      "incorrect_2": "U heeft onjuiste inloggegevens ingevoerd. Bent u uw wachtwoord vergeten?",
+      "locked": "Voor uw eigen veiligheid is uw account tijdelijk vergrendeld. Voer uw kaartgegevens in op het welkomstscherm om door te gaan of probeer het later opnieuw.",
+      "max_attempts": "U heeft het maximaal toegestane aantal pogingen overschreden. Probeer het na een paar uur opnieuw of neem contact op met de klantenservice.",
+      "unavailable": "We kunnen uw verzoek momenteel helaas niet verwerken. Probeer het later opnieuw."
+    }
+  },
+  "footer": {
+    "host": "Gehost door Visa",
+    "ad_preference": "Advertentievoorkeuren aanpassen",
+    "cookies": "Cookies",
+    "language_selector": "Land- en taalkiezer. __countryName__ geselecteerd",
+    "legal": {
+      "native": {
+        "disclaimer": "Visa Checkout kan informatie over hoe u deze kaart in Visa Checkout gebruikt, delen met de financiële instelling die de kaart heeft uitgegeven, voor service richting de klant, gebruiksanalyse, fraudepreventie en marketing in verband met Visa Checkout."
+      }
+    },
+    "privacy": "Privacy",
+    "select_country": "Kies uw land",
+    "support": "Ondersteuning",
+    "terms": "Voorwaarden",
+    "toggle_language": "Taalkeuzeschakelaar omschakelen naar",
+    "country_selector_selection": "__countryName__ geselecteerd"
+  },
+  "form": {
+    "error": {
+      "empty_form": "Voer uw gegevens in om door te gaan.",
+      "generic": "We ondervinden technische problemen. Probeer het opnieuw.",
+      "one_or_more": "U heeft een of meer fouten. Corrigeer ze om door te gaan."
+    }
+  },
+  "ghost_layer": {
+    "cancel_and_return": "Annuleren en teruggaan naar __merchantName__",
+    "find_button": "Vind het nu",
+    "message": "Waar is mijn betaalvenster gebleven?",
+    "message_iOS_safari": "Ontbreekt uw betaalvenster?",
+    "restart_button": "Afrekenen opnieuw starten"
+  },
+  "header": {
+    "a11y": {
+      "logo_alt_text_vdcp": "Visa-logo",
+      "logo_alt_text": "Visa Checkout-logo"
+    }
+  },
+  "installments": {
+    "card": {
+      "eligible": "Komt in aanmerking voor termijnen"
+    }
+  },
+  "learn-more": {
+    "close": "Sluiten",
+    "close_panel": "Sluit meer leren paneel",
+    "collapsed_panel": "Kom meer te weten",
+    "learn_more": "Kom meer te weten",
+    "more_info": "Meer informatie"
+  },
+  "lib_address": {
+    "name": {
+      "first": {
+        "value": "Voornaam",
+        "error": "Ongeldige voornaam"
+      },
+      "last": {
+        "value": "Achternaam",
+        "error": "Ongeldige achternaam"
+      }
+    },
+    "country": {
+      "value": "Land/Regio",
+      "placeholder": "Selecteer of voer een land/regio in"
+    },
+    "address": {
+      "line1": {
+        "value": "Adresregel 1",
+        "error": "Ongeldige adresregel 1"
+      },
+      "line2": {
+        "value": "Toevoeging",
+        "error": "Ongeldige Toevoeging",
+        "placeholder": "Bv. appartement, suite, verdieping, etc."
+      },
+      "state_province_code": {
+        "value": "Provincie",
+        "error": "Ongeldige provincie"
+      }
+    },
+    "AR": {
+      "address": {
+        "city": {
+          "value": "Stad",
+          "error": "Ongeldige stad"
+        },
+        "state_province_code": {
+          "value": "Staat/Provincie",
+          "error": "Ongeldige staat/provincie"
+        },
+        "postal_code": {
+          "value": "Postcode",
+          "error": "Ongeldige postcode"
+        },
+        "line2": {
+          "placeholder": "Ongeldig appartement, suite, verdieping, etc."
+        }
+      }
+    },
+    "AU": {
+      "address": {
+        "city": {
+          "value": "Stad",
+          "error": "Ongeldige stad"
+        },
+        "state_province_code": {
+          "value": "Staat",
+          "error": "Ongeldige staat",
+          "placeholder": "2-3 letters"
+        },
+        "postal_code": {
+          "value": "Postcode",
+          "error": "Ongeldige postcode",
+          "placeholder": "XXXX"
+        },
+        "line2": {
+          "placeholder": "Ongeldig appartement, suite, verdieping, etc."
+        }
+      }
+    },
+    "BR": {
+      "address": {
+        "postal_code": {
+          "value": "CEP",
+          "error": "Ongeldige CEP",
+          "placeholder": "XXXXX - XXX"
+        },
+        "street_name": {
+          "value": "Adres",
+          "error": "Ongeldig adres"
+        },
+        "street_number": {
+          "value": "Nummer (verplicht)",
+          "error": "Ongeldig nummer"
+        },
+        "additional_location": {
+          "value": "Aanvulling (optioneel)",
+          "error": "Ongeldige aanvulling"
+        },
+        "line2": {
+          "value": "Buurt",
+          "error": "Ongeldige buurt"
+        },
+        "line3": {
+          "value": "Referentiepunt (optioneel)",
+          "error": "Ongeldig referentiepunt"
+        },
+        "city": {
+          "value": "Stad",
+          "error": "Ongeldige stad"
+        },
+        "state_province_code": {
+          "value": "Staat",
+          "error": "Ongeldige staat",
+          "placeholder": "XX"
+        }
+      }
+    },
+    "CA": {
+      "address": {
+        "city": {
+          "value": "Stad",
+          "error": "Ongeldige stad"
+        },
+        "state_province_code": {
+          "value": "Provincie",
+          "error": "Ongeldige provincie",
+          "placeholder": "XX"
+        },
+        "postal_code": {
+          "value": "Postcode",
+          "error": "Ongeldige postcode",
+          "placeholder": "XXX XXX"
+        }
+      }
+    },
+    "CL": {
+      "address": {
+        "city": {
+          "value": "Stad",
+          "error": "Ongeldige stad"
+        },
+        "state_province_code": {
+          "value": "Staat/Provincie",
+          "error": "Ongeldige staat/provincie"
+        },
+        "postal_code": {
+          "value": "Postcode",
+          "error": "Ongeldige postcode"
+        },
+        "line2": {
+          "placeholder": "Ongeldig appartement, suite, verdieping, etc."
+        }
+      }
+    },
+    "CN": {
+      "address": {
+        "city": {
+          "value": "Stad",
+          "error": "Ongeldige stad"
+        },
+        "state_province_code": {
+          "value": "Staat/Provincie",
+          "error": "Ongeldige staat/provincie"
+        },
+        "postal_code": {
+          "value": "Postcode",
+          "error": "Ongeldige postcode"
+        },
+        "line2": {
+          "placeholder": "Ongeldig appartement, suite, verdieping, etc."
+        }
+      }
+    },
+    "CO": {
+      "address": {
+        "city": {
+          "value": "Stad",
+          "error": "Ongeldige stad"
+        },
+        "state_province_code": {
+          "value": "Staat/Provincie",
+          "error": "Ongeldige staat/provincie"
+        },
+        "postal_code": {
+          "value": "Postcode",
+          "error": "Ongeldige postcode"
+        },
+        "line2": {
+          "placeholder": "Ongeldig appartement, suite, verdieping, etc."
+        }
+      }
+    },
+    "DO": {
+      "address": {
+        "city": {
+          "value": "Stad",
+          "error": "Ongeldige stad"
+        },
+        "state_province_code": {
+          "value": "Staat/Provincie",
+          "error": "Ongeldige staat/provincie"
+        },
+        "postal_code": {
+          "value": "Postcode",
+          "error": "Ongeldige postcode"
+        },
+        "line1": {
+          "value": "Adresregel 1",
+          "error": "Ongeldige adresregel 1"
+        },
+        "line2": {
+          "value": "Adresregel 2",
+          "placeholder": "Adresregel 2",
+          "error": "Ongeldige adresregel 2"
+        }
+      }
+    },
+    "FR": {
+      "address": {
+        "line1": {
+          "placeholder": "Nummer en straatnaam"
+        },
+        "line2": {
+          "placeholder": "Appartement, gebouw, verdieping, etc."
+        },
+        "city": {
+          "value": "Stad",
+          "error": "Ongeldige stad"
+        },
+        "postal_code": {
+          "value": "Postcode",
+          "error": "Ongeldige postcode",
+          "placeholder": "XXXXXX"
+        }
+      }
+    },
+    "GI": {
+      "address": {
+        "city": {
+          "value": "Stad",
+          "error": "Ongeldige stad"
+        },
+        "state_province_code": {
+          "value": "Staat/Provincie",
+          "error": "Ongeldige staat/provincie"
+        },
+        "postal_code": {
+          "value": "Postcode",
+          "error": "Ongeldige postcode"
+        }
+      }
+    },
+    "GT": {
+      "address": {
+        "city": {
+          "value": "Stad",
+          "error": "Ongeldige stad"
+        },
+        "state_province_code": {
+          "value": "Staat/Provincie",
+          "error": "Ongeldige staat/provincie"
+        },
+        "postal_code": {
+          "value": "Postcode",
+          "error": "Ongeldige postcode"
+        }
+      }
+    },
+    "HK": {
+      "address": {
+        "city": {
+          "value": "Wijk",
+          "error": "Ongeldige wijk"
+        },
+        "line2": {
+          "placeholder": "Ongeldig appartement, suite, verdieping, etc."
+        }
+      }
+    },
+    "IN": {
+      "address": {
+        "line3": {
+          "value": "Oriëntatiepunt",
+          "error": "Ongeldig oriëntatiepunt"
+        },
+        "city": {
+          "value": "Stad",
+          "error": "Ongeldige stad"
+        },
+        "state_province_code": {
+          "value": "Staat",
+          "error": "Ongeldige staat"
+        },
+        "postal_code": {
+          "value": "Pincode",
+          "error": "Ongeldige pincode",
+          "placeholder": "XXXXXX"
+        },
+        "line2": {
+          "placeholder": "Ongeldig appartement, suite, verdieping, etc."
+        }
+      }
+    },
+    "IE": {
+      "address": {
+        "line2": {
+          "placeholder": "Plaats"
+        },
+        "city": {
+          "value": "Stad / plaats",
+          "error": "Ongeldige stad / plaats"
+        },
+        "county": {
+          "value": "Provincie",
+          "error": "Ongeldige provincie",
+          "placeholder": "Selecteer of voer een provincie in"
+        },
+        "postal_code": {
+          "value": "Postcode (optioneel)",
+          "error": "Ongeldige postcode",
+          "placeholder": "Dublin-gebied of Eircode"
+        }
+      }
+    },
+    "JP": {
+      "address": {
+        "city": {
+          "value": "Stad",
+          "error": "Ongeldige stad"
+        },
+        "state_province_code": {
+          "value": "Staat/Provincie",
+          "error": "Ongeldige staat/provincie"
+        },
+        "postal_code": {
+          "value": "Postcode",
+          "error": "Ongeldige postcode"
+        }
+      }
+    },
+    "KW": {
+      "address": {
+        "line1": {
+          "placeholder": "Huis, straat, huizenblok, gebied"
+        },
+        "line2": {
+          "placeholder": "Eg Complex, gebouw"
+        },
+        "city": {
+          "value": "Stad",
+          "error": "Ongeldige stad"
+        },
+        "state_province_code": {
+          "value": "Staat/Provincie",
+          "error": "Ongeldige staat/provincie"
+        },
+        "postal_code": {
+          "value": "Postcode (optioneel)",
+          "error": "Ongeldige postcode"
+        }
+      }
+    },
+    "MY": {
+      "address": {
+        "city": {
+          "value": "Stad / plaats",
+          "error": "Ongeldige stad / plaats"
+        },
+        "state_province_code": {
+          "value": "Staat/Provincie",
+          "error": "Ongeldige staat/provincie"
+        },
+        "postal_code": {
+          "value": "Postcode",
+          "error": "Ongeldige postcode"
+        },
+        "line2": {
+          "placeholder": "Ongeldig appartement, suite, verdieping, etc."
+        }
+      }
+    },
+    "MX": {
+      "address": {
+        "postal_code": {
+          "value": "Postcode",
+          "error": "Ongeldige postcode",
+          "placeholder": "XXXXXX"
+        },
+        "street_name": {
+          "value": "Straat",
+          "error": "Ongeldige straat"
+        },
+        "street_number": {
+          "value": "Exterieur Nr.",
+          "error": "Ongeldig exterieur nr."
+        },
+        "additional_location": {
+          "value": "Interieur nr. (optioneel)",
+          "error": "Ongeldig interieur nr."
+        },
+        "neighborhood": {
+          "value": "Kolonie",
+          "error": "Ongeldige kolonie"
+        },
+        "county": {
+          "value": "Provincie of gemeente",
+          "error": "Ongeldige provincie of gemeente"
+        },
+        "city": {
+          "value": "Stad",
+          "error": "Ongeldige stad"
+        },
+        "state_province_code": {
+          "value": "Staat",
+          "error": "Ongeldige staat"
+        },
+        "point_of_reference": {
+          "value": "Referentiepunt (optioneel)",
+          "error": "Ongeldig referentiepunt"
+        }
+      }
+    },
+    "PE": {
+      "address": {
+        "city": {
+          "value": "Stad",
+          "error": "Ongeldige stad"
+        },
+        "state_province_code": {
+          "value": "Staat/Provincie",
+          "error": "Ongeldige staat/provincie"
+        },
+        "postal_code": {
+          "value": "Postcode",
+          "error": "Ongeldige postcode"
+        },
+        "line2": {
+          "placeholder": "Ongeldig appartement, suite, verdieping, etc."
+        }
+      }
+    },
+    "PL": {
+      "address": {
+        "street_name": {
+          "value": "Straat",
+          "error": "Ongeldige straat"
+        },
+        "street_number": {
+          "value": "Huis/appartement nummer",
+          "error": "Ongeldig huis-/appartementnummer"
+        },
+        "city": {
+          "value": "Stad",
+          "error": "Ongeldige stad"
+        },
+        "postal_code": {
+          "value": "Postcode",
+          "error": "Ongeldige postcode",
+          "placeholder": "XX-XXX"
+        }
+      }
+    },
+    "QA": {
+      "address": {
+        "line1": {
+          "placeholder": "Nummer en straat, apartement of postcode"
+        },
+        "line2": {
+          "placeholder": "Bv. complex, gebouw"
+        },
+        "city": {
+          "value": "Stad",
+          "error": "Ongeldige stad"
+        },
+        "state_province_code": {
+          "value": "Plaats/Staat",
+          "error": "Ongeldige plaats/staat"
+        },
+        "postal_code": {
+          "value": "Postcode (optioneel)",
+          "error": "Ongeldige postcode"
+        }
+      }
+    },
+    "NZ": {
+      "address": {
+        "city": {
+          "value": "Stad / plaats",
+          "error": "Ongeldige stad / plaats"
+        },
+        "postal_code": {
+          "value": "Postcode",
+          "error": "Ongeldige postcode",
+          "placeholder": "XXXX"
+        },
+        "line2": {
+          "placeholder": "Ongeldig appartement, suite, verdieping, etc."
+        }
+      }
+    },
+    "SA": {
+      "address": {
+        "line1": {
+          "placeholder": "Nummer en straat, apartement of postcode"
+        },
+        "line2": {
+          "placeholder": "Bv. complex, gebouw, enz."
+        },
+        "city": {
+          "value": "Stad",
+          "error": "Ongeldige stad"
+        },
+        "state_province_code": {
+          "value": "Regio",
+          "error": "Ongeldige regio"
+        },
+        "postal_code": {
+          "value": "Postcode (optioneel)",
+          "error": "Ongeldige postcode"
+        }
+      }
+    },
+    "SG": {
+      "address": {
+        "city": {
+          "value": "Stad / plaats",
+          "error": "Ongeldige stad / plaats"
+        },
+        "state_province_code": {
+          "value": "Staat/Provincie",
+          "error": "Ongeldige staat/provincie"
+        },
+        "postal_code": {
+          "value": "Postcode",
+          "error": "Ongeldige postcode"
+        },
+        "line2": {
+          "placeholder": "Ongeldig appartement, suite, verdieping, etc."
+        }
+      }
+    },
+    "ZA": {
+      "address": {
+        "city": {
+          "value": "Stad",
+          "error": "Ongeldige stad"
+        },
+        "state_province_code": {
+          "value": "Staat/Provincie",
+          "error": "Ongeldige staat/provincie"
+        },
+        "postal_code": {
+          "value": "Postcode",
+          "error": "Ongeldige postcode"
+        },
+        "line2": {
+          "placeholder": "Ongeldig appartement, suite, verdieping, etc."
+        }
+      }
+    },
+    "SK": {
+      "address": {
+        "city": {
+          "value": "Stad",
+          "error": "Ongeldige stad"
+        },
+        "state_province_code": {
+          "value": "Staat/Provincie",
+          "error": "Ongeldige staat/provincie"
+        },
+        "postal_code": {
+          "value": "Postcode",
+          "error": "Ongeldige postcode"
+        }
+      }
+    },
+    "TW": {
+      "address": {
+        "city": {
+          "value": "Stad",
+          "error": "Ongeldige stad"
+        },
+        "state_province_code": {
+          "value": "Staat/Provincie",
+          "error": "Ongeldige staat/provincie"
+        },
+        "postal_code": {
+          "value": "Postcode",
+          "error": "Ongeldige postcode"
+        }
+      }
+    },
+    "ES": {
+      "address": {
+        "line1": {
+          "placeholder": "Straat, nummer, verdieping, deur, etc."
+        },
+        "city": {
+          "value": "Stad",
+          "error": "Ongeldige stad"
+        },
+        "state_province_code": {
+          "value": "Provincie",
+          "error": "Ongeldige provincie",
+          "placeholder": "Selecteer of voer een provincie in"
+        },
+        "postal_code": {
+          "value": "Postcode",
+          "error": "Ongeldige postcode",
+          "placeholder": "XXXXXX"
+        },
+        "line2": {
+          "placeholder": "Ongeldig appartement, suite, verdieping, etc."
+        }
+      }
+    },
+    "TH": {
+      "address": {
+        "city": {
+          "value": "Stad",
+          "error": "Ongeldige stad"
+        },
+        "state_province_code": {
+          "value": "Staat/Provincie",
+          "error": "Ongeldige staat/provincie"
+        },
+        "postal_code": {
+          "value": "Postcode",
+          "error": "Ongeldige postcode"
+        }
+      }
+    },
+    "AE": {
+      "address": {
+        "city": {
+          "value": "Stad",
+          "error": "Ongeldige stad"
+        },
+        "state_province_code": {
+          "value": "Staat/Provincie",
+          "error": "Ongeldige staat/provincie"
+        },
+        "postal_code": {
+          "value": "Postcode",
+          "error": "Ongeldige postcode"
+        },
+        "line2": {
+          "placeholder": "Ongeldig appartement, suite, verdieping, etc."
+        }
+      }
+    },
+    "GB": {
+      "address": {
+        "city": {
+          "value": "Stad / plaats",
+          "error": "Ongeldige plaats / stad"
+        },
+        "postal_code": {
+          "value": "Postcode",
+          "error": "Ongeldige postcode",
+          "placeholder": "5-7 tekens"
+        }
+      }
+    },
+    "UA": {
+      "address": {
+        "line1": {
+          "placeholder": "Straat"
+        },
+        "line2": {
+          "placeholder": "Straat, huis, flat"
+        },
+        "line3": {
+          "value": "Adresregel 3 (optioneel)",
+          "error": "Ongeldige adresregel 3",
+          "placeholder": "Wijk"
+        },
+        "city": {
+          "value": "Stad",
+          "error": "Ongeldige stad"
+        },
+        "state_province_code": {
+          "value": "Regio",
+          "error": "Ongeldige regio"
+        },
+        "postal_code": {
+          "value": "Postcode",
+          "error": "Ongeldige postcode"
+        }
+      }
+    },
+    "US": {
+      "address": {
+        "city": {
+          "value": "Stad",
+          "error": "Ongeldige stad"
+        },
+        "state_province_code": {
+          "value": "Staat",
+          "error": "Ongeldige staat",
+          "placeholder": "XX"
+        },
+        "postal_code": {
+          "value": "Postcode",
+          "error": "Ongeldige postcode",
+          "placeholder": "XXXXXX"
+        },
+        "line1": {
+          "value": "Adresregel 1",
+          "error": "Ongeldige adresregel 1"
+        },
+        "line2": {
+          "placeholder": "Ongeldig appartement, suite, verdieping, etc."
+        }
+      }
+    },
+    "UK": {
+      "address": {
+        "line2": {
+          "placeholder": "Ongeldig appartement, suite, verdieping, etc."
+        }
+      }
+    }
+  },
+  "loading": {
+    "address_list_ally": "Even geduld a.u.b. terwijl uw adressen worden geladen.",
+    "card_list_ally": "Even geduld a.u.b. terwijl uw kaarten worden geladen.",
+    "welcome_ally": "Even geduld a.u.b. tot Visa Checkout is geladen."
+  },
+  "locale": {
+    "country": {
+      "Argentina": "Argentinië",
+      "Australia": "Australië",
+      "Brazil": "Brazilië",
+      "Canada": "Canada",
+      "Chile": "Chili",
+      "China": "China vasteland",
+      "Colombia": "Colombia",
+      "DominicanRepublic": "Dominicaanse Republiek",
+      "France": "Frankrijk",
+      "Gibraltar": "Gibraltar",
+      "Guatemala": "Guatemala",
+      "HongKong": "Hong Kong",
+      "India": "Indië",
+      "Ireland": "Ierland",
+      "Japan": "Japan",
+      "Kuwait": "Koeweit",
+      "Malaysia": "Maleisië",
+      "Mexico": "Mexico",
+      "NewZealand": "Nieuw-Zeeland",
+      "Peru": "Peru",
+      "Poland": "Polen",
+      "Qatar": "Katar",
+      "SaudiArabia": "Saoedi-Arabië",
+      "Singapore": "Singapore",
+      "SouthAfrica": "Zuid-Afrika",
+      "SouthKorea": "Zuid-Korea",
+      "Spain": "Spanje",
+      "Taiwan": "Taiwan",
+      "Thailand": "Thailand",
+      "UAE": "Verenigde Arabische Emiraten",
+      "USA": "Verenigde Staten van Amerika",
+      "Ukraine": "Oekraïne",
+      "UnitedKingdom": "Verenigd Koningkrijk",
+      "Germany": "Duitsland",
+      "Switzerland": "Zwitserland",
+      "Austria": "Oostenrijk",
+      "Italy": "Italië",
+      "Portugal": "Portugal",
+      "Norway": "Noorwegen",
+      "Sweden": "Zweden",
+      "Finland": "Finland",
+      "Denmark": "Denemarken",
+      "CzechRepublic": "Tsjechische Republiek",
+      "Hungary": "Hongarije",
+      "Slovakia": "Slowakije",
+      "Netherlands": "Nederland",
+      "Ecuador": "Ecuador",
+      "ElSalvador": "El Salvador",
+      "CostaRica": "Costa Rica",
+      "Panama": "Panama",
+      "Paraguay": "Paraguay",
+      "Uruguay": "Uruguay",
+      "Nicaragua": "Nicaragua",
+      "Honduras": "Honduras",
+      "Jordan": "Jordanië"
+    }
+  },
+  "locked": {
+    "cta": {
+      "return_to_merchant": "Terugkeren naar",
+      "try_another_card": "Probeer een andere kaart"
+    },
+    "account": {
+      "header_top": "Beveiligingswaarschuwing",
+      "header_bottom": "Teveel mislukte pogingen",
+      "description": "Uw Visa-kaarten zijn tijdelijk niet beschikbaar. Probeer het later opnieuw of gebruik een andere kaart."
+    },
+    "device": {
+      "header": "We hebben een probleem gedetecteerd",
+      "description": "Voor uw veiligheid kunnen we uw Visa-kaart op dit moment niet toevoegen. Probeer het later opnieuw of gebruik een andere kaart."
+    }
+  },
+  "login": {
+    "did_you": "Heeft u"
+  },
+  "merchant": {
+    "name": "__merchantName__"
+  },
+  "mini": {
+    "error_message": {
+      "p1": "Sorry, het lijkt erop dat er iets mis is gegaan.",
+      "p2": "Voer uw e-mailadres in op het welkomstscherm om door te gaan"
+    }
+  },
+  "non_roman": {
+    "content": "U moet __ACTION__gebruiken. Visa Checkout staat momenteel geen andere tekens toe.",
+    "content_bold": "Alleen Romeinse tekens",
+    "cta_text": "Bevestigen en doorgaan",
+    "header": "Bevestig alstublieft"
+  },
+  "otp": {
+    "verify": {
+      "resend_code_link": "Code nogmaals versturen",
+      "cta_text": "Doorgaan",
+      "description": "Voer de eenmalige code in die is verzonden naar",
+      "header": "Welkom terug",
+      "input_label": "Eenmalige code",
+      "invalid_input_label": "Ongeldige code",
+      "remember_me": {
+        "checkbox": {
+          "label_p1": "Onthoud mij op dit apparaat",
+          "label_p2": "(Niet aanbevolen voor gedeelde apparaten.)"
+        },
+        "learn_more": {
+          "eu": "Help ons u te herinneren door uw e-mailadres of mobiele nummer op te slaan. Elke keer dat u nu betaalt, onthouden we u en uw favoriete kaarten op dit apparaat. Voer eenvoudig een eenmalige code of uw wachtwoord in bij het inloggen.",
+          "p1": "Help ons u te herinneren door uw e-mailadres of mobiele nummer op te slaan. Elke keer dat u nu betaalt, onthouden we u en uw favoriete kaarten op dit apparaat. Voer eenvoudig een eenmalige code of uw wachtwoord in bij het inloggen.",
+          "p2": "Visa Checkout toont het ontwerp van uw bankpas of creditcard, voor een persoonlijkere winkelervaring.",
+          "p2_IR": "Visa Checkout toont het ontwerp van uw bankpas of creditcard, voor een persoonlijkere winkelervaring."
+        },
+        "close_a11y": "Sluit lees meer-paneel.",
+        "open_a11y": "Lees meer over hoe we u herinneren."
+      },
+      "use_password_link": "GEBRUIK MIJN WACHTWOORD",
+      "resend_link": "Code nogmaals versturen"
+    },
+    "provider": {
+      "description": "Voer de eenmalige code in die  __provider__ heeft verzonden naar",
+      "description_email": "Voer de eenmalige code in die __provider__  verzonden heeft naar",
+      "description_text": "Voer de eenmalige code in die  __provider__  verzonden heeft naar"
+    },
+    "not_you": {
+      "not_you_a11y": "Ga terug als u dit niet bent",
+      "left_paren": "(",
+      "link_text": "Bent u dit niet?",
+      "right_paren": ")"
+    },
+    "errors": {
+      "expired_resend": "Deze verificatiecode is verlopen. Klik op 'Opnieuw verzenden' om een nieuwe code te ontvangen.",
+      "invalid": "We konden uw code helaas niet bevestigen.",
+      "invalid_code": "Sorry, de code die u heeft ingevoerd, is onjuist.",
+      "retries_exceeded": "Te veel mislukte pogingen om een eenmalige code in te voeren. Probeer een andere kaart.",
+      "account_inaccessible": "We hebben momenteel geen toegang tot uw opgeslagen gegevens. Voer kaartgegevens in om door te gaan.",
+      "generic_error": "Sorry, we konden uw verzoek niet verwerken. Probeer de code opnieuw te verzenden."
+    },
+    "notifications": {
+      "resend": "Er is nog een e-mail verzonden naar __name__",
+      "sent": "Code verzonden naar __name__",
+      "resend_email": "Er is nog een e-mail verzonden naar __name__",
+      "resend_text": "Er is nog een bericht verzonden naar __name__",
+      "sms_email_resend": "De eenmalige code is opnieuw verzonden"
+    },
+    "step_up": {
+      "cta_text": "Bevestigen",
+      "header": "Voer voor uw veiligheid uw wachtwoord opnieuw in",
+      "password": {
+        "a11y": {
+          "enter": "Voer uw Visa Checkout-wachtwoord in voor __username__",
+          "hide": "Wachtwoordtekens verbergen",
+          "show": "Wachtwoordtekens tonen"
+        },
+        "forgot_link": "Vergeten?",
+        "hide": "Verbergen",
+        "input_label": "Wachtwoord",
+        "invalid_input_label": "Ongeldig wachtwoord",
+        "show": "Tonen"
+      }
+    },
+    "step_up_otp": {
+      "cancel": "Annuleren"
+    },
+    "validation_channel": {
+      "sms_email_a11y": "__phone__ en __email__"
+    }
+  },
+  "otp_card_entry": {
+    "description": "Het lijkt erop dat u Visa Checkout al eerder heeft gebruikt. Voer de eenmalige code in die we naar uw e-mail hebben verzonden, zodat we weten dat u het bent."
+  },
+  "page": {
+    "cancel_and_return": "Annuleren en teruggaan naar __merchantName__",
+    "change": "Veranderen",
+    "merchant_name_default": "verkoper"
+  },
+  "prefill_consent": {
+    "header": "De gemakkelijkere manier om online te betalen",
+    "description": "Om zaken sneller te laten verlopen, kunt u __merchantName__ toestaan om uw basisgegevens vooraf in te vullen.",
+    "more_info_a11y": "Klik voor meer informatie.",
+    "more_info": "Meer informatie",
+    "more_info_content": "Informatie die __merchantName__ kan delen met Visa's online betaalervaring omvat voor- en achternaam, telefoonnummer en e-mailadres",
+    "cta": "Vul mijn gegevens vooraf in",
+    "cancel": "Nee, bedankt",
+    "errors": {
+      "no_merchant_data": "Sorry, __merchantName__ kan uw gegevens niet vooraf invullen. U kunt echter nog steeds doorgaan met de online betaalervaring van Visa."
+    },
+    "disclaimer": "Door te klikken op \"Mijn gegevens vooraf invullen\", stemt u ermee in dat __merchantName__ uw voor- en achternaam, telefoonnummer en e-mailadres doorgeeft aan de online betaalervaring van Visa en __privacyPolicy__.",
+    "privacy_policy": "Privacyverklaring"
+  },
+  "sdklite": {
+    "accessibility": {
+      "button": "In één klik betalen met betalingspictogram",
+      "locked_button": "Betaalservice via Visa. Niet beschikbaar.",
+      "spinner": "Bezig met laden",
+      "spinner_close": "Annuleren en teruggaan naar verkoper",
+      "fingerprint_icon": "Vingerafdrukpictogram"
+    },
+    "logging": {
+      "lock_reason": "Knop uitschakelen omdat deze omgeving niet wordt ondersteund, probeer een nieuwer besturingssysteem.",
+      "not_initialized": "De SDK is nog niet geïnitialiseerd.",
+      "no_network": "Er is geen netwerkverbinding, dus de betalingsgegevens zijn niet bijgewerkt.",
+      "already_launched": "Het betaalproces is al gestart.",
+      "invalid_params": "Parameters zijn ongeldig of nul.",
+      "internal_error": "Visa Checkout had een interne fout en kan het verzoek niet voltooien.",
+      "corr_id_session": "CorrelationID voor deze sessie is __correlationid__",
+      "api_check": "Apparaten die draaien op API-niveau __apilevel__ en hoger kunnen Visa Checkout-functionaliteit gebruiken.",
+      "objc_bridge_warning": "Waarschuwing -- Objective-C kan de matrixwaarden die worden ingesteld op __property__niet overbruggen, gebruik de .rawValue eigenschap op de __enum__ enum."
+    },
+    "ui": {
+      "biometric_signin": "Inloggen",
+      "biometric_cancel": "Annuleren",
+      "fingerprint_recognized": "Vingerafdruk herkend",
+      "fingerprint_unrecognized": "Vingerafdruk niet herkend. Probeer het nog eens",
+      "fingerprint_continue": "Bevestig vingerafdruk om door te gaan",
+      "fingerprint_confirm": "Bevestig nu uw vingerafdruk.",
+      "touch_sensor": "Aanraaksensor"
+    }
+  },
+  "service_unavailable": {
+    "header": "Dienst is niet beschikbaar",
+    "primary_cta_text": "Inloggen",
+    "secondary_cta_text": "Sluiten",
+    "subtext": "Het spijt ons, er is iets onverwachts gebeurd en uw sessie is beëindigd. Log opnieuw in."
+  },
+  "session": {
+    "expired": {
+      "header": "Uw sessie is verlopen",
+      "message": "Voor uw veiligheid is uw sessie verlopen wegens inactiviteit. Voer uw e-mailadres opnieuw in op het welkomstscherm om door te gaan.",
+      "primary_cta_alt_text": "Ga naar Inloggen",
+      "primary_cta_text": "Doorgaan",
+      "secondary_cta_text": "Sluiten"
+    },
+    "warning_modal": {
+      "header": "Uw sessie verloopt bijna.",
+      "message": "Selecteer hieronder hoe u verder wilt gaan.",
+      "primary_cta_text": "Doorgaan met sessie",
+      "secondary_cta_text": "Sluiten"
+    }
+  },
+  "src_app": {
+    "a11y": {
+      "description": "Click to Pay"
+    }
+  },
+  "tell_me_more": {
+    "disabled": {
+      "header": "Visa Checkout is gemigreerd naar Click to Pay __srcIcon__",
+      "intro": "Visa Checkout is niet beschikbaar op deze afrekenpagina voor verkopers.",
+      "intro_pt_2": "Gebruik in de tussentijd een alternatieve betaalmethode die door deze verkoper wordt aangeboden."
+    },
+    "legacy": {
+      "close": "Sluiten",
+      "close_aria_label": "Sluit Visa Checkout-informatielaag",
+      "create_action": "Maak een Visa Checkout-account aan",
+      "feature_list_1": "Versnel het afrekenproces met een eenmalige aanmelding",
+      "feature_list_2": "Gebruik een bekende creditcard of betaalpas",
+      "feature_list_3": "Van Visa, het bedrijf dat u kent en vertrouwt",
+      "feature_list_4_1": "En het is",
+      "feature_list_4_2": "GRATIS!",
+      "intro": "Maak eenmalig een account aan. Overal waar u Visa Checkout ziet, hoeft u nooit opnieuw kaart- en adresgegevens in te voeren.",
+      "login_action": "Log in op uw Visa Checkout-account",
+      "logo_alt": "Meer informatie over Visa Checkout",
+      "title": "Vertel me meer"
+    },
+    "src": {
+      "close": "Sluiten",
+      "close_aria_label": "Sluit Visa Checkout-informatielaag",
+      "create_action": "Inschrijven",
+      "feature_list_1": "Afrekenen met minder klikken - geen lange formulieren of wachtwoorden meer.",
+      "feature_list_2": "Voer de kaartgegevens één keer in - u hoeft uw gegevens niet elke keer dat u afrekent in te voeren.",
+      "feature_list_3": "Zoek naar het Click to Pay-pictogram __srcIcon__ bij honderdduizenden online verkopers - verkrijg veilig toegang tot uw gegevens om af te rekenen.",
+      "feature_list_4": "U kunt er ook voor kiezen om uw apparaat en browser uw gegevens te laten onthouden om sneller af te rekenen.",
+      "header": "Klik om te betalen met __srcIcon__",
+      "intro": "Betaal met vertrouwen met dezelfde betaalmerken die u vandaag de dag gebruikt. De click-to-pay-beleving is gebaseerd op industriële beveiligingsnormen voor online transacties. Voor een gemakkelijk en slim betaalproces, klikt u op het Click to Pay-pictogram __srcIcon__  om te betalen en wordt uw kaart geaccepteerd. Het is gemakkelijk te gebruiken:",
+      "login_action": "Log in of ga naar Mijn profiel",
+      "logo_alt": "Meer informatie over Visa Checkout"
+    }
+  },
+  "user_info": {
+    "menu_ally": "Accountgegevens van __name__",
+    "sign_out": "Afmelden",
+    "sign_out_a11y": "__user__ afmelden"
+  },
+  "vco_component_add_card": {
+    "first_name": {
+      "label": "Voornaam",
+      "label_a11y": "Vul hier uw voornaam in.",
+      "invalid_first_name": "Ongeldige voornaam"
+    },
+    "last_name": {
+      "label": "Achternaam",
+      "label_a11y": "Vul hier uw achternaam in.",
+      "invalid_last_name": "Ongeldige achternaam"
+    }
+  },
+  "vco-component-identification": {
+    "email_label_a11y": "Vul hier uw e-mailadres in."
+  },
+  "welcome": {
+    "a11y": {
+      "cta": "Visa Checkout blijven gebruiken",
+      "page_title": "Vise Checkout, de eenvoudigere manier om online te betalen"
+    },
+    "cta_text": "Doorgaan",
+    "description": "Vul uw e-mailadres in om aan de slag te gaan.",
+    "header": "De gemakkelijkere manier om online te betalen",
+    "input_label": "E-mailadres",
+    "invalid_input_label": "Ongeldig e-mailadres",
+    "errors": {
+      "lockout": "We hebben momenteel geen toegang tot uw opgeslagen gegevens. Voer kaartgegevens in om door te gaan.",
+      "lookup_unavailable": "Opzoeken is niet mogelijk voor uw e-mailadres. Voer uw kaartgegevens in om door te gaan."
+    },
+    "create_account": {
+      "new_user": "Het lijkt erop dat u nieuw bent bij Click to Pay. Voer uw kaartgegevens in om aan de slag te gaan.",
+      "cta": "Doorgaan",
+      "tab": {
+        "label_a11y": "Nieuwe gebruiker",
+        "label": "Nieuw"
+      },
+      "legal_info": "Uw informatie wordt gedeeld met deelnemende betalingsnetwerken en serviceproviders om u de juiste ervaring te bieden."
+    },
+    "sign_in": {
+      "tab": {
+        "label": "Terugkerend",
+        "label_a11y": "Terugkerende gebruiker"
+      },
+      "cta": "Doorgaan",
+      "legal_info": "Door uw e-mailadres in te voeren, geeft u deelnemende betalingsnetwerken toegang tot uw gegevens."
+    },
+    "src": {
+      "create_account": {
+        "new_user": "Het lijkt erop dat u nieuw bent. Activeer uw creditcard of betaalpas door onderstaande gegevens in te voeren."
+      },
+      "cta": {
+        "message": {
+          "new_user": "Uw informatie wordt gedeeld met deelnemende betalingsnetwerken, serviceproviders en zoals anderszins beschreven in onze __privacyNotice__ om u de juiste ervaring te bieden.",
+          "returning_user": "Door verder te gaan, gaat u akkoord met Visa's __privacyNotice__."
+        }
+      },
+      "legal": {
+        "privacy_notice": "Privacyverklaring",
+        "terms": "Servicevoorwaarden"
+      },
+      "header": "Makkelijk en slim online afrekenen",
+      "we_accept": "We aanvaarden",
+      "errors": {
+        "lockout": "We hebben momenteel geen toegang tot uw opgeslagen gegevens. Voer kaartgegevens in om door te gaan."
+      },
+      "sub_heading": {
+        "new": "Betaal met vertrouwen met Click to Pay",
+        "returning": "Betaal met vertrouwen met Click to Pay"
+      }
+    }
+  }
+}

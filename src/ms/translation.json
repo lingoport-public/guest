@@ -1,0 +1,1593 @@
+{
+  "accepted_cards": {
+    "a11y": {
+      "cards_accepted": "'We accept __cards__'"
+    }
+  },
+  "account_locked": {
+    "customer_support_link": "Hubungi Sokongan Pelanggan",
+    "description": "Sila cuba lagi nanti atau masukkan maklumat kad anda pada skrin selamat datang untuk meneruskan.",
+    "header": "Anda telah dikunci buat sementara waktu",
+    "notifications": {
+      "unable_to_confirm": "Maaf, kami tidak dapat mengesahkan kod anda."
+    },
+    "primary_cta_text": "Teruskan Membeli-belah",
+    "secondary_cta_text": "Masukkan Kad"
+  },
+  "add_card": {
+    "cancel": "Batal",
+    "header": "Tambah Kad",
+    "submit": "Teruskan",
+    "errors": {
+      "try_again": "Sorry, we couldn't process your request. Please try again.",
+      "generic_error": "Ada kesilapan berlaku Cuba kad lain atau cuba lagi kemudian."
+    },
+    "single_card_deleted": "Kad anda berjaya dipadam.",
+    "src": {
+      "sub_heading": "Set up your card to click to pay"
+    }
+  },
+  "card_list": {
+    "add": "New Card",
+    "add_a11y": "Tambah kad baharu",
+    "card_a11y": "__network__ & __type__ & __lastFour__",
+    "credit": "Kredit",
+    "debit": "debit",
+    "header": "Pilih Kad",
+    "errors": {
+      "api_error": "Ada kesilapan berlaku Cuba kad lain atau cuba lagi kemudian.",
+      "cardid_missing_one_card": "We can't proceed with this card. Please add a new card.",
+      "cardid_missing_mult_cards": "We can't proceed with this card. Please try another."
+    },
+    "notifications": {
+      "deleted": "Kad anda berjaya dipadam"
+    },
+    "electron": "Electron (debit)",
+    "prepaid": "Prabayar",
+    "src": {
+      "sub_heading": "Select from card(s) set up for Click to Pay"
+    }
+  },
+  "cardBrands": {
+    "amex": "American Express",
+    "discover": "Discover",
+    "elo": "Elo",
+    "mastercard": "MasterCard",
+    "visa": "Visa",
+    "electron": "Visa Electron",
+    "maestro": "Maestro"
+  },
+  "component_addr_disp": {
+    "masked_address_message": "Masked for security reasons"
+  },
+  "component_addr_list": {
+    "address": "Alamat"
+  },
+  "component_card_number": {
+    "brands": {
+      "amex": "American Express",
+      "discover": "Discover",
+      "electron": "Elektron",
+      "elo": "Elo",
+      "mastercard": "Mastercard",
+      "visa": "Visa",
+      "maestro": "Maestro"
+    },
+    "enter_card": "Masukkan nombor kad anda di sini.",
+    "invalid": "tidak sah",
+    "label": "Nombor Kad",
+    "label_error": "Nombor Kad",
+    "not_accepted": "Tidak diterima",
+    "placeholder": "15 hingga 16 digit",
+    "card_brand_entered": "__cardBrand__ card entered"
+  },
+  "component_combobox": {
+    "aria": {
+      "filters": "penapis semasa anda menaip",
+      "item": "item",
+      "items": "barangan",
+      "of": "daripada",
+      "selected": "dipilih"
+    },
+    "country": {
+      "error": "Negara tidak sah",
+      "label": "Negara / Rantau",
+      "placeholder": "Pilih atau masukkan negara"
+    },
+    "dial_code": {
+      "error": "Negara tidak sah",
+      "placeholder": "Pilih atau masukkan negara"
+    },
+    "no_match_message": "Tiada negara yang ditemui sepadan dengan apa yang anda masukkan. Sila tukar entri anda.",
+    "phone": {
+      "label": "Nombor Telefon (diperlukan)",
+      "placeholder": "Nombor Telefon (diperlukan)"
+    }
+  },
+  "component_cvv": {
+    "label": {
+      "error": "Kod keselamatan tidak sah.",
+      "name": "Kod Keselamatan"
+    },
+    "enter_code": "Masukkan kod keselamatan kad anda di sini.",
+    "amex_helper": "Kod 4 angka di hadapan kad anda.",
+    "non_amex_helper": "Kod 3-digit di belakang kad anda."
+  },
+  "component_exp_date": {
+    "label": {
+      "description": "format seperti M M / Y Y semasa anda menaip",
+      "error": "Tarikh Tidak Sah",
+      "name": "Akan luput",
+      "labelled_by": "format seperti M M / Y Y semasa anda menaip"
+    },
+    "placeholder": "BB / TT"
+  },
+  "component_notification": {
+    "CLOSE": "Tutup Sepanduk",
+    "error": "Pemberitahuan ralat",
+    "info": "Maklumat Pemberitahuan",
+    "lower_environment_warning": "TIDAK UNTUK PENGGUNA PENGGUNA! - __env__ TEST ENVIRONMENT",
+    "success": "Pemberitahuan kejayaan",
+    "warning": "Pemberitahuan amaran"
+  },
+  "component_phone_input": {
+    "phone_number_field": {
+      "ariaLabel": "Mobile Number. We may send a one-time code to this number to verify it’s you. Message and data rates may apply.",
+      "error": "Invalid mobile number",
+      "label": "Nombor Telefon (diperlukan)"
+    },
+    "dial_code": {
+      "error": "Negara tidak sah",
+      "label": "Negara",
+      "placeholder": "Pilih atau masukkan negara",
+      "toggle_button_aria_label": ", pemilih kod negara"
+    },
+    "no_match_message": "Tiada negara yang ditemui sepadan dengan apa yang anda masukkan. Sila tukar entri anda."
+  },
+  "cookie_banner": {
+    "a11y": {
+      "close_button": "Tutup Sepanduk"
+    },
+    "link_text": "Review/Reject cookies.",
+    "message": "We use cookies to maintain security, improve site experience, measure visits to our sites, and enable Visa marketing activities. __CookiePolicyLink__",
+    "ok_button": "Accept"
+  },
+  "country_map": {
+    "AF": "Afghanistan",
+    "AL": "Albania",
+    "DZ": "Algeria",
+    "AS": "American Samoa",
+    "AD": "Andorra",
+    "AO": "Angola",
+    "AI": "Anguilla",
+    "AG": "Antigua dan Barbuda",
+    "AR": "Argentina",
+    "AM": "Armenia",
+    "AW": "Aruba",
+    "AU": "Australia",
+    "AT": "Austria",
+    "AZ": "Azerbaijan",
+    "BS": "Bahamas",
+    "BH": "Bahrain",
+    "BD": "Bangladesh",
+    "BB": "Barbados",
+    "BY": "Belarus",
+    "BE": "Belgium",
+    "BZ": "Belize",
+    "BJ": "Benin",
+    "BM": "Bermuda",
+    "BT": "Bhutan",
+    "BO": "Bolivia",
+    "BA": "Bosnia dan Herzegovina",
+    "BW": "Botswana",
+    "BR": "Brazil",
+    "IO": "Wilayah Lautan Hindi British",
+    "VG": "Pulau British Virgin",
+    "BN": "Brunei",
+    "BG": "Bulgaria",
+    "BF": "Burkina Faso",
+    "BI": "Burundi",
+    "KH": "Kemboja",
+    "CM": "Kamerun",
+    "CA": "Kanada",
+    "CV": "Cape Verde",
+    "BQ": "Caribbean Belanda",
+    "KY": "Pulau Cayman",
+    "CF": "Republik Afrika Tengah",
+    "TD": "Chad",
+    "CL": "Chile",
+    "CN": "Tanah Besar China",
+    "CO": "Colombia",
+    "KM": "Comoros",
+    "CD": "Congo (DRC)",
+    "CG": "Congo (Republic)",
+    "CK": "Kepulauan Cook",
+    "CR": "Costa rica",
+    "CI": "Côte d'Ivoire",
+    "HR": "Croatia",
+    "CU": "Cuba",
+    "CW": "Curaçao",
+    "CY": "Cyprus",
+    "CZ": "Republik Czech",
+    "DK": "Denmark",
+    "DJ": "Djibouti",
+    "DM": "Dominika",
+    "DO": "Republik Dominican",
+    "EC": "Ecuador",
+    "EG": "Mesir",
+    "SV": "El Salvador",
+    "GQ": "Equatorial Guinea",
+    "ER": "Eritrea",
+    "ES": "Sepanyol",
+    "ET": "Ethiopia",
+    "FK": "Kepulauan Falkland",
+    "FO": "Pulau Faroe",
+    "FJ": "Fiji",
+    "FI": "Finland",
+    "FR": "Perancis",
+    "GF": "Guinea Guinea",
+    "PF": "Polynesia Perancis",
+    "GA": "Gabon",
+    "GM": "Gambia",
+    "GE": "Georgia",
+    "DE": "Jerman",
+    "GH": "Ghana",
+    "GI": "Gibraltar",
+    "GR": "Greece",
+    "GL": "Greenland",
+    "GD": "Grenada",
+    "GP": "Guadalupe",
+    "GU": "Guam",
+    "GT": "Guatemala",
+    "GN": "Guinea",
+    "GW": "Guinea-Bissau",
+    "GY": "Guyana",
+    "HT": "Haiti",
+    "HN": "Honduras",
+    "HK": "Hong Kong",
+    "HU": "Hungary",
+    "IS": "Iceland",
+    "IN": "India",
+    "ID": "Indonesia",
+    "IR": "Iran",
+    "IQ": "Iraq",
+    "IE": "Ireland",
+    "IL": "Israel",
+    "IT": "Italy",
+    "JM": "Jamaica",
+    "JP": "Jepun",
+    "JO": "Jordan",
+    "KZ": "Kazakhstan",
+    "KE": "Kenya",
+    "KI": "Kiribati",
+    "KW": "Kuwait",
+    "KG": "Kyrgyzstan",
+    "LA": "Laos",
+    "LV": "Latvia",
+    "LB": "Lebanon",
+    "LS": "Lesotho",
+    "LR": "Liberia",
+    "LY": "Lybia",
+    "LI": "Liechtenstein",
+    "LT": "Lithuania",
+    "LU": "Luxembourg",
+    "MO": "Macau",
+    "MK": "Macedonia",
+    "MG": "Madagascar",
+    "MW": "Malawi",
+    "MY": "Malaysia",
+    "MV": "Maldives",
+    "ML": "Mali",
+    "MT": "Malta",
+    "MH": "Pulau Marshall",
+    "MQ": "Martinique",
+    "MR": "Mauritania",
+    "MU": "Mauritius",
+    "MX": "Mexico",
+    "FM": "Micronesia",
+    "MD": "Moldova",
+    "MC": "Monaco",
+    "MN": "Mongolia",
+    "ME": "Montenegro",
+    "MS": "Montserrat",
+    "MA": "Maghribi",
+    "MZ": "Mozambique",
+    "MM": "Myanmar",
+    "NA": "Namibia",
+    "NR": "Nauru",
+    "NP": "Nepal",
+    "NL": "Belanda",
+    "NC": "New Caledonia",
+    "NZ": "New Zealand",
+    "NI": "Nicaragua",
+    "NE": "Niger",
+    "NG": "Nigeria",
+    "NU": "Niue",
+    "NF": "Pulau Norfolk",
+    "KP": "Korea Utara",
+    "MP": "Kepulauan Mariana Utara",
+    "NO": "Norway",
+    "OM": "Oman",
+    "PK": "Pakistan",
+    "PW": "Palau",
+    "PS": "Palestin",
+    "PA": "Panama",
+    "PG": "Papua New Guinea",
+    "PY": "Paraguay",
+    "PE": "Peru",
+    "PH": "filipina",
+    "PL": "Poland",
+    "PT": "Portugal",
+    "PR": "Puerto Rico",
+    "QA": "Qatar",
+    "RE": "Réunion",
+    "RO": "Romania",
+    "RU": "Rusia",
+    "RW": "Rwanda",
+    "BL": "Saint Barthélemy",
+    "SH": "Saint Helena",
+    "KN": "Saint Kitts dan Nevis",
+    "LC": "Saint Lucia",
+    "MF": "Saint Martin",
+    "PM": "Saint Pierre dan Miquelon",
+    "VC": "Saint Vincent dan Grenadines",
+    "WS": "Samoa",
+    "SM": "San Marino",
+    "ST": "São Tomé dan Príncipe",
+    "SA": "Arab Saudi",
+    "SN": "Senegal",
+    "RS": "Serbia",
+    "SC": "Seychelles",
+    "SL": "Sierra Leone",
+    "SG": "Singapura",
+    "SX": "Sint Maarten",
+    "SK": "Slovakia",
+    "SI": "Slovenia",
+    "SB": "Kepulauan Solomon",
+    "SO": "Somalia",
+    "ZA": "Afrika Selatan",
+    "KR": "Korea Selatan",
+    "SS": "selatan Sudan",
+    "LK": "Sri Lanka",
+    "SD": "Sudan",
+    "SR": "Surivalue",
+    "SZ": "Swaziland",
+    "SE": "Sweden",
+    "CH": "Switzerland",
+    "SY": "Syria",
+    "TW": "Taiwan",
+    "TJ": "Tajikistan",
+    "TZ": "Tanzania",
+    "TH": "Thailand",
+    "TL": "Timor-Leste",
+    "TG": "Untuk pergi",
+    "TK": "Tokelau",
+    "TO": "Tonga",
+    "TT": "Trinidad dan Tobago",
+    "TN": "Tunisia",
+    "TR": "Turki",
+    "TM": "Turkmenistan",
+    "TC": "Kepulauan Turks dan Caicos",
+    "TV": "Tuvalu",
+    "VI": "US Virgin Islands",
+    "UG": "Uganda",
+    "GB": "United Kingdom",
+    "US": "Amerika Syarikat",
+    "UZ": "Uzbekistan",
+    "VU": "Vanuatu",
+    "VA": "Vatican City",
+    "VE": "Venezuela",
+    "VN": "Vietnam",
+    "WF": "Wallis dan Futuna",
+    "YE": "/ Yemen",
+    "ZM": "Zambia",
+    "ZW": "Zimbabwe",
+    "AE": "Emiriah Arab Bersatu",
+    "UA": "Ukraine",
+    "UY": "Uruguay",
+    "EE": "Estonia",
+    "UM": "Pulau Terluar Kecil AS",
+    "XK": "Kosovo"
+  },
+  "cvv_learn_more": {
+    "learn_more": {
+      "close_ally": "Tutup panel ketahui selanjutnya",
+      "content": "Kod 3-digit di belakang kad anda.",
+      "content_amex": "Kod 4 angka di hadapan kad anda.",
+      "open_ally": "Ketahui selanjutnya",
+      "title": "Kod Keselamatan"
+    }
+  },
+  "device_locked": {
+    "description": "Please try again later, or use a different device."
+  },
+  "errors": {
+    "validation": {
+      "card": {
+        "card_cant_be_used": "This card can't be used. Try another.",
+        "unsupported_billing_address": "Negara yang mempunyai alamat bil ini tidak diterima oleh peniaga ini.",
+        "unsupported_billing_address_country": "__country__",
+        "unsupported_shipping_address": "Peniaga ini tidak menghantar ke negara dalam alamat ini.",
+        "card_expired": "Kad ini sudah luput.",
+        "merchant_unsupported_card_brand": "__cardBrand__",
+        "card_failed_threeds": "Institusi kewangan anda tidak dapat mengesahkan kad ini.",
+        "partial_billing_address": "Sila edit alamat bil kad ini untuk membuat pembayaran dengan peniaga ini.",
+        "unsupported_canadian_card": "Peniaga ini tidak menerima kad ini.",
+        "unaccepted_card_brand": "__cardBrandX__ & __cardBrandY__",
+        "card_not_verified": "Maklumat tambahan diperlukan sebelum anda boleh menggunakan kad ini.",
+        "merchant_unsupported_card_brand_type": "__cardBrand__ & __cardType__",
+        "generic_error": "This card can't be used. Try another"
+      },
+      "unbind": "Sorry, Something went wrong. You were not fully logged out",
+      "password": {
+        "has_consecutive_chars": "Kata laluan tidak sah",
+        "has_consecutive_chars_page": "Maaf, anda tidak boleh memasukkan 3 aksara yang sama berturut-turut untuk kata laluan.",
+        "has_spaces": "Kata laluan tidak sah",
+        "has_spaces_page": "Maaf, kata laluan anda tidak boleh mengandungi ruang.",
+        "has_unsupported": "Kata laluan tidak sah",
+        "has_unsupported_page": "Maaf, anda boleh gunakan huruf, nombor, atau ! @ $ % & * ? * sahaja dalam kata laluan Visa Checkout.",
+        "has_username": "Kata laluan tidak sah",
+        "has_username_page": "Maaf, kata laluan anda tidak boleh mengandungi sebahagian daripada e-mel atau nombor mudah alih.",
+        "same_as_previous": "Kata laluan tidak sah",
+        "same_as_previous_page": "Kata laluan baharu anda tidak boleh sama dengan yang terdahulu. Sila masukkan kata laluan lain.",
+        "too_long": "Kata laluan tidak sah",
+        "too_long_page": "Kata laluan anda tidak boleh mengandungi lebih daripada 32 aksara.",
+        "too_short": "Kata laluan tidak sah",
+        "too_short_page": "Maaf, kata laluan memerlukan minimum 6 aksara."
+      },
+      "add_card": {
+        "all_fields_empty": "Sila masukkan maklumat anda agar dapat meneruskan.",
+        "unaccepted_card_brand": "This card is currently not available within Click to Pay. Please use a different card or return to merchant.",
+        "incomplete_card_number": "Sila masukkan maklumat kad anda untuk meneruskan.",
+        "past_expiry_date": "Maaf, anda telah memasukkan tarikh tamat lama. Sila cuba lagi",
+        "future_expiry_date": "Maaf, anda telah memasukkan tarikh luput yang salah. Sila cuba lagi",
+        "invalid_month": "Maaf, anda memasukkan bulan yang tidak wujud.",
+        "invalid_security_code": "Sila masukkan bandar raya/bandar yang sah untuk teruskan.",
+        "merchant": {
+          "accepted_discover": {
+            "second_digit_unaccepted": "Maaf, nombor yang anda masukkan tidak diiktiraf sebagai nombor Discover yang sah."
+          },
+          "accepted_amex": {
+            "second_digit_unaccepted": "Maaf, nombor yang anda masukkan tidak diiktiraf sebagai nombor American Express yang sah."
+          }
+        },
+        "disabled_card_brand": "This card is currently not available within Click to Pay. Please use a different card or return to merchant."
+      },
+      "review_and_signup": {
+        "accept_tnc": "Anda mesti menyemak kotak untuk menerima syarat dan teruskan."
+      }
+    },
+    "login": {
+      "account_disabled": "Maaf, kami tidak dapat memproses permintaan anda pada masa ini. Demi perlindungan anda, akaun anda telah dinyahdayakan buat sementara waktu. Sila hubungi Sokongan Pelanggan.",
+      "empty_form": "Sila masukkan kelayakan daftar masuk anda.",
+      "forget_password": "terlupa kata laluan anda?",
+      "incorrect": "Anda telah memasukkan kelayakan daftar masuk yang salah.",
+      "incorrect_2": "Anda telah memasukkan kelayakan daftar masuk yang salah. Adakah anda terlupa kata laluan anda?",
+      "locked": "Maaf, untuk perlindungan anda, anda telah dikunci buat sementara waktu. Sila cuba lagi nanti atau masukkan maklumat kad anda pada skrin selamat datang untuk meneruskan.",
+      "max_attempts": "Anda telah melebihi percubaan maksimum yang dibenarkan. Sila cuba lagi selepas beberapa jam atau hubungi Sokongan Pelanggan.",
+      "unavailable": "Maaf, kami tidak dapat memproses permintaan anda pada masa ini. Cuba lagi kemudian."
+    }
+  },
+  "footer": {
+    "host": "Hosted by Visa",
+    "ad_preference": "Sesuaikan keutamaan iklan",
+    "cookies": "Kuki",
+    "language_selector": "Country and Language Selector. __countryName__ selected",
+    "legal": {
+      "native": {
+        "disclaimer": "Visa Checkout boleh berkongsi maklumat mengenai bagaimana anda menggunakan kad ini dalam Visa Checkout dengan institusi kewangan yang mengeluarkan kad ini untuk khidmat pelanggan, analisis pengunaan, pencegahan penipuan dan pemasaran yang berkaitan dengan Visa Checkout."
+      }
+    },
+    "privacy": "Privasi",
+    "select_country": "Select your country",
+    "support": "Sokongan",
+    "terms": "Terma",
+    "toggle_language": "Pemilih bahasa ditogol ke",
+    "country_selector_selection": "__countryName__ selected"
+  },
+  "form": {
+    "error": {
+      "empty_form": "Sila masukkan maklumat anda agar dapat meneruskan.",
+      "generic": "Kami mengalami kesukaran teknikal. Sila cuba lagi.",
+      "one_or_more": "Anda mempunyai satu atau lebih ralat. Sila betulkannya untuk teruskan"
+    }
+  },
+  "ghost_layer": {
+    "cancel_and_return": "Batalkan dan kembali ke __merchantName__",
+    "find_button": "Cari ia sekarang",
+    "message": "Ke mana perginya tetingkap pembayaran saya?",
+    "message_iOS_safari": "Adakah tetingkap pembayaran anda hilang?",
+    "restart_button": "Mulakan semula pembayaran"
+  },
+  "header": {
+    "a11y": {
+      "logo_alt_text_vdcp": "Visa Logo",
+      "logo_alt_text": "Logo Visa Checkout"
+    }
+  },
+  "installments": {
+    "card": {
+      "eligible": "Eligible for Installments"
+    }
+  },
+  "learn-more": {
+    "close": "Tutup",
+    "close_panel": "Tutup panel ketahui selanjutnya",
+    "collapsed_panel": "Ketahui selanjutnya",
+    "learn_more": "Ketahui selanjutnya",
+    "more_info": "Maklumat Lanjut"
+  },
+  "lib_address": {
+    "name": {
+      "first": {
+        "value": "Nama Pertama",
+        "error": "Nama pertama tidak sah"
+      },
+      "last": {
+        "value": "Nama Akhir",
+        "error": "Nama akhir tidak sah"
+      }
+    },
+    "country": {
+      "value": "Negara / Rantau",
+      "placeholder": "Select or enter a country/region"
+    },
+    "address": {
+      "line1": {
+        "value": "Baris Alamat 1",
+        "error": "Baris Alamat 1 (opsyenal)"
+      },
+      "line2": {
+        "value": "Baris Alamat 2 (opsyenal)",
+        "error": "Baris Alamat 2 (opsyenal)",
+        "placeholder": "Pangsapuri, suite, tingkat, dll."
+      },
+      "state_province_code": {
+        "value": "Wilayah",
+        "error": "Wilayah tidak sah"
+      }
+    },
+    "AR": {
+      "address": {
+        "city": {
+          "value": "Bandar raya",
+          "error": "Bandar raya tidak sah"
+        },
+        "state_province_code": {
+          "value": "Negeri/Wilayah",
+          "error": "Negeri/wilayah tidak sah"
+        },
+        "postal_code": {
+          "value": "Poskod",
+          "error": "Poskod tidak sah"
+        },
+        "line2": {
+          "placeholder": "Pangsapuri, suite, tingkat, dll."
+        }
+      }
+    },
+    "AU": {
+      "address": {
+        "city": {
+          "value": "Bandar raya",
+          "error": "Bandar raya tidak sah"
+        },
+        "state_province_code": {
+          "value": "Negeri",
+          "error": "Negeri tidak sah",
+          "placeholder": "2-3 Huruf"
+        },
+        "postal_code": {
+          "value": "Poskod",
+          "error": "Poskod Tidak Sah",
+          "placeholder": "xxxx"
+        },
+        "line2": {
+          "placeholder": "Pangsapuri, suite, tingkat, dll."
+        }
+      }
+    },
+    "BR": {
+      "address": {
+        "postal_code": {
+          "value": "CEP",
+          "error": "CEP tidak sah",
+          "placeholder": "XXXXX - XXX"
+        },
+        "street_name": {
+          "value": "Alamat",
+          "error": "Alamat tidak sah"
+        },
+        "street_number": {
+          "value": "Nombor (diperlukan)",
+          "error": "Nombor tidak sah"
+        },
+        "additional_location": {
+          "value": "Pelengkap (opsyenal)",
+          "error": "Pelengkap tidak sah"
+        },
+        "line2": {
+          "value": "Kejiranan",
+          "error": "Kejiranan tidak sah"
+        },
+        "line3": {
+          "value": "Titik Rujukan (Opsyenal)",
+          "error": "Titik rujukan tidak sah"
+        },
+        "city": {
+          "value": "Bandar raya",
+          "error": "Bandar raya tidak sah"
+        },
+        "state_province_code": {
+          "value": "Negeri",
+          "error": "Negeri tidak sah",
+          "placeholder": "XX"
+        }
+      }
+    },
+    "CA": {
+      "address": {
+        "city": {
+          "value": "Bandar raya",
+          "error": "Bandar raya tidak sah"
+        },
+        "state_province_code": {
+          "value": "Wilayah",
+          "error": "Wilayah tidak sah",
+          "placeholder": "XX"
+        },
+        "postal_code": {
+          "value": "Poskod",
+          "error": "Poskod tidak sah",
+          "placeholder": "XXX XXX"
+        }
+      }
+    },
+    "CL": {
+      "address": {
+        "city": {
+          "value": "Bandar raya",
+          "error": "Bandar raya tidak sah"
+        },
+        "state_province_code": {
+          "value": "Negeri/Wilayah",
+          "error": "Negeri/wilayah tidak sah"
+        },
+        "postal_code": {
+          "value": "Poskod",
+          "error": "Poskod tidak sah"
+        },
+        "line2": {
+          "placeholder": "Pangsapuri, suite, tingkat, dll."
+        }
+      }
+    },
+    "CN": {
+      "address": {
+        "city": {
+          "value": "Bandar raya",
+          "error": "Bandar raya tidak sah"
+        },
+        "state_province_code": {
+          "value": "Negeri/Wilayah",
+          "error": "Negeri/wilayah tidak sah"
+        },
+        "postal_code": {
+          "value": "Poskod",
+          "error": "Poskod tidak sah"
+        },
+        "line2": {
+          "placeholder": "Pangsapuri, suite, tingkat, dll."
+        }
+      }
+    },
+    "CO": {
+      "address": {
+        "city": {
+          "value": "Bandar raya",
+          "error": "Bandar raya tidak sah"
+        },
+        "state_province_code": {
+          "value": "Negeri/Wilayah",
+          "error": "Negeri/wilayah tidak sah"
+        },
+        "postal_code": {
+          "value": "Poskod",
+          "error": "Poskod tidak sah"
+        },
+        "line2": {
+          "placeholder": "Pangsapuri, suite, tingkat, dll."
+        }
+      }
+    },
+    "DO": {
+      "address": {
+        "city": {
+          "value": "Bandar raya",
+          "error": "Bandar raya tidak sah"
+        },
+        "state_province_code": {
+          "value": "Negeri/Wilayah",
+          "error": "Negeri/wilayah tidak sah"
+        },
+        "postal_code": {
+          "value": "Poskod",
+          "error": "Poskod tidak sah"
+        },
+        "line1": {
+          "value": "Baris Alamat 1",
+          "error": "Baris Alamat 1 (opsyenal)"
+        },
+        "line2": {
+          "value": "Baris Alamat 2",
+          "placeholder": "Baris Alamat 2",
+          "error": "Baris Alamat 2 (opsyenal)"
+        }
+      }
+    },
+    "FR": {
+      "address": {
+        "line1": {
+          "placeholder": "Nombor dan nama jalan"
+        },
+        "line2": {
+          "placeholder": "Pangsapuri, bangunan, tingkat, dll."
+        },
+        "city": {
+          "value": "Bandar raya",
+          "error": "Bandar raya tidak sah"
+        },
+        "postal_code": {
+          "value": "Poskod",
+          "error": "Poskod tidak sah",
+          "placeholder": "XXXXX"
+        }
+      }
+    },
+    "GI": {
+      "address": {
+        "city": {
+          "value": "Bandar raya",
+          "error": "Bandar raya tidak sah"
+        },
+        "state_province_code": {
+          "value": "Negeri/Wilayah",
+          "error": "Negeri/wilayah tidak sah"
+        },
+        "postal_code": {
+          "value": "Poskod",
+          "error": "Poskod tidak sah"
+        }
+      }
+    },
+    "GT": {
+      "address": {
+        "city": {
+          "value": "Bandar raya",
+          "error": "Bandar raya tidak sah"
+        },
+        "state_province_code": {
+          "value": "Negeri/Wilayah",
+          "error": "Negeri/wilayah tidak sah"
+        },
+        "postal_code": {
+          "value": "Poskod",
+          "error": "Poskod tidak sah"
+        }
+      }
+    },
+    "HK": {
+      "address": {
+        "city": {
+          "value": "Daerah",
+          "error": "Wilayah tidak sah"
+        },
+        "line2": {
+          "placeholder": "Pangsapuri, suite, tingkat, dll."
+        }
+      }
+    },
+    "IN": {
+      "address": {
+        "line3": {
+          "value": "Mercu tanda",
+          "error": "Mercu tanda tidak sah"
+        },
+        "city": {
+          "value": "Bandar raya",
+          "error": "Bandar raya tidak sah"
+        },
+        "state_province_code": {
+          "value": "Negeri",
+          "error": "Negeri tidak sah"
+        },
+        "postal_code": {
+          "value": "Kod pin",
+          "error": "Kod pin tidak sah",
+          "placeholder": "XXXXXX"
+        },
+        "line2": {
+          "placeholder": "Pangsapuri, suite, tingkat, dll."
+        }
+      }
+    },
+    "IE": {
+      "address": {
+        "line2": {
+          "placeholder": "Lokaliti"
+        },
+        "city": {
+          "value": "Bandar raya / Bandar",
+          "error": "Bandar raya / Bandar tidak sah"
+        },
+        "county": {
+          "value": "Daerah",
+          "error": "Daerah tidak sah",
+          "placeholder": "Pilih atau masukkan daerah"
+        },
+        "postal_code": {
+          "value": "Poskod (opsyenal)",
+          "error": "Poskod Tidak Sah",
+          "placeholder": "Kawasan Dublin atau Eircode"
+        }
+      }
+    },
+    "JP": {
+      "address": {
+        "city": {
+          "value": "Bandar raya",
+          "error": "Bandar raya tidak sah"
+        },
+        "state_province_code": {
+          "value": "Negeri/Wilayah",
+          "error": "Negeri/wilayah tidak sah"
+        },
+        "postal_code": {
+          "value": "Poskod",
+          "error": "Poskod tidak sah"
+        }
+      }
+    },
+    "KW": {
+      "address": {
+        "line1": {
+          "placeholder": "Rumah, Jalan, Blok, Kawasan"
+        },
+        "line2": {
+          "placeholder": "Cth. Kompleks, bangunan"
+        },
+        "city": {
+          "value": "Bandar raya",
+          "error": "Bandar raya tidak sah"
+        },
+        "state_province_code": {
+          "value": "Negeri/Wilayah",
+          "error": "Negeri/wilayah tidak sah"
+        },
+        "postal_code": {
+          "value": "Poskod (opsyenal)",
+          "error": "Poskod tidak sah"
+        }
+      }
+    },
+    "MY": {
+      "address": {
+        "city": {
+          "value": "Bandar raya / Bandar",
+          "error": "Bandar raya / Bandar tidak sah"
+        },
+        "state_province_code": {
+          "value": "Negeri/Wilayah",
+          "error": "Negeri/wilayah tidak sah"
+        },
+        "postal_code": {
+          "value": "Poskod",
+          "error": "Poskod tidak sah"
+        },
+        "line2": {
+          "placeholder": "Pangsapuri, suite, tingkat, dll."
+        }
+      }
+    },
+    "MX": {
+      "address": {
+        "postal_code": {
+          "value": "Poskod",
+          "error": "Poskod tidak sah",
+          "placeholder": "XXXXX"
+        },
+        "street_name": {
+          "value": "Jalan",
+          "error": "Jalan tidak sah"
+        },
+        "street_number": {
+          "value": "No. Luaran",
+          "error": "No. luaran tidak sah"
+        },
+        "additional_location": {
+          "value": "No. Dalaman (opsyenal)",
+          "error": "No. dalaman tidak sah"
+        },
+        "neighborhood": {
+          "value": "Koloni",
+          "error": "Koloni tidak sah"
+        },
+        "county": {
+          "value": "Daerah atau Perbandaran",
+          "error": "Daerah atau perbandaran tidak sah"
+        },
+        "city": {
+          "value": "Bandar raya",
+          "error": "Bandar raya tidak sah"
+        },
+        "state_province_code": {
+          "value": "Negeri",
+          "error": "Negeri tidak sah"
+        },
+        "point_of_reference": {
+          "value": "Titik Rujukan (Opsyenal)",
+          "error": "Titik rujukan tidak sah"
+        }
+      }
+    },
+    "PE": {
+      "address": {
+        "city": {
+          "value": "Bandar raya",
+          "error": "Bandar raya tidak sah"
+        },
+        "state_province_code": {
+          "value": "Negeri/Wilayah",
+          "error": "Negeri/wilayah tidak sah"
+        },
+        "postal_code": {
+          "value": "Poskod",
+          "error": "Poskod tidak sah"
+        },
+        "line2": {
+          "placeholder": "Pangsapuri, suite, tingkat, dll."
+        }
+      }
+    },
+    "PL": {
+      "address": {
+        "street_name": {
+          "value": "Jalan",
+          "error": "Jalan tidak sah"
+        },
+        "street_number": {
+          "value": "Nombor rumah/pangsapuri",
+          "error": "Nombor rumah/pangsapuri tidak sah"
+        },
+        "city": {
+          "value": "Bandar raya",
+          "error": "Bandar raya tidak sah"
+        },
+        "postal_code": {
+          "value": "Poskod",
+          "error": "Poskod Tidak Sah",
+          "placeholder": "XX-XXX"
+        }
+      }
+    },
+    "QA": {
+      "address": {
+        "line1": {
+          "placeholder": "Nombor dan jalan, Apt atau Peti Surat"
+        },
+        "line2": {
+          "placeholder": "Cth. Kompleks, bangunan"
+        },
+        "city": {
+          "value": "Bandar raya",
+          "error": "Bandar raya tidak sah"
+        },
+        "state_province_code": {
+          "value": "Lokaliti/Negeri",
+          "error": "Kampung yang tidak sah / Negeri"
+        },
+        "postal_code": {
+          "value": "Poskod (opsyenal)",
+          "error": "Poskod tidak sah"
+        }
+      }
+    },
+    "NZ": {
+      "address": {
+        "city": {
+          "value": "Bandar raya / Bandar",
+          "error": "Bandar raya / Bandar tidak sah"
+        },
+        "postal_code": {
+          "value": "Poskod",
+          "error": "Poskod tidak sah",
+          "placeholder": "xxxx"
+        },
+        "line2": {
+          "placeholder": "Pangsapuri, suite, tingkat, dll."
+        }
+      }
+    },
+    "SA": {
+      "address": {
+        "line1": {
+          "placeholder": "Nombor dan jalan, Apt atau Peti Surat"
+        },
+        "line2": {
+          "placeholder": "Cth. kompleks, bangunan, dll."
+        },
+        "city": {
+          "value": "Bandar raya",
+          "error": "Bandar raya tidak sah"
+        },
+        "state_province_code": {
+          "value": "Wilayah",
+          "error": "Rantau sah"
+        },
+        "postal_code": {
+          "value": "Poskod (opsyenal)",
+          "error": "Poskod Tidak Sah"
+        }
+      }
+    },
+    "SG": {
+      "address": {
+        "city": {
+          "value": "Bandar raya / Bandar",
+          "error": "Bandar raya / Bandar tidak sah"
+        },
+        "state_province_code": {
+          "value": "Negeri/Wilayah",
+          "error": "Negeri/wilayah tidak sah"
+        },
+        "postal_code": {
+          "value": "Poskod",
+          "error": "Poskod tidak sah"
+        },
+        "line2": {
+          "placeholder": "Pangsapuri, suite, tingkat, dll."
+        }
+      }
+    },
+    "ZA": {
+      "address": {
+        "city": {
+          "value": "Bandar raya",
+          "error": "Bandar raya tidak sah"
+        },
+        "state_province_code": {
+          "value": "Negeri/Wilayah",
+          "error": "Negeri/wilayah tidak sah"
+        },
+        "postal_code": {
+          "value": "Poskod",
+          "error": "Poskod tidak sah"
+        },
+        "line2": {
+          "placeholder": "Pangsapuri, suite, tingkat, dll."
+        }
+      }
+    },
+    "SK": {
+      "address": {
+        "city": {
+          "value": "Bandar raya",
+          "error": "Bandar raya tidak sah"
+        },
+        "state_province_code": {
+          "value": "Negeri/Wilayah",
+          "error": "Negeri/wilayah tidak sah"
+        },
+        "postal_code": {
+          "value": "Poskod",
+          "error": "Poskod tidak sah"
+        }
+      }
+    },
+    "TW": {
+      "address": {
+        "city": {
+          "value": "Bandar raya",
+          "error": "Bandar raya tidak sah"
+        },
+        "state_province_code": {
+          "value": "Negeri/Wilayah",
+          "error": "Negeri/wilayah tidak sah"
+        },
+        "postal_code": {
+          "value": "Poskod",
+          "error": "Poskod tidak sah"
+        }
+      }
+    },
+    "ES": {
+      "address": {
+        "line1": {
+          "placeholder": "Jalan, nombor, tingkat, pintu, dll."
+        },
+        "city": {
+          "value": "Bandar raya",
+          "error": "Bandar raya tidak sah"
+        },
+        "state_province_code": {
+          "value": "Wilayah",
+          "error": "Wilayah tidak sah",
+          "placeholder": "Pilih atau masukkan negara"
+        },
+        "postal_code": {
+          "value": "Poskod",
+          "error": "Poskod tidak sah",
+          "placeholder": "XXXXX"
+        },
+        "line2": {
+          "placeholder": "Pangsapuri, suite, tingkat, dll."
+        }
+      }
+    },
+    "TH": {
+      "address": {
+        "city": {
+          "value": "Bandar raya",
+          "error": "Bandar raya tidak sah"
+        },
+        "state_province_code": {
+          "value": "Negeri/Wilayah",
+          "error": "Negeri/wilayah tidak sah"
+        },
+        "postal_code": {
+          "value": "Poskod",
+          "error": "Poskod tidak sah"
+        }
+      }
+    },
+    "AE": {
+      "address": {
+        "city": {
+          "value": "Bandar raya",
+          "error": "Bandar raya tidak sah"
+        },
+        "state_province_code": {
+          "value": "Negeri/Wilayah",
+          "error": "Negeri/wilayah tidak sah"
+        },
+        "postal_code": {
+          "value": "Poskod",
+          "error": "Poskod tidak sah"
+        },
+        "line2": {
+          "placeholder": "Pangsapuri, suite, tingkat, dll."
+        }
+      }
+    },
+    "GB": {
+      "address": {
+        "city": {
+          "value": "Bandar / Bandar raya",
+          "error": "Bandar / Bandar raya tidak sah"
+        },
+        "postal_code": {
+          "value": "Poskod",
+          "error": "Poskod Tidak Sah",
+          "placeholder": "5-7 aksara"
+        }
+      }
+    },
+    "UA": {
+      "address": {
+        "line1": {
+          "placeholder": "Jalan"
+        },
+        "line2": {
+          "placeholder": "Jalan, rumah, flat"
+        },
+        "line3": {
+          "value": "Baris Alamat 3 (opsyenal)",
+          "error": "Baris Alamat 3 (opsyenal)",
+          "placeholder": "Daerah"
+        },
+        "city": {
+          "value": "Bandar raya",
+          "error": "Bandar raya tidak sah"
+        },
+        "state_province_code": {
+          "value": "Wilayah",
+          "error": "Rantau sah"
+        },
+        "postal_code": {
+          "value": "Poskod",
+          "error": "Poskod tidak sah"
+        }
+      }
+    },
+    "US": {
+      "address": {
+        "city": {
+          "value": "Bandar raya",
+          "error": "Bandar raya tidak sah"
+        },
+        "state_province_code": {
+          "value": "Negeri",
+          "error": "Negeri tidak sah",
+          "placeholder": "XX"
+        },
+        "postal_code": {
+          "value": "Kod Zip",
+          "error": "Kod zip tidak sah",
+          "placeholder": "XXXXX"
+        },
+        "line1": {
+          "value": "Baris Alamat 1",
+          "error": "Baris Alamat 1 (opsyenal)"
+        },
+        "line2": {
+          "placeholder": "Pangsapuri, suite, tingkat, dll."
+        }
+      }
+    },
+    "UK": {
+      "address": {
+        "line2": {
+          "placeholder": "Pangsapuri, suite, tingkat, dll."
+        }
+      }
+    }
+  },
+  "loading": {
+    "address_list_ally": "Sila tunggu sewaktu memuat alamat anda.",
+    "card_list_ally": "Sila tunggu semasa kad anda dimuatkan.",
+    "welcome_ally": "Sila tunggu untuk Pemeriksaan Visa untuk dimuatkan."
+  },
+  "locale": {
+    "country": {
+      "Argentina": "Argentina",
+      "Australia": "Australia",
+      "Brazil": "Brazil",
+      "Canada": "Kanada",
+      "Chile": "Chile",
+      "China": "Tanah Besar China",
+      "Colombia": "Colombia",
+      "DominicanRepublic": "Republik Dominican",
+      "France": "Perancis",
+      "Gibraltar": "Gibraltar",
+      "Guatemala": "Guatemala",
+      "HongKong": "Hong Kong",
+      "India": "India",
+      "Ireland": "Ireland",
+      "Japan": "Jepun",
+      "Kuwait": "Kuwait",
+      "Malaysia": "Malaysia",
+      "Mexico": "Mexico",
+      "NewZealand": "New Zealand",
+      "Peru": "Peru",
+      "Poland": "Poland",
+      "Qatar": "Qatar",
+      "SaudiArabia": "Arab Saudi",
+      "Singapore": "Singapura",
+      "SouthAfrica": "Afrika Selatan",
+      "SouthKorea": "Korea Selatan",
+      "Spain": "Sepanyol",
+      "Taiwan": "Taiwan",
+      "Thailand": "Thailand",
+      "UAE": "Emiriah Arab Bersatu",
+      "USA": "Amerika Syarikat",
+      "Ukraine": "Ukraine",
+      "UnitedKingdom": "United Kingdom",
+      "Germany": "Jerman",
+      "Switzerland": "Switzerland",
+      "Austria": "Austria",
+      "Italy": "Italy",
+      "Portugal": "Portugal",
+      "Norway": "Norway",
+      "Sweden": "Sweden",
+      "Finland": "Finland",
+      "Denmark": "Denmark",
+      "CzechRepublic": "Republik Czech",
+      "Hungary": "Hungary",
+      "Slovakia": "Slovakia",
+      "Netherlands": "Belanda",
+      "Ecuador": "Ecuador",
+      "ElSalvador": "El Salvador",
+      "CostaRica": "Costa rica",
+      "Panama": "Panama",
+      "Paraguay": "Paraguay",
+      "Uruguay": "Uruguay",
+      "Nicaragua": "Nicaragua",
+      "Honduras": "Honduras",
+      "Jordan": "Jordan"
+    }
+  },
+  "locked": {
+    "cta": {
+      "return_to_merchant": "Kembali ke",
+      "try_another_card": "Try Another Card"
+    },
+    "account": {
+      "header_top": "Security alert",
+      "header_bottom": "Too many failed attempts",
+      "description": "Your Visa cards will be temporarily unavailable. Please try again later or use another card."
+    },
+    "device": {
+      "header": "We've detected a problem",
+      "description": "For your security, we can't add your Visa card at this time. Please try again later or use another card."
+    }
+  },
+  "login": {
+    "did_you": "Adakah anda"
+  },
+  "merchant": {
+    "name": "__merchantName__"
+  },
+  "mini": {
+    "error_message": {
+      "p1": "Maaf, kelihatan seperti sesuatu yang tidak kena.",
+      "p2": "Untuk meneruskan, sila log masuk ke akaun Visa Checkout anda."
+    }
+  },
+  "non_roman": {
+    "content": "Anda mesti gunakan __ACTION__ Visa Checkout tidak membenarkan sebarang aksara lain digunakan buat masa ini.",
+    "content_bold": "Aksara rumi sahaja",
+    "cta_text": "Sah dan Teruskan",
+    "header": "Sila Sahkan"
+  },
+  "otp": {
+    "verify": {
+      "resend_code_link": "Hantar semula kod",
+      "cta_text": "Teruskan",
+      "description": "Masukkan kod satu kali yang dihantar kepada",
+      "header": "Selamat kembali!",
+      "input_label": "Kod",
+      "invalid_input_label": "Kod tidak sah",
+      "remember_me": {
+        "checkbox": {
+          "label_p1": "Ingat saya pada peranti ini",
+          "label_p2": "Tidak disarankan untuk peranti dikongsi."
+        },
+        "learn_more": {
+          "eu": "Help us remember you by saving your email or mobile number. Now, every time you check out, we'll remember you and your favorite cards on this device. Simply enter a one-time code or your password when signing in.",
+          "p1": "Help us remember you by saving your email or mobile number. Now, every time you check out, we'll remember you and your favorite cards on this device. Simply enter a one-time code or your password when signing in.",
+          "p2": "Visa Checkout akan memaparkan reka bentuk kad kredit atau debit anda, memberi anda pengalaman membeli-belah yang lebih peribadi.",
+          "p2_IR": "Visa Checkout akan memaparkan reka bentuk kad debit atau kredit anda, memberi anda pengalaman membeli-belah yang lebih peribadi."
+        },
+        "close_a11y": "Tutup panel ketahui selanjutnya",
+        "open_a11y": "Ketahui selanjutnya"
+      },
+      "use_password_link": "GUNAKAN KATA LALUAN SAYA",
+      "resend_link": "Hantar semula kod"
+    },
+    "provider": {
+      "description": "Masukkan kod satu masa __provider__ dihantar ke",
+      "description_email": "Masukkan kod satu masa ____provider____ dihantar ke",
+      "description_text": "Masukkan kod satu masa ____provider____ dihantar ke"
+    },
+    "not_you": {
+      "not_you_a11y": "Kembali jika ini bukan anda",
+      "left_paren": "(",
+      "link_text": "Bukan anda?",
+      "right_paren": ")"
+    },
+    "errors": {
+      "expired_resend": "Kod ini telah luput. Sila klik 'Hantar Semula' untuk dapatkan kod baharu.",
+      "invalid": "Maaf, kami tidak dapat mengesahkan kod anda.",
+      "invalid_code": "Maaf, kod yang anda masukkan itu salah.",
+      "retries_exceeded": "Too many failed one-time code entry attempts. Try another card.",
+      "account_inaccessible": "We can't access your saved info at this time. Enter card details to continue.",
+      "generic_error": "Sorry, we couldn't process your request. Please try resending a code."
+    },
+    "notifications": {
+      "resend": "Another code was sent to __name__",
+      "sent": "Kod dihantar ke __name__",
+      "resend_email": "Satu lagi e-mel telah dihantar kepada __name__",
+      "resend_text": "Another text was sent to __name__",
+      "sms_email_resend": "The one-time code has been resent"
+    },
+    "step_up": {
+      "cta_text": "Sahkan",
+      "header": "Untuk keselamatan anda, masukkan semula kata laluan anda.",
+      "password": {
+        "a11y": {
+          "enter": "Masukkan kata laluan selamat Visa Checkout anda untuk nama pengguna __username__",
+          "hide": "Sembunyikan aksara kata laluan",
+          "show": "Tunjukkan aksara kata laluan"
+        },
+        "forgot_link": "Lupa?",
+        "hide": "Sembunyi",
+        "input_label": "Kata Laluan",
+        "invalid_input_label": "Kata laluan tidak sah",
+        "show": "Tunjuk"
+      }
+    },
+    "step_up_otp": {
+      "cancel": "Batal"
+    },
+    "validation_channel": {
+      "sms_email_a11y": "__phone__ and __email__"
+    }
+  },
+  "otp_card_entry": {
+    "description": "Sepertinya anda telah menggunakan e-mel ini sebelum ini. Sila masukkan kod satu masa __provider__ dihantar ke e-mel anda supaya kami tahu ia adalah anda."
+  },
+  "page": {
+    "cancel_and_return": "Batalkan dan kembali ke __merchantName__",
+    "change": "Tukar",
+    "merchant_name_default": "peniaga"
+  },
+  "prefill_consent": {
+    "header": "Selamat datang ke cara yang lebih mudah untuk membayar dalam talian.",
+    "description": "__merchantName__",
+    "more_info_a11y": "Klik untuk maklumat lanjut.",
+    "more_info": "Maklumat Lanjut",
+    "more_info_content": "Information that __merchantName__ may share with Visa's online checkout experience includes first and last name, phone number, and email address",
+    "cta": "Isi maklumat saya",
+    "cancel": "Tidak. Terima kasih",
+    "errors": {
+      "no_merchant_data": "Sorry, __merchantName__ couldn’t prefill your info. But, you can still continue with Visa's online checkout experience."
+    },
+    "disclaimer": "By clicking “Prefill my info”, you consent to __merchantName__ passing your first and last name, phone number and email address to Visa online checkout and __privacyPolicy__.",
+    "privacy_policy": "Notis privasi"
+  },
+  "sdklite": {
+    "accessibility": {
+      "button": "Click to pay with payment icon",
+      "locked_button": "Payment service by Visa. Unavailable.",
+      "spinner": "Memuatkan",
+      "spinner_close": "Cancel and return to merchant",
+      "fingerprint_icon": "Fingerprint icon"
+    },
+    "logging": {
+      "lock_reason": "Disabling button because this environment is not supported, please try a newer OS.",
+      "not_initialized": "The SDK has not yet been initialized.",
+      "no_network": "There is no network connection so payment info was not updated.",
+      "already_launched": "The checkout flow has already been launched.",
+      "invalid_params": "Parameters are invalid or nil.",
+      "internal_error": "Visa Checkout had an internal error and can't complete the request.",
+      "corr_id_session": "CorrelationID for this session is __correlationid__",
+      "api_check": "Devices running on API level __apilevel__ and above can use Visa Checkout functionality.",
+      "objc_bridge_warning": "Warning -- Objective-C cannot bridge the array values being set on __property__, please use the .rawValue property on the __enum__ enum."
+    },
+    "ui": {
+      "biometric_signin": "Daftar masuk",
+      "biometric_cancel": "Batal",
+      "fingerprint_recognized": "Fingerprint recognized",
+      "fingerprint_unrecognized": "Fingerprint not recognized. Try again",
+      "fingerprint_continue": "Confirm fingerprint to continue",
+      "fingerprint_confirm": "Sahkan cap jari anda sekarang?",
+      "touch_sensor": "Touch sensor"
+    }
+  },
+  "service_unavailable": {
+    "header": "Perkhidmatan tidak tersedia",
+    "primary_cta_text": "Daftar masuk",
+    "secondary_cta_text": "Tutup",
+    "subtext": "Kami mohon maaf, sesuatu tidak dijangka telah berlaku dan sesi anda telah ditamatkan. Sila daftar masuk semula."
+  },
+  "session": {
+    "expired": {
+      "header": "Sesi anda telah luput",
+      "message": "Untuk keselamatan anda, sesi anda telah tamat tempoh kerana tidak aktif. Untuk meneruskan, sila masukkan alamat e-mel anda pada skrin selamat datang sekali lagi.",
+      "primary_cta_alt_text": "Pergi ke Daftar Masuk",
+      "primary_cta_text": "Teruskan",
+      "secondary_cta_text": "Tutup"
+    },
+    "warning_modal": {
+      "header": "Sesi anda hampir luput.",
+      "message": "Pilih bagaimana anda ingin teruskan di bawah.",
+      "primary_cta_text": "Teruskan Sesi",
+      "secondary_cta_text": "Tutup"
+    }
+  },
+  "src_app": {
+    "a11y": {
+      "description": "Click to Pay"
+    }
+  },
+  "tell_me_more": {
+    "disabled": {
+      "header": "Visa Checkout telah berpindah ke Klik untuk Bayar __srcIcon__",
+      "intro": "Visa Checkout tidak tersedia di halaman pembayaran pedagang ini.",
+      "intro_pt_2": "Harap gunakan kaedah pembayaran alternatif yang ditawarkan oleh peniaga ini untuk sementara waktu."
+    },
+    "legacy": {
+      "close": "Tutup",
+      "close_aria_label": "Tutup lapisan maklumat Visa Checkout",
+      "create_action": "Cipta akaun Visa Checkout",
+      "feature_list_1": "Percepatkan pembayaran dengan daftar masuk tunggal",
+      "feature_list_2": "Gunakan mana-mana kad kredit atau debit utama",
+      "feature_list_3": "Daripada Visa, syarikat yang anda kenali dan percaya",
+      "feature_list_4_1": "Dan ianya",
+      "feature_list_4_2": "PERCUMA!",
+      "intro": "Cipta akaun sekali sahaja. Anda tidak perlu memasukkan semula maklumat kad dan alamat di mana sahaja anda melihat Visa Checkout.",
+      "login_action": "Daftar Masuk ke Akaun Visa Checkout anda",
+      "logo_alt": "Ketahui selanjutnya tentang Visa Checkout",
+      "title": "Beritahu saya lebih lanjut"
+    },
+    "src": {
+      "close": "Tutup",
+      "close_aria_label": "Tutup lapisan maklumat Visa Checkout",
+      "create_action": "Daftar",
+      "feature_list_1": "Lihat dengan lebih sedikit klik - borang yang lebih panjang atau kata laluan yang tidak diingati.",
+      "feature_list_2": "Cukup masukkan maklumat kad sekali - tidak perlu memasukkan maklumat anda setiap kali anda membuat pembayaran.",
+      "feature_list_3": "Cari ikon Klik untuk Bayar __srcIcon__ di beratus-ratus ribu peruncit dalam talian - akses maklumat anda dengan selamat ke pembayaran.",
+      "feature_list_4": "Anda juga boleh memilih untuk dikenang pada peranti dan penyemak imbas anda untuk pembayaran lebih cepat.",
+      "header": "Klik untuk membayar dengan __srcIcon__",
+      "intro": "Pada masa ini, Klik untuk Membayar tidak tersedia dengan pedagang ini di halaman pembayaran ini. Pengalaman klik untuk membayar dibina berdasarkan standard keselamatan industri untuk transaksi dalam talian. Untuk pembayaran yang mudah dan pintar, bayar di mana sahaja anda melihat ikon Klik untuk Bayar __srcIcon__  dan kad anda diterima. Ia senang digunakan.",
+      "login_action": "Masuk atau Pergi ke Profil Saya",
+      "logo_alt": "Ketahui selanjutnya tentang Visa Checkout"
+    }
+  },
+  "user_info": {
+    "menu_ally": "__name__ Akaun",
+    "sign_out": "Daftar keluar",
+    "sign_out_a11y": "Log keluar __user__"
+  },
+  "vco_component_add_card": {
+    "first_name": {
+      "label": "Nama Pertama",
+      "label_a11y": "Masukkan nama pertama anda di sini.",
+      "invalid_first_name": "Nama pertama tidak sah"
+    },
+    "last_name": {
+      "label": "Nama Akhir",
+      "label_a11y": "Masukkan nama terakhir anda di sini.",
+      "invalid_last_name": "Nama akhir tidak sah"
+    }
+  },
+  "vco-component-identification": {
+    "email_label_a11y": "Sila masukkan alamat e-mel anda."
+  },
+  "welcome": {
+    "a11y": {
+      "cta": "Teruskan mengguna Visa Checkout",
+      "page_title": "Visa Checkout - Cara lebih mudah untuk membayar dalam talian"
+    },
+    "cta_text": "Teruskan",
+    "description": "Masukkan alamat e-mel anda untuk bermula.",
+    "header": "Selamat datang ke cara yang lebih mudah untuk membayar dalam talian.",
+    "input_label": "Alamat E-mel",
+    "invalid_input_label": "Alamat e-mel tidak sah",
+    "errors": {
+      "lockout": "We can’t access your saved info at this time. Enter card details to continue.",
+      "lookup_unavailable": "Lookup tidak boleh digunakan untuk alamat e-mel anda. Sila masukkan maklumat anda agar dapat meneruskan."
+    },
+    "create_account": {
+      "new_user": "Looks like you are new to Click to Pay. To get started, enter your card info.",
+      "cta": "Teruskan",
+      "tab": {
+        "label_a11y": "Tab baru dipilih. Pilih \"Kembali\" untuk memasukkan alamat e-mel anda yang disimpan.",
+        "label": "Baru"
+      },
+      "legal_info": "Maklumat anda akan dikongsi dengan rangkaian pembayaran yang mengambil bahagian dan penyedia perkhidmatan untuk memberi anda pengalaman yang sesuai."
+    },
+    "sign_in": {
+      "tab": {
+        "label": "Kembali",
+        "label_a11y": "Tab \"Kembali\" dipilih. Pilih \"Baru\" untuk memasukkan maklumat kad anda."
+      },
+      "cta": "Teruskan",
+      "legal_info": "By entering your email, you give participating payment networks access to your information."
+    },
+    "src": {
+      "create_account": {
+        "new_user": "Looks like you're new. Activate your credit or debit card by entering details below."
+      },
+      "cta": {
+        "message": {
+          "new_user": "Your information will be shared with participating payment networks, service providers and as otherwise described in our __privacyNotice__ to give you the appropriate experience.",
+          "returning_user": "By continuing, you agree to Visa's __privacyNotice__."
+        }
+      },
+      "legal": {
+        "privacy_notice": "Notis privasi",
+        "terms": "Terma Perkhidmatan"
+      },
+      "header": "Easy and smart online checkout",
+      "we_accept": "We accept",
+      "errors": {
+        "lockout": "We can't access your saved info at this time. Enter card details to continue."
+      },
+      "sub_heading": {
+        "new": "Bayar dengan yakin dengan Klik untuk Bayar",
+        "returning": "Bayar dengan yakin dengan Klik untuk Bayar"
+      }
+    }
+  }
+}

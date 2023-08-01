@@ -1,0 +1,1593 @@
+{
+  "accepted_cards": {
+    "a11y": {
+      "cards_accepted": "'A következőket fogadjuk el: __cards__'"
+    }
+  },
+  "account_locked": {
+    "customer_support_link": "Kapcsolatfelvétel az ügyfélszolgálattal",
+    "description": "Kérjük, próbálja meg újra később, vagy a folytatáshoz adja meg a kártyaadatokat az üdvözlő képernyőn.",
+    "header": "Ideiglenesen kizárásra került",
+    "notifications": {
+      "unable_to_confirm": "Nem sikerült megerősítenünk a kódot."
+    },
+    "primary_cta_text": "Vásárlás folytatása",
+    "secondary_cta_text": "Kártya megadása"
+  },
+  "add_card": {
+    "cancel": "Mégsem",
+    "header": "Kártya hozzáadása",
+    "submit": "Folytatás",
+    "errors": {
+      "try_again": "Nem sikerült feldolgozni a kérését. Kérjük, próbálja meg újra.",
+      "generic_error": "Sajnos hiba történt. Próbálkozzon másik kártyával, vagy próbálja meg újra később."
+    },
+    "single_card_deleted": "A kártya törlése sikeresen megtörtént.",
+    "src": {
+      "sub_heading": "Állítsa be a kártyáját a Click to Pay szolgáltatáshoz"
+    }
+  },
+  "card_list": {
+    "add": "Új kártya",
+    "add_a11y": "Új kártya hozzáadása.",
+    "card_a11y": "__network__ __type__ ending in __lastFour__.",
+    "credit": "Hitel",
+    "debit": "Betéti",
+    "header": "Kártya kiválasztása",
+    "errors": {
+      "api_error": "Sajnos hiba történt. Próbálkozzon másik kártyával, vagy próbálja meg újra később.",
+      "cardid_missing_one_card": "Nem lehet folytatni ezzel a kártyával. Kérjük, adjon hozzá egy új kártyát.",
+      "cardid_missing_mult_cards": "Nem lehet folytatni ezzel a kártyával. Kérjük, próbálkozzon másikkal."
+    },
+    "notifications": {
+      "deleted": "A kártya törlése sikeresen megtörtént."
+    },
+    "electron": "Electron (betéti)",
+    "prepaid": "Előre fizetett",
+    "src": {
+      "sub_heading": "Válasszon a Click to Pay szolgáltatáshoz beállított kártyák közül"
+    }
+  },
+  "cardBrands": {
+    "amex": "American Express",
+    "discover": "Discover",
+    "elo": "Elo",
+    "mastercard": "Mastercard",
+    "visa": "Visa",
+    "electron": "Visa Electron",
+    "maestro": "Maestro"
+  },
+  "component_addr_disp": {
+    "masked_address_message": "Biztonsági okokból maszkolva van"
+  },
+  "component_addr_list": {
+    "address": "Cím"
+  },
+  "component_card_number": {
+    "brands": {
+      "amex": "American Express",
+      "discover": "Discover",
+      "electron": "Electron",
+      "elo": "Elo",
+      "mastercard": "Mastercard",
+      "visa": "Visa",
+      "maestro": "Maestro"
+    },
+    "enter_card": "Adja meg itt a kártyaszámot.",
+    "invalid": "Érvénytelen",
+    "label": "Kártyaszám",
+    "label_error": "kártyaszám",
+    "not_accepted": "Nem elfogadott",
+    "placeholder": "15–16 számjegy",
+    "card_brand_entered": "__cardBrand__ kártya megadva"
+  },
+  "component_combobox": {
+    "aria": {
+      "filters": "szűrés gépelés közben",
+      "item": "elem",
+      "items": "elemek",
+      "of": "/",
+      "selected": "kiválasztva"
+    },
+    "country": {
+      "error": "Érvénytelen ország",
+      "label": "Ország/régió",
+      "placeholder": "Válasszon ki vagy adjon meg egy országot"
+    },
+    "dial_code": {
+      "error": "Érvénytelen ország",
+      "placeholder": "Válasszon ki vagy adjon meg egy országot"
+    },
+    "no_match_message": "Nincs a megadottaknak megfelelő találat. Kérjük, módosítsa a bevitelt.",
+    "phone": {
+      "label": "Telefonszám (kötelező)",
+      "placeholder": "Telefonszám (kötelező)"
+    }
+  },
+  "component_cvv": {
+    "label": {
+      "error": "Érvénytelen biztonsági kód",
+      "name": "Biztonsági kód"
+    },
+    "enter_code": "Adja meg itt a kártya biztonsági kódját.",
+    "amex_helper": "A kártya hátoldalán található 4 számjegyű kód.",
+    "non_amex_helper": "A kártya hátoldalán található 3 számjegyű kód."
+  },
+  "component_exp_date": {
+    "label": {
+      "description": "HH/ÉÉ formátumként gépelés közben",
+      "error": "Érvénytelen dátum",
+      "name": "Lejárat",
+      "labelled_by": "HH/ÉÉ lejárati dátumként gépelés közben"
+    },
+    "placeholder": "HH/ÉÉ"
+  },
+  "component_notification": {
+    "CLOSE": "Értesítés bezárása",
+    "error": "Hibaértesítés",
+    "info": "Információs értesítés",
+    "lower_environment_warning": "NEM FOGYASZTÓI FELHASZNÁLÁSRA! – ${env} __env__",
+    "success": "Értesítés sikeres műveletről",
+    "warning": "Figyelmeztető értesítés"
+  },
+  "component_phone_input": {
+    "phone_number_field": {
+      "ariaLabel": "Mobiltelefonszám. Erre a számra egyszeri kódot küldhetünk annak ellenőrzésére, hogy valóban ön az. A telefonszolgáltató adatforgalmi és üzenetdíjakat számíthat fel.",
+      "error": "Érvénytelen mobiltelefonszám",
+      "label": "Telefonszám (kötelező)"
+    },
+    "dial_code": {
+      "error": "Érvénytelen ország",
+      "label": "Ország",
+      "placeholder": "Válasszon ki vagy adjon meg egy országot",
+      "toggle_button_aria_label": ", országkód-választó"
+    },
+    "no_match_message": "Nincs a megadottaknak megfelelő találat. Kérjük, módosítsa a bevitelt."
+  },
+  "cookie_banner": {
+    "a11y": {
+      "close_button": "Értesítés bezárása"
+    },
+    "link_text": "A cookie-k ellenőrzése/elutasítása.",
+    "message": "Cookie-kat használunk a biztonság megőrzése, a webhelyélmény jobbá tétele, a webhelyeink felkereséseinek mérése és a Visa marketinges tevékenységeinek lehetővé tétele érdekében. __CookiePolicyLink__",
+    "ok_button": "Elfogadás"
+  },
+  "country_map": {
+    "AF": "Afganisztán",
+    "AL": "Albánia",
+    "DZ": "Algéria",
+    "AS": "Amerikai Szamoa",
+    "AD": "Andorra",
+    "AO": "Angola",
+    "AI": "Anguilla",
+    "AG": "Antigua és Barbuda",
+    "AR": "Argentína",
+    "AM": "Örményország",
+    "AW": "Aruba",
+    "AU": "Ausztrália",
+    "AT": "Ausztria",
+    "AZ": "Azerbajdzsán",
+    "BS": "Bahama-szigetek",
+    "BH": "Bahrein",
+    "BD": "Banglades",
+    "BB": "Barbados",
+    "BY": "Fehéroroszország",
+    "BE": "Belgium",
+    "BZ": "Belize",
+    "BJ": "Benin",
+    "BM": "Bermuda",
+    "BT": "Bhután",
+    "BO": "Bolívia",
+    "BA": "Bosznia-Hercegovina",
+    "BW": "Botswana",
+    "BR": "Brazília",
+    "IO": "Brit Indiai-óceáni Terület",
+    "VG": "Brit Virgin-szigetek",
+    "BN": "Brunei",
+    "BG": "Bulgária",
+    "BF": "Burkina Faso",
+    "BI": "Burundi",
+    "KH": "Kambodzsa",
+    "CM": "Kamerun",
+    "CA": "Kanada",
+    "CV": "Zöld-foki Köztársaság",
+    "BQ": "Karibi Hollandia",
+    "KY": "Kajmán-szigetek",
+    "CF": "Közép-afrikai Köztársaság",
+    "TD": "Csád",
+    "CL": "Chile",
+    "CN": "Kontinentális Kína",
+    "CO": "Kolumbia",
+    "KM": "Comore-szigetek",
+    "CD": "Kongó (KDK)",
+    "CG": "Kongói Köztársaság",
+    "CK": "Cook-szigetek",
+    "CR": "Costa Rica",
+    "CI": "Elefántcsontpart",
+    "HR": "Horvátország",
+    "CU": "Kuba",
+    "CW": "Curaçao",
+    "CY": "Ciprus",
+    "CZ": "Cseh Köztársaság",
+    "DK": "Dánia",
+    "DJ": "Dzsibuti",
+    "DM": "Dominikai Közösség",
+    "DO": "Dominikai Köztársaság",
+    "EC": "Ecuador",
+    "EG": "Egyiptom",
+    "SV": "Salvador",
+    "GQ": "Egyenlítői-Guinea",
+    "ER": "Eritrea",
+    "ES": "Spanyolország",
+    "ET": "Etiópia",
+    "FK": "Falkland-szigetek",
+    "FO": "Feröer",
+    "FJ": "Fidzsi-szigetek",
+    "FI": "Finnország",
+    "FR": "Franciaország",
+    "GF": "Francia Guyana",
+    "PF": "Francia Polinézia",
+    "GA": "Gabon",
+    "GM": "Gambia",
+    "GE": "Grúzia",
+    "DE": "Németország",
+    "GH": "Ghána",
+    "GI": "Gibraltár",
+    "GR": "Görögország",
+    "GL": "Grönland",
+    "GD": "Grenada",
+    "GP": "Guadalupe",
+    "GU": "Guam",
+    "GT": "Guatemala",
+    "GN": "Guinea",
+    "GW": "Bissau-Guinea",
+    "GY": "Guyana",
+    "HT": "Haiti",
+    "HN": "Honduras",
+    "HK": "Hongkong",
+    "HU": "Magyarország",
+    "IS": "Izland",
+    "IN": "India",
+    "ID": "Indonézia",
+    "IR": "Irán",
+    "IQ": "Irak",
+    "IE": "Írország",
+    "IL": "Izrael",
+    "IT": "Olaszország",
+    "JM": "Jamaica",
+    "JP": "Japán",
+    "JO": "Jordánia",
+    "KZ": "Kazahsztán",
+    "KE": "Kenya",
+    "KI": "Kiribati",
+    "KW": "Kuvait",
+    "KG": "Kirgizisztán",
+    "LA": "Laosz",
+    "LV": "Lettország",
+    "LB": "Libanon",
+    "LS": "Lesotho",
+    "LR": "Libéria",
+    "LY": "Líbia",
+    "LI": "Liechtenstein",
+    "LT": "Litvánia",
+    "LU": "Luxemburg",
+    "MO": "Makaó",
+    "MK": "Macedónia",
+    "MG": "Madagaszkár",
+    "MW": "Malawi",
+    "MY": "Malajzia",
+    "MV": "Maldív-szigetek",
+    "ML": "Mali",
+    "MT": "Málta",
+    "MH": "Marshall-szigetek",
+    "MQ": "Martinique",
+    "MR": "Mauritánia",
+    "MU": "Mauritius",
+    "MX": "Mexikó",
+    "FM": "Mikronézia",
+    "MD": "Moldova",
+    "MC": "Monaco",
+    "MN": "Mongólia",
+    "ME": "Montenegró",
+    "MS": "Montserrat",
+    "MA": "Marokkó",
+    "MZ": "Mozambik",
+    "MM": "Mianmar",
+    "NA": "Namíbia",
+    "NR": "Nauru",
+    "NP": "Nepál",
+    "NL": "Hollandia",
+    "NC": "Új-Kaledónia",
+    "NZ": "Új-Zéland",
+    "NI": "Nicaragua",
+    "NE": "Niger",
+    "NG": "Nigéria",
+    "NU": "Niue",
+    "NF": "Norfolk-sziget",
+    "KP": "Észak-Korea",
+    "MP": "Északi-Mariana-szigetek",
+    "NO": "Norvégia",
+    "OM": "Omán",
+    "PK": "Pakisztán",
+    "PW": "Palau",
+    "PS": "Palesztina",
+    "PA": "Panama",
+    "PG": "Pápua Új-Guinea",
+    "PY": "Paraguay",
+    "PE": "Peru",
+    "PH": "Fülöp-szigetek",
+    "PL": "Lengyelország",
+    "PT": "Portugália",
+    "PR": "Puerto Rico",
+    "QA": "Katar",
+    "RE": "Réunion",
+    "RO": "Románia",
+    "RU": "Oroszország",
+    "RW": "Ruanda",
+    "BL": "Saint-Barthélemy",
+    "SH": "Szent Ilona",
+    "KN": "Saint Kitts és Nevis",
+    "LC": "Saint Lucia",
+    "MF": "Szent Márton-sziget",
+    "PM": "Saint-Pierre és Miquelon",
+    "VC": "Saint Vincent és a Grenadine-szigetek",
+    "WS": "Szamoa",
+    "SM": "San Marino",
+    "ST": "São Tomé és Príncipe",
+    "SA": "Szaúd-Arábia",
+    "SN": "Szenegál",
+    "RS": "Szerbia",
+    "SC": "Seychelle-szigetek",
+    "SL": "Sierra Leone",
+    "SG": "Szingapúr",
+    "SX": "Sint Maarten",
+    "SK": "Szlovákia",
+    "SI": "Szlovénia",
+    "SB": "Salamon-szigetek",
+    "SO": "Szomália",
+    "ZA": "Dél-Afrika",
+    "KR": "Dél-Korea",
+    "SS": "Dél-Szudán",
+    "LK": "Srí Lanka",
+    "SD": "Szudán",
+    "SR": "Surivalue",
+    "SZ": "Szváziföld",
+    "SE": "Svédország",
+    "CH": "Svájc",
+    "SY": "Szíria",
+    "TW": "Tajvan",
+    "TJ": "Tadzsikisztán",
+    "TZ": "Tanzánia",
+    "TH": "Thaiföld",
+    "TL": "Kelet-Timor",
+    "TG": "Togo",
+    "TK": "Tokelau-szigetek",
+    "TO": "Tonga",
+    "TT": "Trinidad és Tobago",
+    "TN": "Tunézia",
+    "TR": "Törökország",
+    "TM": "Türkmenisztán",
+    "TC": "Turks- és Caicos-szigetek",
+    "TV": "Tuvalu",
+    "VI": "Amerikai Virgin-szigetek",
+    "UG": "Uganda",
+    "GB": "Egyesült Királyság",
+    "US": "Amerikai Egyesült Államok",
+    "UZ": "Üzbegisztán",
+    "VU": "Vanuatu",
+    "VA": "Vatikán",
+    "VE": "Venezuela",
+    "VN": "Vietnám",
+    "WF": "Wallis és Futuna",
+    "YE": "Jemen",
+    "ZM": "Zambia",
+    "ZW": "Zimbabwe",
+    "AE": "Egyesült Arab Emírségek",
+    "UA": "Ukrajna",
+    "UY": "Uruguay",
+    "EE": "Észtország",
+    "UM": "Az Amerikai Egyesült Államok lakatlan külbirtokai",
+    "XK": "Koszovó"
+  },
+  "cvv_learn_more": {
+    "learn_more": {
+      "close_ally": "Zárja be a „További információ” panelt.",
+      "content": "A kártya hátoldalán található 3 számjegyű kód.",
+      "content_amex": "A kártya hátoldalán található 4 számjegyű kód.",
+      "open_ally": "További információ a biztonsági kódról.",
+      "title": "Biztonsági kód"
+    }
+  },
+  "device_locked": {
+    "description": "Kérjük, próbálja meg újra később, vagy használjon másik eszközt."
+  },
+  "errors": {
+    "validation": {
+      "card": {
+        "card_cant_be_used": "Ez a kártya nem használható. Próbálkozzon másikkal.",
+        "unsupported_billing_address": "Ez a kereskedő nem fogadja el a számlázási cím országát.",
+        "unsupported_billing_address_country": "Ez a kereskedő nem fogadja a számlázási címeket a következő országban: __country__.",
+        "unsupported_shipping_address": "Ez a kereskedő nem szállít a cím szerinti országba.",
+        "card_expired": "Ez a kártya lejárt.",
+        "merchant_unsupported_card_brand": "Ez a kereskedő nem fogadja el a következőt: __cardBrand__.",
+        "card_failed_threeds": "A pénzintézete nem tudta hitelesíteni ezt a kártyát.",
+        "partial_billing_address": "Kérjük, módosítsa a kártya számlázási címét, hogy fizethessen ennél a kereskedőnél.",
+        "unsupported_canadian_card": "Ez a kereskedő nem fogadja el ezt a kártyát.",
+        "unaccepted_card_brand": "Ez a kereskedő nem fogadja el a következőt: __cardBrandX__. A folytatáshoz a következőt kell használnia: __cardBrandY__.",
+        "card_not_verified": "A kártya használatához meg kell adni további adatokat.",
+        "merchant_unsupported_card_brand_type": "Ez a kereskedő nem fogadja el a következőt: __cardBrand__ __cardType__.",
+        "generic_error": "Ez a kártya nem használható. Próbálkozzon másikkal"
+      },
+      "unbind": "Sajnos hiba történt. Nem sikerült teljesen kijelentkeztetnünk",
+      "password": {
+        "has_consecutive_chars": "Érvénytelen jelszó",
+        "has_consecutive_chars_page": "Nem adhat meg egymás után 3 egyező karaktert a jelszóban.",
+        "has_spaces": "Érvénytelen jelszó",
+        "has_spaces_page": "A jelszó nem tartalmazható szóközt.",
+        "has_unsupported": "Érvénytelen jelszó",
+        "has_unsupported_page": "Csak betűket, számokat vagy ! @ # $ % & * ? * karaktert használhat a Visa Checkout-jelszóban.",
+        "has_username": "Érvénytelen jelszó",
+        "has_username_page": "A jelszava nem tartalmazhatja az e-mail-címe vagy a mobiltelefonszáma részletét.",
+        "same_as_previous": "Érvénytelen jelszó",
+        "same_as_previous_page": "Az új jelszava nem egyezhet az előző jelszóval. Kérjük, adjon meg másik jelszót.",
+        "too_long": "Érvénytelen jelszó",
+        "too_long_page": "A jelszó legfeljebb 32 karakterből állhat.",
+        "too_short": "Érvénytelen jelszó",
+        "too_short_page": "A jelszóhoz legalább 6 karaktert meg kell adni."
+      },
+      "add_card": {
+        "all_fields_empty": "Kérjük, a folytatáshoz adja meg a kártya adatait.",
+        "unaccepted_card_brand": "Ez a kártya jelenleg nem érhető el a Click to Pay szolgáltatásban. Kérjük, használjon másik kártyát, vagy térjen vissza a kereskedőhöz.",
+        "incomplete_card_number": "Kérjük, a folytatáshoz adjon meg érvényes kártyaszámot.",
+        "past_expiry_date": "Régi lejárati dátumot adott meg. Kérjük, próbálja meg újra.",
+        "future_expiry_date": "Helytelen lejárati dátumot adott meg. Kérjük, próbálja meg újra.",
+        "invalid_month": "Nem létező hónapot adott meg.",
+        "invalid_security_code": "Kérjük, a folytatáshoz adjon meg érvényes biztonsági kódot.",
+        "merchant": {
+          "accepted_discover": {
+            "second_digit_unaccepted": "Az ön által megadott számok nem ismerhetők fel érvényes Discover kártyaszámként."
+          },
+          "accepted_amex": {
+            "second_digit_unaccepted": "Az ön által megadott második szám nem ismerhető fel érvényes American Express kártyaszámként."
+          }
+        },
+        "disabled_card_brand": "Ez a kártya jelenleg nem érhető el a Click to Pay szolgáltatásban. Kérjük, használjon másik kártyát, vagy lépjen vissza a kereskedőhöz."
+      },
+      "review_and_signup": {
+        "accept_tnc": "Be kell jelölnie a jelölőnégyzetet a feltételek elfogadásához és a folytatáshoz"
+      }
+    },
+    "login": {
+      "account_disabled": "Nem sikerült feldolgoznunk a kérését. Az ön védelme érdekében ideiglenesen kizártuk. Kérjük, forduljon az ügyfélszolgálathoz.",
+      "empty_form": "Kérjük, adja meg a bejelentkezési adatait.",
+      "forget_password": "elfelejtette a jelszavát?",
+      "incorrect": "Helytelen bejelentkezési adatokat adott meg.",
+      "incorrect_2": "Helytelen bejelentkezési adatokat adott meg. Elfelejtette a jelszavát?",
+      "locked": "Az ön védelme érdekében ideiglenesen kizártuk. Kérjük, a folytatáshoz adja meg a kártya adatait az üdvözlő képernyőn, vagy próbálja meg újra később.",
+      "max_attempts": "Túllépte a megengedett kísérletek maximális számát. Kérjük, próbálja meg újra néhány óra múlva, vagy forduljon az ügyfélszolgálathoz.",
+      "unavailable": "Nem sikerült feldolgozunk a kérését. Kérjük, próbálja meg újra később, vagy forduljon az ügyfélszolgálathoz."
+    }
+  },
+  "footer": {
+    "host": "Hosted By Visa",
+    "ad_preference": "Hirdetési beállítások módosítása",
+    "cookies": "Cookie-k",
+    "language_selector": "Ország- és nyelvválasztó. __countryName__ kiválasztva",
+    "legal": {
+      "native": {
+        "disclaimer": "Az ügyfélszolgálat, a használat elemzése, a csalások megelőzése és a Visa Checkouthoz kapcsolódó marketingtevékenység érdekében a Visa Checkout adatokat oszthat meg a kártyát kibocsátó pénzintézettel arról, hogyan használja ön ezt a kártyát a Visa Checkout rendszerében."
+      }
+    },
+    "privacy": "Adatvédelem",
+    "select_country": "Válassza ki az országot",
+    "support": "Támogatás",
+    "terms": "Feltételek",
+    "toggle_language": "Nyelvválasztó-kapcsoló a következőre:",
+    "country_selector_selection": "__countryName__ kiválasztva"
+  },
+  "form": {
+    "error": {
+      "empty_form": "Kérjük, a folytatáshoz adja meg az adatait.",
+      "generic": "Technikai problémákba ütköztünk. Kérjük, próbálja meg újra.",
+      "one_or_more": "Egy vagy több hiba található. Kérjük, a folytatáshoz végezze el a javításukat."
+    }
+  },
+  "ghost_layer": {
+    "cancel_and_return": "Mégsem és vissza ide: __merchantName__",
+    "find_button": "Megkeresés",
+    "message": "Hova tűnt a fizetési ablakom?",
+    "message_iOS_safari": "Nem találja a fizetési ablakot?",
+    "restart_button": "Fizetés újraindítása"
+  },
+  "header": {
+    "a11y": {
+      "logo_alt_text_vdcp": "Visa-logó",
+      "logo_alt_text": "Visa Checkout-logó"
+    }
+  },
+  "installments": {
+    "card": {
+      "eligible": "Részletekre jogosult"
+    }
+  },
+  "learn-more": {
+    "close": "Bezárás",
+    "close_panel": "A „További információ” panel bezárása",
+    "collapsed_panel": "További információ",
+    "learn_more": "További információ",
+    "more_info": "További információ"
+  },
+  "lib_address": {
+    "name": {
+      "first": {
+        "value": "Utónév",
+        "error": "Érvénytelen utónév"
+      },
+      "last": {
+        "value": "Vezetéknév",
+        "error": "Érvénytelen vezetéknév"
+      }
+    },
+    "country": {
+      "value": "Ország/régió",
+      "placeholder": "Válasszon ki vagy adjon meg egy országot/régiót"
+    },
+    "address": {
+      "line1": {
+        "value": "Utca házszám",
+        "error": "Érvénytelen utcai házszám"
+      },
+      "line2": {
+        "value": "Cím (2. sor, nem kötelező)",
+        "error": "Érvénytelen cím (2. sor)",
+        "placeholder": "Lakás, ajtó, emelet stb."
+      },
+      "state_province_code": {
+        "value": "Tartomány",
+        "error": "Érvénytelen tartomány"
+      }
+    },
+    "AR": {
+      "address": {
+        "city": {
+          "value": "Város",
+          "error": "Érvénytelen város"
+        },
+        "state_province_code": {
+          "value": "Állam/tartomány",
+          "error": "Érvénytelen állam/tartomány"
+        },
+        "postal_code": {
+          "value": "Irányítószám",
+          "error": "Érvénytelen irányítószám"
+        },
+        "line2": {
+          "placeholder": "Lakás, ajtó, emelet stb."
+        }
+      }
+    },
+    "AU": {
+      "address": {
+        "city": {
+          "value": "Város",
+          "error": "Érvénytelen város"
+        },
+        "state_province_code": {
+          "value": "Állam",
+          "error": "Érvénytelen állam",
+          "placeholder": "2–3 betű"
+        },
+        "postal_code": {
+          "value": "Irányítószám",
+          "error": "Érvénytelen irányítószám",
+          "placeholder": "XXXX"
+        },
+        "line2": {
+          "placeholder": "Lakás, ajtó, emelet stb."
+        }
+      }
+    },
+    "BR": {
+      "address": {
+        "postal_code": {
+          "value": "CEP",
+          "error": "Érvénytelen CEP",
+          "placeholder": "XXXXX - XXX"
+        },
+        "street_name": {
+          "value": "Cím",
+          "error": "Érvénytelen cím"
+        },
+        "street_number": {
+          "value": "Szám (kötelező)",
+          "error": "Érvénytelen szám"
+        },
+        "additional_location": {
+          "value": "Kiegészítés (nem kötelező)",
+          "error": "Érvénytelen kiegészítés"
+        },
+        "line2": {
+          "value": "Városrész",
+          "error": "Érvénytelen városrész"
+        },
+        "line3": {
+          "value": "Referenciapont (nem kötelező)",
+          "error": "Érvénytelen referenciapont"
+        },
+        "city": {
+          "value": "Város",
+          "error": "Érvénytelen város"
+        },
+        "state_province_code": {
+          "value": "Állam",
+          "error": "Érvénytelen állam",
+          "placeholder": "XX"
+        }
+      }
+    },
+    "CA": {
+      "address": {
+        "city": {
+          "value": "Város",
+          "error": "Érvénytelen város"
+        },
+        "state_province_code": {
+          "value": "Tartomány",
+          "error": "Érvénytelen tartomány",
+          "placeholder": "XX"
+        },
+        "postal_code": {
+          "value": "Irányítószám",
+          "error": "Érvénytelen irányítószám",
+          "placeholder": "XXX XXX"
+        }
+      }
+    },
+    "CL": {
+      "address": {
+        "city": {
+          "value": "Város",
+          "error": "Érvénytelen város"
+        },
+        "state_province_code": {
+          "value": "Állam/tartomány",
+          "error": "Érvénytelen állam/tartomány"
+        },
+        "postal_code": {
+          "value": "Irányítószám",
+          "error": "Érvénytelen irányítószám"
+        },
+        "line2": {
+          "placeholder": "Lakás, ajtó, emelet stb."
+        }
+      }
+    },
+    "CN": {
+      "address": {
+        "city": {
+          "value": "Város",
+          "error": "Érvénytelen város"
+        },
+        "state_province_code": {
+          "value": "Állam/tartomány",
+          "error": "Érvénytelen állam/tartomány"
+        },
+        "postal_code": {
+          "value": "Irányítószám",
+          "error": "Érvénytelen irányítószám"
+        },
+        "line2": {
+          "placeholder": "Lakás, ajtó, emelet stb."
+        }
+      }
+    },
+    "CO": {
+      "address": {
+        "city": {
+          "value": "Város",
+          "error": "Érvénytelen város"
+        },
+        "state_province_code": {
+          "value": "Állam/tartomány",
+          "error": "Érvénytelen állam/tartomány"
+        },
+        "postal_code": {
+          "value": "Irányítószám",
+          "error": "Érvénytelen irányítószám"
+        },
+        "line2": {
+          "placeholder": "Lakás, ajtó, emelet stb."
+        }
+      }
+    },
+    "DO": {
+      "address": {
+        "city": {
+          "value": "Város",
+          "error": "Érvénytelen város"
+        },
+        "state_province_code": {
+          "value": "Állam/tartomány",
+          "error": "Érvénytelen állam/tartomány"
+        },
+        "postal_code": {
+          "value": "Irányítószám",
+          "error": "Érvénytelen irányítószám"
+        },
+        "line1": {
+          "value": "Cím (1. sor)",
+          "error": "Érvénytelen cím (1. sor)"
+        },
+        "line2": {
+          "value": "Cím (2. sor)",
+          "placeholder": "Cím (2. sor)",
+          "error": "Érvénytelen cím (2. sor)"
+        }
+      }
+    },
+    "FR": {
+      "address": {
+        "line1": {
+          "placeholder": "Utca és házszám"
+        },
+        "line2": {
+          "placeholder": "Lakás, épület, emelet stb."
+        },
+        "city": {
+          "value": "Város",
+          "error": "Érvénytelen város"
+        },
+        "postal_code": {
+          "value": "Irányítószám",
+          "error": "Érvénytelen irányítószám",
+          "placeholder": "XXXXX"
+        }
+      }
+    },
+    "GI": {
+      "address": {
+        "city": {
+          "value": "Város",
+          "error": "Érvénytelen város"
+        },
+        "state_province_code": {
+          "value": "Állam/tartomány",
+          "error": "Érvénytelen állam/tartomány"
+        },
+        "postal_code": {
+          "value": "Irányítószám",
+          "error": "Érvénytelen irányítószám"
+        }
+      }
+    },
+    "GT": {
+      "address": {
+        "city": {
+          "value": "Város",
+          "error": "Érvénytelen város"
+        },
+        "state_province_code": {
+          "value": "Állam/tartomány",
+          "error": "Érvénytelen állam/tartomány"
+        },
+        "postal_code": {
+          "value": "Irányítószám",
+          "error": "Érvénytelen irányítószám"
+        }
+      }
+    },
+    "HK": {
+      "address": {
+        "city": {
+          "value": "Kerület",
+          "error": "Érvénytelen kerület"
+        },
+        "line2": {
+          "placeholder": "Lakás, ajtó, emelet stb."
+        }
+      }
+    },
+    "IN": {
+      "address": {
+        "line3": {
+          "value": "Tájékozódási pont",
+          "error": "Érvénytelen tájékozódási pont"
+        },
+        "city": {
+          "value": "Város",
+          "error": "Érvénytelen város"
+        },
+        "state_province_code": {
+          "value": "Állam",
+          "error": "Érvénytelen állam"
+        },
+        "postal_code": {
+          "value": "PIN-kód",
+          "error": "Érvénytelen PIN-kód",
+          "placeholder": "XXXXXX"
+        },
+        "line2": {
+          "placeholder": "Lakás, ajtó, emelet stb."
+        }
+      }
+    },
+    "IE": {
+      "address": {
+        "line2": {
+          "placeholder": "Régió"
+        },
+        "city": {
+          "value": "Város",
+          "error": "Érvénytelen város"
+        },
+        "county": {
+          "value": "Megye",
+          "error": "Érvénytelen megye",
+          "placeholder": "Válasszon ki vagy adjon meg egy megyét"
+        },
+        "postal_code": {
+          "value": "Irányítószám (nem kötelező)",
+          "error": "Érvénytelen irányítószám",
+          "placeholder": "Dublin és környéke vagy Eircode"
+        }
+      }
+    },
+    "JP": {
+      "address": {
+        "city": {
+          "value": "Város",
+          "error": "Érvénytelen város"
+        },
+        "state_province_code": {
+          "value": "Állam/tartomány",
+          "error": "Érvénytelen állam/tartomány"
+        },
+        "postal_code": {
+          "value": "Irányítószám",
+          "error": "Érvénytelen irányítószám"
+        }
+      }
+    },
+    "KW": {
+      "address": {
+        "line1": {
+          "placeholder": "Házszám, utca, tömb, terület"
+        },
+        "line2": {
+          "placeholder": "Pl. komplexum, épület"
+        },
+        "city": {
+          "value": "Város",
+          "error": "Érvénytelen város"
+        },
+        "state_province_code": {
+          "value": "Állam/tartomány",
+          "error": "Érvénytelen állam/tartomány"
+        },
+        "postal_code": {
+          "value": "Irányítószám (nem kötelező)",
+          "error": "Érvénytelen irányítószám"
+        }
+      }
+    },
+    "MY": {
+      "address": {
+        "city": {
+          "value": "Város",
+          "error": "Érvénytelen város"
+        },
+        "state_province_code": {
+          "value": "Állam/tartomány",
+          "error": "Érvénytelen állam/tartomány"
+        },
+        "postal_code": {
+          "value": "Irányítószám",
+          "error": "Érvénytelen irányítószám"
+        },
+        "line2": {
+          "placeholder": "Lakás, ajtó, emelet stb."
+        }
+      }
+    },
+    "MX": {
+      "address": {
+        "postal_code": {
+          "value": "Irányítószám",
+          "error": "Érvénytelen irányítószám",
+          "placeholder": "XXXXX"
+        },
+        "street_name": {
+          "value": "Utca",
+          "error": "Érvénytelen utcanév"
+        },
+        "street_number": {
+          "value": "Külső szám",
+          "error": "Érvénytelen külső szám"
+        },
+        "additional_location": {
+          "value": "Belső szám (nem kötelező)",
+          "error": "Érvénytelen belső szám"
+        },
+        "neighborhood": {
+          "value": "Kolónia",
+          "error": "Érvénytelen kolónia"
+        },
+        "county": {
+          "value": "Megye vagy közigazgatási egység",
+          "error": "Érvénytelen megye vagy közigazgatási egység"
+        },
+        "city": {
+          "value": "Város",
+          "error": "Érvénytelen város"
+        },
+        "state_province_code": {
+          "value": "Állam",
+          "error": "Érvénytelen állam"
+        },
+        "point_of_reference": {
+          "value": "Referenciapont (nem kötelező)",
+          "error": "Érvénytelen referenciapont"
+        }
+      }
+    },
+    "PE": {
+      "address": {
+        "city": {
+          "value": "Város",
+          "error": "Érvénytelen város"
+        },
+        "state_province_code": {
+          "value": "Állam/tartomány",
+          "error": "Érvénytelen állam/tartomány"
+        },
+        "postal_code": {
+          "value": "Irányítószám",
+          "error": "Érvénytelen irányítószám"
+        },
+        "line2": {
+          "placeholder": "Lakás, ajtó, emelet stb."
+        }
+      }
+    },
+    "PL": {
+      "address": {
+        "street_name": {
+          "value": "Utca",
+          "error": "Érvénytelen utcanév"
+        },
+        "street_number": {
+          "value": "Házszám/lakásszám",
+          "error": "Érvénytelen házszám/lakásszám"
+        },
+        "city": {
+          "value": "Város",
+          "error": "Érvénytelen város"
+        },
+        "postal_code": {
+          "value": "Irányítószám",
+          "error": "Érvénytelen irányítószám",
+          "placeholder": "XX-XXX"
+        }
+      }
+    },
+    "QA": {
+      "address": {
+        "line1": {
+          "placeholder": "Utca és házszám, lakásszám vagy postafiók"
+        },
+        "line2": {
+          "placeholder": "Pl. komplexum, épület"
+        },
+        "city": {
+          "value": "Város",
+          "error": "Érvénytelen város"
+        },
+        "state_province_code": {
+          "value": "Régió/állam",
+          "error": "Érvénytelen régió/állam"
+        },
+        "postal_code": {
+          "value": "Irányítószám (nem kötelező)",
+          "error": "Érvénytelen irányítószám"
+        }
+      }
+    },
+    "NZ": {
+      "address": {
+        "city": {
+          "value": "Város",
+          "error": "Érvénytelen város"
+        },
+        "postal_code": {
+          "value": "Irányítószám",
+          "error": "Érvénytelen irányítószám",
+          "placeholder": "XXXX"
+        },
+        "line2": {
+          "placeholder": "Lakás, ajtó, emelet stb."
+        }
+      }
+    },
+    "SA": {
+      "address": {
+        "line1": {
+          "placeholder": "Utca és házszám, lakásszám vagy postafiók"
+        },
+        "line2": {
+          "placeholder": "Pl. komplexum, épület stb."
+        },
+        "city": {
+          "value": "Város",
+          "error": "Érvénytelen város"
+        },
+        "state_province_code": {
+          "value": "Régió",
+          "error": "Érvénytelen régió"
+        },
+        "postal_code": {
+          "value": "Irányítószám (nem kötelező)",
+          "error": "Érvénytelen irányítószám"
+        }
+      }
+    },
+    "SG": {
+      "address": {
+        "city": {
+          "value": "Város",
+          "error": "Érvénytelen város"
+        },
+        "state_province_code": {
+          "value": "Állam/tartomány",
+          "error": "Érvénytelen állam/tartomány"
+        },
+        "postal_code": {
+          "value": "Irányítószám",
+          "error": "Érvénytelen irányítószám"
+        },
+        "line2": {
+          "placeholder": "Lakás, ajtó, emelet stb."
+        }
+      }
+    },
+    "ZA": {
+      "address": {
+        "city": {
+          "value": "Város",
+          "error": "Érvénytelen város"
+        },
+        "state_province_code": {
+          "value": "Állam/tartomány",
+          "error": "Érvénytelen állam/tartomány"
+        },
+        "postal_code": {
+          "value": "Irányítószám",
+          "error": "Érvénytelen irányítószám"
+        },
+        "line2": {
+          "placeholder": "Lakás, ajtó, emelet stb."
+        }
+      }
+    },
+    "SK": {
+      "address": {
+        "city": {
+          "value": "Város",
+          "error": "Érvénytelen város"
+        },
+        "state_province_code": {
+          "value": "Állam/tartomány",
+          "error": "Érvénytelen állam/tartomány"
+        },
+        "postal_code": {
+          "value": "Irányítószám",
+          "error": "Érvénytelen irányítószám"
+        }
+      }
+    },
+    "TW": {
+      "address": {
+        "city": {
+          "value": "Város",
+          "error": "Érvénytelen város"
+        },
+        "state_province_code": {
+          "value": "Állam/tartomány",
+          "error": "Érvénytelen állam/tartomány"
+        },
+        "postal_code": {
+          "value": "Irányítószám",
+          "error": "Érvénytelen irányítószám"
+        }
+      }
+    },
+    "ES": {
+      "address": {
+        "line1": {
+          "placeholder": "Utca, házszám, emelet, ajtó stb."
+        },
+        "city": {
+          "value": "Város",
+          "error": "Érvénytelen város"
+        },
+        "state_province_code": {
+          "value": "Tartomány",
+          "error": "Érvénytelen tartomány",
+          "placeholder": "Válasszon ki vagy adjon meg egy tartományt"
+        },
+        "postal_code": {
+          "value": "Irányítószám",
+          "error": "Érvénytelen irányítószám",
+          "placeholder": "XXXXX"
+        },
+        "line2": {
+          "placeholder": "Lakás, ajtó, emelet stb."
+        }
+      }
+    },
+    "TH": {
+      "address": {
+        "city": {
+          "value": "Város",
+          "error": "Érvénytelen város"
+        },
+        "state_province_code": {
+          "value": "Állam/tartomány",
+          "error": "Érvénytelen állam/tartomány"
+        },
+        "postal_code": {
+          "value": "Irányítószám",
+          "error": "Érvénytelen irányítószám"
+        }
+      }
+    },
+    "AE": {
+      "address": {
+        "city": {
+          "value": "Város",
+          "error": "Érvénytelen város"
+        },
+        "state_province_code": {
+          "value": "Állam/tartomány",
+          "error": "Érvénytelen állam/tartomány"
+        },
+        "postal_code": {
+          "value": "Irányítószám",
+          "error": "Érvénytelen irányítószám"
+        },
+        "line2": {
+          "placeholder": "Lakás, ajtó, emelet stb."
+        }
+      }
+    },
+    "GB": {
+      "address": {
+        "city": {
+          "value": "Város",
+          "error": "Érvénytelen város"
+        },
+        "postal_code": {
+          "value": "Irányítószám",
+          "error": "Érvénytelen irányítószám",
+          "placeholder": "5–7 karakter"
+        }
+      }
+    },
+    "UA": {
+      "address": {
+        "line1": {
+          "placeholder": "Utca"
+        },
+        "line2": {
+          "placeholder": "Utca, házszám, lakásszám"
+        },
+        "line3": {
+          "value": "Cím (3. sor, nem kötelező)",
+          "error": "Érvénytelen cím (3. sor)",
+          "placeholder": "Kerület"
+        },
+        "city": {
+          "value": "Város",
+          "error": "Érvénytelen város"
+        },
+        "state_province_code": {
+          "value": "Régió",
+          "error": "Érvénytelen régió"
+        },
+        "postal_code": {
+          "value": "Irányítószám",
+          "error": "Érvénytelen irányítószám"
+        }
+      }
+    },
+    "US": {
+      "address": {
+        "city": {
+          "value": "Város",
+          "error": "Érvénytelen város"
+        },
+        "state_province_code": {
+          "value": "Állam",
+          "error": "Érvénytelen állam",
+          "placeholder": "XX"
+        },
+        "postal_code": {
+          "value": "Irányítószám",
+          "error": "Érvénytelen irányítószám",
+          "placeholder": "XXXXX"
+        },
+        "line1": {
+          "value": "Cím (1. sor)",
+          "error": "Érvénytelen cím (1. sor)"
+        },
+        "line2": {
+          "placeholder": "Lakás, ajtó, emelet stb."
+        }
+      }
+    },
+    "UK": {
+      "address": {
+        "line2": {
+          "placeholder": "Lakás, ajtó, emelet stb."
+        }
+      }
+    }
+  },
+  "loading": {
+    "address_list_ally": "Kérjük, várjon, amíg a címek betöltődnek.",
+    "card_list_ally": "Kérjük, várjon, amíg a kártyák betöltődnek.",
+    "welcome_ally": "Kérjük, várjon, amíg a Visa Checkout betöltődik."
+  },
+  "locale": {
+    "country": {
+      "Argentina": "Argentína",
+      "Australia": "Ausztrália",
+      "Brazil": "Brazília",
+      "Canada": "Kanada",
+      "Chile": "Chile",
+      "China": "Kontinentális Kína",
+      "Colombia": "Kolumbia",
+      "DominicanRepublic": "Dominikai Köztársaság",
+      "France": "Franciaország",
+      "Gibraltar": "Gibraltár",
+      "Guatemala": "Guatemala",
+      "HongKong": "Hongkong",
+      "India": "India",
+      "Ireland": "Írország",
+      "Japan": "Japán",
+      "Kuwait": "Kuvait",
+      "Malaysia": "Malajzia",
+      "Mexico": "Mexikó",
+      "NewZealand": "Új-Zéland",
+      "Peru": "Peru",
+      "Poland": "Lengyelország",
+      "Qatar": "Katar",
+      "SaudiArabia": "Szaúd-Arábia",
+      "Singapore": "Szingapúr",
+      "SouthAfrica": "Dél-Afrika",
+      "SouthKorea": "Dél-Korea",
+      "Spain": "Spanyolország",
+      "Taiwan": "Tajvan",
+      "Thailand": "Thaiföld",
+      "UAE": "Egyesült Arab Emírségek",
+      "USA": "Amerikai Egyesült Államok",
+      "Ukraine": "Ukrajna",
+      "UnitedKingdom": "Egyesült Királyság",
+      "Germany": "Németország",
+      "Switzerland": "Svájc",
+      "Austria": "Ausztria",
+      "Italy": "Olaszország",
+      "Portugal": "Portugália",
+      "Norway": "Norvégia",
+      "Sweden": "Svédország",
+      "Finland": "Finnország",
+      "Denmark": "Dánia",
+      "CzechRepublic": "Cseh Köztársaság",
+      "Hungary": "Magyarország",
+      "Slovakia": "Szlovákia",
+      "Netherlands": "Hollandia",
+      "Ecuador": "Ecuador",
+      "ElSalvador": "Salvador",
+      "CostaRica": "Costa Rica",
+      "Panama": "Panama",
+      "Paraguay": "Paraguay",
+      "Uruguay": "Uruguay",
+      "Nicaragua": "Nicaragua",
+      "Honduras": "Honduras",
+      "Jordan": "Jordánia"
+    }
+  },
+  "locked": {
+    "cta": {
+      "return_to_merchant": "Vissza ide:",
+      "try_another_card": "Próbálkozás másik kártyával"
+    },
+    "account": {
+      "header_top": "Biztonsági figyelmeztetés",
+      "header_bottom": "Túl sok sikertelen próbálkozás",
+      "description": "A Visa kártyái ideiglenesen nem lesznek elérhetők. Kérjük, próbálja meg újra később, vagy használjon másik kártyát."
+    },
+    "device": {
+      "header": "Problémát észleltünk",
+      "description": "Az Ön biztonsága érdekében jelenleg nem tudjuk hozzáadni a Visa kártyáját. Kérjük, próbálja meg újra később, vagy használjon másik kártyát."
+    }
+  },
+  "login": {
+    "did_you": "Ön"
+  },
+  "merchant": {
+    "name": "__merchantName__"
+  },
+  "mini": {
+    "error_message": {
+      "p1": "A jelek szerint sajnos hiba történt.",
+      "p2": "A folytatáshoz adja az meg e-mail-címét az üdvözlő képernyőn"
+    }
+  },
+  "non_roman": {
+    "content": "A következőt kell használnia: __ACTION__. A Visa Checkout jelenleg nem engedélyezi más karakterek használatát.",
+    "content_bold": "Csak a latin ábécé karakterei",
+    "cta_text": "Megerősítés és folytatás",
+    "header": "Kérjük, erősítse meg"
+  },
+  "otp": {
+    "verify": {
+      "resend_code_link": "Kód újraküldése",
+      "cta_text": "Folytatás",
+      "description": "Adja meg az ide küldött egyszeri kódot:",
+      "header": "Üdvözöljük!",
+      "input_label": "Egyszeri kód",
+      "invalid_input_label": "Érvénytelen kód",
+      "remember_me": {
+        "checkbox": {
+          "label_p1": "Emlékezzen rám ezen az eszközön",
+          "label_p2": "(Nem ajánlott megosztott eszközök esetében)"
+        },
+        "learn_more": {
+          "eu": "Segítsen nekünk megjegyezni önt azzal, hogy menti az e-mail-címét vagy a mobiltelefonszámát. Ettől kezdve, amikor fizet, emlékezni fogunk önre és a kedvenc kártyáira ezen az eszközön. Egyszerűen meg kell adnia egy egyszeri kódot vagy a jelszavát, amikor bejelentkezik.",
+          "p1": "Segítsen nekünk megjegyezni önt azzal, hogy menti az e-mail-címét vagy a mobiltelefonszámát. Ettől kezdve, amikor fizet, emlékezni fogunk önre és a kedvenc kártyáira ezen az eszközön. Egyszerűen meg kell adnia egy egyszeri kódot vagy a jelszavát, amikor bejelentkezik.",
+          "p2": "A Visa Checkout megjeleníti a hitel- vagy a betéti kártya kinézetét, így személyre szabottabb vásárlási élményt nyújt az ön számára.",
+          "p2_IR": "A Visa Checkout megjeleníti a betéti vagy a hitelkártya kinézetét, így személyre szabottabb vásárlási élményt nyújt az ön számára."
+        },
+        "close_a11y": "Zárja be a „További információ” panelt.",
+        "open_a11y": "További információ arról, hogyan jegyezzük meg önt."
+      },
+      "use_password_link": "A JELSZAVAM HASZNÁLATA",
+      "resend_link": "Kód újraküldése"
+    },
+    "provider": {
+      "description": "Adja meg az egyszeri kódot, amelyet a(z) __provider__ küldött ide:",
+      "description_email": "Adja meg az egyszeri __kódot,__ amelyet a(z) __provider__ elküldött e-mailben ide:",
+      "description_text": "Adja meg az egyszeri __kódot,__ amelyet a(z) __provider__ elküldött SMS-ben ide:"
+    },
+    "not_you": {
+      "not_you_a11y": "Lépjen vissza, ha ez nem ön",
+      "left_paren": "(",
+      "link_text": "Ez nem ön?",
+      "right_paren": ")"
+    },
+    "errors": {
+      "expired_resend": "A kód lejárt. Kérjük, kattintson az „Újraküldés” gombra új kód kéréséhez.",
+      "invalid": "Nem sikerült megerősítenünk a kódot.",
+      "invalid_code": "A megadott kód helytelen.",
+      "retries_exceeded": "Túl sok sikertelen egyszeri kódbeviteli kísérlet. Próbálkozzon másik kártyával.",
+      "account_inaccessible": "Jelenleg nem férünk hozzá a mentett adataihoz. A folytatáshoz adja meg a kártyaadatokat.",
+      "generic_error": "Nem sikerült feldolgoznunk a kérését. Kérjük, küldje el újra a kódot."
+    },
+    "notifications": {
+      "resend": "Újabb kódot küldtünk ide: __name__",
+      "sent": "Elküldtük a kódot ide: __name__",
+      "resend_email": "Újabb e-mailt küldtünk ide: __name__",
+      "resend_text": "Újabb SMS-t küldtünk ide: __name__",
+      "sms_email_resend": "Az egyszeri kód újra el lett küldve"
+    },
+    "step_up": {
+      "cta_text": "Megerősítés",
+      "header": "A biztonsága érdekében adja meg újra a jelszavát",
+      "password": {
+        "a11y": {
+          "enter": "Adja meg a(z) __username__ felhasználónévhez tartozó Visa Checkout biztonságos jelszavát",
+          "hide": "Jelszó karaktereinek elrejtése",
+          "show": "Jelszó karaktereinek megjelenítése"
+        },
+        "forgot_link": "Elfelejtette?",
+        "hide": "Elrejtés",
+        "input_label": "Jelszó",
+        "invalid_input_label": "Érvénytelen jelszó",
+        "show": "Megjelenítés"
+      }
+    },
+    "step_up_otp": {
+      "cancel": "Mégsem"
+    },
+    "validation_channel": {
+      "sms_email_a11y": "__phone__ és __email__"
+    }
+  },
+  "otp_card_entry": {
+    "description": "A jelek szerint már használta korábban a Visa Checkoutot. Adja meg az e-mailben elküldött egyszeri kódot, hogy megbizonyosodhassunk arról, valóban ön az."
+  },
+  "page": {
+    "cancel_and_return": "Mégsem és vissza ide: __merchantName__",
+    "change": "Módosítás",
+    "merchant_name_default": "kereskedő"
+  },
+  "prefill_consent": {
+    "header": "Az online fizetés egyszerű módja",
+    "description": "A dolgok kissé gyorsabbá tétele érdekében engedélyezheti a(z) __merchantName__ számára, hogy kitöltse előre az ön alapadatait.",
+    "more_info_a11y": "Kattintson további információkért.",
+    "more_info": "További információ",
+    "more_info_content": "A(z) __merchantName__ által a Visa online fizetési élményével esetleg megosztott adatok tartalmazzák az utó- és a vezetéknevet, a telefonszámot és az e-mail-címet",
+    "cta": "Az adataim kitöltése előre",
+    "cancel": "Nem, köszönöm",
+    "errors": {
+      "no_merchant_data": "__merchantName__ nem tudta előre kitölteni az adatait. Továbbra is folytathatja viszont a Visa online fizetési élményével."
+    },
+    "disclaimer": "„Az adataim kitöltése előre” gombra kattintva hozzájárul ahhoz, hogy a(z) __merchantName__ továbbítsa az utó- és a vezetéknevét, a telefonszámát és az e-mail-címét a Visa online fizetési szolgáltatása számára, valamint elfogadja a következőt: __privacyPolicy__.",
+    "privacy_policy": "Adatvédelmi nyilatkozat"
+  },
+  "sdklite": {
+    "accessibility": {
+      "button": "Click to Pay fizetésikonnal",
+      "locked_button": "Fizetési szolgáltatás a Visától. Nem érhető el.",
+      "spinner": "Betöltés",
+      "spinner_close": "Mégsem és vissza a kereskedőhöz",
+      "fingerprint_icon": "Ujjlenyomat ikon"
+    },
+    "logging": {
+      "lock_reason": "A gomb letiltásra kerül, mert a környezet nem támogatott. Kérjük, próbálkozzon újabb operációs rendszerrel.",
+      "not_initialized": "Az SDK inicializálása még nem történt meg.",
+      "no_network": "Nincs hálózati kapcsolat, ezért a fizetési adatok nem frissültek.",
+      "already_launched": "A fizetési folyamat már el lett indítva.",
+      "invalid_params": "Érvénytelen vagy null paraméterek.",
+      "internal_error": "A Visa Checkout rendszerében belső hiba történt, ezért nem lehetett teljesíteni a kérést.",
+      "corr_id_session": "CorrelationID a munkamenetnél: __correlationid__",
+      "api_check": "__apilevel__ vagy magasabb szintű API-n futó eszközök használhatják a Visa Checkout funkcióit.",
+      "objc_bridge_warning": "Figyelem --Az Objective-C nem tudja elvégezni a(z) __property__ esetén beállított tömbértékek áthidalását. Kérjük, használja a .rawValue tulajdont a(z) __enum__ felsorolásban."
+    },
+    "ui": {
+      "biometric_signin": "Bejelentkezés",
+      "biometric_cancel": "Mégsem",
+      "fingerprint_recognized": "Ujjlenyomat felismerve",
+      "fingerprint_unrecognized": "Nem felismert ujjlenyomat. Próbálja meg újra",
+      "fingerprint_continue": "A folytatáshoz erősítse meg az ujjlenyomatot",
+      "fingerprint_confirm": "Erősítse meg most az ujjlenyomatot.",
+      "touch_sensor": "Érintésérzékelő"
+    }
+  },
+  "service_unavailable": {
+    "header": "A szolgáltatás nem érhető el",
+    "primary_cta_text": "Bejelentkezés",
+    "secondary_cta_text": "Bezárás",
+    "subtext": "Elnézést kérünk, váratlan hiba történt, és a munkamenete lezárult. Kérjük, jelentkezzen be újra."
+  },
+  "session": {
+    "expired": {
+      "header": "A munkamenete lejárt",
+      "message": "A biztonsága érdekében a munkamenete inaktivitás miatt lejárt. A folytatáshoz adja meg újra az e-mail-címét az üdvözlő képernyőn.",
+      "primary_cta_alt_text": "Ugrás a bejelentkezéshez",
+      "primary_cta_text": "Folytatás",
+      "secondary_cta_text": "Bezárás"
+    },
+    "warning_modal": {
+      "header": "A munkamenete hamarosan lejár.",
+      "message": "Az alábbiakban válassza ki, hogyan szeretné folytatni.",
+      "primary_cta_text": "Munkamenet folytatása",
+      "secondary_cta_text": "Bezárás"
+    }
+  },
+  "src_app": {
+    "a11y": {
+      "description": "Click to Pay"
+    }
+  },
+  "tell_me_more": {
+    "disabled": {
+      "header": "A Visa Checkout átköltözött ide: Click to Pay __srcIcon__",
+      "intro": "A Visa Checkout nem érhető el ezen a kereskedői fizetési oldalon.",
+      "intro_pt_2": "Kérjük, időközben használjon másik fizetési módot, amelyet a kereskedő kínál."
+    },
+    "legacy": {
+      "close": "Bezárás",
+      "close_aria_label": "A Visa Checkout információs réteg bezárása",
+      "create_action": "Visa Checkout-fiók létrehozása",
+      "feature_list_1": "Egyszeri bejelentkezéssel gyorsan elvégezheti a fizetést",
+      "feature_list_2": "Bármilyen nagyobb pénzintézet hitel- vagy betéti kártyája használható",
+      "feature_list_3": "A Visa-tól, a cégtől, amelyet ismer, és amelyben megbízik",
+      "feature_list_4_1": "És",
+      "feature_list_4_2": "INGYENES!",
+      "intro": "Egyszer kell létrehoznia fiókot. Soha nem kell újra megadnia a kártya- és a címadatait, ha a Visa Checkoutot látja.",
+      "login_action": "Bejelentkezés a Visa Checkout-fiókjába",
+      "logo_alt": "További információ a Visa Checkoutról",
+      "title": "További információ"
+    },
+    "src": {
+      "close": "Bezárás",
+      "close_aria_label": "A Visa Checkout információs réteg bezárása",
+      "create_action": "Regisztráció",
+      "feature_list_1": "Kevesebb kattintással fizethet – nincs több hosszú űrlap, és jelszavakat sem kell megjegyeznie.",
+      "feature_list_2": "A kártyaadatait csak egyszer kell megadnia – nem kell minden alkalommal beírnia az adatokat a fizetés során.",
+      "feature_list_3": "Keresse a Click to Pay ikont __srcIcon__ az online kiskereskedők százezreinél – és biztonságosan elérheti az adatait a fizetéshez.",
+      "feature_list_4": "Beállíthatja azt is, hogy megjegyezzük az eszközén és a böngészőjében a gyorsabb fizetéshez.",
+      "header": "Egykattintásos fizetés a Click to Pay __srcIcon__ szolgáltatással",
+      "intro": "Fizessen bátran az ön által már használt fizetési módokkal. A Click to Pay élmény az online tranzakciók iparági biztonsági szabványaira épül. Az egyszerű és intelligens fizetéshez egyszerűen egyetlen kattintással fizethet, ahol megjelenik a Click to Pay ikon __srcIcon__ , és a kártyát elfogadják. Használata egyszerű:",
+      "login_action": "Bejelentkezés vagy ugrás a profiljához",
+      "logo_alt": "További információ a Visa Checkoutról"
+    }
+  },
+  "user_info": {
+    "menu_ally": "__name__ fiókadatai",
+    "sign_out": "Kijelentkezés",
+    "sign_out_a11y": "Kijelentkezés mint __user__"
+  },
+  "vco_component_add_card": {
+    "first_name": {
+      "label": "Utónév",
+      "label_a11y": "Adja meg itt az utónevét.",
+      "invalid_first_name": "Érvénytelen utónév"
+    },
+    "last_name": {
+      "label": "Vezetéknév",
+      "label_a11y": "Adja meg itt a vezetéknevét.",
+      "invalid_last_name": "Érvénytelen vezetéknév"
+    }
+  },
+  "vco-component-identification": {
+    "email_label_a11y": "Adja meg itt az e-mail-címét."
+  },
+  "welcome": {
+    "a11y": {
+      "cta": "A Visa Checkout használatának folytatása",
+      "page_title": "Visa Checkout, az online fizetés egyszerűbb módja"
+    },
+    "cta_text": "Folytatás",
+    "description": "A kezdéshez adja meg az e-mail-címét.",
+    "header": "Az online fizetés egyszerű módja",
+    "input_label": "E-mail-cím",
+    "invalid_input_label": "Érvénytelen e-mail-cím",
+    "errors": {
+      "lockout": "Jelenleg nem férünk hozzá a mentett adataihoz. A folytatáshoz adja meg a kártyaadatokat.",
+      "lookup_unavailable": "A keresés nem használható az ön e-mail-címénél. Kérjük, a folytatáshoz adja meg a kártyaadatait."
+    },
+    "create_account": {
+      "new_user": "Úgy tűnik, hogy ön új felhasználó a Click to Pay szolgáltatásban. A kezdéshez adja meg a kártyaadatait.",
+      "cta": "Folytatás",
+      "tab": {
+        "label_a11y": "Új felhasználó",
+        "label": "Új"
+      },
+      "legal_info": "Az adatait megosztjuk a részt vevő fizetési hálózatokkal és szolgáltatókkal, hogy megfelelő használati élményt nyújthassunk önnek."
+    },
+    "sign_in": {
+      "tab": {
+        "label": "Visszatérő",
+        "label_a11y": "Visszatérő felhasználó"
+      },
+      "cta": "Folytatás",
+      "legal_info": "Az e-mail-címe megadásával hozzáférést biztosít a részt vevő fizetési hálózatok számára az ön adataihoz."
+    },
+    "src": {
+      "create_account": {
+        "new_user": "Úgy tűnik, ön új felhasználó. Aktiválja a hitel- vagy a betéti kártyáját alább az adatok megadásával."
+      },
+      "cta": {
+        "message": {
+          "new_user": "Az adatait megosztjuk a részt vevő fizetési hálózatokkal, szolgáltatókkal és az __privacyNotice__ dokumentumban leírtak szerint, hogy megfelelő használati élményt nyújthassunk önnek.",
+          "returning_user": "A folytatással elfogadja a Visa következő szabályzatát: __privacyNotice__."
+        }
+      },
+      "legal": {
+        "privacy_notice": "Adatvédelmi nyilatkozat",
+        "terms": "Szolgáltatási feltételek"
+      },
+      "header": "Egyszerű és intelligens online fizetés",
+      "we_accept": "A következőket fogadjuk el:",
+      "errors": {
+        "lockout": "Jelenleg nem férünk hozzá a mentett adataihoz. A folytatáshoz adja meg a kártyaadatokat."
+      },
+      "sub_heading": {
+        "new": "Fizessen bizalommal a Click to Pay szolgáltatással",
+        "returning": "Fizessen bizalommal a Click to Pay szolgáltatással"
+      }
+    }
+  }
+}

@@ -1,0 +1,1593 @@
+{
+  "accepted_cards": {
+    "a11y": {
+      "cards_accepted": "„Prijímame __cards__“"
+    }
+  },
+  "account_locked": {
+    "customer_support_link": "Kontaktovať zákaznícku podporu",
+    "description": "Skúste to znova neskôr alebo pokračujte zadaním informácií o karte na uvítacej obrazovke.",
+    "header": "Boli ste dočasne uzamknutí",
+    "notifications": {
+      "unable_to_confirm": "Ľutujeme, nepodarilo sa nám potvrdiť váš kód."
+    },
+    "primary_cta_text": "Pokračovať v nákupe",
+    "secondary_cta_text": "Zadajte kartu"
+  },
+  "add_card": {
+    "cancel": "Zrušiť",
+    "header": "Pridať kartu",
+    "submit": "Pokračovať",
+    "errors": {
+      "try_again": "Ľutujeme, ale vašu požiadavku nebolo možné spracovať. Skúste to znova.",
+      "generic_error": "Ľutujeme, niečo sa pokazilo. Skúste inú kartu alebo to skúste znova neskôr."
+    },
+    "single_card_deleted": "Vaša karta bola úspešne odstránená!",
+    "src": {
+      "sub_heading": "Nastavte svoju kartu pre službu Click to Pay"
+    }
+  },
+  "card_list": {
+    "add": "Nová karta",
+    "add_a11y": "Pridajte novú kartu.",
+    "card_a11y": "__network__ __type__ končiaci na __lastFour__.",
+    "credit": "Kreditná",
+    "debit": "Debetná",
+    "header": "Vybrať kartu",
+    "errors": {
+      "api_error": "Ľutujeme, niečo sa pokazilo. Skúste inú kartu alebo to skúste znova neskôr.",
+      "cardid_missing_one_card": "S touto kartou nemôžeme pokračovať. Pridajte novú kartu.",
+      "cardid_missing_mult_cards": "S touto kartou nemôžeme pokračovať. Skúste inú."
+    },
+    "notifications": {
+      "deleted": "Vaša karta bola úspešne odstránená"
+    },
+    "electron": "Electron (debetná)",
+    "prepaid": "Predplatená",
+    "src": {
+      "sub_heading": "Vyberte si zo svojich kariet nastavených pre službu Click to Pay"
+    }
+  },
+  "cardBrands": {
+    "amex": "American Express",
+    "discover": "Discover",
+    "elo": "Elo",
+    "mastercard": "Mastercard",
+    "visa": "Visa",
+    "electron": "Visa Electron",
+    "maestro": "Maestro"
+  },
+  "component_addr_disp": {
+    "masked_address_message": "Skryté z bezpečnostných dôvodov"
+  },
+  "component_addr_list": {
+    "address": "Adresa"
+  },
+  "component_card_number": {
+    "brands": {
+      "amex": "American Express",
+      "discover": "Discover",
+      "electron": "Electron",
+      "elo": "Elo",
+      "mastercard": "Mastercard",
+      "visa": "Visa",
+      "maestro": "Maestro"
+    },
+    "enter_card": "Sem zadajte číslo svojej karty.",
+    "invalid": "Neplatné",
+    "label": "Číslo karty",
+    "label_error": "číslo karty",
+    "not_accepted": "Neakceptované",
+    "placeholder": "15 až 16 číslic",
+    "card_brand_entered": "Vybraná karta __cardBrand__"
+  },
+  "component_combobox": {
+    "aria": {
+      "filters": "filtre pri písaní",
+      "item": "položka",
+      "items": "položky",
+      "of": "z",
+      "selected": "vybrané"
+    },
+    "country": {
+      "error": "Neplatná krajina",
+      "label": "Krajina/región",
+      "placeholder": "Vyberte alebo zadajte krajinu"
+    },
+    "dial_code": {
+      "error": "Neplatná krajina",
+      "placeholder": "Vyberte alebo zadajte krajinu"
+    },
+    "no_match_message": "Nenašli sa žiadne výbery, ktoré sa zhodujú s tým, čo ste zadali. Zmeňte svoje zadanie.",
+    "phone": {
+      "label": "Telefónne číslo (povinné)",
+      "placeholder": "Telefónne číslo (povinné)"
+    }
+  },
+  "component_cvv": {
+    "label": {
+      "error": "Neplatný bezpečnostný kód",
+      "name": "Bezpečnostný kód"
+    },
+    "enter_code": "Sem zadajte bezpečnostný kód svojej karty.",
+    "amex_helper": "4-číselný kód na prednej strane karty.",
+    "non_amex_helper": "3-číselný kód na zadnej strane karty."
+  },
+  "component_exp_date": {
+    "label": {
+      "description": "formáty ako MM/RR počas písania",
+      "error": "Neplatný dátum",
+      "name": "Platnosť vyprší",
+      "labelled_by": "Formáty dátumu vypršania platnosti ako MM/RR počas písania"
+    },
+    "placeholder": "MM/RR"
+  },
+  "component_notification": {
+    "CLOSE": "Zavrieť banner",
+    "error": "Chybové oznámenie",
+    "info": "Informačné oznámenie",
+    "lower_environment_warning": "NESLÚŽI NA POUŽITIE ZÁKAZNÍKMI! – SKÚŠOBNÉ PROSTREDIE __env__",
+    "success": "Oznámenie o úspechu",
+    "warning": "Varovné oznámenie"
+  },
+  "component_phone_input": {
+    "phone_number_field": {
+      "ariaLabel": "Číslo mobilného telefónu. Na toto číslo môžeme poslať jednorazový kód na overenie, že ste to vy. Môžu sa účtovať poplatky za správy a dáta.",
+      "error": "Neplatné číslo mobilného telefónu",
+      "label": "Telefónne číslo (povinné)"
+    },
+    "dial_code": {
+      "error": "Neplatná krajina",
+      "label": "Krajina",
+      "placeholder": "Vyberte alebo zadajte krajinu",
+      "toggle_button_aria_label": ", volič kódu krajiny"
+    },
+    "no_match_message": "Nenašli sa žiadne výbery, ktoré sa zhodujú s tým, čo ste zadali. Zmeňte svoje zadanie."
+  },
+  "cookie_banner": {
+    "a11y": {
+      "close_button": "Zavrieť banner"
+    },
+    "link_text": "Skontrolujte/odmietnite súbory cookie.",
+    "message": "Súbory cookie používame na zachovanie bezpečnosti, zlepšenie zážitku z lokalít, meranie návštev na našich lokalitách a umožnenie marketingových aktivít spoločnosti Visa.  __CookiePolicyLink__",
+    "ok_button": "Súhlasiť"
+  },
+  "country_map": {
+    "AF": "Afganistan",
+    "AL": "Albánsko",
+    "DZ": "Alžírsko",
+    "AS": "Americká Samoa",
+    "AD": "Andorra",
+    "AO": "Angola",
+    "AI": "Anguilla",
+    "AG": "Antigua a Barbuda",
+    "AR": "Argentína",
+    "AM": "Arménsko",
+    "AW": "Aruba",
+    "AU": "Austrália",
+    "AT": "Rakúsko",
+    "AZ": "Azerbajdžan",
+    "BS": "Bahamy",
+    "BH": "Bahrajn",
+    "BD": "Bangladéš",
+    "BB": "Barbados",
+    "BY": "Bielorusko",
+    "BE": "Belgicko",
+    "BZ": "Belize",
+    "BJ": "Benin",
+    "BM": "Bermudy",
+    "BT": "Bhután",
+    "BO": "Bolívia",
+    "BA": "Bosna a Hercegovina",
+    "BW": "Botswana",
+    "BR": "Brazília",
+    "IO": "Britské indickooceánske územie",
+    "VG": "Britské Panenské ostrovy",
+    "BN": "Brunej",
+    "BG": "Bulharsko",
+    "BF": "Burkina Faso",
+    "BI": "Burundi",
+    "KH": "Kambodža",
+    "CM": "Kamerun",
+    "CA": "Kanada",
+    "CV": "Kapverdy",
+    "BQ": "Karibské Holandsko",
+    "KY": "Kajmanské ostrovy",
+    "CF": "Stredoafrická republika",
+    "TD": "Čad",
+    "CL": "Čile",
+    "CN": "Kontinentálna Čína",
+    "CO": "Kolumbia",
+    "KM": "Komory",
+    "CD": "Kongo (KDR)",
+    "CG": "Kongo (republika)",
+    "CK": "Cookove ostrovy",
+    "CR": "Kostarika",
+    "CI": "Pobrežie Slonoviny",
+    "HR": "Chorvátsko",
+    "CU": "Kuba",
+    "CW": "Curaçao",
+    "CY": "Cyprus",
+    "CZ": "Česká republika",
+    "DK": "Dánsko",
+    "DJ": "Džibuti",
+    "DM": "Dominika",
+    "DO": "Dominikánska republika",
+    "EC": "Ekvádor",
+    "EG": "Egypt",
+    "SV": "El Salvador",
+    "GQ": "Rovníková Guinea",
+    "ER": "Eritrea",
+    "ES": "Španielsko",
+    "ET": "Etiópia",
+    "FK": "Falklandské ostrovy",
+    "FO": "Faerské ostrovy",
+    "FJ": "Fidži",
+    "FI": "Fínsko",
+    "FR": "Francúzsko",
+    "GF": "Francúzska Guinea",
+    "PF": "Francúzska Polynézia",
+    "GA": "Gabon",
+    "GM": "Gambia",
+    "GE": "Gruzínsko",
+    "DE": "Nemecko",
+    "GH": "Ghana",
+    "GI": "Gibraltár",
+    "GR": "Grécko",
+    "GL": "Grónsko",
+    "GD": "Grenada",
+    "GP": "Guadalupe",
+    "GU": "Guam",
+    "GT": "Guatemala",
+    "GN": "Guinea",
+    "GW": "Guinea-Bissau",
+    "GY": "Guyana",
+    "HT": "Haiti",
+    "HN": "Honduras",
+    "HK": "Hongkong",
+    "HU": "Maďarsko",
+    "IS": "Island",
+    "IN": "India",
+    "ID": "Indonézia",
+    "IR": "Irán",
+    "IQ": "Irak",
+    "IE": "Írsko",
+    "IL": "Izrael",
+    "IT": "Taliansko",
+    "JM": "Jamajka",
+    "JP": "Japonsko",
+    "JO": "Jordánsko",
+    "KZ": "Kazachstan",
+    "KE": "Keňa",
+    "KI": "Kiribati",
+    "KW": "Kuvajt",
+    "KG": "Kirgizsko",
+    "LA": "Laos",
+    "LV": "Lotyšsko",
+    "LB": "Libanon",
+    "LS": "Lesotho",
+    "LR": "Libéria",
+    "LY": "Lybia",
+    "LI": "Lichtenštajnsko",
+    "LT": "Litva",
+    "LU": "Luxembursko",
+    "MO": "Macao",
+    "MK": "Macedónsko",
+    "MG": "Madagaskar",
+    "MW": "Malawi",
+    "MY": "Malajzia",
+    "MV": "Maledivy",
+    "ML": "Mali",
+    "MT": "Malta",
+    "MH": "Maršalove ostrovy",
+    "MQ": "Martinik",
+    "MR": "Mauretánia",
+    "MU": "Maurícius",
+    "MX": "Mexiko",
+    "FM": "Mikronézia",
+    "MD": "Moldavsko",
+    "MC": "Monako",
+    "MN": "Mongolsko",
+    "ME": "Čierna Hora",
+    "MS": "Montserrat",
+    "MA": "Maroko",
+    "MZ": "Mozambik",
+    "MM": "Mjanmarsko",
+    "NA": "Namíbia",
+    "NR": "Nauru",
+    "NP": "Nepál",
+    "NL": "Holandsko",
+    "NC": "Nová Kaledónia",
+    "NZ": "Nový Zéland",
+    "NI": "Nikaragua",
+    "NE": "Niger",
+    "NG": "Nigéria",
+    "NU": "Niue",
+    "NF": "Ostrov Norfolk",
+    "KP": "Kórejská ľudovodemokratická republika",
+    "MP": "Severné Mariány",
+    "NO": "Nórsko",
+    "OM": "Omán",
+    "PK": "Pakistan",
+    "PW": "Palau",
+    "PS": "Palestína",
+    "PA": "Panama",
+    "PG": "Papua-Nová Guinea",
+    "PY": "Paraguaj",
+    "PE": "Peru",
+    "PH": "Filipíny",
+    "PL": "Poľsko",
+    "PT": "Portugalsko",
+    "PR": "Portoriko",
+    "QA": "Katar",
+    "RE": "Réunion",
+    "RO": "Rumunsko",
+    "RU": "Rusko",
+    "RW": "Rwanda",
+    "BL": "Svätý Bartolomej",
+    "SH": "Svätá Helena",
+    "KN": "Svätý Krištof a Nevis",
+    "LC": "Svätá Lucia",
+    "MF": "Svätý Martin",
+    "PM": "Svätý Pierre a Miquelon",
+    "VC": "Svätý Vincent a Grenadíny",
+    "WS": "Samoa",
+    "SM": "San Maríno",
+    "ST": "Svätý Tomáš a Princov ostrov",
+    "SA": "Saudská Arábia",
+    "SN": "Senegal",
+    "RS": "Srbsko",
+    "SC": "Seychely",
+    "SL": "Sierra Leone",
+    "SG": "Singapur",
+    "SX": "Sint Maarten",
+    "SK": "Slovensko",
+    "SI": "Slovinsko",
+    "SB": "Šalamúnove ostrovy",
+    "SO": "Somálsko",
+    "ZA": "Južná Afrika",
+    "KR": "Kórejská republika",
+    "SS": "Južný Sudán",
+    "LK": "Srí Lanka",
+    "SD": "Sudán",
+    "SR": "Surivalue",
+    "SZ": "Svazijsko",
+    "SE": "Švédsko",
+    "CH": "Švajčiarsko",
+    "SY": "Sýria",
+    "TW": "Taiwan",
+    "TJ": "Tadžikistan",
+    "TZ": "Tanzánia",
+    "TH": "Thajsko",
+    "TL": "Východný Timor",
+    "TG": "Togo",
+    "TK": "Tokelau",
+    "TO": "Tonga",
+    "TT": "Trinidad a Tobago",
+    "TN": "Tunisko",
+    "TR": "Turecko",
+    "TM": "Turkménsko",
+    "TC": "Ostrovy Turks a Caicos",
+    "TV": "Tuvalu",
+    "VI": "Americké Panenské ostrovy",
+    "UG": "Uganda",
+    "GB": "Spojené kráľovstvo",
+    "US": "Spojené štáty americké",
+    "UZ": "Uzbekistan",
+    "VU": "Vanuatu",
+    "VA": "Vatikán",
+    "VE": "Venezuela",
+    "VN": "Vietnam",
+    "WF": "Wallis a Futuna",
+    "YE": "Jemen",
+    "ZM": "Zambia",
+    "ZW": "Zimbabwe",
+    "AE": "Spojené Arabské Emiráty",
+    "UA": "Ukrajina",
+    "UY": "Uruguaj",
+    "EE": "Estónsko",
+    "UM": "Menšie odľahlé ostrovy USA",
+    "XK": "Kosovo"
+  },
+  "cvv_learn_more": {
+    "learn_more": {
+      "close_ally": "Zatvoriť Zistiť viac.",
+      "content": "3-číselný kód na zadnej strane karty.",
+      "content_amex": "4-číselný kód na prednej strane karty.",
+      "open_ally": "Zistite viac o bezpečnostnom kóde.",
+      "title": "Bezpečnostný kód"
+    }
+  },
+  "device_locked": {
+    "description": "Skúste to znova neskôr alebo použite iné zariadenie"
+  },
+  "errors": {
+    "validation": {
+      "card": {
+        "card_cant_be_used": "Túto kartu nie je možné použiť. Skúste inú.",
+        "unsupported_billing_address": "Tento obchodník neakceptuje krajinu tejto fakturačnej adresy.",
+        "unsupported_billing_address_country": "Tento obchodník neprijíma fakturačné adresy nachádzajúce sa v krajine __country__.",
+        "unsupported_shipping_address": "Tento obchodník nedodáva do krajiny s touto adresou",
+        "card_expired": "Platnosť tejto karty uplynula.",
+        "merchant_unsupported_card_brand": "Tento obchodník neakceptuje značku __cardBrand__.",
+        "card_failed_threeds": "Vašej finančnej inštitúcii sa nepodarilo overiť túto kartu.",
+        "partial_billing_address": "Upravte fakturačnú adresu tejto karty a zaplaťte u tohto obchodníka.",
+        "unsupported_canadian_card": "Tento obchodník neakceptuje túto kartu.",
+        "unaccepted_card_brand": "Obchodník neakceptuje značku __cardBrandX__. Ak chcete pokračovať, musíte použiť značku __cardBrandY__.",
+        "card_not_verified": "Pred použitím tejto karty sú potrebné ďalšie informácie.",
+        "merchant_unsupported_card_brand_type": "Tento obchodník neakceptuje značku __cardBrand__ typu __cardType__.",
+        "generic_error": "Túto kartu nie je možné použiť. Skúste inú."
+      },
+      "unbind": "Ľutujeme, ale niečo sa pokazilo. Neboli ste úplne odhlásení",
+      "password": {
+        "has_consecutive_chars": "Nesprávne heslo",
+        "has_consecutive_chars_page": "Ľutujeme, ale heslo nesmie obsahovať 3 po sebe idúce rovnaké znaky.",
+        "has_spaces": "Nesprávne heslo",
+        "has_spaces_page": "Ľutujeme, ale vaše heslo nemôže obsahovať medzery.",
+        "has_unsupported": "Nesprávne heslo",
+        "has_unsupported_page": "Ľutujeme, ale pre heslo do služby Visa Checkout môžete použiť iba písmená, číslice alebo znaky ! @ # $ % & * ?.",
+        "has_username": "Nesprávne heslo",
+        "has_username_page": "Je nám ľúto, ale heslo nemôže obsahovať časť vášho e-mailu alebo čísla mobilného telefónu.",
+        "same_as_previous": "Nesprávne heslo",
+        "same_as_previous_page": "Vaše nové heslo nemôže byť rovnaké ako vaše predchádzajúce heslo. Zadajte iné heslo.",
+        "too_long": "Nesprávne heslo",
+        "too_long_page": "Vaše heslo nemôže obsahovať viac ako 32 znakov.",
+        "too_short": "Nesprávne heslo",
+        "too_short_page": "Ľutujeme, pre heslo sa vyžaduje minimálne 6 znakov."
+      },
+      "add_card": {
+        "all_fields_empty": "Ak chcete pokračovať, zadajte informácie o svojej karte.",
+        "unaccepted_card_brand": "Táto karta momentálne nie je k dispozícii v rámci služby Click to Pay. Použite inú kartu alebo sa vráťte k obchodníkovi.",
+        "incomplete_card_number": "Ak chcete pokračovať, zadajte platné číslo karty.",
+        "past_expiry_date": "Ľutujeme, ale zadali ste starý dátum vypršania platnosti. Skúste to znova.",
+        "future_expiry_date": "Ľutujeme, ale zadali ste nesprávny dátum vypršania platnosti. Skúste to znova.",
+        "invalid_month": "Ľutujeme, zadali ste mesiac, ktorý neexistuje.",
+        "invalid_security_code": "Ak chcete pokračovať, zadajte platný bezpečnostný kód.",
+        "merchant": {
+          "accepted_discover": {
+            "second_digit_unaccepted": "Ľutujeme, ale zadané čísla sa nerozpoznali ako platné čísla karty Discover."
+          },
+          "accepted_amex": {
+            "second_digit_unaccepted": "Ľutujeme, ale druhé zadané číslo nebolo rozpoznané ako platné číslo karty American Express."
+          }
+        },
+        "disabled_card_brand": "Táto karta momentálne nie je k dispozícii v rámci služby Click to Pay. Použite inú kartu alebo sa vráťte k obchodníkovi."
+      },
+      "review_and_signup": {
+        "accept_tnc": "Ak chcete prijať podmienky a pokračovať, musíte začiarknuť políčko."
+      }
+    },
+    "login": {
+      "account_disabled": "Ľutujeme, ale momentálne nemôžeme spracovať vašu požiadavku. Kvôli ochrane ste boli dočasne uzamknutí. Kontaktujte zákaznícku podporu.",
+      "empty_form": "Zadajte svoje prihlasovacie údaje.",
+      "forget_password": "Zabudli ste heslo.",
+      "incorrect": "Zadali ste nesprávne prihlasovacie údaje.",
+      "incorrect_2": "Zadali ste nesprávne prihlasovacie údaje. Zabudli ste heslo?",
+      "locked": "Ľutujeme, ale z dôvodu vašej ochrany ste boli dočasne uzamknutí. Skúste to znova neskôr alebo pokračujte zadaním informácií o karte na uvítacej obrazovke.",
+      "max_attempts": "Prekročili ste maximálny povolený počet pokusov. Skúste to znova o niekoľko hodín alebo kontaktujte zákaznícku podporu.",
+      "unavailable": "Ľutujeme, ale momentálne nemôžeme spracovať vašu požiadavku. Skúste to znova neskôr."
+    }
+  },
+  "footer": {
+    "host": "Hosťované spoločnosťou Visa",
+    "ad_preference": "Upraviť predvoľby reklamy",
+    "cookies": "Súbory Cookie",
+    "language_selector": "Volič krajiny a jazyka. Vybraný štát __countryName__",
+    "legal": {
+      "native": {
+        "disclaimer": "Visa Checkout môže zdieľať informácie o tom, ako používate túto kartu v službe Visa Checkout s finančnou inštitúciou, ktorá vydala kartu, za účelom služieb zákazníkom, analýzy používania, prevencie podvodov a marketingu súvisiaceho s Visa Checkout."
+      }
+    },
+    "privacy": "Ochrana osobných údajov",
+    "select_country": "Vyberte svoju krajinu",
+    "support": "Podpora",
+    "terms": "Podmienky",
+    "toggle_language": "Volič jazyka prepnite na",
+    "country_selector_selection": "Vybraná krajina __countryName__"
+  },
+  "form": {
+    "error": {
+      "empty_form": "Ak chcete pokračovať, zadajte svoje informácie.",
+      "generic": "Máme technické problémy. Skúste to znova.",
+      "one_or_more": "Máte jednu alebo viac chýb. Ak chcete pokračovať, opravte ich."
+    }
+  },
+  "ghost_layer": {
+    "cancel_and_return": "Zrušiť a vrátiť sa k obchodníkovi __merchantName__",
+    "find_button": "Nájsť teraz",
+    "message": "Kam zmizlo moje okno s platbou?",
+    "message_iOS_safari": "Chýba vaše okno s platbou?",
+    "restart_button": "Reštartovať platbu"
+  },
+  "header": {
+    "a11y": {
+      "logo_alt_text_vdcp": "Logo Visa",
+      "logo_alt_text": "Logo Visa Checkout"
+    }
+  },
+  "installments": {
+    "card": {
+      "eligible": "Nárok na splátky"
+    }
+  },
+  "learn-more": {
+    "close": "Zavrieť",
+    "close_panel": "Zavrieť panel Zistiť viac",
+    "collapsed_panel": "Zistiť viac",
+    "learn_more": "Zistiť viac",
+    "more_info": "Viac informácií"
+  },
+  "lib_address": {
+    "name": {
+      "first": {
+        "value": "Krstné meno",
+        "error": "Neplatné krstné meno"
+      },
+      "last": {
+        "value": "Priezvisko",
+        "error": "Neplatné priezvisko"
+      }
+    },
+    "country": {
+      "value": "Krajina/región",
+      "placeholder": "Vyberte alebo zadajte krajinu/región"
+    },
+    "address": {
+      "line1": {
+        "value": "Ulica číslo domu",
+        "error": "Neplatné číslo ulica"
+      },
+      "line2": {
+        "value": "2. riadok adresy (voliteľný)",
+        "error": "2. riadok adresy je neplatný",
+        "placeholder": "Napr. byt, apartmán, poschodie atď."
+      },
+      "state_province_code": {
+        "value": "Provincia",
+        "error": "Neplatná provincia"
+      }
+    },
+    "AR": {
+      "address": {
+        "city": {
+          "value": "Mesto",
+          "error": "Neplatné mesto"
+        },
+        "state_province_code": {
+          "value": "Štát/provincia",
+          "error": "Neplatný štát/provincia"
+        },
+        "postal_code": {
+          "value": "PSČ",
+          "error": "Neplatné PSČ"
+        },
+        "line2": {
+          "placeholder": "Byt, apartmán, poschodie atď."
+        }
+      }
+    },
+    "AU": {
+      "address": {
+        "city": {
+          "value": "Mesto",
+          "error": "Neplatné mesto"
+        },
+        "state_province_code": {
+          "value": "Štát",
+          "error": "Neplatný štát",
+          "placeholder": "2 – 3 písmená"
+        },
+        "postal_code": {
+          "value": "PSČ",
+          "error": "Neplatné PSČ",
+          "placeholder": "XXXX"
+        },
+        "line2": {
+          "placeholder": "Byt, apartmán, poschodie atď."
+        }
+      }
+    },
+    "BR": {
+      "address": {
+        "postal_code": {
+          "value": "CEP",
+          "error": "Neplatný CEP",
+          "placeholder": "XXXXX - XXX"
+        },
+        "street_name": {
+          "value": "Adresa",
+          "error": "Neplatná adresa"
+        },
+        "street_number": {
+          "value": "Číslo (povinné)",
+          "error": "Neplatné číslo"
+        },
+        "additional_location": {
+          "value": "Doplnok (voliteľný)",
+          "error": "Neplatný doplnok"
+        },
+        "line2": {
+          "value": "Susedstvo",
+          "error": "Neplatné susedstvo"
+        },
+        "line3": {
+          "value": "Referenčný bod (voliteľný)",
+          "error": "Neplatný referenčný bod"
+        },
+        "city": {
+          "value": "Mesto",
+          "error": "Neplatné mesto"
+        },
+        "state_province_code": {
+          "value": "Štát",
+          "error": "Neplatný štát",
+          "placeholder": "XX"
+        }
+      }
+    },
+    "CA": {
+      "address": {
+        "city": {
+          "value": "Mesto",
+          "error": "Neplatné mesto"
+        },
+        "state_province_code": {
+          "value": "Provincia",
+          "error": "Neplatná provincia",
+          "placeholder": "XX"
+        },
+        "postal_code": {
+          "value": "PSČ",
+          "error": "Neplatné PSČ",
+          "placeholder": "XXX XXX"
+        }
+      }
+    },
+    "CL": {
+      "address": {
+        "city": {
+          "value": "Mesto",
+          "error": "Neplatné mesto"
+        },
+        "state_province_code": {
+          "value": "Štát/provincia",
+          "error": "Neplatný štát/provincia"
+        },
+        "postal_code": {
+          "value": "PSČ",
+          "error": "Neplatné PSČ"
+        },
+        "line2": {
+          "placeholder": "Byt, apartmán, poschodie atď."
+        }
+      }
+    },
+    "CN": {
+      "address": {
+        "city": {
+          "value": "Mesto",
+          "error": "Neplatné mesto"
+        },
+        "state_province_code": {
+          "value": "Štát/provincia",
+          "error": "Neplatný štát/provincia"
+        },
+        "postal_code": {
+          "value": "PSČ",
+          "error": "Neplatné PSČ"
+        },
+        "line2": {
+          "placeholder": "Byt, apartmán, poschodie atď."
+        }
+      }
+    },
+    "CO": {
+      "address": {
+        "city": {
+          "value": "Mesto",
+          "error": "Neplatné mesto"
+        },
+        "state_province_code": {
+          "value": "Štát/provincia",
+          "error": "Neplatný štát/provincia"
+        },
+        "postal_code": {
+          "value": "PSČ",
+          "error": "Neplatné PSČ"
+        },
+        "line2": {
+          "placeholder": "Byt, apartmán, poschodie atď."
+        }
+      }
+    },
+    "DO": {
+      "address": {
+        "city": {
+          "value": "Mesto",
+          "error": "Neplatné mesto"
+        },
+        "state_province_code": {
+          "value": "Štát/provincia",
+          "error": "Neplatný štát/provincia"
+        },
+        "postal_code": {
+          "value": "PSČ",
+          "error": "Neplatné PSČ"
+        },
+        "line1": {
+          "value": "1. riadok adresy",
+          "error": "1. riadok adresy je neplatný"
+        },
+        "line2": {
+          "value": "2. riadok adresy",
+          "placeholder": "2. riadok adresy",
+          "error": "2. riadok adresy je neplatný"
+        }
+      }
+    },
+    "FR": {
+      "address": {
+        "line1": {
+          "placeholder": "Číslo a názov ulice"
+        },
+        "line2": {
+          "placeholder": "Byt, budova, poschodie atď."
+        },
+        "city": {
+          "value": "Mesto",
+          "error": "Neplatné mesto"
+        },
+        "postal_code": {
+          "value": "PSČ",
+          "error": "Neplatné PSČ",
+          "placeholder": "XXXXX"
+        }
+      }
+    },
+    "GI": {
+      "address": {
+        "city": {
+          "value": "Mesto",
+          "error": "Neplatné mesto"
+        },
+        "state_province_code": {
+          "value": "Štát/provincia",
+          "error": "Neplatný štát/provincia"
+        },
+        "postal_code": {
+          "value": "PSČ",
+          "error": "Neplatné PSČ"
+        }
+      }
+    },
+    "GT": {
+      "address": {
+        "city": {
+          "value": "Mesto",
+          "error": "Neplatné mesto"
+        },
+        "state_province_code": {
+          "value": "Štát/provincia",
+          "error": "Neplatný štát/provincia"
+        },
+        "postal_code": {
+          "value": "PSČ",
+          "error": "Neplatné PSČ"
+        }
+      }
+    },
+    "HK": {
+      "address": {
+        "city": {
+          "value": "Okres",
+          "error": "Neplatný okres"
+        },
+        "line2": {
+          "placeholder": "Byt, apartmán, poschodie atď."
+        }
+      }
+    },
+    "IN": {
+      "address": {
+        "line3": {
+          "value": "Orientačný bod",
+          "error": "Neplatný orientačný bod"
+        },
+        "city": {
+          "value": "Mesto",
+          "error": "Neplatné mesto"
+        },
+        "state_province_code": {
+          "value": "Štát",
+          "error": "Neplatný štát"
+        },
+        "postal_code": {
+          "value": "Kód PIN",
+          "error": "Neplatný kód PIN",
+          "placeholder": "XXXXXX"
+        },
+        "line2": {
+          "placeholder": "Byt, apartmán, poschodie atď."
+        }
+      }
+    },
+    "IE": {
+      "address": {
+        "line2": {
+          "placeholder": "Lokalita"
+        },
+        "city": {
+          "value": "Mesto",
+          "error": "Neplatné mesto"
+        },
+        "county": {
+          "value": "Kraj",
+          "error": "Neplatný kraj",
+          "placeholder": "Vyberte alebo zadajte kraj"
+        },
+        "postal_code": {
+          "value": "PSČ (voliteľné)",
+          "error": "Neplatné PSČ",
+          "placeholder": "Dublinská oblasť alebo Eircode"
+        }
+      }
+    },
+    "JP": {
+      "address": {
+        "city": {
+          "value": "Mesto",
+          "error": "Neplatné mesto"
+        },
+        "state_province_code": {
+          "value": "Štát/provincia",
+          "error": "Neplatný štát/provincia"
+        },
+        "postal_code": {
+          "value": "PSČ",
+          "error": "Neplatné PSČ"
+        }
+      }
+    },
+    "KW": {
+      "address": {
+        "line1": {
+          "placeholder": "Dom, ulica, blok, oblasť"
+        },
+        "line2": {
+          "placeholder": "Napr. komplex, budova"
+        },
+        "city": {
+          "value": "Mesto",
+          "error": "Neplatné mesto"
+        },
+        "state_province_code": {
+          "value": "Štát/provincia",
+          "error": "Neplatný štát/provincia"
+        },
+        "postal_code": {
+          "value": "PSČ (voliteľné)",
+          "error": "Neplatné PSČ"
+        }
+      }
+    },
+    "MY": {
+      "address": {
+        "city": {
+          "value": "Mesto",
+          "error": "Neplatné mesto"
+        },
+        "state_province_code": {
+          "value": "Štát/provincia",
+          "error": "Neplatný štát/provincia"
+        },
+        "postal_code": {
+          "value": "PSČ",
+          "error": "Neplatné PSČ"
+        },
+        "line2": {
+          "placeholder": "Byt, apartmán, poschodie atď."
+        }
+      }
+    },
+    "MX": {
+      "address": {
+        "postal_code": {
+          "value": "PSČ",
+          "error": "Neplatné PSČ",
+          "placeholder": "XXXXX"
+        },
+        "street_name": {
+          "value": "Ulica",
+          "error": "Neplatná ulica"
+        },
+        "street_number": {
+          "value": "Exteriér č.",
+          "error": "Neplatný exteriér č."
+        },
+        "additional_location": {
+          "value": "Interiér č. (voliteľné)",
+          "error": "Neplatný interiér č."
+        },
+        "neighborhood": {
+          "value": "Kolónia",
+          "error": "Neplatná kolónia"
+        },
+        "county": {
+          "value": "Kraj alebo samospráva",
+          "error": "Neplatný kraj alebo obec"
+        },
+        "city": {
+          "value": "Mesto",
+          "error": "Neplatné mesto"
+        },
+        "state_province_code": {
+          "value": "Štát",
+          "error": "Neplatný štát"
+        },
+        "point_of_reference": {
+          "value": "Referenčný bod (voliteľný)",
+          "error": "Neplatný referenčný bod"
+        }
+      }
+    },
+    "PE": {
+      "address": {
+        "city": {
+          "value": "Mesto",
+          "error": "Neplatné mesto"
+        },
+        "state_province_code": {
+          "value": "Štát/provincia",
+          "error": "Neplatný štát/provincia"
+        },
+        "postal_code": {
+          "value": "PSČ",
+          "error": "Neplatné PSČ"
+        },
+        "line2": {
+          "placeholder": "Byt, apartmán, poschodie atď."
+        }
+      }
+    },
+    "PL": {
+      "address": {
+        "street_name": {
+          "value": "Ulica",
+          "error": "Neplatná ulica"
+        },
+        "street_number": {
+          "value": "Číslo domu/bytu",
+          "error": "Neplatné číslo domu/bytu"
+        },
+        "city": {
+          "value": "Mesto",
+          "error": "Neplatné mesto"
+        },
+        "postal_code": {
+          "value": "PSČ",
+          "error": "Neplatné PSČ",
+          "placeholder": "XX-XXX"
+        }
+      }
+    },
+    "QA": {
+      "address": {
+        "line1": {
+          "placeholder": "Číslo a ulica, apartmán alebo PO Box"
+        },
+        "line2": {
+          "placeholder": "Napr. komplex, budova"
+        },
+        "city": {
+          "value": "Mesto",
+          "error": "Neplatné mesto"
+        },
+        "state_province_code": {
+          "value": "Lokalita/štát",
+          "error": "Neplatná lokalita/štát"
+        },
+        "postal_code": {
+          "value": "PSČ (voliteľné)",
+          "error": "Neplatné PSČ"
+        }
+      }
+    },
+    "NZ": {
+      "address": {
+        "city": {
+          "value": "Mesto",
+          "error": "Neplatné mesto"
+        },
+        "postal_code": {
+          "value": "PSČ",
+          "error": "Neplatné PSČ",
+          "placeholder": "XXXX"
+        },
+        "line2": {
+          "placeholder": "Byt, apartmán, poschodie atď."
+        }
+      }
+    },
+    "SA": {
+      "address": {
+        "line1": {
+          "placeholder": "Číslo a ulica, apartmán alebo PO BOX"
+        },
+        "line2": {
+          "placeholder": "Napr. komplex, budova a pod."
+        },
+        "city": {
+          "value": "Mesto",
+          "error": "Neplatné mesto"
+        },
+        "state_province_code": {
+          "value": "Región",
+          "error": "Neplatná oblasť"
+        },
+        "postal_code": {
+          "value": "PSČ (voliteľné)",
+          "error": "Neplatné PSČ"
+        }
+      }
+    },
+    "SG": {
+      "address": {
+        "city": {
+          "value": "Mesto",
+          "error": "Neplatné mesto"
+        },
+        "state_province_code": {
+          "value": "Štát/provincia",
+          "error": "Neplatný štát/provincia"
+        },
+        "postal_code": {
+          "value": "PSČ",
+          "error": "Neplatné PSČ"
+        },
+        "line2": {
+          "placeholder": "Byt, apartmán, poschodie atď."
+        }
+      }
+    },
+    "ZA": {
+      "address": {
+        "city": {
+          "value": "Mesto",
+          "error": "Neplatné mesto"
+        },
+        "state_province_code": {
+          "value": "Štát/provincia",
+          "error": "Neplatný štát/provincia"
+        },
+        "postal_code": {
+          "value": "PSČ",
+          "error": "Neplatné PSČ"
+        },
+        "line2": {
+          "placeholder": "Byt, apartmán, poschodie atď."
+        }
+      }
+    },
+    "SK": {
+      "address": {
+        "city": {
+          "value": "Mesto",
+          "error": "Neplatné mesto"
+        },
+        "state_province_code": {
+          "value": "Štát/provincia",
+          "error": "Neplatný štát/provincia"
+        },
+        "postal_code": {
+          "value": "PSČ",
+          "error": "Neplatné PSČ"
+        }
+      }
+    },
+    "TW": {
+      "address": {
+        "city": {
+          "value": "Mesto",
+          "error": "Neplatné mesto"
+        },
+        "state_province_code": {
+          "value": "Štát/provincia",
+          "error": "Neplatný štát/provincia"
+        },
+        "postal_code": {
+          "value": "PSČ",
+          "error": "Neplatné PSČ"
+        }
+      }
+    },
+    "ES": {
+      "address": {
+        "line1": {
+          "placeholder": "Ulica, číslo, poschodie, dvere atď."
+        },
+        "city": {
+          "value": "Mesto",
+          "error": "Neplatné mesto"
+        },
+        "state_province_code": {
+          "value": "Provincia",
+          "error": "Neplatná provincia",
+          "placeholder": "Vyberte alebo zadajte provinciu"
+        },
+        "postal_code": {
+          "value": "PSČ",
+          "error": "Neplatné PSČ",
+          "placeholder": "XXXXX"
+        },
+        "line2": {
+          "placeholder": "Byt, apartmán, poschodie atď."
+        }
+      }
+    },
+    "TH": {
+      "address": {
+        "city": {
+          "value": "Mesto",
+          "error": "Neplatné mesto"
+        },
+        "state_province_code": {
+          "value": "Štát/provincia",
+          "error": "Neplatný štát/provincia"
+        },
+        "postal_code": {
+          "value": "PSČ",
+          "error": "Neplatné PSČ"
+        }
+      }
+    },
+    "AE": {
+      "address": {
+        "city": {
+          "value": "Mesto",
+          "error": "Neplatné mesto"
+        },
+        "state_province_code": {
+          "value": "Štát/provincia",
+          "error": "Neplatný štát/provincia"
+        },
+        "postal_code": {
+          "value": "PSČ",
+          "error": "Neplatné PSČ"
+        },
+        "line2": {
+          "placeholder": "Byt, apartmán, poschodie atď."
+        }
+      }
+    },
+    "GB": {
+      "address": {
+        "city": {
+          "value": "Mesto",
+          "error": "Neplatné mesto"
+        },
+        "postal_code": {
+          "value": "PSČ",
+          "error": "Neplatné PSČ",
+          "placeholder": "5 – 7 znakov"
+        }
+      }
+    },
+    "UA": {
+      "address": {
+        "line1": {
+          "placeholder": "Ulica"
+        },
+        "line2": {
+          "placeholder": "Ulica, dom, byt"
+        },
+        "line3": {
+          "value": "3. riadok adresy (voliteľný)",
+          "error": "3. riadok adresy je neplatný",
+          "placeholder": "Okres"
+        },
+        "city": {
+          "value": "Mesto",
+          "error": "Neplatné mesto"
+        },
+        "state_province_code": {
+          "value": "Región",
+          "error": "Neplatná oblasť"
+        },
+        "postal_code": {
+          "value": "PSČ",
+          "error": "Neplatné PSČ"
+        }
+      }
+    },
+    "US": {
+      "address": {
+        "city": {
+          "value": "Mesto",
+          "error": "Neplatné mesto"
+        },
+        "state_province_code": {
+          "value": "Štát",
+          "error": "Neplatný štát",
+          "placeholder": "XX"
+        },
+        "postal_code": {
+          "value": "PSČ",
+          "error": "Nesprávne PSČ",
+          "placeholder": "XXXXX"
+        },
+        "line1": {
+          "value": "1. riadok adresy",
+          "error": "1. riadok adresy je neplatný"
+        },
+        "line2": {
+          "placeholder": "Byt, apartmán, poschodie atď."
+        }
+      }
+    },
+    "UK": {
+      "address": {
+        "line2": {
+          "placeholder": "Byt, apartmán, poschodie atď."
+        }
+      }
+    }
+  },
+  "loading": {
+    "address_list_ally": "Počkajte, kým sa načítajú vaše adresy.",
+    "card_list_ally": "Počkajte, kým sa načítajú vaše karty.",
+    "welcome_ally": "Počkajte, kým sa načíta služba Visa Checkout."
+  },
+  "locale": {
+    "country": {
+      "Argentina": "Argentína",
+      "Australia": "Austrália",
+      "Brazil": "Brazília",
+      "Canada": "Kanada",
+      "Chile": "Čile",
+      "China": "Kontinentálna Čína",
+      "Colombia": "Kolumbia",
+      "DominicanRepublic": "Dominikánska republika",
+      "France": "Francúzsko",
+      "Gibraltar": "Gibraltár",
+      "Guatemala": "Guatemala",
+      "HongKong": "Hongkong",
+      "India": "India",
+      "Ireland": "Írsko",
+      "Japan": "Japonsko",
+      "Kuwait": "Kuvajt",
+      "Malaysia": "Malajzia",
+      "Mexico": "Mexiko",
+      "NewZealand": "Nový Zéland",
+      "Peru": "Peru",
+      "Poland": "Poľsko",
+      "Qatar": "Katar",
+      "SaudiArabia": "Saudská Arábia",
+      "Singapore": "Singapur",
+      "SouthAfrica": "Južná Afrika",
+      "SouthKorea": "Kórejská republika",
+      "Spain": "Španielsko",
+      "Taiwan": "Taiwan",
+      "Thailand": "Thajsko",
+      "UAE": "Spojené Arabské Emiráty",
+      "USA": "Spojené štáty americké",
+      "Ukraine": "Ukrajina",
+      "UnitedKingdom": "Spojené kráľovstvo",
+      "Germany": "Nemecko",
+      "Switzerland": "Švajčiarsko",
+      "Austria": "Rakúsko",
+      "Italy": "Taliansko",
+      "Portugal": "Portugalsko",
+      "Norway": "Nórsko",
+      "Sweden": "Švédsko",
+      "Finland": "Fínsko",
+      "Denmark": "Dánsko",
+      "CzechRepublic": "Česká republika",
+      "Hungary": "Maďarsko",
+      "Slovakia": "Slovensko",
+      "Netherlands": "Holandsko",
+      "Ecuador": "Ekvádor",
+      "ElSalvador": "Salvádor",
+      "CostaRica": "Kostarika",
+      "Panama": "Panama",
+      "Paraguay": "Paraguaj",
+      "Uruguay": "Uruguaj",
+      "Nicaragua": "Nikaragua",
+      "Honduras": "Honduras",
+      "Jordan": "Jordánsko"
+    }
+  },
+  "locked": {
+    "cta": {
+      "return_to_merchant": "Návrat do",
+      "try_another_card": "Vyskúšajte inú kartu"
+    },
+    "account": {
+      "header_top": "Bezpečnostné upozornenie",
+      "header_bottom": "Príliš veľa neúspešných pokusov",
+      "description": "Vaše karty Visa budú dočasne nedostupné. Skúste to znova neskôr alebo použite inú kartu."
+    },
+    "device": {
+      "header": "Zistili sme problém",
+      "description": "Z bezpečnostných dôvodov nemôžeme v súčasnosti pridať vašu kartu Visa. Skúste to znova neskôr alebo použite inú kartu."
+    }
+  },
+  "login": {
+    "did_you": "Stalo sa vám toto:"
+  },
+  "merchant": {
+    "name": "__merchantName__"
+  },
+  "mini": {
+    "error_message": {
+      "p1": "Ľutujeme, zdá sa, že sa niečo pokazilo.",
+      "p2": "Pokračujte zadaním svojej e-mailovej adresy na uvítacej obrazovke"
+    }
+  },
+  "non_roman": {
+    "content": "Musíte použiť __ACTION__. Visa Checkout v súčasnosti neumožňuje použitie iných znakov.",
+    "content_bold": "Iba rímske znaky",
+    "cta_text": "Potvrdiť a pokračovať",
+    "header": "Potvrďte"
+  },
+  "otp": {
+    "verify": {
+      "resend_code_link": "Znova odoslať kód",
+      "cta_text": "Pokračovať",
+      "description": "Zadajte jednorazový kód odoslaný na",
+      "header": "Vitajte späť",
+      "input_label": "Jednorazový kód",
+      "invalid_input_label": "Neplatný kód",
+      "remember_me": {
+        "checkbox": {
+          "label_p1": "Zapamätať si ma na tomto zariadení",
+          "label_p2": "(Neodporúča sa pre zdieľané zariadenia.)"
+        },
+        "learn_more": {
+          "eu": "Pomôžte nám zapamätať si vás uložením e-mailu alebo čísla mobilného telefónu. Teraz si vás a vaše obľúbené karty budeme pamätať pri každej platbe. Pri prihlásení jednoducho zadajte jednorazový kód alebo heslo.",
+          "p1": "Pomôžte nám zapamätať si vás uložením e-mailu alebo čísla mobilného telefónu. Teraz si vás a vaše obľúbené karty budeme pamätať pri každej platbe. Pri prihlásení jednoducho zadajte jednorazový kód alebo heslo.",
+          "p2": "Visa Checkout zobrazí dizajn vašej kreditnej alebo debetnej karty a poskytne vám tak osobnejšie nakupovanie.",
+          "p2_IR": "Visa Checkout zobrazí dizajn vašej debetnej alebo kreditnej karty a poskytne vám tak osobnejšie nakupovanie."
+        },
+        "close_a11y": "Zatvoriť Zistiť viac.",
+        "open_a11y": "Zistite viac o tom, ako si vás zapamätáme."
+      },
+      "use_password_link": "POUŽIŤ MOJE HESLO",
+      "resend_link": "Znova odoslať kód"
+    },
+    "provider": {
+      "description": "Zadajte jednorazový kód poskytovateľa __provider__ odoslaný používateľovi",
+      "description_email": "Zadajte jednorazový kód poskytovateľa __provider__ odoslaný e-mailom používateľovi",
+      "description_text": "Zadajte jednorazový kód poskytovateľa __provider__ odoslaný prostredníctvom textovej správy používateľovi"
+    },
+    "not_you": {
+      "not_you_a11y": "Ak to nie ste vy, vráťte sa späť",
+      "left_paren": "(",
+      "link_text": "Nie ste to vy?",
+      "right_paren": ")"
+    },
+    "errors": {
+      "expired_resend": "Platnosť tohto kódu uplynula. Kliknutím na tlačidlo „Znova odoslať“ získate nový kód.",
+      "invalid": "Ľutujeme, nepodarilo sa nám potvrdiť váš kód.",
+      "invalid_code": "Ľutujeme, zadaný kód je nesprávny.",
+      "retries_exceeded": "Príliš veľa neúspešných pokusov o zadanie jednorazového kódu. Skúste inú kartu.",
+      "account_inaccessible": "Momentálne nemáme prístup k vašim uloženým informáciám. Pokračujte zadaním podrobností o karte.",
+      "generic_error": "Ľutujeme, ale vašu požiadavku nebolo možné spracovať. Skúste znova odoslať kód."
+    },
+    "notifications": {
+      "resend": "Ďalší e-mail bol odoslaný používateľovi __name__",
+      "sent": "Kód odoslaný používateľovi __name__",
+      "resend_email": "Používateľovi __name__ bol odoslaný ďalší kód",
+      "resend_text": "Používateľovi __name__ bola odoslaná ďalšia textová správa",
+      "sms_email_resend": "Jednorazový kód bol znova odoslaný"
+    },
+    "step_up": {
+      "cta_text": "Potvrdiť",
+      "header": "Z bezpečnostných dôvodov znova zadajte svoje heslo",
+      "password": {
+        "a11y": {
+          "enter": "Zadajte svoje bezpečné heslo Visa Checkout pre __username__",
+          "hide": "Skryť znaky hesla",
+          "show": "Zobraziť znaky hesla"
+        },
+        "forgot_link": "Zabudnuté?",
+        "hide": "Skryť",
+        "input_label": "Heslo",
+        "invalid_input_label": "Nesprávne heslo",
+        "show": "Zobraziť"
+      }
+    },
+    "step_up_otp": {
+      "cancel": "Zrušiť"
+    },
+    "validation_channel": {
+      "sms_email_a11y": "__phone__ a __email__"
+    }
+  },
+  "otp_card_entry": {
+    "description": "Zdá sa, že ste službu Visa Checkout už použili. Zadajte jednorazový kód zaslaný na váš e-mail, aby sme vedeli, že ste to vy."
+  },
+  "page": {
+    "cancel_and_return": "Zrušiť a vrátiť sa k obchodníkovi __merchantName__",
+    "change": "Zmeniť",
+    "merchant_name_default": "obchodník"
+  },
+  "prefill_consent": {
+    "header": "Jednoduchší spôsob online platieb",
+    "description": "Ak to chcete veci trochu urýchliť, môžete povoliť, aby obchodník __merchantName__ predvyplnil vaše základné informácie.",
+    "more_info_a11y": "Kliknutím zobrazíte ďalšie informácie.",
+    "more_info": "Viac informácií.",
+    "more_info_content": "Informácie, ktoré môže obchodník __merchantName__ zdieľať, zahŕňajú meno a priezvisko, telefónne číslo a e-mailovú adresu",
+    "cta": "Predvyplniť moje informácie",
+    "cancel": "Nie, ďakujem",
+    "errors": {
+      "no_merchant_data": "Ľutujeme, ale obchodník __merchantName__ nemohol predbežne vyplniť vaše informácie. Stále však môžete pokračovať v online platbách pomocou karty Visa."
+    },
+    "disclaimer": "Kliknutím na tlačidlo „Predvyplniť moje informácie“ vyjadrujete súhlas s tým, že obchodník __merchantName__ odovzdá vaše meno a priezvisko, telefónne číslo a e-mailovú adresu do online platby Visa a súhlas s __privacyPolicy__.",
+    "privacy_policy": "Oznámenie o ochrane osobných údajov"
+  },
+  "sdklite": {
+    "accessibility": {
+      "button": "Click to Pay s ikonou platby",
+      "locked_button": "Platobná služba od spoločnosti Visa. Nedostupné.",
+      "spinner": "Načítava sa",
+      "spinner_close": "Zrušiť a vrátiť sa k obchodníkovi",
+      "fingerprint_icon": "Ikona odtlačku prsta"
+    },
+    "logging": {
+      "lock_reason": "Tlačidlo sa deaktivuje, pretože toto prostredie nie je podporované, skúste novší operačný systém.",
+      "not_initialized": "SDK ešte nebola inicializovaná.",
+      "no_network": "Neexistuje žiadne sieťové pripojenie, takže platobné informácie neboli aktualizované.",
+      "already_launched": "Proces platby už bol spustený.",
+      "invalid_params": "Parametre sú neplatné alebo nulové.",
+      "internal_error": "V službe Visa Checkout sa vyskytla interná chyba a požiadavku nemožno dokončiť.",
+      "corr_id_session": "CorrelationID pre túto reláciu je __correlationid__",
+      "api_check": "Zariadenia bežiace na úrovni API __apilevel__ a vyššej môžu používať funkciu Visa Checkout.",
+      "objc_bridge_warning": "Upozornenie – Objective-C nemôže skombinovať hodnoty poľa, ktoré sú nastavené na __property__. Použite vlastnosť .rawValue vo vyčíslení __enum__."
+    },
+    "ui": {
+      "biometric_signin": "Prihlásiť sa",
+      "biometric_cancel": "Zrušiť",
+      "fingerprint_recognized": "Odtlačok prsta bol rozpoznaný",
+      "fingerprint_unrecognized": "Odtlačok prsta nebol rozpoznaný. Skúste to znova",
+      "fingerprint_continue": "Pokračujte potvrdením odtlačku prsta",
+      "fingerprint_confirm": "Teraz potvrďte svoj odtlačok prsta.",
+      "touch_sensor": "Dotykový senzor"
+    }
+  },
+  "service_unavailable": {
+    "header": "Služba nie je k dispozícii",
+    "primary_cta_text": "Prihlásiť sa",
+    "secondary_cta_text": "Zavrieť",
+    "subtext": "Je nám ľúto, stalo sa niečo neočakávané a vaša relácia sa skončila. Prihláste sa znova."
+  },
+  "session": {
+    "expired": {
+      "header": "Platnosť relácie vypršala",
+      "message": "Z bezpečnostných dôvodov vypršala platnosť vašej relácie kvôli nečinnosti. Pokračujte opätovným zadaním svojej e-mailovej adresy na uvítacej obrazovke.",
+      "primary_cta_alt_text": "Prejsť na možnosť Prihlásiť sa",
+      "primary_cta_text": "Pokračovať",
+      "secondary_cta_text": "Zavrieť"
+    },
+    "warning_modal": {
+      "header": "Platnosť relácie čoskoro vyprší.",
+      "message": "Nižšie vyberte, ako chcete postupovať.",
+      "primary_cta_text": "Pokračovať v relácii",
+      "secondary_cta_text": "Zavrieť"
+    }
+  },
+  "src_app": {
+    "a11y": {
+      "description": "Click to Pay"
+    }
+  },
+  "tell_me_more": {
+    "disabled": {
+      "header": "Služba Visa Checkout sa zmenila na službu Click to Pay __srcIcon__",
+      "intro": "Služba Visa Checkout nie je na tejto stránke platby pre obchodníka k dispozícii.",
+      "intro_pt_2": "Medzitým použite alternatívny spôsob platby, ktorý ponúka tento obchodník."
+    },
+    "legacy": {
+      "close": "Zavrieť",
+      "close_aria_label": "Zatvoriť informačnú vrstvu Visa Checkout",
+      "create_action": "Vytvoriť účet Visa Checkout",
+      "feature_list_1": "Urýchlite platbu pomocou jediného prihlásenia",
+      "feature_list_2": "Použite akúkoľvek hlavnú kreditnú alebo debetnú kartu",
+      "feature_list_3": "Od spoločnosti Visa, ktorú poznáte a ktorej dôverujete",
+      "feature_list_4_1": "A je",
+      "feature_list_4_2": "ZADARMO!",
+      "intro": "Vytvorte si účet raz. Už nikdy nebudete musieť znova zadávať informácie o karte a adrese, kedykoľvek uvidíte Visa Checkout.",
+      "login_action": "Prihláste sa do svojho účtu Visa Checkout",
+      "logo_alt": "Získajte viac informácií o službe Visa Checkout",
+      "title": "Povedzte mi viac"
+    },
+    "src": {
+      "close": "Zavrieť",
+      "close_aria_label": "Zatvoriť informačnú vrstvu Visa Checkout",
+      "create_action": "Zaregistrovať",
+      "feature_list_1": "Plaťte pri menšom počte kliknutí – už žiadne dlhé formuláre alebo pamätanie si hesiel.",
+      "feature_list_2": "Stačí zadať informácie o účte jedenkrát – nemusíte zadávať svoje údaje pri každej platbe.",
+      "feature_list_3": "Hľadajte ikonu Click to Pay __srcIcon__ u stotisíc online predajcov - pri platbách pristupujte k svojim informáciám bezpečne.",
+      "feature_list_4": "Môžete si tiež vybrať, aby si vás zariadenie a prehliadač pamätali, aby ste mohli platiť rýchlejšie.",
+      "header": "Click to pay pomocou __srcIcon__",
+      "intro": "Plaťte s istotou pomocou tých istých platobných značiek, aké používate v súčasnosti. Služba Click to Pay je postavená na priemyselných bezpečnostných štandardoch pre online transakcie. Ľahkú a inteligentnú platbu môžete jednoducho použiť všade, kde uvidíte ikonu Click to Pay __srcIcon__ a kde je akceptovaná vaša karta. Použitie je jednoduché:",
+      "login_action": "Prihláste sa alebo prejdite na Môj profil",
+      "logo_alt": "Získajte viac informácií o službe Visa Checkout"
+    }
+  },
+  "user_info": {
+    "menu_ally": "Informácie o účte používateľa __name__",
+    "sign_out": "Odhlásiť",
+    "sign_out_a11y": "Odhlásiť používateľa __user__"
+  },
+  "vco_component_add_card": {
+    "first_name": {
+      "label": "Krstné meno",
+      "label_a11y": "Sem zadajte svoje krstné meno.",
+      "invalid_first_name": "Neplatné krstné meno"
+    },
+    "last_name": {
+      "label": "Priezvisko",
+      "label_a11y": "Sem zadajte svoje priezvisko.",
+      "invalid_last_name": "Neplatné priezvisko"
+    }
+  },
+  "vco-component-identification": {
+    "email_label_a11y": "Sem zadajte svoju e-mailovú adresu."
+  },
+  "welcome": {
+    "a11y": {
+      "cta": "Pokračovať pomocou služby Visa Checkout",
+      "page_title": "Visa Checkout, ľahší spôsob online platby"
+    },
+    "cta_text": "Pokračovať",
+    "description": "Ak chcete pokračovať, zadajte svoju e-mailovú adresu.",
+    "header": "Jednoduchší spôsob online platieb",
+    "input_label": "E-mailová adresa",
+    "invalid_input_label": "Neplatná emailová adresa",
+    "errors": {
+      "lockout": "Momentálne nemáme prístup k vašim uloženým informáciám. Pokračujte zadaním informácií o karte.",
+      "lookup_unavailable": "Pre vašu e-mailovú adresu nemožno použiť vyhľadávanie. Ak chcete pokračovať, zadajte informácie o svojej karte."
+    },
+    "create_account": {
+      "new_user": "Zdá sa, že ste v službe Click to Pay nováčikom. Ak chcete začať, zadajte informácie o svojej karte.",
+      "cta": "Pokračovať",
+      "tab": {
+        "label_a11y": "Nový používateľ",
+        "label": "Nové"
+      },
+      "legal_info": "Vaše informácie budú zdieľané so zúčastnenými platobnými sieťami a poskytovateľmi služieb, aby vám poskytli príslušné skúsenosti."
+    },
+    "sign_in": {
+      "tab": {
+        "label": "Návrat",
+        "label_a11y": "Vracajúci sa používateľ"
+      },
+      "cta": "Pokračovať",
+      "legal_info": "Zadaním svojho e-mailu poskytujete zúčastneným platobným sieťam prístup k vašim informáciám."
+    },
+    "src": {
+      "create_account": {
+        "new_user": "Vyzerá to tak, že ste nováčik. Aktivujte si svoju kreditnú alebo debetnú kartu zadaním podrobností nižšie."
+      },
+      "cta": {
+        "message": {
+          "new_user": "Vaše informácie budú zdieľané so zúčastnenými platobnými sieťami, poskytovateľmi služieb a inak, ako je popísané v našom __privacyNotice__, aby sme vám mohli poskytnúť príslušné skúsenosti.",
+          "returning_user": "Pokračovaním vyjadrujete súhlas s __privacyNotice__ spoločnosti Visa."
+        }
+      },
+      "legal": {
+        "privacy_notice": "Oznámenie o ochrane osobných údajov",
+        "terms": "Podmienky služby"
+      },
+      "header": "Jednoduché a inteligentné online platby",
+      "we_accept": "Prijímame",
+      "errors": {
+        "lockout": "Momentálne nemáme prístup k vašim uloženým informáciám. Pokračujte zadaním podrobností o karte."
+      },
+      "sub_heading": {
+        "new": "Plaťte s istotou pomocou Click to Pay",
+        "returning": "Plaťte s istotou pomocou Click to Pay"
+      }
+    }
+  }
+}

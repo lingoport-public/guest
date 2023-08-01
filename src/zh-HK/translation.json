@@ -1,0 +1,1593 @@
+{
+  "accepted_cards": {
+    "a11y": {
+      "cards_accepted": "「我們接受__cards__」"
+    }
+  },
+  "account_locked": {
+    "customer_support_link": "聯繫客戶支援",
+    "description": "請稍後再試或在歡迎畫面上輸入您的卡資料以繼續。",
+    "header": "您已被暫時封鎖",
+    "notifications": {
+      "unable_to_confirm": "很抱歉，我們無法確認您的驗證碼。"
+    },
+    "primary_cta_text": "繼續購物",
+    "secondary_cta_text": "輸入卡"
+  },
+  "add_card": {
+    "cancel": "取消",
+    "header": "添加卡",
+    "submit": "繼續",
+    "errors": {
+      "try_again": "抱歉，我們無法處理您的請求。請重試。",
+      "generic_error": "出現錯誤 試用另一張卡或稍後重試。"
+    },
+    "single_card_deleted": "成功刪除卡。",
+    "src": {
+      "sub_heading": "設定用於點擊付款的卡"
+    }
+  },
+  "card_list": {
+    "add": "新卡",
+    "add_a11y": "新增卡。",
+    "card_a11y": "__lastFour__結尾的__network__ __type__。",
+    "credit": "信用",
+    "debit": "借記",
+    "header": "選擇卡",
+    "errors": {
+      "api_error": "出現錯誤 試用另一張卡或稍後重試。",
+      "cardid_missing_one_card": "我們無法以此卡繼續。請新增一張新卡。",
+      "cardid_missing_mult_cards": "我們無法以此卡繼續。請嘗試使用另一張卡。"
+    },
+    "notifications": {
+      "deleted": "已順利刪除您的信用卡"
+    },
+    "electron": "Electron (簽帳)",
+    "prepaid": "預付",
+    "src": {
+      "sub_heading": "從設定用於Click to Pay的卡當中選擇"
+    }
+  },
+  "cardBrands": {
+    "amex": "American Express",
+    "discover": "Discover",
+    "elo": "Elo",
+    "mastercard": "Mastercard",
+    "visa": "Visa",
+    "electron": "Visa Electron",
+    "maestro": "Maestro"
+  },
+  "component_addr_disp": {
+    "masked_address_message": "基於安全理由已遮蔽"
+  },
+  "component_addr_list": {
+    "address": "地址"
+  },
+  "component_card_number": {
+    "brands": {
+      "amex": "American Express",
+      "discover": "Discover",
+      "electron": "電子",
+      "elo": "Elo",
+      "mastercard": "Mastercard",
+      "visa": "Visa",
+      "maestro": "Maestro"
+    },
+    "enter_card": "在此輸入您的卡號。",
+    "invalid": "無效",
+    "label": "卡號碼",
+    "label_error": "卡號碼",
+    "not_accepted": "不被接受",
+    "placeholder": "15至16位數字",
+    "card_brand_entered": "__cardBrand__卡已輸入"
+  },
+  "component_combobox": {
+    "aria": {
+      "filters": "隨著輸入篩選",
+      "item": "項目",
+      "items": "項目",
+      "of": "/",
+      "selected": "已選"
+    },
+    "country": {
+      "error": "國家無效",
+      "label": "國家/地區",
+      "placeholder": "選擇或輸入一個國家"
+    },
+    "dial_code": {
+      "error": "國家無效",
+      "placeholder": "選擇或輸入一個國家"
+    },
+    "no_match_message": "無法根據您輸入的資料找出相符結果。請重新輸入。",
+    "phone": {
+      "label": "電話號碼（必需）",
+      "placeholder": "電話號碼（必需）"
+    }
+  },
+  "component_cvv": {
+    "label": {
+      "error": "安全碼無效",
+      "name": "安全碼"
+    },
+    "enter_code": "在此輸入您的卡安全碼。",
+    "amex_helper": "在您卡正面的4位數字代碼。",
+    "non_amex_helper": "在您卡背面的3位數字代碼。"
+  },
+  "component_exp_date": {
+    "label": {
+      "description": "輸入時請採用M M / Y Y格式",
+      "error": "日期無效",
+      "name": "有效日期",
+      "labelled_by": "輸入到期日時請採用M M / Y Y格式"
+    },
+    "placeholder": "月月 / 年年"
+  },
+  "component_notification": {
+    "CLOSE": "關閉橫額",
+    "error": "錯誤通知",
+    "info": "資料通知",
+    "lower_environment_warning": "不開放顧客使用！- __env__測試環境",
+    "success": "成功通知",
+    "warning": "警告通知"
+  },
+  "component_phone_input": {
+    "phone_number_field": {
+      "ariaLabel": "手機號碼。我們可能會發送一次性代碼至這個手機號碼，以驗證您的身份。可能收取訊息及數據費用。",
+      "error": "手機號碼無效",
+      "label": "電話號碼（必需）"
+    },
+    "dial_code": {
+      "error": "國家無效",
+      "label": "國家",
+      "placeholder": "選擇或輸入一個國家",
+      "toggle_button_aria_label": "，國家／地區代碼選擇"
+    },
+    "no_match_message": "無法根據您輸入的資料找出相符結果。請重新輸入。"
+  },
+  "cookie_banner": {
+    "a11y": {
+      "close_button": "關閉橫額"
+    },
+    "link_text": "檢視/拒絕Cookies。",
+    "message": "我們使用Cookie，以確保安全、改善網站體驗、計算網站訪客人次並使Visa營銷活動得以進行。__CookiePolicyLink__",
+    "ok_button": "接受"
+  },
+  "country_map": {
+    "AF": "阿富汗",
+    "AL": "阿爾巴尼亞",
+    "DZ": "阿爾及利亞",
+    "AS": "美屬薩摩亞",
+    "AD": "安道爾",
+    "AO": "安哥拉",
+    "AI": "安圭拉",
+    "AG": "安提瓜和巴布達",
+    "AR": "阿根廷",
+    "AM": "亞美尼亞",
+    "AW": "阿魯巴",
+    "AU": "澳洲",
+    "AT": "奧地利",
+    "AZ": "阿塞拜疆",
+    "BS": "巴哈馬",
+    "BH": "巴林",
+    "BD": "孟加拉國",
+    "BB": "巴巴多斯",
+    "BY": "白俄羅斯",
+    "BE": "比利時",
+    "BZ": "伯利茲",
+    "BJ": "貝寧",
+    "BM": "百慕達",
+    "BT": "不丹",
+    "BO": "玻利維亞",
+    "BA": "波斯尼亞和黑塞哥維那",
+    "BW": "博茨瓦納",
+    "BR": "巴西",
+    "IO": "英屬印度洋領地",
+    "VG": "英屬維爾京群島",
+    "BN": "汶萊",
+    "BG": "保加利亞",
+    "BF": "布基納法索",
+    "BI": "布隆迪",
+    "KH": "柬埔寨",
+    "CM": "喀麥隆",
+    "CA": "加拿大",
+    "CV": "佛得角",
+    "BQ": "荷蘭加勒比區",
+    "KY": "開曼群島",
+    "CF": "中非共和國",
+    "TD": "乍得",
+    "CL": "智利",
+    "CN": "中國大陸",
+    "CO": "哥倫比亞",
+    "KM": "科摩羅",
+    "CD": "剛果（民主共和國）",
+    "CG": "剛果（共和國）",
+    "CK": "庫克群島",
+    "CR": "哥斯達黎加",
+    "CI": "科特迪瓦",
+    "HR": "克羅地亞",
+    "CU": "古巴",
+    "CW": "庫拉索",
+    "CY": "塞浦路斯",
+    "CZ": "捷克共和國",
+    "DK": "丹麥",
+    "DJ": "吉布提",
+    "DM": "多米尼加",
+    "DO": "多米尼加共和國",
+    "EC": "厄瓜多爾",
+    "EG": "埃及",
+    "SV": "薩爾瓦多",
+    "GQ": "赤道幾內亞",
+    "ER": "厄立特里亞",
+    "ES": "西班牙",
+    "ET": "埃塞俄比亞",
+    "FK": "福克蘭群島",
+    "FO": "法羅群島",
+    "FJ": "斐濟",
+    "FI": "芬蘭",
+    "FR": "法國",
+    "GF": "法屬幾內亞",
+    "PF": "法屬波利尼西亞",
+    "GA": "加蓬",
+    "GM": "岡比亞",
+    "GE": "格魯吉亞",
+    "DE": "德國",
+    "GH": "加納",
+    "GI": "直布羅陀",
+    "GR": "希臘",
+    "GL": "格陵蘭",
+    "GD": "格林納達",
+    "GP": "瓜達盧佩",
+    "GU": "關島",
+    "GT": "瓜地馬拉",
+    "GN": "幾內亞",
+    "GW": "幾內亞比紹",
+    "GY": "圭亞那",
+    "HT": "海地",
+    "HN": "洪都拉斯",
+    "HK": "香港",
+    "HU": "匈牙利",
+    "IS": "冰島",
+    "IN": "印度",
+    "ID": "印度尼西亞",
+    "IR": "伊朗",
+    "IQ": "伊拉克",
+    "IE": "愛爾蘭",
+    "IL": "以色列",
+    "IT": "意大利",
+    "JM": "牙買加",
+    "JP": "日本",
+    "JO": "約旦",
+    "KZ": "哈薩克斯坦",
+    "KE": "肯尼亞",
+    "KI": "基里巴斯",
+    "KW": "科威特",
+    "KG": "吉爾吉斯斯坦",
+    "LA": "老撾",
+    "LV": "拉脫維亞",
+    "LB": "黎巴嫩",
+    "LS": "萊索托",
+    "LR": "利比里亞",
+    "LY": "利比亞",
+    "LI": "列支敦士登",
+    "LT": "立陶宛",
+    "LU": "盧森堡",
+    "MO": "澳門",
+    "MK": "馬其頓",
+    "MG": "馬達加斯加",
+    "MW": "馬拉維",
+    "MY": "馬來西亞",
+    "MV": "馬爾代夫",
+    "ML": "馬里",
+    "MT": "馬耳他",
+    "MH": "馬紹爾群島",
+    "MQ": "馬提尼克",
+    "MR": "毛里塔尼亞",
+    "MU": "毛里求斯",
+    "MX": "墨西哥",
+    "FM": "密克羅尼西亞",
+    "MD": "摩爾多瓦",
+    "MC": "摩納哥",
+    "MN": "蒙古",
+    "ME": "黑山",
+    "MS": "蒙特塞拉特",
+    "MA": "摩洛哥",
+    "MZ": "莫桑比克",
+    "MM": "緬甸",
+    "NA": "納米比亞",
+    "NR": "瑙魯",
+    "NP": "尼泊爾",
+    "NL": "荷蘭",
+    "NC": "新喀里多尼亞",
+    "NZ": "紐西蘭",
+    "NI": "尼加拉瓜",
+    "NE": "尼日爾",
+    "NG": "尼日利亞",
+    "NU": "紐埃",
+    "NF": "諾福克島",
+    "KP": "北韓",
+    "MP": "北馬里亞納群島",
+    "NO": "挪威",
+    "OM": "阿曼",
+    "PK": "巴基斯坦",
+    "PW": "帕勞",
+    "PS": "巴勒斯坦",
+    "PA": "巴拿馬",
+    "PG": "巴布亞新幾內亞",
+    "PY": "巴拉圭",
+    "PE": "秘魯",
+    "PH": "菲律賓",
+    "PL": "波蘭",
+    "PT": "葡萄牙",
+    "PR": "波多黎各",
+    "QA": "卡塔爾",
+    "RE": "留尼旺",
+    "RO": "羅馬尼亞",
+    "RU": "俄羅斯",
+    "RW": "盧旺達",
+    "BL": "聖巴泰勒米",
+    "SH": "聖赫勒拿島",
+    "KN": "聖基茨和尼維斯",
+    "LC": "聖盧西亞",
+    "MF": "聖馬丁",
+    "PM": "聖皮埃爾和密克隆",
+    "VC": "聖文森特和格林納丁斯",
+    "WS": "薩摩亞",
+    "SM": "聖馬力諾",
+    "ST": "聖多美和普林西比",
+    "SA": "沙特阿拉伯",
+    "SN": "塞內加爾",
+    "RS": "塞爾維亞",
+    "SC": "塞舌爾",
+    "SL": "塞拉利昂",
+    "SG": "新加坡",
+    "SX": "聖馬丁島",
+    "SK": "斯洛伐克",
+    "SI": "斯洛文尼亞",
+    "SB": "所羅門群島",
+    "SO": "索馬里",
+    "ZA": "南非",
+    "KR": "南韓",
+    "SS": "南蘇丹",
+    "LK": "斯里蘭卡",
+    "SD": "蘇丹",
+    "SR": "蘇里南",
+    "SZ": "斯威士蘭",
+    "SE": "瑞典",
+    "CH": "瑞士",
+    "SY": "敘利亞",
+    "TW": "台灣",
+    "TJ": "塔吉克斯坦",
+    "TZ": "坦桑尼亞",
+    "TH": "泰國",
+    "TL": "東帝汶",
+    "TG": "多哥",
+    "TK": "托克勞",
+    "TO": "湯加",
+    "TT": "特立尼達和多巴哥",
+    "TN": "突尼西亞",
+    "TR": "土耳其",
+    "TM": "土庫曼斯坦",
+    "TC": "特克斯和凱科斯群島",
+    "TV": "圖瓦盧",
+    "VI": "美屬維爾京群島",
+    "UG": "烏干達",
+    "GB": "英國",
+    "US": "美國",
+    "UZ": "烏茲別克斯坦",
+    "VU": "瓦努阿圖",
+    "VA": "梵蒂岡城",
+    "VE": "委內瑞拉",
+    "VN": "越南",
+    "WF": "瓦利斯和富圖納",
+    "YE": "也門",
+    "ZM": "贊比亞",
+    "ZW": "津巴布韋",
+    "AE": "阿聯酋",
+    "UA": "烏克蘭",
+    "UY": "烏拉圭",
+    "EE": "愛沙尼亞",
+    "UM": "美國本土外小島",
+    "XK": "科索沃"
+  },
+  "cvv_learn_more": {
+    "learn_more": {
+      "close_ally": "關閉瞭解詳情。",
+      "content": "在您卡背面的3位數字代碼。",
+      "content_amex": "在您卡正面的4位數字代碼。",
+      "open_ally": "多加了解安全碼。",
+      "title": "安全碼"
+    }
+  },
+  "device_locked": {
+    "description": "請稍後再試，或使用不同的裝置。"
+  },
+  "errors": {
+    "validation": {
+      "card": {
+        "card_cant_be_used": "無法使用此卡。請嘗試使用另一張卡。",
+        "unsupported_billing_address": "賣家並不接受這個帳單地址上的國家。",
+        "unsupported_billing_address_country": "此商戶不接受位於__country__的賬單地址。",
+        "unsupported_shipping_address": "賣家無法寄送貨物至這個地址上的國家。",
+        "card_expired": "這張信用卡已經過期。",
+        "merchant_unsupported_card_brand": "此商戶不接受__cardBrand__。",
+        "card_failed_threeds": "您所屬的金融機構無法驗證這張信用卡。",
+        "partial_billing_address": "請編輯此卡的帳單地址，與此商家結帳。",
+        "unsupported_canadian_card": "這位賣家並不接受這張信用卡。",
+        "unaccepted_card_brand": "此商戶不接受__cardBrandX__。您必須使用__cardBrandY__以繼續。",
+        "card_not_verified": "使用這張信用卡前必須先輸入額外的資訊",
+        "merchant_unsupported_card_brand_type": "賣家並不接受 __cardBrand____cardType__。",
+        "generic_error": "無法使用此卡。請嘗試使用另一張卡。"
+      },
+      "unbind": "抱歉，出了一些問題。您尚未完全登出",
+      "password": {
+        "has_consecutive_chars": "密碼無效",
+        "has_consecutive_chars_page": "很抱歉，您的密碼不可含有超過3個連續相同字符。",
+        "has_spaces": "密碼無效",
+        "has_spaces_page": "很抱歉，您的密碼不可含有空格。",
+        "has_unsupported": "密碼無效",
+        "has_unsupported_page": "對不起，Visa Checkout密碼只能接受字母、數字或「! @ # $ % & * ?」字符。",
+        "has_username": "密碼無效",
+        "has_username_page": "很抱歉，您的密碼不可含有電郵地址或手機號碼的任何一部份。",
+        "same_as_previous": "密碼無效",
+        "same_as_previous_page": "您的新密碼不可與之前的密碼相同。請再輸入另一個密碼。",
+        "too_long": "密碼無效",
+        "too_long_page": "您的密碼不可超過32個字符。",
+        "too_short": "密碼無效",
+        "too_short_page": "很抱歉，密碼必須至少要有6個字符。"
+      },
+      "add_card": {
+        "all_fields_empty": "請輸入您的卡資訊後繼續。",
+        "unaccepted_card_brand": "此卡目前不適用於Click to Pay。請使用其他卡或返回商戶。",
+        "incomplete_card_number": "請輸入有效的卡號以繼續。",
+        "past_expiry_date": "抱歉，您輸入的到期日已過。 請再試。",
+        "future_expiry_date": "抱歉，您輸入的到期日不正確。請再試。",
+        "invalid_month": "抱歉，您輸入的月份並不存在。",
+        "invalid_security_code": "請輸入有效的安全碼以繼續。",
+        "merchant": {
+          "accepted_discover": {
+            "second_digit_unaccepted": "抱歉，您所輸入的號碼未經確認為有效的Discover信用卡卡號。"
+          },
+          "accepted_amex": {
+            "second_digit_unaccepted": "抱歉，您所輸入的第二個號碼未經確認為有效的美國運通卡卡號。"
+          }
+        },
+        "disabled_card_brand": "此卡目前不適用於Click to Pay。請使用其他卡或返回商戶。"
+      },
+      "review_and_signup": {
+        "accept_tnc": "您必須勾選方格以接受條款並繼續。"
+      }
+    },
+    "login": {
+      "account_disabled": "很抱歉，我們暫時無法處理您的請求。為了您的安全，您已被暫時鎖定。請聯繫客戶支援。",
+      "empty_form": "請輸入您的登入憑證。",
+      "forget_password": "忘記您的密碼？",
+      "incorrect": "您輸入不正確的登入憑證。",
+      "incorrect_2": "您輸入不正確的登入憑證。您是不是忘記您的密碼？",
+      "locked": "對不起，為了保障您的帳戶安全，您的帳戶已經被暫時鎖定。 請稍後再試或在歡迎畫面上輸入您的卡資料以繼續。",
+      "max_attempts": "您已超過允許嘗試次數上限。請在幾小時後再試或聯繫客戶支援。",
+      "unavailable": "很抱歉，我們暫時無法處理您的請求。請稍後再試。"
+    }
+  },
+  "footer": {
+    "host": "由Visa 寄存",
+    "ad_preference": "編輯廣告偏好設定",
+    "cookies": "Cookie",
+    "language_selector": "國家和語言選擇程序。 __countryName__已選擇",
+    "legal": {
+      "native": {
+        "disclaimer": "Visa Checkout可能會與發卡金融機構分享有關您如何使用此卡，供有關Visa Checkout的客戶服務、使用分析、防止欺詐和營銷用途使用。"
+      }
+    },
+    "privacy": "隱私權",
+    "select_country": "選擇您的國家/地區",
+    "support": "支援",
+    "terms": "條款",
+    "toggle_language": "語言選擇器轉為",
+    "country_selector_selection": "__countryName__已選擇"
+  },
+  "form": {
+    "error": {
+      "empty_form": "請輸入所需的資料以繼續",
+      "generic": "我們遇到一些技術問題。請再試一次。",
+      "one_or_more": "您在下方的資訊有一或多個錯誤，請修正後再繼續。"
+    }
+  },
+  "ghost_layer": {
+    "cancel_and_return": "取消並返回 __merchantName__",
+    "find_button": "立即尋找",
+    "message": "結帳視窗在哪？",
+    "message_iOS_safari": "您的結賬視窗不見了嗎？",
+    "restart_button": "重新開始結帳"
+  },
+  "header": {
+    "a11y": {
+      "logo_alt_text_vdcp": "Visa標誌",
+      "logo_alt_text": "Visa Checkout標誌"
+    }
+  },
+  "installments": {
+    "card": {
+      "eligible": "符合條件分期付款"
+    }
+  },
+  "learn-more": {
+    "close": "返回商戶",
+    "close_panel": "關閉更多詳情面板",
+    "collapsed_panel": "更多詳情",
+    "learn_more": "更多詳情",
+    "more_info": "更多詳情"
+  },
+  "lib_address": {
+    "name": {
+      "first": {
+        "value": "名字",
+        "error": "名字無效"
+      },
+      "last": {
+        "value": "姓氏",
+        "error": "姓氏無效"
+      }
+    },
+    "country": {
+      "value": "國家/地區",
+      "placeholder": "選擇或輸入國家/地區"
+    },
+    "address": {
+      "line1": {
+        "value": "地址第1行",
+        "error": "地址第 1 行無效"
+      },
+      "line2": {
+        "value": "地址第 2 行（選填）",
+        "error": "地址第 2 行無效",
+        "placeholder": "例：大廈、座數、樓層等。"
+      },
+      "state_province_code": {
+        "value": "省報",
+        "error": "省份無效"
+      }
+    },
+    "AR": {
+      "address": {
+        "city": {
+          "value": "城市",
+          "error": "城市無效"
+        },
+        "state_province_code": {
+          "value": "州/省",
+          "error": "州分／省分無效"
+        },
+        "postal_code": {
+          "value": "郵政編號",
+          "error": "郵遞區號無效"
+        },
+        "line2": {
+          "placeholder": "如：公寓、套房、樓層等"
+        }
+      }
+    },
+    "AU": {
+      "address": {
+        "city": {
+          "value": "城市",
+          "error": "城市無效"
+        },
+        "state_province_code": {
+          "value": "州",
+          "error": "州分無效",
+          "placeholder": "2至3個字符"
+        },
+        "postal_code": {
+          "value": "郵政編號",
+          "error": "郵區編號無效",
+          "placeholder": "XXXX"
+        },
+        "line2": {
+          "placeholder": "如：公寓、套房、樓層等"
+        }
+      }
+    },
+    "BR": {
+      "address": {
+        "postal_code": {
+          "value": "CEP",
+          "error": "CEP 無效",
+          "placeholder": "XXXXX - XXX"
+        },
+        "street_name": {
+          "value": "地址",
+          "error": "地址無效"
+        },
+        "street_number": {
+          "value": "數字（必需）",
+          "error": "號碼無效"
+        },
+        "additional_location": {
+          "value": "補充（可選）",
+          "error": "補充無效"
+        },
+        "line2": {
+          "value": "街區",
+          "error": "街區無效"
+        },
+        "line3": {
+          "value": "參考點（選填）",
+          "error": "參考點無效"
+        },
+        "city": {
+          "value": "城市",
+          "error": "城市無效"
+        },
+        "state_province_code": {
+          "value": "州",
+          "error": "州分無效",
+          "placeholder": "XX"
+        }
+      }
+    },
+    "CA": {
+      "address": {
+        "city": {
+          "value": "城市",
+          "error": "城市無效"
+        },
+        "state_province_code": {
+          "value": "省份",
+          "error": "省份無效",
+          "placeholder": "XX"
+        },
+        "postal_code": {
+          "value": "郵政編號",
+          "error": "郵遞區號無效",
+          "placeholder": "XXX XXX"
+        }
+      }
+    },
+    "CL": {
+      "address": {
+        "city": {
+          "value": "城市",
+          "error": "城市無效"
+        },
+        "state_province_code": {
+          "value": "州/省",
+          "error": "州分／省分無效"
+        },
+        "postal_code": {
+          "value": "郵政編號",
+          "error": "郵遞區號無效"
+        },
+        "line2": {
+          "placeholder": "如：公寓、套房、樓層等"
+        }
+      }
+    },
+    "CN": {
+      "address": {
+        "city": {
+          "value": "城市",
+          "error": "城市無效"
+        },
+        "state_province_code": {
+          "value": "州/省",
+          "error": "州分／省分無效"
+        },
+        "postal_code": {
+          "value": "郵政編號",
+          "error": "郵遞區號無效"
+        },
+        "line2": {
+          "placeholder": "如：公寓、套房、樓層等"
+        }
+      }
+    },
+    "CO": {
+      "address": {
+        "city": {
+          "value": "城市",
+          "error": "城市無效"
+        },
+        "state_province_code": {
+          "value": "州/省",
+          "error": "州分／省分無效"
+        },
+        "postal_code": {
+          "value": "郵政編號",
+          "error": "郵遞區號無效"
+        },
+        "line2": {
+          "placeholder": "如：公寓、套房、樓層等"
+        }
+      }
+    },
+    "DO": {
+      "address": {
+        "city": {
+          "value": "城市",
+          "error": "城市無效"
+        },
+        "state_province_code": {
+          "value": "州/省",
+          "error": "州分／省分無效"
+        },
+        "postal_code": {
+          "value": "郵政編號",
+          "error": "郵遞區號無效"
+        },
+        "line1": {
+          "value": "地址 1",
+          "error": "地址第 1 行無效"
+        },
+        "line2": {
+          "value": "地址 2",
+          "placeholder": "地址 2",
+          "error": "地址第 2 行無效"
+        }
+      }
+    },
+    "FR": {
+      "address": {
+        "line1": {
+          "placeholder": "編號及街道名稱"
+        },
+        "line2": {
+          "placeholder": "寓所、大廈、樓層等"
+        },
+        "city": {
+          "value": "城市",
+          "error": "城市無效"
+        },
+        "postal_code": {
+          "value": "郵政編號",
+          "error": "郵遞區號無效",
+          "placeholder": "XXXXX"
+        }
+      }
+    },
+    "GI": {
+      "address": {
+        "city": {
+          "value": "城市",
+          "error": "城市無效"
+        },
+        "state_province_code": {
+          "value": "州/省",
+          "error": "州分／省分無效"
+        },
+        "postal_code": {
+          "value": "郵政編號",
+          "error": "郵遞區號無效"
+        }
+      }
+    },
+    "GT": {
+      "address": {
+        "city": {
+          "value": "城市",
+          "error": "城市無效"
+        },
+        "state_province_code": {
+          "value": "州/省",
+          "error": "州分／省分無效"
+        },
+        "postal_code": {
+          "value": "郵政編號",
+          "error": "郵遞區號無效"
+        }
+      }
+    },
+    "HK": {
+      "address": {
+        "city": {
+          "value": "區",
+          "error": "區無效"
+        },
+        "line2": {
+          "placeholder": "如：公寓、套房、樓層等"
+        }
+      }
+    },
+    "IN": {
+      "address": {
+        "line3": {
+          "value": "地標",
+          "error": "地標無效"
+        },
+        "city": {
+          "value": "城市",
+          "error": "城市無效"
+        },
+        "state_province_code": {
+          "value": "州",
+          "error": "州分無效"
+        },
+        "postal_code": {
+          "value": "Pin碼",
+          "error": "Pin碼無效",
+          "placeholder": "XXXXXX"
+        },
+        "line2": {
+          "placeholder": "如：公寓、套房、樓層等"
+        }
+      }
+    },
+    "IE": {
+      "address": {
+        "line2": {
+          "placeholder": "地點"
+        },
+        "city": {
+          "value": "市／鎮",
+          "error": "市／鎮無效"
+        },
+        "county": {
+          "value": "縣",
+          "error": "縣無效",
+          "placeholder": "選擇或輸入縣"
+        },
+        "postal_code": {
+          "value": "郵政編號（可選）",
+          "error": "郵區編號無效",
+          "placeholder": "都柏林區或愛爾蘭郵政編碼"
+        }
+      }
+    },
+    "JP": {
+      "address": {
+        "city": {
+          "value": "城市",
+          "error": "城市無效"
+        },
+        "state_province_code": {
+          "value": "州/省",
+          "error": "州分／省分無效"
+        },
+        "postal_code": {
+          "value": "郵政編號",
+          "error": "郵遞區號無效"
+        }
+      }
+    },
+    "KW": {
+      "address": {
+        "line1": {
+          "placeholder": "樓宇、街道、座數、地域"
+        },
+        "line2": {
+          "placeholder": "例：大樓、建築物"
+        },
+        "city": {
+          "value": "城市",
+          "error": "城市無效"
+        },
+        "state_province_code": {
+          "value": "州/省",
+          "error": "州分／省分無效"
+        },
+        "postal_code": {
+          "value": "郵政編號（非必須）",
+          "error": "郵遞區號無效"
+        }
+      }
+    },
+    "MY": {
+      "address": {
+        "city": {
+          "value": "市／鎮",
+          "error": "市／鎮無效"
+        },
+        "state_province_code": {
+          "value": "州/省",
+          "error": "州分／省分無效"
+        },
+        "postal_code": {
+          "value": "郵政編號",
+          "error": "郵遞區號無效"
+        },
+        "line2": {
+          "placeholder": "如：公寓、套房、樓層等"
+        }
+      }
+    },
+    "MX": {
+      "address": {
+        "postal_code": {
+          "value": "郵政編號",
+          "error": "郵遞區號無效",
+          "placeholder": "XXXXX"
+        },
+        "street_name": {
+          "value": "街道",
+          "error": "街道無效"
+        },
+        "street_number": {
+          "value": "外部編號",
+          "error": "外部編號無效"
+        },
+        "additional_location": {
+          "value": "內部編號 （可選）",
+          "error": "內部編號無效"
+        },
+        "neighborhood": {
+          "value": "鄰里",
+          "error": "殖民地無效"
+        },
+        "county": {
+          "value": "縣或自治市",
+          "error": "縣或自治市無效"
+        },
+        "city": {
+          "value": "城市",
+          "error": "城市無效"
+        },
+        "state_province_code": {
+          "value": "州",
+          "error": "州分無效"
+        },
+        "point_of_reference": {
+          "value": "參考點（選填）",
+          "error": "參考點無效"
+        }
+      }
+    },
+    "PE": {
+      "address": {
+        "city": {
+          "value": "城市",
+          "error": "城市無效"
+        },
+        "state_province_code": {
+          "value": "州/省",
+          "error": "州分／省分無效"
+        },
+        "postal_code": {
+          "value": "郵政編號",
+          "error": "郵遞區號無效"
+        },
+        "line2": {
+          "placeholder": "如：公寓、套房、樓層等"
+        }
+      }
+    },
+    "PL": {
+      "address": {
+        "street_name": {
+          "value": "街道",
+          "error": "街道無效"
+        },
+        "street_number": {
+          "value": "門牌/寓所號碼",
+          "error": "門牌／寓所號碼無效"
+        },
+        "city": {
+          "value": "城市",
+          "error": "城市無效"
+        },
+        "postal_code": {
+          "value": "郵政編號",
+          "error": "郵區編號無效",
+          "placeholder": "XX-XXX"
+        }
+      }
+    },
+    "QA": {
+      "address": {
+        "line1": {
+          "placeholder": "編號及街道、寓所或郵箱"
+        },
+        "line2": {
+          "placeholder": "例：大樓、建築物"
+        },
+        "city": {
+          "value": "城市",
+          "error": "城市無效"
+        },
+        "state_province_code": {
+          "value": "地點/州份",
+          "error": "地點／州分無效"
+        },
+        "postal_code": {
+          "value": "郵政編號（非必須）",
+          "error": "郵遞區號無效"
+        }
+      }
+    },
+    "NZ": {
+      "address": {
+        "city": {
+          "value": "市／鎮",
+          "error": "市／鎮無效"
+        },
+        "postal_code": {
+          "value": "郵政編號",
+          "error": "郵遞區號無效",
+          "placeholder": "XXXX"
+        },
+        "line2": {
+          "placeholder": "如：公寓、套房、樓層等"
+        }
+      }
+    },
+    "SA": {
+      "address": {
+        "line1": {
+          "placeholder": "編號及街道、寓所或郵箱"
+        },
+        "line2": {
+          "placeholder": "例：大樓、建築物等"
+        },
+        "city": {
+          "value": "城市",
+          "error": "城市無效"
+        },
+        "state_province_code": {
+          "value": "地區",
+          "error": "地區無效"
+        },
+        "postal_code": {
+          "value": "郵政編號（可選）",
+          "error": "郵區編號無效"
+        }
+      }
+    },
+    "SG": {
+      "address": {
+        "city": {
+          "value": "市／鎮",
+          "error": "市／鎮無效"
+        },
+        "state_province_code": {
+          "value": "州/省",
+          "error": "州分／省分無效"
+        },
+        "postal_code": {
+          "value": "郵政編號",
+          "error": "郵遞區號無效"
+        },
+        "line2": {
+          "placeholder": "如：公寓、套房、樓層等"
+        }
+      }
+    },
+    "ZA": {
+      "address": {
+        "city": {
+          "value": "城市",
+          "error": "城市無效"
+        },
+        "state_province_code": {
+          "value": "州/省",
+          "error": "州分／省分無效"
+        },
+        "postal_code": {
+          "value": "郵政編號",
+          "error": "郵遞區號無效"
+        },
+        "line2": {
+          "placeholder": "如：公寓、套房、樓層等"
+        }
+      }
+    },
+    "SK": {
+      "address": {
+        "city": {
+          "value": "城市",
+          "error": "城市無效"
+        },
+        "state_province_code": {
+          "value": "州/省",
+          "error": "州分／省分無效"
+        },
+        "postal_code": {
+          "value": "郵政編號",
+          "error": "郵遞區號無效"
+        }
+      }
+    },
+    "TW": {
+      "address": {
+        "city": {
+          "value": "城市",
+          "error": "城市無效"
+        },
+        "state_province_code": {
+          "value": "州/省",
+          "error": "州分／省分無效"
+        },
+        "postal_code": {
+          "value": "郵政編號",
+          "error": "郵遞區號無效"
+        }
+      }
+    },
+    "ES": {
+      "address": {
+        "line1": {
+          "placeholder": "街道、編號、樓層、門號等"
+        },
+        "city": {
+          "value": "城市",
+          "error": "城市無效"
+        },
+        "state_province_code": {
+          "value": "省份",
+          "error": "省份無效",
+          "placeholder": "選擇或輸入省份"
+        },
+        "postal_code": {
+          "value": "郵政編號",
+          "error": "郵遞區號無效",
+          "placeholder": "XXXXX"
+        },
+        "line2": {
+          "placeholder": "如：公寓、套房、樓層等"
+        }
+      }
+    },
+    "TH": {
+      "address": {
+        "city": {
+          "value": "城市",
+          "error": "城市無效"
+        },
+        "state_province_code": {
+          "value": "州/省",
+          "error": "州分／省分無效"
+        },
+        "postal_code": {
+          "value": "郵政編號",
+          "error": "郵遞區號無效"
+        }
+      }
+    },
+    "AE": {
+      "address": {
+        "city": {
+          "value": "城市",
+          "error": "城市無效"
+        },
+        "state_province_code": {
+          "value": "州/省",
+          "error": "州分／省分無效"
+        },
+        "postal_code": {
+          "value": "郵政編號",
+          "error": "郵遞區號無效"
+        },
+        "line2": {
+          "placeholder": "如：公寓、套房、樓層等"
+        }
+      }
+    },
+    "GB": {
+      "address": {
+        "city": {
+          "value": "鎮／市",
+          "error": "鎮／市無效"
+        },
+        "postal_code": {
+          "value": "郵政編號",
+          "error": "郵區編號無效",
+          "placeholder": "5至7個字元"
+        }
+      }
+    },
+    "UA": {
+      "address": {
+        "line1": {
+          "placeholder": "街道"
+        },
+        "line2": {
+          "placeholder": "街道、樓宇、室號"
+        },
+        "line3": {
+          "value": "地址第3行（可選）",
+          "error": "地址第 3 行無效",
+          "placeholder": "區"
+        },
+        "city": {
+          "value": "城市",
+          "error": "城市無效"
+        },
+        "state_province_code": {
+          "value": "地區",
+          "error": "地區無效"
+        },
+        "postal_code": {
+          "value": "郵政編號",
+          "error": "郵遞區號無效"
+        }
+      }
+    },
+    "US": {
+      "address": {
+        "city": {
+          "value": "城市",
+          "error": "城市無效"
+        },
+        "state_province_code": {
+          "value": "州",
+          "error": "州分無效",
+          "placeholder": "XX"
+        },
+        "postal_code": {
+          "value": "郵政編號",
+          "error": "郵遞區號無效",
+          "placeholder": "XXXXX"
+        },
+        "line1": {
+          "value": "地址1",
+          "error": "地址第 1 行無效"
+        },
+        "line2": {
+          "placeholder": "如：公寓、套房、樓層等"
+        }
+      }
+    },
+    "UK": {
+      "address": {
+        "line2": {
+          "placeholder": "如：公寓、套房、樓層等"
+        }
+      }
+    }
+  },
+  "loading": {
+    "address_list_ally": "您的地址加載中，請等待。",
+    "card_list_ally": "你的卡加載中，請等待。",
+    "welcome_ally": "請等待Visa Checkout加載。"
+  },
+  "locale": {
+    "country": {
+      "Argentina": "阿根廷",
+      "Australia": "澳洲",
+      "Brazil": "巴西",
+      "Canada": "加拿大",
+      "Chile": "智利",
+      "China": "中國大陸",
+      "Colombia": "哥倫比亞",
+      "DominicanRepublic": "多米尼加共和國",
+      "France": "法國",
+      "Gibraltar": "直布羅陀",
+      "Guatemala": "瓜地馬拉",
+      "HongKong": "香港",
+      "India": "印度",
+      "Ireland": "愛爾蘭",
+      "Japan": "日本",
+      "Kuwait": "科威特",
+      "Malaysia": "馬來西亞",
+      "Mexico": "墨西哥",
+      "NewZealand": "紐西蘭",
+      "Peru": "秘魯",
+      "Poland": "波蘭",
+      "Qatar": "卡塔爾",
+      "SaudiArabia": "沙特阿拉伯",
+      "Singapore": "新加坡",
+      "SouthAfrica": "南非洲",
+      "SouthKorea": "南韓",
+      "Spain": "西班牙",
+      "Taiwan": "台灣",
+      "Thailand": "泰國",
+      "UAE": "阿拉伯聯合酋長國",
+      "USA": "美國",
+      "Ukraine": "烏克蘭",
+      "UnitedKingdom": "英國",
+      "Germany": "德國",
+      "Switzerland": "瑞士",
+      "Austria": "奧地利",
+      "Italy": "意大利",
+      "Portugal": "葡萄牙",
+      "Norway": "挪威",
+      "Sweden": "瑞典",
+      "Finland": "芬蘭",
+      "Denmark": "丹麥",
+      "CzechRepublic": "捷克共和國",
+      "Hungary": "匈牙利",
+      "Slovakia": "斯洛伐克",
+      "Netherlands": "荷蘭",
+      "Ecuador": "厄瓜多爾",
+      "ElSalvador": "薩爾瓦多",
+      "CostaRica": "哥斯達黎加",
+      "Panama": "巴拿馬",
+      "Paraguay": "巴拉圭",
+      "Uruguay": "烏拉圭",
+      "Nicaragua": "尼加拉瓜",
+      "Honduras": "洪都拉斯",
+      "Jordan": "約旦"
+    }
+  },
+  "locked": {
+    "cta": {
+      "return_to_merchant": "您將返回",
+      "try_another_card": "試用另一張卡"
+    },
+    "account": {
+      "header_top": "安全警告",
+      "header_bottom": "嘗試失敗次數過多",
+      "description": "您的Visa卡將暫時不能使用。請稍後再試，或使用另一張卡。"
+    },
+    "device": {
+      "header": "我們檢測到問題",
+      "description": "為保障您的安全，我們目前不能加入您的Visa卡。請稍後再試，或使用另一張卡。"
+    }
+  },
+  "login": {
+    "did_you": "您是不是"
+  },
+  "merchant": {
+    "name": "__merchantName__"
+  },
+  "mini": {
+    "error_message": {
+      "p1": "對不起，看起來像出事了。",
+      "p2": "如要繼續，請在歡迎畫面上輸入您的電郵地址"
+    }
+  },
+  "non_roman": {
+    "content": "您必須使用__ACTION__。Visa Checkout目前不允許使用任何其他字符。",
+    "content_bold": "只能使用羅馬字符",
+    "cta_text": "確認並繼續",
+    "header": "請確認"
+  },
+  "otp": {
+    "verify": {
+      "resend_code_link": "重新發送代碼",
+      "cta_text": "繼續",
+      "description": "輸入發送到一次性代碼",
+      "header": "歡迎回來",
+      "input_label": "一次性代碼",
+      "invalid_input_label": "無效的驗證碼",
+      "remember_me": {
+        "checkbox": {
+          "label_p1": "在這個裝置上記得我的資訊",
+          "label_p2": "（不建議用於共享裝置）"
+        },
+        "learn_more": {
+          "eu": "儲存您的電子郵件或手機號碼，讓我們能夠記住您。現在開始，您每次結帳的時候，我們都將記住您在此裝置上的身分與偏好使用的信用卡。您所要做的僅有在登入時輸入一組一次性代碼或您的密碼。",
+          "p1": "儲存您的電子郵件或手機號碼，讓我們能夠記住您。現在開始，您每次結帳的時候，我們都將記住您在此裝置上的身分與偏好使用的信用卡。您所要做的僅有在登入時輸入一組一次性代碼或您的密碼。",
+          "p2": "Visa Checkout會展示您信用卡或借記卡的圖片款式，讓您有一個更個人化的購物體驗。",
+          "p2_IR": "Visa Checkout會展示您扣帳卡或信用卡的圖片款式，讓您有一個更個人化的購物體驗。"
+        },
+        "close_a11y": "關閉瞭解詳情。",
+        "open_a11y": "多加了解我們如何記住您。"
+      },
+      "use_password_link": "使用我的密碼",
+      "resend_link": "重新發送代碼"
+    },
+    "provider": {
+      "description": "請輸入一次性代碼，其已由 __provider__ 發送至",
+      "description_email": "請輸入一次性代碼，其已由 __provider__  透過電郵發送至",
+      "description_text": "請輸入一次性代碼，其已由 __provider__  透過文字訊息發送至"
+    },
+    "not_you": {
+      "not_you_a11y": "如果這不是您，請返回",
+      "left_paren": "(",
+      "link_text": "不是您？",
+      "right_paren": ")"
+    },
+    "errors": {
+      "expired_resend": "此驗證碼已過期。請點擊「重新發送」以獲取新的驗證碼。",
+      "invalid": "很抱歉，我們無法確認您的驗證碼。",
+      "invalid_code": "很抱歉，您輸入的代碼不正確。",
+      "retries_exceeded": "一次性代碼輸入錯誤次數過多。請試用另一張卡。",
+      "account_inaccessible": "我們在此刻無法獲取您已保存的信息。請輸入信用卡的詳細資料以繼續。",
+      "generic_error": "很抱歉，我們無法處理您的請求。 請嘗試重新發送一個代碼。"
+    },
+    "notifications": {
+      "resend": "另一個代碼已發送至__name__",
+      "sent": "代碼已發送至__name__",
+      "resend_email": "已寄發另一封確認用的電子郵件至__name__",
+      "resend_text": "另一個文字訊息已發送至 __name__",
+      "sms_email_resend": "一次性代碼已經重新發送"
+    },
+    "step_up": {
+      "cta_text": "確認",
+      "header": "為安全起見，請輸入您的密碼",
+      "password": {
+        "a11y": {
+          "enter": "輸入__username__的Visa Checkout安全密碼",
+          "hide": "隱藏密碼字符",
+          "show": "顯示密碼字符"
+        },
+        "forgot_link": "忘記密碼？",
+        "hide": "隱藏",
+        "input_label": "密碼",
+        "invalid_input_label": "密碼無效",
+        "show": "顯示"
+      }
+    },
+    "step_up_otp": {
+      "cancel": "取消"
+    },
+    "validation_channel": {
+      "sms_email_a11y": "__phone__ 和 __email__"
+    }
+  },
+  "otp_card_entry": {
+    "description": "看来您曾使用過Visa Checkout。請輸入發送到您的電郵地址的一次性代碼，以便讓我们知道是您本人在使用。"
+  },
+  "page": {
+    "cancel_and_return": "取消並返回 __merchantName__",
+    "change": "更改",
+    "merchant_name_default": "商戶"
+  },
+  "prefill_consent": {
+    "header": "更簡單的網上付款方式",
+    "description": "如欲加快過程，可讓__merchantName__預填您的基本資料。",
+    "more_info_a11y": "按此了解更多。",
+    "more_info": "更多資訊。",
+    "more_info_content": "__merchantName__ 可能會分享給Visa網上結帳體驗的資訊包括名字和姓氏，及聯絡資訊（電話號碼、電郵地址）。",
+    "cta": "預填我的資料",
+    "cancel": "不用，謝謝",
+    "errors": {
+      "no_merchant_data": "對不起， __merchantName__ 無法預先填寫您的資料。 但是，你仍可繼續使用Visa網上結帳體驗。"
+    },
+    "disclaimer": "點擊「預先填寫我的資料」，即表示您同意__merchantName__將您的姓氏和名字、電話號碼以及電郵地址傳送給Visa的網上結帳體驗和 __privacyPolicy__。",
+    "privacy_policy": "隱私聲明"
+  },
+  "sdklite": {
+    "accessibility": {
+      "button": "點擊付款圖標以付款",
+      "locked_button": "Visa提供的付款服務。不可用。",
+      "spinner": "載入中",
+      "spinner_close": "取消並返回商戶",
+      "fingerprint_icon": "指紋圖標"
+    },
+    "logging": {
+      "lock_reason": "此環境不獲支援，因此正在停用按鈕。請嘗試使用新的操作系統。",
+      "not_initialized": "SDK尚未初始化。",
+      "no_network": "沒有網絡連接，因此沒有更新付款資料。",
+      "already_launched": "付款流程已經啟動。",
+      "invalid_params": "參數是無效或零。",
+      "internal_error": "Visa Checkout發生內部錯誤，無法完成請求。",
+      "corr_id_session": "此工作階段的CorrelationID為__correlationid__",
+      "api_check": "在API級別__apilevel__及以上級別運行的裝置可使用Visa Checkout功能。",
+      "objc_bridge_warning": "警告 -- Objective-C無法彌補__property__上設定的陣列數值。請使用在__enum__列舉上的.rawValue財產。"
+    },
+    "ui": {
+      "biometric_signin": "登入",
+      "biometric_cancel": "取消",
+      "fingerprint_recognized": "已識別指紋",
+      "fingerprint_unrecognized": "無法識別指紋。請再試一次",
+      "fingerprint_continue": "確認指紋以繼續",
+      "fingerprint_confirm": "立即確認您的指紋。",
+      "touch_sensor": "觸控傳感器"
+    }
+  },
+  "service_unavailable": {
+    "header": "服務無法使用",
+    "primary_cta_text": "登入",
+    "secondary_cta_text": "返回商戶",
+    "subtext": "很抱歉，發生意想不到的事情而您的連線階段已經結束。請重新登入。"
+  },
+  "session": {
+    "expired": {
+      "header": "您的連線階段已過期",
+      "message": "為了您的安全，您的會話因閒置逾時。如要繼續，請在歡迎畫面上重新輸入您的電郵地址。",
+      "primary_cta_alt_text": "前往登入",
+      "primary_cta_text": "繼續",
+      "secondary_cta_text": "返回商戶"
+    },
+    "warning_modal": {
+      "header": "您的連線階段即將過期。",
+      "message": "選擇您想如何繼續。",
+      "primary_cta_text": "繼續連線階段",
+      "secondary_cta_text": "返回商戶"
+    }
+  },
+  "src_app": {
+    "a11y": {
+      "description": "點擊付款"
+    }
+  },
+  "tell_me_more": {
+    "disabled": {
+      "header": "Visa Checkout已遷移至Click to Pay __srcIcon__",
+      "intro": "Visa Checkout 在此商家結帳頁面上不可用。",
+      "intro_pt_2": "在此期間，請使用此商家提供的其他付款方式。"
+    },
+    "legacy": {
+      "close": "返回商戶",
+      "close_aria_label": "關閉Visa Checkout資訊視窗",
+      "create_action": "建立Visa Checkout帳戶",
+      "feature_list_1": "單次登入快速完成結帳",
+      "feature_list_2": "使用任何主流品牌的信用卡或借記卡",
+      "feature_list_3": "由您熟悉並且信賴的公司Visa所提供",
+      "feature_list_4_1": "而且",
+      "feature_list_4_2": "完全免費！",
+      "intro": "只需建立帳戶一次，您今後只要通過 Visa Checkout 就不用再重新輸入卡和地址資料。",
+      "login_action": "登入您的Visa Checkout帳戶",
+      "logo_alt": "了解更多有關Visa Checkout的資訊",
+      "title": "了解更多"
+    },
+    "src": {
+      "close": "關閉",
+      "close_aria_label": "關閉Visa Checkout資訊視窗",
+      "create_action": "註冊",
+      "feature_list_1": "減少點擊次數，加快結帳流程 ── 再也無需填寫冗長表格或記住密碼。",
+      "feature_list_2": "只需輸入卡資料一次 ── 無需在每次結帳時輸入您的資料。",
+      "feature_list_3": "在無數網上零售商查看Click to Pay圖示__srcIcon__，安全存取您的資料以安心結帳。",
+      "feature_list_4": "您也可選擇在您的裝置和瀏覽器上記住您的身份以更快結帳。",
+      "header": "透過__srcIcon__點擊付款",
+      "intro": "透過您今天使用的相同支付品牌安心付款。點擊付款體驗建基於網上交易的業界安全標準。若想體驗輕鬆智能的結帳體驗，只需在看到Click to Pay圖示__srcIcon__且接受您的卡的地方點擊付款。使用方法輕易簡單：",
+      "login_action": "登入或前往我的個人檔案",
+      "logo_alt": "了解更多有關Visa Checkout的資訊"
+    }
+  },
+  "user_info": {
+    "menu_ally": "__name__的賬戶資料",
+    "sign_out": "登出",
+    "sign_out_a11y": "登出__user__"
+  },
+  "vco_component_add_card": {
+    "first_name": {
+      "label": "名字",
+      "label_a11y": "在此輸入您的名字。",
+      "invalid_first_name": "名字無效"
+    },
+    "last_name": {
+      "label": "姓氏",
+      "label_a11y": "在此輸入您的姓氏。",
+      "invalid_last_name": "姓氏無效"
+    }
+  },
+  "vco-component-identification": {
+    "email_label_a11y": "在此輸入您的電郵地址。"
+  },
+  "welcome": {
+    "a11y": {
+      "cta": "繼續使用Visa Checkout",
+      "page_title": "Visa Checkout - 更簡單的網上付款方式"
+    },
+    "cta_text": "繼續",
+    "description": "如欲開始使用，請輸入您的電郵地址。",
+    "header": "更簡單的網上付款方式",
+    "input_label": "電郵地址",
+    "invalid_input_label": "電郵地址無效",
+    "errors": {
+      "lockout": "我們在此刻無法獲取您已保存的信息。請輸入卡片的詳細資料以繼續。",
+      "lookup_unavailable": "您的電郵地址無法用於查詢。 請輸入您的信用卡資料以繼續。"
+    },
+    "create_account": {
+      "new_user": "看來您是點擊付款體驗的新用戶。如欲開始，請輸入您的卡資料。",
+      "cta": "繼續",
+      "tab": {
+        "label_a11y": "新用戶",
+        "label": "新用戶"
+      },
+      "legal_info": "為能夠給予您適當的體驗，您的信息將會與參與的支付網絡和服務供應商共享。"
+    },
+    "sign_in": {
+      "tab": {
+        "label": "已登記",
+        "label_a11y": "回訪用戶"
+      },
+      "cta": "繼續",
+      "legal_info": "當您輸入您的電子郵件，即表示您允許所參與的支付網絡存取您的信息。"
+    },
+    "src": {
+      "create_account": {
+        "new_user": "看來您是新用戶。請在下方輸入詳細資料以啟用您的信用卡或扣帳卡。"
+      },
+      "cta": {
+        "message": {
+          "new_user": "我們會將您的資訊與參與其中的付款網路、服務提供商以及在我們的 __privacyNotice__ 中提及的其他各方共享，以為您帶來相應的體驗。",
+          "returning_user": "一經繼續，即同意 Visa 的__privacyNotice__。"
+        }
+      },
+      "legal": {
+        "privacy_notice": "隱私聲明",
+        "terms": "服務條款"
+      },
+      "header": "輕鬆安全、智能方便",
+      "we_accept": "我們接受",
+      "errors": {
+        "lockout": "我們在此刻無法獲取您已保存的信息。請輸入卡片的詳細資料以繼續。"
+      },
+      "sub_heading": {
+        "new": "與點擊信心工資報酬",
+        "returning": "與點擊信心工資報酬"
+      }
+    }
+  }
+}

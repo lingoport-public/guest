@@ -1,5 +1,4 @@
 {
-  "lingoport_new_top_level_key": "what does this do?",
   "accepted_cards": {
     "a11y": {
       "cards_accepted": "「__cards__でのお支払いも受け付けております」"
@@ -17,16 +16,25 @@
   },
   "add_card": {
     "cancel": "取消す",
-    "header": "カードを追加",
-    "submit": "続ける",
     "errors": {
-      "try_again": "申し訳ございません。リクエストを処理できませんでした。もう一度やり直してください。",
-      "generic_error": "問題が発生しました。 別のカードを試してみたり、後で再試行してください。"
+      "generic_error": "問題が発生しました。 別のカードを試してみたり、後で再試行してください。",
+      "try_again": "申し訳ございません。リクエストを処理できませんでした。もう一度やり直してください。"
     },
+    "header": "カードを追加",
     "single_card_deleted": "あなたのカードは削除されました",
     "src": {
       "sub_heading": "カードを「Click to Pay」に設定する"
-    }
+    },
+    "submit": "続ける"
+  },
+  "cardBrands": {
+    "amex": "アメリカンエクスプレス",
+    "discover": "ディスカバー",
+    "electron": "Visaエレクトロン",
+    "elo": "Elo",
+    "maestro": "Maestro",
+    "mastercard": "Mastercard",
+    "visa": "Visa"
   },
   "card_list": {
     "add": "新規カード",
@@ -34,29 +42,20 @@
     "card_a11y": "__network__ __type__ 番号の末尾が __lastFour__。",
     "credit": "クレジット",
     "debit": "デビット",
-    "header": "カードを選択",
+    "electron": "エレクトロン（デビット）",
     "errors": {
       "api_error": "問題が発生しました。 別のカードを試してみたり、後で再試行してください。",
-      "cardid_missing_one_card": "このカードではお取り扱いできません。新しいカードを追加してください。",
-      "cardid_missing_mult_cards": "このカードではお取り扱いできません。別のカードを試してみてください。"
+      "cardid_missing_mult_cards": "このカードではお取り扱いできません。別のカードを試してみてください。",
+      "cardid_missing_one_card": "このカードではお取り扱いできません。新しいカードを追加してください。"
     },
+    "header": "カードを選択",
     "notifications": {
       "deleted": "あなたのカードは削除されました"
     },
-    "electron": "エレクトロン（デビット）",
     "prepaid": "プリペイド",
     "src": {
       "sub_heading": "Select from card(s) set up for Click to Pay"
     }
-  },
-  "cardBrands": {
-    "amex": "アメリカンエクスプレス",
-    "discover": "ディスカバー",
-    "elo": "Elo",
-    "mastercard": "Mastercard",
-    "visa": "Visa",
-    "electron": "Visaエレクトロン",
-    "maestro": "Maestro"
   },
   "component_addr_disp": {
     "masked_address_message": "セキュリティ確保のため一部非表示化されています"
@@ -70,17 +69,17 @@
       "discover": "ディスカバー",
       "electron": "電子",
       "elo": "Elo",
+      "maestro": "Maestro",
       "mastercard": "Mastercard",
-      "visa": "Visa",
-      "maestro": "Maestro"
+      "visa": "Visa"
     },
+    "card_brand_entered": "__cardBrand__ カードを入力しました",
     "enter_card": "ここにあなたのカード番号を入力します。",
     "invalid": "無効",
     "label": "カード番号",
     "label_error": "カード番号",
     "not_accepted": "受け付けられませんでした",
-    "placeholder": "15～16桁",
-    "card_brand_entered": "__cardBrand__ カードを入力しました"
+    "placeholder": "15～16桁"
   },
   "component_combobox": {
     "aria": {
@@ -106,20 +105,20 @@
     }
   },
   "component_cvv": {
+    "amex_helper": "あなたのカードの前面にある4桁のコード。",
+    "enter_code": "ここにあなたのカードのセキュリティコードを入力します。",
     "label": {
       "error": "無効なセキュリティコード",
       "name": "セキュリティコード"
     },
-    "enter_code": "ここにあなたのカードのセキュリティコードを入力します。",
-    "amex_helper": "あなたのカードの前面にある4桁のコード。",
     "non_amex_helper": "あなたのカード裏面の3桁のコード。"
   },
   "component_exp_date": {
     "label": {
       "description": "あなたが入力すると、MM / YYのようなフォーマット",
       "error": "無効な日付",
-      "name": "有効期限",
-      "labelled_by": "あなたが入力すると、M M / Y Yのようなフォーマット"
+      "labelled_by": "あなたが入力すると、M M / Y Yのようなフォーマット",
+      "name": "有効期限"
     },
     "placeholder": "月月 / 年年"
   },
@@ -132,18 +131,18 @@
     "warning": "警告通知"
   },
   "component_phone_input": {
-    "phone_number_field": {
-      "ariaLabel": "携帯電話番号 私たちは、それはあなたです確認するために、この番号にワンタイムコードを送信することができます。 メッセージとデータレートが適用される場合があります。",
-      "error": "無効な携帯電話番号",
-      "label": "電話番号（必須）"
-    },
     "dial_code": {
       "error": "無効な国",
       "label": "国",
       "placeholder": "国を選択または入力",
       "toggle_button_aria_label": "、国コードセレクタ"
     },
-    "no_match_message": "入力いただいた国に該当する国が見つかりません。入力内容を変更してください。"
+    "no_match_message": "入力いただいた国に該当する国が見つかりません。入力内容を変更してください。",
+    "phone_number_field": {
+      "ariaLabel": "携帯電話番号 私たちは、それはあなたです確認するために、この番号にワンタイムコードを送信することができます。 メッセージとデータレートが適用される場合があります。",
+      "error": "無効な携帯電話番号",
+      "label": "電話番号（必須）"
+    }
   },
   "cookie_banner": {
     "a11y": {
@@ -154,241 +153,241 @@
     "ok_button": "同意する"
   },
   "country_map": {
-    "AF": "アフガニスタン",
-    "AL": "アルバニア",
-    "DZ": "アルジェリア",
-    "AS": "アメリカ領サモア",
     "AD": "アンドラ",
-    "AO": "アンゴラ",
-    "AI": "アンギラ",
+    "AE": "UAE",
+    "AF": "アフガニスタン",
     "AG": "アンティグア・バーブーダ",
-    "AR": "アルゼンチン",
+    "AI": "アンギラ",
+    "AL": "アルバニア",
     "AM": "アルメニア",
-    "AW": "アルバ",
-    "AU": "オーストラリア",
+    "AO": "アンゴラ",
+    "AR": "アルゼンチン",
+    "AS": "アメリカ領サモア",
     "AT": "オーストリア",
+    "AU": "オーストラリア",
+    "AW": "アルバ",
     "AZ": "アゼルバイジャン",
-    "BS": "バハマ",
-    "BH": "バーレーン",
-    "BD": "バングラデシュ",
-    "BB": "バルバドス",
-    "BY": "ベラルーシ",
-    "BE": "ベルギー",
-    "BZ": "ベリーズ",
-    "BJ": "ベニン",
-    "BM": "バーミューダ",
-    "BT": "ブータン",
-    "BO": "ボリビア",
     "BA": "ボスニア・ヘルツェゴビナ",
-    "BW": "ボツワナ",
-    "BR": "ブラジル",
-    "IO": "イギリス領インド洋地域",
-    "VG": "イギリス領バージン諸島",
-    "BN": "ブルネイ",
-    "BG": "ブルガリア",
+    "BB": "バルバドス",
+    "BD": "バングラデシュ",
+    "BE": "ベルギー",
     "BF": "ブルキナファソ",
+    "BG": "ブルガリア",
+    "BH": "バーレーン",
     "BI": "ブルンジ",
-    "KH": "カンボジア",
-    "CM": "カメルーン",
-    "CA": "カナダ",
-    "CV": "カーボベルデ",
+    "BJ": "ベニン",
+    "BL": "サン・バルテルミー島",
+    "BM": "バーミューダ",
+    "BN": "ブルネイ",
+    "BO": "ボリビア",
     "BQ": "カリブ海オランダ",
-    "KY": "ケイマン諸島",
+    "BR": "ブラジル",
+    "BS": "バハマ",
+    "BT": "ブータン",
+    "BW": "ボツワナ",
+    "BY": "ベラルーシ",
+    "BZ": "ベリーズ",
+    "CA": "カナダ",
+    "CD": "コンゴ（DRC）",
     "CF": "中央アフリカ共和国",
-    "TD": "チャド",
+    "CG": "コンゴ（共和国）",
+    "CH": "スイス",
+    "CI": "コートジボワール",
+    "CK": "クック諸島",
     "CL": "チリ",
+    "CM": "カメルーン",
     "CN": "中国本土",
     "CO": "コロンビア",
-    "KM": "コモロ",
-    "CD": "コンゴ（DRC）",
-    "CG": "コンゴ（共和国）",
-    "CK": "クック諸島",
     "CR": "コスタリカ",
-    "CI": "コートジボワール",
-    "HR": "クロアチア",
     "CU": "キューバ",
+    "CV": "カーボベルデ",
     "CW": "キュラソー",
     "CY": "キプロス",
     "CZ": "チェコ共和国",
-    "DK": "デンマーク",
+    "DE": "ドイツ",
     "DJ": "ジブチ",
+    "DK": "デンマーク",
     "DM": "ドミニカ国",
     "DO": "ドミニカ共和国",
+    "DZ": "アルジェリア",
     "EC": "エクアドル",
+    "EE": "エストニア",
     "EG": "エジプト",
-    "SV": "エルサルバドル",
-    "GQ": "赤道ギニア",
     "ER": "エリトリア",
     "ES": "スペイン",
     "ET": "エチオピア",
-    "FK": "フォークランド諸島",
-    "FO": "フェロー諸島",
-    "FJ": "フィジー",
     "FI": "フィンランド",
+    "FJ": "フィジー",
+    "FK": "フォークランド諸島",
+    "FM": "ミクロネシア",
+    "FO": "フェロー諸島",
     "FR": "フランス",
-    "GF": "フレンチギニア",
-    "PF": "フランス領ポリネシア",
     "GA": "ガボン",
-    "GM": "ガンビア",
+    "GB": "イギリス",
+    "GD": "グレナダ",
     "GE": "グルジア",
-    "DE": "ドイツ",
+    "GF": "フレンチギニア",
     "GH": "ガーナ",
     "GI": "ジブラルタル",
-    "GR": "ギリシャ",
     "GL": "グリーンランド",
-    "GD": "グレナダ",
-    "GP": "グアダルーペ",
-    "GU": "グアム",
-    "GT": "グアテマラ",
+    "GM": "ガンビア",
     "GN": "ギニア",
+    "GP": "グアダルーペ",
+    "GQ": "赤道ギニア",
+    "GR": "ギリシャ",
+    "GT": "グアテマラ",
+    "GU": "グアム",
     "GW": "ギニアビサウ",
     "GY": "ガイアナ",
-    "HT": "ハイチ",
-    "HN": "ホンジュラス",
     "HK": "香港",
+    "HN": "ホンジュラス",
+    "HR": "クロアチア",
+    "HT": "ハイチ",
     "HU": "ハンガリー",
-    "IS": "アイスランド",
-    "IN": "インド",
     "ID": "インドネシア",
-    "IR": "イラン",
-    "IQ": "イラク",
     "IE": "アイルランド",
     "IL": "イスラエル",
+    "IN": "インド",
+    "IO": "イギリス領インド洋地域",
+    "IQ": "イラク",
+    "IR": "イラン",
+    "IS": "アイスランド",
     "IT": "イタリア",
     "JM": "ジャマイカ",
-    "JP": "日本",
     "JO": "ヨルダン",
-    "KZ": "カザフスタン",
+    "JP": "日本",
     "KE": "ケニア",
-    "KI": "キリバス",
-    "KW": "クウェート",
     "KG": "キルギス",
+    "KH": "カンボジア",
+    "KI": "キリバス",
+    "KM": "コモロ",
+    "KN": "セントクリストファー・ネイビス",
+    "KP": "北朝鮮",
+    "KR": "韓国",
+    "KW": "クウェート",
+    "KY": "ケイマン諸島",
+    "KZ": "カザフスタン",
     "LA": "ラオス",
-    "LV": "ラトビア",
     "LB": "レバノン",
-    "LS": "レソト",
-    "LR": "リベリア",
-    "LY": "リビア",
+    "LC": "セントルシア",
     "LI": "リヒテンシュタイン",
+    "LK": "スリランカ",
+    "LR": "リベリア",
+    "LS": "レソト",
     "LT": "リトアニア",
     "LU": "ルクセンブルク",
-    "MO": "マカオ",
-    "MK": "マケドニア",
+    "LV": "ラトビア",
+    "LY": "リビア",
+    "MA": "モロッコ",
+    "MC": "モナコ",
+    "MD": "モルドバ",
+    "ME": "モンテネグロ",
+    "MF": "セント・マーチン",
     "MG": "マダカスカル",
-    "MW": "マラウイ",
-    "MY": "マレーシア",
-    "MV": "モルディブ",
-    "ML": "マリ",
-    "MT": "マルタ",
     "MH": "マーシャル諸島",
+    "MK": "マケドニア",
+    "ML": "マリ",
+    "MM": "ビルマ",
+    "MN": "モンゴル国",
+    "MO": "マカオ",
+    "MP": "北マリアナ諸島",
     "MQ": "マルティニーク",
     "MR": "モーリタニア",
-    "MU": "モーリシャス",
-    "MX": "メキシコ",
-    "FM": "ミクロネシア",
-    "MD": "モルドバ",
-    "MC": "モナコ",
-    "MN": "モンゴル国",
-    "ME": "モンテネグロ",
     "MS": "モントセラト",
-    "MA": "モロッコ",
+    "MT": "マルタ",
+    "MU": "モーリシャス",
+    "MV": "モルディブ",
+    "MW": "マラウイ",
+    "MX": "メキシコ",
+    "MY": "マレーシア",
     "MZ": "モザンビーク",
-    "MM": "ビルマ",
     "NA": "ナミビア",
-    "NR": "ナウル",
-    "NP": "ネパール",
-    "NL": "オランダ",
     "NC": "ニューカレドニア",
-    "NZ": "ニュージーランド",
-    "NI": "ニカラグア",
     "NE": "ニジェール",
-    "NG": "ナイジェリア",
-    "NU": "ニウエ",
     "NF": "ノーフォーク島",
-    "KP": "北朝鮮",
-    "MP": "北マリアナ諸島",
+    "NG": "ナイジェリア",
+    "NI": "ニカラグア",
+    "NL": "オランダ",
     "NO": "ノルウェー",
+    "NP": "ネパール",
+    "NR": "ナウル",
+    "NU": "ニウエ",
+    "NZ": "ニュージーランド",
     "OM": "オマーン",
-    "PK": "パキスタン",
-    "PW": "パラオ",
-    "PS": "パレスチナ",
     "PA": "パナマ",
-    "PG": "パプアニューギニア",
-    "PY": "パラグアイ",
     "PE": "ペルー",
+    "PF": "フランス領ポリネシア",
+    "PG": "パプアニューギニア",
     "PH": "フィリピン",
+    "PK": "パキスタン",
     "PL": "ポーランド",
-    "PT": "ポルトガル",
+    "PM": "サンピエール島・ミクロン島",
     "PR": "プエルトリコ",
+    "PS": "パレスチナ",
+    "PT": "ポルトガル",
+    "PW": "パラオ",
+    "PY": "パラグアイ",
     "QA": "カタール",
     "RE": "再会",
     "RO": "ルーマニア",
+    "RS": "セルビア",
     "RU": "ロシア",
     "RW": "ルワンダ",
-    "BL": "サン・バルテルミー島",
-    "SH": "セントヘレナ",
-    "KN": "セントクリストファー・ネイビス",
-    "LC": "セントルシア",
-    "MF": "セント・マーチン",
-    "PM": "サンピエール島・ミクロン島",
-    "VC": "セントビンセント・グレナディーン",
-    "WS": "サモア",
-    "SM": "サンマリノ",
-    "ST": "サントメ・プリンシペ",
     "SA": "サウジアラビア",
-    "SN": "セネガル",
-    "RS": "セルビア",
-    "SC": "セイシェル",
-    "SL": "シエラレオネ",
-    "SG": "シンガポール",
-    "SX": "シントマールテン島",
-    "SK": "スロバキア",
-    "SI": "スロベニア",
     "SB": "ソロモン諸島",
-    "SO": "ソマリア",
-    "ZA": "南アフリカ",
-    "KR": "韓国",
-    "SS": "南スーダン",
-    "LK": "スリランカ",
+    "SC": "セイシェル",
     "SD": "スーダン",
-    "SR": "スリヴァル",
-    "SZ": "スワジランド",
     "SE": "スウェーデン",
-    "CH": "スイス",
+    "SG": "シンガポール",
+    "SH": "セントヘレナ",
+    "SI": "スロベニア",
+    "SK": "スロバキア",
+    "SL": "シエラレオネ",
+    "SM": "サンマリノ",
+    "SN": "セネガル",
+    "SO": "ソマリア",
+    "SR": "スリヴァル",
+    "SS": "南スーダン",
+    "ST": "サントメ・プリンシペ",
+    "SV": "エルサルバドル",
+    "SX": "シントマールテン島",
     "SY": "シリア",
-    "TW": "台湾",
-    "TJ": "タジキスタン",
-    "TZ": "タンザニア",
-    "TH": "タイ",
-    "TL": "東ティモール",
-    "TG": "トーゴ",
-    "TK": "トケラウ諸島",
-    "TO": "トンガ",
-    "TT": "トリニダード・トバゴ",
-    "TN": "チュニジア",
-    "TR": "トルコ",
-    "TM": "トルクメニスタン",
+    "SZ": "スワジランド",
     "TC": "タークス・カイコス諸島",
+    "TD": "チャド",
+    "TG": "トーゴ",
+    "TH": "タイ",
+    "TJ": "タジキスタン",
+    "TK": "トケラウ諸島",
+    "TL": "東ティモール",
+    "TM": "トルクメニスタン",
+    "TN": "チュニジア",
+    "TO": "トンガ",
+    "TR": "トルコ",
+    "TT": "トリニダード・トバゴ",
     "TV": "ツバル",
-    "VI": "米領バージン諸島",
-    "UG": "ウガンダ",
-    "GB": "イギリス",
-    "US": "米国",
-    "UZ": "ウズベキスタン",
-    "VU": "バヌアツ",
-    "VA": "バチカン市",
-    "VE": "ベネズエラ",
-    "VN": "ベトナム",
-    "WF": "ウォリス・フトゥーナ",
-    "YE": "イエメン",
-    "ZM": "ザンビア",
-    "ZW": "ジンバブエ",
-    "AE": "UAE",
+    "TW": "台湾",
+    "TZ": "タンザニア",
     "UA": "ウクライナ",
-    "UY": "ウルグアイ",
-    "EE": "エストニア",
+    "UG": "ウガンダ",
     "UM": "合衆国領有小離島",
-    "XK": "コソボ"
+    "US": "米国",
+    "UY": "ウルグアイ",
+    "UZ": "ウズベキスタン",
+    "VA": "バチカン市",
+    "VC": "セントビンセント・グレナディーン",
+    "VE": "ベネズエラ",
+    "VG": "イギリス領バージン諸島",
+    "VI": "米領バージン諸島",
+    "VN": "ベトナム",
+    "VU": "バヌアツ",
+    "WF": "ウォリス・フトゥーナ",
+    "WS": "サモア",
+    "XK": "コソボ",
+    "YE": "イエメン",
+    "ZA": "南アフリカ",
+    "ZM": "ザンビア",
+    "ZW": "ジンバブエ"
   },
   "cvv_learn_more": {
     "learn_more": {
@@ -403,23 +402,50 @@
     "description": "後でもう一度お試しになるか、別のデバイスを使用してみてください。"
   },
   "errors": {
+    "login": {
+      "account_disabled": "お客様のリクエストが処理できません。お客様の保護のため、お客様のアカウントは一時的に停止されています。カスタマーサポートへご連絡ください。",
+      "empty_form": "お客様のサインイン証明を入力してください。",
+      "forget_password": "パスワードをお忘れですか？",
+      "incorrect": "誤ったサインイン証明が入力されました。",
+      "incorrect_2": "誤ったサインイン証明が入力されました。パスワードをお忘れですか？",
+      "locked": "申し訳ありませんが、あなたの保護のために、あなたは一時的にロックアウトされてきました。 後でもう一度試すか、継続してようこそ画面上のカード情報を入力してください。",
+      "max_attempts": "試行回数の上限に達しました。数時間後にもう一度やり直していただくか、カスタマーサポートへお問合せください。",
+      "unavailable": "現在お客様のリクエストが処理できませんでした。時間をあけて再度お試しください。"
+    },
     "validation": {
+      "add_card": {
+        "all_fields_empty": "続けるためにはお客様情報を入力してください。",
+        "disabled_card_brand": "このカードはClick to Payではご利用いただけません。別のカードを使用するか、加盟店サイトに戻ってください。",
+        "future_expiry_date": "申し訳ありませんが、あなたは間違った有効期限を入力しました。 再度試みる",
+        "incomplete_card_number": "続けるには、あなたのカード情報を入力してください。",
+        "invalid_month": "存在しない月が入力されました。",
+        "invalid_security_code": "続けるには有効な市／町を入力してください。",
+        "merchant": {
+          "accepted_amex": {
+            "second_digit_unaccepted": "ご入力いただいた２番目の番号は有効なアメリカンエクスプレスの番号として認識されませんでした。"
+          },
+          "accepted_discover": {
+            "second_digit_unaccepted": "ご入力いただいた番号は有効なディスカバーカードの番号として認識されませんでした。"
+          }
+        },
+        "past_expiry_date": "申し訳ありませんが、あなたは古い有効期限を入力しました。 再度試みる",
+        "unaccepted_card_brand": "このカードはClick to Payではご利用いただけません。別のカードを使用するか、加盟店サイトに戻ってください。"
+      },
       "card": {
         "card_cant_be_used": "このカードはご利用できません。別のカードでのお支払いをお願いします。",
+        "card_expired": "このカードの有効期限は切れています。",
+        "card_failed_threeds": "あなたの金融機関はこのカードを認証できませんでした。",
+        "card_not_verified": "このカードを使用するには追加情報が必要です。",
+        "generic_error": "このカードは使えません。別のカードを試してください。",
+        "merchant_unsupported_card_brand": "この業者は__cardBrand__を受け付けておりません。",
+        "merchant_unsupported_card_brand_type": "この業者は__cardBrand__ __cardType__を受け入れていません。",
+        "partial_billing_address": "この業者とのチェックアウトを完了するには、カードの請求先住所を編集してください。",
+        "unaccepted_card_brand": "この業者は__cardBrandX__を受け入れていません。手続きを続けるには__cardBrandY__ を使う必要があります。",
         "unsupported_billing_address": "当業者はこの請求先住所のある国を受け付けておりません。",
         "unsupported_billing_address_country": "この業者は__country__にある請求先住所を受け付けておりません。",
-        "unsupported_shipping_address": "当業者はこの住所のある国へは配送をしておりません。",
-        "card_expired": "このカードの有効期限は切れています。",
-        "merchant_unsupported_card_brand": "この業者は__cardBrand__を受け付けておりません。",
-        "card_failed_threeds": "あなたの金融機関はこのカードを認証できませんでした。",
-        "partial_billing_address": "この業者とのチェックアウトを完了するには、カードの請求先住所を編集してください。",
         "unsupported_canadian_card": "当業者はこのカードを受け付けておりません。",
-        "unaccepted_card_brand": "この業者は__cardBrandX__を受け入れていません。手続きを続けるには__cardBrandY__ を使う必要があります。",
-        "card_not_verified": "このカードを使用するには追加情報が必要です。",
-        "merchant_unsupported_card_brand_type": "この業者は__cardBrand__ __cardType__を受け入れていません。",
-        "generic_error": "このカードは使えません。別のカードを試してください。"
+        "unsupported_shipping_address": "当業者はこの住所のある国へは配送をしておりません。"
       },
-      "unbind": "申し訳ございません。問題が発生し、完全にログアウトできませんでした。",
       "password": {
         "has_consecutive_chars": "無効なパスワード",
         "has_consecutive_chars_page": "パスワードには同じ文字を連続して3回以上連ねることはできません。",
@@ -436,43 +462,17 @@
         "too_short": "無効なパスワード",
         "too_short_page": "パスワードには最低6文字が必要です。"
       },
-      "add_card": {
-        "all_fields_empty": "続けるためにはお客様情報を入力してください。",
-        "unaccepted_card_brand": "このカードはClick to Payではご利用いただけません。別のカードを使用するか、加盟店サイトに戻ってください。",
-        "incomplete_card_number": "続けるには、あなたのカード情報を入力してください。",
-        "past_expiry_date": "申し訳ありませんが、あなたは古い有効期限を入力しました。 再度試みる",
-        "future_expiry_date": "申し訳ありませんが、あなたは間違った有効期限を入力しました。 再度試みる",
-        "invalid_month": "存在しない月が入力されました。",
-        "invalid_security_code": "続けるには有効な市／町を入力してください。",
-        "merchant": {
-          "accepted_discover": {
-            "second_digit_unaccepted": "ご入力いただいた番号は有効なディスカバーカードの番号として認識されませんでした。"
-          },
-          "accepted_amex": {
-            "second_digit_unaccepted": "ご入力いただいた２番目の番号は有効なアメリカンエクスプレスの番号として認識されませんでした。"
-          }
-        },
-        "disabled_card_brand": "このカードはClick to Payではご利用いただけません。別のカードを使用するか、加盟店サイトに戻ってください。"
-      },
       "review_and_signup": {
         "accept_tnc": "あなたは条件を受け入れて続行する]チェックボックスをオンにしなければなりません。"
-      }
-    },
-    "login": {
-      "account_disabled": "お客様のリクエストが処理できません。お客様の保護のため、お客様のアカウントは一時的に停止されています。カスタマーサポートへご連絡ください。",
-      "empty_form": "お客様のサインイン証明を入力してください。",
-      "forget_password": "パスワードをお忘れですか？",
-      "incorrect": "誤ったサインイン証明が入力されました。",
-      "incorrect_2": "誤ったサインイン証明が入力されました。パスワードをお忘れですか？",
-      "locked": "申し訳ありませんが、あなたの保護のために、あなたは一時的にロックアウトされてきました。 後でもう一度試すか、継続してようこそ画面上のカード情報を入力してください。",
-      "max_attempts": "試行回数の上限に達しました。数時間後にもう一度やり直していただくか、カスタマーサポートへお問合せください。",
-      "unavailable": "現在お客様のリクエストが処理できませんでした。時間をあけて再度お試しください。"
+      },
+      "unbind": "申し訳ございません。問題が発生し、完全にログアウトできませんでした。"
     }
   },
   "footer": {
-    "host": "Visa主催",
     "ad_preference": "広告表示の設定",
     "cookies": "Cookie",
+    "country_selector_selection": "__countryName__ を選択しました",
+    "host": "Visa主催",
     "language_selector": "国および言語セレクター。__countryName__ を選択しました",
     "legal": {
       "native": {
@@ -483,8 +483,7 @@
     "select_country": "国を選択",
     "support": "サポート",
     "terms": "規約",
-    "toggle_language": "言語セレクタースイッチ",
-    "country_selector_selection": "__countryName__ を選択しました"
+    "toggle_language": "言語セレクタースイッチ"
   },
   "form": {
     "error": {
@@ -502,8 +501,8 @@
   },
   "header": {
     "a11y": {
-      "logo_alt_text_vdcp": "Visaのロゴ",
-      "logo_alt_text": "Visaチェックアウトロゴ"
+      "logo_alt_text": "Visaチェックアウトロゴ",
+      "logo_alt_text_vdcp": "Visaのロゴ"
     }
   },
   "installments": {
@@ -519,293 +518,296 @@
     "more_info": "詳細情報"
   },
   "lib_address": {
-    "name": {
-      "first": {
-        "value": "名",
-        "error": "無効なお名前"
-      },
-      "last": {
-        "value": "姓",
-        "error": "無効な名字"
-      }
-    },
-    "country": {
-      "value": "国/地域",
-      "placeholder": "国/地域を選択または入力"
-    },
-    "address": {
-      "line1": {
-        "value": "住所１",
-        "error": "アドレス 1（任意）"
-      },
-      "line2": {
-        "value": "住所２（任意）",
-        "error": "アドレス 2（任意）",
-        "placeholder": "例：マンション名、階数など"
-      },
-      "state_province_code": {
-        "value": "州",
-        "error": "無効な県"
+    "AE": {
+      "address": {
+        "city": {
+          "error": "無効な市",
+          "value": "市"
+        },
+        "line2": {
+          "placeholder": "例：マンション名、階数など"
+        },
+        "postal_code": {
+          "error": "無効な郵便番号",
+          "value": "郵便番号"
+        },
+        "state_province_code": {
+          "error": "無効な州／県",
+          "value": "州／県"
+        }
       }
     },
     "AR": {
       "address": {
         "city": {
-          "value": "市",
-          "error": "無効な市"
-        },
-        "state_province_code": {
-          "value": "州／県",
-          "error": "無効な州／県"
-        },
-        "postal_code": {
-          "value": "郵便番号",
-          "error": "無効な郵便番号"
+          "error": "無効な市",
+          "value": "市"
         },
         "line2": {
           "placeholder": "例：マンション名、階数など"
+        },
+        "postal_code": {
+          "error": "無効な郵便番号",
+          "value": "郵便番号"
+        },
+        "state_province_code": {
+          "error": "無効な州／県",
+          "value": "州／県"
         }
       }
     },
     "AU": {
       "address": {
         "city": {
-          "value": "市",
-          "error": "無効な市"
-        },
-        "state_province_code": {
-          "value": "州",
-          "error": "無効な州",
-          "placeholder": "２～３文字"
-        },
-        "postal_code": {
-          "value": "郵便番号",
-          "error": "無効な郵便番号",
-          "placeholder": "XXXX"
+          "error": "無効な市",
+          "value": "市"
         },
         "line2": {
           "placeholder": "例：マンション名、階数など"
+        },
+        "postal_code": {
+          "error": "無効な郵便番号",
+          "placeholder": "XXXX",
+          "value": "郵便番号"
+        },
+        "state_province_code": {
+          "error": "無効な州",
+          "placeholder": "２～３文字",
+          "value": "州"
         }
       }
     },
     "BR": {
       "address": {
-        "postal_code": {
-          "value": "CEP",
-          "error": "無効なCEP",
-          "placeholder": "XXXXX  -  XXX"
-        },
-        "street_name": {
-          "value": "住所",
-          "error": "無効な住所"
-        },
-        "street_number": {
-          "value": "番号（必須）",
-          "error": "無効な 番号"
-        },
         "additional_location": {
-          "value": "補足（任意）",
-          "error": "無効な補完"
-        },
-        "line2": {
-          "value": "近隣",
-          "error": "無効な近隣"
-        },
-        "line3": {
-          "value": "基準点（任意）",
-          "error": "無効な基準点"
+          "error": "無効な補完",
+          "value": "補足（任意）"
         },
         "city": {
-          "value": "市",
-          "error": "無効な市"
+          "error": "無効な市",
+          "value": "市"
+        },
+        "line2": {
+          "error": "無効な近隣",
+          "value": "近隣"
+        },
+        "line3": {
+          "error": "無効な基準点",
+          "value": "基準点（任意）"
+        },
+        "postal_code": {
+          "error": "無効なCEP",
+          "placeholder": "XXXXX  -  XXX",
+          "value": "CEP"
         },
         "state_province_code": {
-          "value": "州",
           "error": "無効な州",
-          "placeholder": "XX"
+          "placeholder": "XX",
+          "value": "州"
+        },
+        "street_name": {
+          "error": "無効な住所",
+          "value": "住所"
+        },
+        "street_number": {
+          "error": "無効な 番号",
+          "value": "番号（必須）"
         }
       }
     },
     "CA": {
       "address": {
         "city": {
-          "value": "市",
-          "error": "無効な市"
-        },
-        "state_province_code": {
-          "value": "県",
-          "error": "無効な県",
-          "placeholder": "XX"
+          "error": "無効な市",
+          "value": "市"
         },
         "postal_code": {
-          "value": "郵便番号",
           "error": "無効な郵便番号",
-          "placeholder": "XXX XXX"
+          "placeholder": "XXX XXX",
+          "value": "郵便番号"
+        },
+        "state_province_code": {
+          "error": "無効な県",
+          "placeholder": "XX",
+          "value": "県"
         }
       }
     },
     "CL": {
       "address": {
         "city": {
-          "value": "市",
-          "error": "無効な市"
-        },
-        "state_province_code": {
-          "value": "州／県",
-          "error": "無効な州／県"
-        },
-        "postal_code": {
-          "value": "郵便番号",
-          "error": "無効な郵便番号"
+          "error": "無効な市",
+          "value": "市"
         },
         "line2": {
           "placeholder": "例：マンション名、階数など"
+        },
+        "postal_code": {
+          "error": "無効な郵便番号",
+          "value": "郵便番号"
+        },
+        "state_province_code": {
+          "error": "無効な州／県",
+          "value": "州／県"
         }
       }
     },
     "CN": {
       "address": {
         "city": {
-          "value": "市",
-          "error": "無効な市"
-        },
-        "state_province_code": {
-          "value": "州／県",
-          "error": "無効な州／県"
-        },
-        "postal_code": {
-          "value": "郵便番号",
-          "error": "無効な郵便番号"
+          "error": "無効な市",
+          "value": "市"
         },
         "line2": {
           "placeholder": "例：マンション名、階数など"
+        },
+        "postal_code": {
+          "error": "無効な郵便番号",
+          "value": "郵便番号"
+        },
+        "state_province_code": {
+          "error": "無効な州／県",
+          "value": "州／県"
         }
       }
     },
     "CO": {
       "address": {
         "city": {
-          "value": "市",
-          "error": "無効な市"
-        },
-        "state_province_code": {
-          "value": "州／県",
-          "error": "無効な州／県"
-        },
-        "postal_code": {
-          "value": "郵便番号",
-          "error": "無効な郵便番号"
+          "error": "無効な市",
+          "value": "市"
         },
         "line2": {
           "placeholder": "例：マンション名、階数など"
+        },
+        "postal_code": {
+          "error": "無効な郵便番号",
+          "value": "郵便番号"
+        },
+        "state_province_code": {
+          "error": "無効な州／県",
+          "value": "州／県"
         }
       }
     },
     "DO": {
       "address": {
         "city": {
-          "value": "市",
-          "error": "無効な市"
-        },
-        "state_province_code": {
-          "value": "州／県",
-          "error": "無効な州／県"
-        },
-        "postal_code": {
-          "value": "郵便番号",
-          "error": "無効な郵便番号"
+          "error": "無効な市",
+          "value": "市"
         },
         "line1": {
-          "value": "アドレス 1（任意）",
-          "error": "アドレス 1（任意）"
+          "error": "アドレス 1（任意）",
+          "value": "アドレス 1（任意）"
         },
         "line2": {
-          "value": "アドレス 2（任意）",
+          "error": "アドレス 2（任意）",
           "placeholder": "アドレス 2（任意）",
-          "error": "アドレス 2（任意）"
+          "value": "アドレス 2（任意）"
+        },
+        "postal_code": {
+          "error": "無効な郵便番号",
+          "value": "郵便番号"
+        },
+        "state_province_code": {
+          "error": "無効な州／県",
+          "value": "州／県"
+        }
+      }
+    },
+    "ES": {
+      "address": {
+        "city": {
+          "error": "無効な市",
+          "value": "市"
+        },
+        "line1": {
+          "placeholder": "通り、番地、階、室、他"
+        },
+        "line2": {
+          "placeholder": "例：マンション名、階数など"
+        },
+        "postal_code": {
+          "error": "無効な郵便番号",
+          "placeholder": "XXXXX",
+          "value": "郵便番号"
+        },
+        "state_province_code": {
+          "error": "無効な県",
+          "placeholder": "県名を選択または入力してください",
+          "value": "県"
         }
       }
     },
     "FR": {
       "address": {
+        "city": {
+          "error": "無効な市",
+          "value": "市"
+        },
         "line1": {
           "placeholder": "通りの番号及び名称"
         },
         "line2": {
           "placeholder": "アパート、ビル、階、他"
         },
+        "postal_code": {
+          "error": "無効な郵便番号",
+          "placeholder": "XXXXX",
+          "value": "郵便番号"
+        }
+      }
+    },
+    "GB": {
+      "address": {
         "city": {
-          "value": "市",
-          "error": "無効な市"
+          "error": "無効な町／市",
+          "value": "町／市"
         },
         "postal_code": {
-          "value": "郵便番号",
           "error": "無効な郵便番号",
-          "placeholder": "XXXXX"
+          "placeholder": "5〜7文字",
+          "value": "郵便番号"
         }
       }
     },
     "GI": {
       "address": {
         "city": {
-          "value": "市",
-          "error": "無効な市"
-        },
-        "state_province_code": {
-          "value": "州／県",
-          "error": "無効な州／県"
+          "error": "無効な市",
+          "value": "市"
         },
         "postal_code": {
-          "value": "郵便番号",
-          "error": "無効な郵便番号"
+          "error": "無効な郵便番号",
+          "value": "郵便番号"
+        },
+        "state_province_code": {
+          "error": "無効な州／県",
+          "value": "州／県"
         }
       }
     },
     "GT": {
       "address": {
         "city": {
-          "value": "市",
-          "error": "無効な市"
-        },
-        "state_province_code": {
-          "value": "州／県",
-          "error": "無効な州／県"
+          "error": "無効な市",
+          "value": "市"
         },
         "postal_code": {
-          "value": "郵便番号",
-          "error": "無効な郵便番号"
+          "error": "無効な郵便番号",
+          "value": "郵便番号"
+        },
+        "state_province_code": {
+          "error": "無効な州／県",
+          "value": "州／県"
         }
       }
     },
     "HK": {
       "address": {
         "city": {
-          "value": "区",
-          "error": "無効な地区"
-        },
-        "line2": {
-          "placeholder": "例：マンション名、階数など"
-        }
-      }
-    },
-    "IN": {
-      "address": {
-        "line3": {
-          "value": "ランドマーク",
-          "error": "無効なランドマーク"
-        },
-        "city": {
-          "value": "市",
-          "error": "無効な市"
-        },
-        "state_province_code": {
-          "value": "州",
-          "error": "無効な州"
-        },
-        "postal_code": {
-          "value": "PINコード",
-          "error": "無効なPINコード",
-          "placeholder": "XXXXXX"
+          "error": "無効な地区",
+          "value": "区"
         },
         "line2": {
           "placeholder": "例：マンション名、階数など"
@@ -814,367 +816,320 @@
     },
     "IE": {
       "address": {
+        "city": {
+          "error": "無効な市／町",
+          "value": "市／町"
+        },
+        "county": {
+          "error": "無効な郡",
+          "placeholder": "国を選択または入力してください",
+          "value": "郡"
+        },
         "line2": {
           "placeholder": "地域"
         },
+        "postal_code": {
+          "error": "無効な郵便番号",
+          "placeholder": "ダブリン周辺またはEircode",
+          "value": "郵便番号（任意）"
+        }
+      }
+    },
+    "IN": {
+      "address": {
         "city": {
-          "value": "市／町",
-          "error": "無効な市／町"
+          "error": "無効な市",
+          "value": "市"
         },
-        "county": {
-          "value": "郡",
-          "error": "無効な郡",
-          "placeholder": "国を選択または入力してください"
+        "line2": {
+          "placeholder": "例：マンション名、階数など"
+        },
+        "line3": {
+          "error": "無効なランドマーク",
+          "value": "ランドマーク"
         },
         "postal_code": {
-          "value": "郵便番号（任意）",
-          "error": "無効な郵便番号",
-          "placeholder": "ダブリン周辺またはEircode"
+          "error": "無効なPINコード",
+          "placeholder": "XXXXXX",
+          "value": "PINコード"
+        },
+        "state_province_code": {
+          "error": "無効な州",
+          "value": "州"
         }
       }
     },
     "JP": {
       "address": {
         "city": {
-          "value": "市",
-          "error": "無効な市"
-        },
-        "state_province_code": {
-          "value": "州／県",
-          "error": "無効な州／県"
+          "error": "無効な市",
+          "value": "市"
         },
         "postal_code": {
-          "value": "郵便番号",
-          "error": "無効な郵便番号"
+          "error": "無効な郵便番号",
+          "value": "郵便番号"
+        },
+        "state_province_code": {
+          "error": "無効な州／県",
+          "value": "州／県"
         }
       }
     },
     "KW": {
       "address": {
+        "city": {
+          "error": "無効な市",
+          "value": "市"
+        },
         "line1": {
           "placeholder": "住居番号、通り名、街区、地区"
         },
         "line2": {
           "placeholder": "例：ユニット名、建物名"
         },
-        "city": {
-          "value": "市",
-          "error": "無効な市"
+        "postal_code": {
+          "error": "無効な郵便番号",
+          "value": "郵便番号（任意）"
         },
         "state_province_code": {
-          "value": "州／県",
-          "error": "無効な州／県"
+          "error": "無効な州／県",
+          "value": "州／県"
+        }
+      }
+    },
+    "MX": {
+      "address": {
+        "additional_location": {
+          "error": "無効な国内番号",
+          "value": "国内番号（任意）"
+        },
+        "city": {
+          "error": "無効な市",
+          "value": "市"
+        },
+        "county": {
+          "error": "無効な群または市区町村",
+          "value": "群または市区町村"
+        },
+        "neighborhood": {
+          "error": "無効な居留地",
+          "value": "居留地"
+        },
+        "point_of_reference": {
+          "error": "無効な基準点",
+          "value": "基準点（任意）"
         },
         "postal_code": {
-          "value": "郵便番号（任意）",
-          "error": "無効な郵便番号"
+          "error": "無効な郵便番号",
+          "placeholder": "XXXXX",
+          "value": "郵便番号"
+        },
+        "state_province_code": {
+          "error": "無効な州",
+          "value": "州"
+        },
+        "street_name": {
+          "error": "無効な通り",
+          "value": "通り"
+        },
+        "street_number": {
+          "error": "無効な国外番号",
+          "value": "国外番号"
         }
       }
     },
     "MY": {
       "address": {
         "city": {
-          "value": "市／町",
-          "error": "無効な市／町"
-        },
-        "state_province_code": {
-          "value": "州／県",
-          "error": "無効な州／県"
-        },
-        "postal_code": {
-          "value": "郵便番号",
-          "error": "無効な郵便番号"
+          "error": "無効な市／町",
+          "value": "市／町"
         },
         "line2": {
           "placeholder": "例：マンション名、階数など"
-        }
-      }
-    },
-    "MX": {
-      "address": {
+        },
         "postal_code": {
-          "value": "郵便番号",
           "error": "無効な郵便番号",
-          "placeholder": "XXXXX"
-        },
-        "street_name": {
-          "value": "通り",
-          "error": "無効な通り"
-        },
-        "street_number": {
-          "value": "国外番号",
-          "error": "無効な国外番号"
-        },
-        "additional_location": {
-          "value": "国内番号（任意）",
-          "error": "無効な国内番号"
-        },
-        "neighborhood": {
-          "value": "居留地",
-          "error": "無効な居留地"
-        },
-        "county": {
-          "value": "群または市区町村",
-          "error": "無効な群または市区町村"
-        },
-        "city": {
-          "value": "市",
-          "error": "無効な市"
+          "value": "郵便番号"
         },
         "state_province_code": {
-          "value": "州",
-          "error": "無効な州"
-        },
-        "point_of_reference": {
-          "value": "基準点（任意）",
-          "error": "無効な基準点"
-        }
-      }
-    },
-    "PE": {
-      "address": {
-        "city": {
-          "value": "市",
-          "error": "無効な市"
-        },
-        "state_province_code": {
-          "value": "州／県",
-          "error": "無効な州／県"
-        },
-        "postal_code": {
-          "value": "郵便番号",
-          "error": "無効な郵便番号"
-        },
-        "line2": {
-          "placeholder": "例：マンション名、階数など"
-        }
-      }
-    },
-    "PL": {
-      "address": {
-        "street_name": {
-          "value": "通り",
-          "error": "無効な通り"
-        },
-        "street_number": {
-          "value": "住居／アパート番号",
-          "error": "無効な住居／アパート番号"
-        },
-        "city": {
-          "value": "市",
-          "error": "無効な市"
-        },
-        "postal_code": {
-          "value": "郵便番号",
-          "error": "無効な郵便番号",
-          "placeholder": "XX-XXX"
-        }
-      }
-    },
-    "QA": {
-      "address": {
-        "line1": {
-          "placeholder": "通り名と番地、アパート名又は私書箱"
-        },
-        "line2": {
-          "placeholder": "例：ユニット名、建物名"
-        },
-        "city": {
-          "value": "市",
-          "error": "無効な市"
-        },
-        "state_province_code": {
-          "value": "地域/州",
-          "error": "無効な地域/状態"
-        },
-        "postal_code": {
-          "value": "郵便番号（任意）",
-          "error": "無効な郵便番号"
+          "error": "無効な州／県",
+          "value": "州／県"
         }
       }
     },
     "NZ": {
       "address": {
         "city": {
-          "value": "市／町",
-          "error": "無効な市／町"
-        },
-        "postal_code": {
-          "value": "郵便番号",
-          "error": "無効な郵便番号",
-          "placeholder": "XXXX"
+          "error": "無効な市／町",
+          "value": "市／町"
         },
         "line2": {
           "placeholder": "例：マンション名、階数など"
+        },
+        "postal_code": {
+          "error": "無効な郵便番号",
+          "placeholder": "XXXX",
+          "value": "郵便番号"
+        }
+      }
+    },
+    "PE": {
+      "address": {
+        "city": {
+          "error": "無効な市",
+          "value": "市"
+        },
+        "line2": {
+          "placeholder": "例：マンション名、階数など"
+        },
+        "postal_code": {
+          "error": "無効な郵便番号",
+          "value": "郵便番号"
+        },
+        "state_province_code": {
+          "error": "無効な州／県",
+          "value": "州／県"
+        }
+      }
+    },
+    "PL": {
+      "address": {
+        "city": {
+          "error": "無効な市",
+          "value": "市"
+        },
+        "postal_code": {
+          "error": "無効な郵便番号",
+          "placeholder": "XX-XXX",
+          "value": "郵便番号"
+        },
+        "street_name": {
+          "error": "無効な通り",
+          "value": "通り"
+        },
+        "street_number": {
+          "error": "無効な住居／アパート番号",
+          "value": "住居／アパート番号"
+        }
+      }
+    },
+    "QA": {
+      "address": {
+        "city": {
+          "error": "無効な市",
+          "value": "市"
+        },
+        "line1": {
+          "placeholder": "通り名と番地、アパート名又は私書箱"
+        },
+        "line2": {
+          "placeholder": "例：ユニット名、建物名"
+        },
+        "postal_code": {
+          "error": "無効な郵便番号",
+          "value": "郵便番号（任意）"
+        },
+        "state_province_code": {
+          "error": "無効な地域/状態",
+          "value": "地域/州"
         }
       }
     },
     "SA": {
       "address": {
+        "city": {
+          "error": "無効な市",
+          "value": "市"
+        },
         "line1": {
           "placeholder": "通り名と番地、アパート名又は私書箱"
         },
         "line2": {
           "placeholder": "例：ユニット名、建物名、等"
         },
-        "city": {
-          "value": "市",
-          "error": "無効な市"
+        "postal_code": {
+          "error": "無効な郵便番号",
+          "value": "郵便番号（任意）"
         },
         "state_province_code": {
-          "value": "領域",
-          "error": "無効領域"
-        },
-        "postal_code": {
-          "value": "郵便番号（任意）",
-          "error": "無効な郵便番号"
+          "error": "無効領域",
+          "value": "領域"
         }
       }
     },
     "SG": {
       "address": {
         "city": {
-          "value": "市／町",
-          "error": "無効な市／町"
-        },
-        "state_province_code": {
-          "value": "州／県",
-          "error": "無効な州／県"
-        },
-        "postal_code": {
-          "value": "郵便番号",
-          "error": "無効な郵便番号"
+          "error": "無効な市／町",
+          "value": "市／町"
         },
         "line2": {
           "placeholder": "例：マンション名、階数など"
-        }
-      }
-    },
-    "ZA": {
-      "address": {
-        "city": {
-          "value": "市",
-          "error": "無効な市"
-        },
-        "state_province_code": {
-          "value": "州／県",
-          "error": "無効な州／県"
         },
         "postal_code": {
-          "value": "郵便番号",
-          "error": "無効な郵便番号"
+          "error": "無効な郵便番号",
+          "value": "郵便番号"
         },
-        "line2": {
-          "placeholder": "例：マンション名、階数など"
+        "state_province_code": {
+          "error": "無効な州／県",
+          "value": "州／県"
         }
       }
     },
     "SK": {
       "address": {
         "city": {
-          "value": "市",
-          "error": "無効な市"
-        },
-        "state_province_code": {
-          "value": "州／県",
-          "error": "無効な州／県"
+          "error": "無効な市",
+          "value": "市"
         },
         "postal_code": {
-          "value": "郵便番号",
-          "error": "無効な郵便番号"
-        }
-      }
-    },
-    "TW": {
-      "address": {
-        "city": {
-          "value": "市",
-          "error": "無効な市"
-        },
-        "state_province_code": {
-          "value": "州／県",
-          "error": "無効な州／県"
-        },
-        "postal_code": {
-          "value": "郵便番号",
-          "error": "無効な郵便番号"
-        }
-      }
-    },
-    "ES": {
-      "address": {
-        "line1": {
-          "placeholder": "通り、番地、階、室、他"
-        },
-        "city": {
-          "value": "市",
-          "error": "無効な市"
-        },
-        "state_province_code": {
-          "value": "県",
-          "error": "無効な県",
-          "placeholder": "県名を選択または入力してください"
-        },
-        "postal_code": {
-          "value": "郵便番号",
           "error": "無効な郵便番号",
-          "placeholder": "XXXXX"
+          "value": "郵便番号"
         },
-        "line2": {
-          "placeholder": "例：マンション名、階数など"
+        "state_province_code": {
+          "error": "無効な州／県",
+          "value": "州／県"
         }
       }
     },
     "TH": {
       "address": {
         "city": {
-          "value": "市",
-          "error": "無効な市"
-        },
-        "state_province_code": {
-          "value": "州／県",
-          "error": "無効な州／県"
+          "error": "無効な市",
+          "value": "市"
         },
         "postal_code": {
-          "value": "郵便番号",
-          "error": "無効な郵便番号"
-        }
-      }
-    },
-    "AE": {
-      "address": {
-        "city": {
-          "value": "市",
-          "error": "無効な市"
-        },
-        "state_province_code": {
-          "value": "州／県",
-          "error": "無効な州／県"
-        },
-        "postal_code": {
-          "value": "郵便番号",
-          "error": "無効な郵便番号"
-        },
-        "line2": {
-          "placeholder": "例：マンション名、階数など"
-        }
-      }
-    },
-    "GB": {
-      "address": {
-        "city": {
-          "value": "町／市",
-          "error": "無効な町／市"
-        },
-        "postal_code": {
-          "value": "郵便番号",
           "error": "無効な郵便番号",
-          "placeholder": "5〜7文字"
+          "value": "郵便番号"
+        },
+        "state_province_code": {
+          "error": "無効な州／県",
+          "value": "州／県"
+        }
+      }
+    },
+    "TW": {
+      "address": {
+        "city": {
+          "error": "無効な市",
+          "value": "市"
+        },
+        "postal_code": {
+          "error": "無効な郵便番号",
+          "value": "郵便番号"
+        },
+        "state_province_code": {
+          "error": "無効な州／県",
+          "value": "州／県"
         }
       }
     },
     "UA": {
       "address": {
+        "city": {
+          "error": "無効な市",
+          "value": "市"
+        },
         "line1": {
           "placeholder": "通り"
         },
@@ -1182,46 +1137,17 @@
           "placeholder": "通り名、住居番号、マンション・アパート名"
         },
         "line3": {
-          "value": "アドレス３（任意）",
           "error": "アドレス３（任意）",
-          "placeholder": "区"
-        },
-        "city": {
-          "value": "市",
-          "error": "無効な市"
-        },
-        "state_province_code": {
-          "value": "領域",
-          "error": "無効領域"
+          "placeholder": "区",
+          "value": "アドレス３（任意）"
         },
         "postal_code": {
-          "value": "郵便番号",
-          "error": "無効な郵便番号"
-        }
-      }
-    },
-    "US": {
-      "address": {
-        "city": {
-          "value": "市",
-          "error": "無効な市"
-        },
-        "state_province_code": {
-          "value": "州",
-          "error": "無効な州",
-          "placeholder": "XX"
-        },
-        "postal_code": {
-          "value": "郵便番号",
           "error": "無効な郵便番号",
-          "placeholder": "XXXXX"
+          "value": "郵便番号"
         },
-        "line1": {
-          "value": "住所 1",
-          "error": "アドレス 1（任意）"
-        },
-        "line2": {
-          "placeholder": "例：マンション名、階数など"
+        "state_province_code": {
+          "error": "無効領域",
+          "value": "領域"
         }
       }
     },
@@ -1231,8 +1157,83 @@
           "placeholder": "例：マンション名、階数など"
         }
       }
+    },
+    "US": {
+      "address": {
+        "city": {
+          "error": "無効な市",
+          "value": "市"
+        },
+        "line1": {
+          "error": "アドレス 1（任意）",
+          "value": "住所 1"
+        },
+        "line2": {
+          "placeholder": "例：マンション名、階数など"
+        },
+        "postal_code": {
+          "error": "無効な郵便番号",
+          "placeholder": "XXXXX",
+          "value": "郵便番号"
+        },
+        "state_province_code": {
+          "error": "無効な州",
+          "placeholder": "XX",
+          "value": "州"
+        }
+      }
+    },
+    "ZA": {
+      "address": {
+        "city": {
+          "error": "無効な市",
+          "value": "市"
+        },
+        "line2": {
+          "placeholder": "例：マンション名、階数など"
+        },
+        "postal_code": {
+          "error": "無効な郵便番号",
+          "value": "郵便番号"
+        },
+        "state_province_code": {
+          "error": "無効な州／県",
+          "value": "州／県"
+        }
+      }
+    },
+    "address": {
+      "line1": {
+        "error": "アドレス 1（任意）",
+        "value": "住所１"
+      },
+      "line2": {
+        "error": "アドレス 2（任意）",
+        "placeholder": "例：マンション名、階数など",
+        "value": "住所２（任意）"
+      },
+      "state_province_code": {
+        "error": "無効な県",
+        "value": "州"
+      }
+    },
+    "country": {
+      "placeholder": "国/地域を選択または入力",
+      "value": "国/地域"
+    },
+    "name": {
+      "first": {
+        "error": "無効なお名前",
+        "value": "名"
+      },
+      "last": {
+        "error": "無効な名字",
+        "value": "姓"
+      }
     }
   },
+  "lingoport_new_key_from_en_US": "これはまったく新しいです",
+  "lingoport_new_top_level_key": "what does this do?",
   "loading": {
     "address_list_ally": "あなたのアドレスが読み込まれるまでお待ちください。",
     "card_list_ally": "カードがロードされている間お待ちください。",
@@ -1242,74 +1243,74 @@
     "country": {
       "Argentina": "アルゼンチン",
       "Australia": "オーストラリア",
+      "Austria": "オーストリア",
       "Brazil": "ブラジル",
       "Canada": "カナダ",
       "Chile": "チリ",
       "China": "中国本土",
       "Colombia": "コロンビア",
+      "CostaRica": "コスタリカ",
+      "CzechRepublic": "チェコ共和国",
+      "Denmark": "デンマーク",
       "DominicanRepublic": "ドミニカ共和国",
+      "Ecuador": "エクアドル",
+      "ElSalvador": "エルサルバドル",
+      "Finland": "フィンランド",
       "France": "フランス",
+      "Germany": "ドイツ",
       "Gibraltar": "ジブラルタル",
       "Guatemala": "グアテマラ",
+      "Honduras": "ホンジュラス",
       "HongKong": "香港",
+      "Hungary": "ハンガリー",
       "India": "インド",
       "Ireland": "アイルランド",
+      "Italy": "イタリア",
       "Japan": "日本",
+      "Jordan": "ヨルダン",
       "Kuwait": "クウェート",
       "Malaysia": "マレーシア",
       "Mexico": "メキシコ",
+      "Netherlands": "オランダ",
       "NewZealand": "ニュージーランド",
+      "Nicaragua": "ニカラグア",
+      "Norway": "ノルウェー",
+      "Panama": "パナマ",
+      "Paraguay": "パラグアイ",
       "Peru": "ペルー",
       "Poland": "ポーランド",
+      "Portugal": "ポルトガル",
       "Qatar": "カタール",
       "SaudiArabia": "サウジアラビア",
       "Singapore": "シンガポール",
+      "Slovakia": "スロバキア",
       "SouthAfrica": "南アフリカ",
       "SouthKorea": "韓国",
       "Spain": "スペイン",
+      "Sweden": "スウェーデン",
+      "Switzerland": "スイス",
       "Taiwan": "台湾",
       "Thailand": "タイ",
       "UAE": "UAE",
       "USA": "米国",
       "Ukraine": "ウクライナ",
       "UnitedKingdom": "イギリス",
-      "Germany": "ドイツ",
-      "Switzerland": "スイス",
-      "Austria": "オーストリア",
-      "Italy": "イタリア",
-      "Portugal": "ポルトガル",
-      "Norway": "ノルウェー",
-      "Sweden": "スウェーデン",
-      "Finland": "フィンランド",
-      "Denmark": "デンマーク",
-      "CzechRepublic": "チェコ共和国",
-      "Hungary": "ハンガリー",
-      "Slovakia": "スロバキア",
-      "Netherlands": "オランダ",
-      "Ecuador": "エクアドル",
-      "ElSalvador": "エルサルバドル",
-      "CostaRica": "コスタリカ",
-      "Panama": "パナマ",
-      "Paraguay": "パラグアイ",
-      "Uruguay": "ウルグアイ",
-      "Nicaragua": "ニカラグア",
-      "Honduras": "ホンジュラス",
-      "Jordan": "ヨルダン"
+      "Uruguay": "ウルグアイ"
     }
   },
   "locked": {
+    "account": {
+      "description": "一時的にVisaカードの利用が保留となります。後でもう一度お試しいただくか、別のカードをお使いください。",
+      "header_bottom": "誤入力回数が制限を越えました",
+      "header_top": "セキュリティ警告"
+    },
     "cta": {
       "return_to_merchant": "ここに戻る：",
       "try_another_card": "別のカードを試す"
     },
-    "account": {
-      "header_top": "セキュリティ警告",
-      "header_bottom": "誤入力回数が制限を越えました",
-      "description": "一時的にVisaカードの利用が保留となります。後でもう一度お試しいただくか、別のカードをお使いください。"
-    },
     "device": {
-      "header": "問題が検出されました",
-      "description": "セキュリティ保護のため、現時点ではVisaカードを追加できません。後でもう一度お試しいただくか、別のカードをお使いください。"
+      "description": "セキュリティ保護のため、現時点ではVisaカードを追加できません。後でもう一度お試しいただくか、別のカードをお使いください。",
+      "header": "問題が検出されました"
     }
   },
   "login": {
@@ -1331,55 +1332,31 @@
     "header": "ご確認をお願いします"
   },
   "otp": {
-    "verify": {
-      "resend_code_link": "コードの再送",
-      "cta_text": "続ける",
-      "description": "電子メールで送信されたワンタイムコードを入力してください。",
-      "header": "おかえりなさい。",
-      "input_label": "コード",
-      "invalid_input_label": "無効なコード",
-      "remember_me": {
-        "checkbox": {
-          "label_p1": "この端末でログイン情報を記憶する",
-          "label_p2": "（共有端末にはお勧めできません）"
-        },
-        "learn_more": {
-          "eu": "メールアドレスや携帯番号はお客様の個人を特定できる情報となります。サインアウトしてもデバイス上のお客様のデータとお使いのカード情報は保管されています。ワンタイムコードまたはパスワードを入力するだけでサインインすることができます。",
-          "p1": "メールアドレスや携帯番号はお客様の個人を特定できる情報となります。サインアウトしてもデバイス上のお客様のデータとお使いのカード情報は保管されています。ワンタイムコードまたはパスワードを入力するだけでサインインすることができます。",
-          "p2": "Visa Checkoutはお客様のクレジットまたはデビットカードのデザインを表示し、よりパーソナライズされたショッピング体験を提供します。",
-          "p2_IR": "Visa Checkoutはお客様のデビットまたはクレジットカードのデザインを表示し、よりパーソナライズされたショッピング体験を提供します。"
-        },
-        "close_a11y": "更に詳しくのパネルを閉じる",
-        "open_a11y": "もっと詳しく知る"
-      },
-      "use_password_link": "自分のパスワードを使用",
-      "resend_link": "コードの再送"
+    "errors": {
+      "account_inaccessible": "保存されたデータにアクセスできません。カードの詳細情報を入力してから続行してください。",
+      "expired_resend": "この確認コードは有効期限が切れています。「再送信」をクリックして新しいコードを取得してください。",
+      "generic_error": "申し訳ありませんが、リクエストを処理できませんでした。コードを再送信してください。",
+      "invalid": "申し訳ありませんが、お客様のコードを確認することができませんでした。",
+      "invalid_code": "入力されたコードは正しくありません。",
+      "retries_exceeded": "認証コード入力の失敗回数制限を超えました。他のカードをご使用ください。"
+    },
+    "not_you": {
+      "left_paren": "(",
+      "link_text": "お客様ではないですか？",
+      "not_you_a11y": "ご本人でない場合は戻るを選択してください",
+      "right_paren": ")"
+    },
+    "notifications": {
+      "resend": "新しいコードが__name__に送信されました",
+      "resend_email": "別のメールが__name__に送信されました",
+      "resend_text": "新しいテキストが __name__に送信されました",
+      "sent": "コードは__name__に送信しました",
+      "sms_email_resend": "ワンタイムコードが再送信されました"
     },
     "provider": {
       "description": "__provider__が以下に送信したワンタイムコードを入力してください:",
       "description_email": "__provider__ から送信されたメールにあるワンタイムコードを入力してください:",
       "description_text": "__provider__ から送信されたテキストにあるワンタイムコードを入力してください:"
-    },
-    "not_you": {
-      "not_you_a11y": "ご本人でない場合は戻るを選択してください",
-      "left_paren": "(",
-      "link_text": "お客様ではないですか？",
-      "right_paren": ")"
-    },
-    "errors": {
-      "expired_resend": "この確認コードは有効期限が切れています。「再送信」をクリックして新しいコードを取得してください。",
-      "invalid": "申し訳ありませんが、お客様のコードを確認することができませんでした。",
-      "invalid_code": "入力されたコードは正しくありません。",
-      "retries_exceeded": "認証コード入力の失敗回数制限を超えました。他のカードをご使用ください。",
-      "account_inaccessible": "保存されたデータにアクセスできません。カードの詳細情報を入力してから続行してください。",
-      "generic_error": "申し訳ありませんが、リクエストを処理できませんでした。コードを再送信してください。"
-    },
-    "notifications": {
-      "resend": "新しいコードが__name__に送信されました",
-      "sent": "コードは__name__に送信しました",
-      "resend_email": "別のメールが__name__に送信されました",
-      "resend_text": "新しいテキストが __name__に送信されました",
-      "sms_email_resend": "ワンタイムコードが再送信されました"
     },
     "step_up": {
       "cta_text": "確認",
@@ -1402,6 +1379,30 @@
     },
     "validation_channel": {
       "sms_email_a11y": "__phone__ と __email__"
+    },
+    "verify": {
+      "cta_text": "続ける",
+      "description": "電子メールで送信されたワンタイムコードを入力してください。",
+      "header": "おかえりなさい。",
+      "input_label": "コード",
+      "invalid_input_label": "無効なコード",
+      "remember_me": {
+        "checkbox": {
+          "label_p1": "この端末でログイン情報を記憶する",
+          "label_p2": "（共有端末にはお勧めできません）"
+        },
+        "close_a11y": "更に詳しくのパネルを閉じる",
+        "learn_more": {
+          "eu": "メールアドレスや携帯番号はお客様の個人を特定できる情報となります。サインアウトしてもデバイス上のお客様のデータとお使いのカード情報は保管されています。ワンタイムコードまたはパスワードを入力するだけでサインインすることができます。",
+          "p1": "メールアドレスや携帯番号はお客様の個人を特定できる情報となります。サインアウトしてもデバイス上のお客様のデータとお使いのカード情報は保管されています。ワンタイムコードまたはパスワードを入力するだけでサインインすることができます。",
+          "p2": "Visa Checkoutはお客様のクレジットまたはデビットカードのデザインを表示し、よりパーソナライズされたショッピング体験を提供します。",
+          "p2_IR": "Visa Checkoutはお客様のデビットまたはクレジットカードのデザインを表示し、よりパーソナライズされたショッピング体験を提供します。"
+        },
+        "open_a11y": "もっと詳しく知る"
+      },
+      "resend_code_link": "コードの再送",
+      "resend_link": "コードの再送",
+      "use_password_link": "自分のパスワードを使用"
     }
   },
   "otp_card_entry": {
@@ -1413,45 +1414,45 @@
     "merchant_name_default": "業者"
   },
   "prefill_consent": {
-    "header": "より簡単なオンライン決済がはじまります。",
-    "description": "早く手続きを進めるために__merchantName__に基本的な情報の入力を許可します。",
-    "more_info_a11y": "詳細については、クリックしてください。",
-    "more_info": "詳細情報",
-    "more_info_content": "__merchantName__がVisaのオンラインチェックアウトサービスと共有する情報には、氏名、電話番号、電子メールアドレスなどが含まれます。",
-    "cta": "私の情報を事前入力",
     "cancel": "いいえ、結構です",
+    "cta": "私の情報を事前入力",
+    "description": "早く手続きを進めるために__merchantName__に基本的な情報の入力を許可します。",
+    "disclaimer": "「私の情報を事前入力」をクリックすることにより、お客様は__merchantName__がVisa Checkoutのオンラインチェックアウトとご自身の氏名、電話番号および電子メールアドレスを共有することならびに__privacyPolicy__に同意したものとみなされます。",
     "errors": {
       "no_merchant_data": "申し訳ございません。__merchantName__は、あなたの情報を事前入力できませんでしたが、Visaのオンラインチェックアウトサービスを続行することは可能です。"
     },
-    "disclaimer": "「私の情報を事前入力」をクリックすることにより、お客様は__merchantName__がVisa Checkoutのオンラインチェックアウトとご自身の氏名、電話番号および電子メールアドレスを共有することならびに__privacyPolicy__に同意したものとみなされます。",
+    "header": "より簡単なオンライン決済がはじまります。",
+    "more_info": "詳細情報",
+    "more_info_a11y": "詳細については、クリックしてください。",
+    "more_info_content": "__merchantName__がVisaのオンラインチェックアウトサービスと共有する情報には、氏名、電話番号、電子メールアドレスなどが含まれます。",
     "privacy_policy": "プライバシー通知"
   },
   "sdklite": {
     "accessibility": {
       "button": "支払いアイコンをクリックしてお支払いください",
+      "fingerprint_icon": "指紋アイコン",
       "locked_button": "ビザでのお支払いサービス。 利用不可。",
       "spinner": "ロード中",
-      "spinner_close": "キャンセルして に戻る",
-      "fingerprint_icon": "指紋アイコン"
+      "spinner_close": "キャンセルして に戻る"
     },
     "logging": {
-      "lock_reason": "この環境がサポートされていないため、ボタンを無効にすると、新しいOSを試してみてください。",
-      "not_initialized": "SDKは、まだ初期化されていません。",
-      "no_network": "支払い情報が更新されませんでしたので、ネットワーク接続がありません。",
       "already_launched": "チェックアウトフローはすでに開始されています。",
-      "invalid_params": "パラメータが無効かnilです。",
-      "internal_error": "ビザチェックアウトが内部エラーを持っていたし、要求を完了することはできません。",
-      "corr_id_session": "こちらのセッションのCorrelationIDは、__correlationid__ です",
       "api_check": "APIレベル __apilevel__ 以上で実行されているデバイスは、Visa Checkoutの機能を使用できます。",
+      "corr_id_session": "こちらのセッションのCorrelationIDは、__correlationid__ です",
+      "internal_error": "ビザチェックアウトが内部エラーを持っていたし、要求を完了することはできません。",
+      "invalid_params": "パラメータが無効かnilです。",
+      "lock_reason": "この環境がサポートされていないため、ボタンを無効にすると、新しいOSを試してみてください。",
+      "no_network": "支払い情報が更新されませんでしたので、ネットワーク接続がありません。",
+      "not_initialized": "SDKは、まだ初期化されていません。",
       "objc_bridge_warning": "警告 -- Objective-Cは、__property__に設定されている配列値をブリッジできません。__enum__ 列挙型の.rawValueプロパティを使用してください。"
     },
     "ui": {
-      "biometric_signin": "サインイン",
       "biometric_cancel": "取消",
+      "biometric_signin": "サインイン",
+      "fingerprint_confirm": "今すぐ指紋を承認する。",
+      "fingerprint_continue": "続けるには、指紋を確認します",
       "fingerprint_recognized": "指紋認識",
       "fingerprint_unrecognized": "指紋が認識されません。 再度試みる",
-      "fingerprint_continue": "続けるには、指紋を確認します",
-      "fingerprint_confirm": "今すぐ指紋を承認する。",
       "touch_sensor": "タッチセンサー"
     }
   },
@@ -1520,51 +1521,51 @@
     "sign_out": "サインアウトする",
     "sign_out_a11y": "__user__からサインアウト"
   },
-  "vco_component_add_card": {
-    "first_name": {
-      "label": "名",
-      "label_a11y": "ここにあなたの最初の名前を入力します。",
-      "invalid_first_name": "無効なお名前"
-    },
-    "last_name": {
-      "label": "姓",
-      "label_a11y": "ここにあなたの最後の名前を入力します。",
-      "invalid_last_name": "無効な名字"
-    }
-  },
   "vco-component-identification": {
     "email_label_a11y": "お客様のメールアドレスを入力してください"
+  },
+  "vco_component_add_card": {
+    "first_name": {
+      "invalid_first_name": "無効なお名前",
+      "label": "名",
+      "label_a11y": "ここにあなたの最初の名前を入力します。"
+    },
+    "last_name": {
+      "invalid_last_name": "無効な名字",
+      "label": "姓",
+      "label_a11y": "ここにあなたの最後の名前を入力します。"
+    }
   },
   "welcome": {
     "a11y": {
       "cta": "Visa Chekcoutの使用を続ける",
       "page_title": "Visa Checkout - より簡単なオンライン決済方法"
     },
+    "create_account": {
+      "cta": "続ける",
+      "legal_info": "あなたの個人情報は、より良い顧客体験を提供するために決済ネットワークおよびサービスプロバイダと共有されます。",
+      "new_user": "Click to Payは初めてのようですね。まずは、カード情報を入力してください。",
+      "tab": {
+        "label": "新しい",
+        "label_a11y": "新規ユーザー"
+      }
+    },
     "cta_text": "続ける",
     "description": "利用を開始するには、お客様のメールアドレスを入力してください。",
-    "header": "より簡単なオンライン決済がはじまります。",
-    "input_label": "メールアドレス",
-    "invalid_input_label": "無効なメールアドレス",
     "errors": {
       "lockout": "保存されたデータにアクセスできません。カード情報を入力してから続行してください。",
       "lookup_unavailable": "検索は、メールアドレスのために使用することはできません。 続けるためにはお客様情報を入力してください。"
     },
-    "create_account": {
-      "new_user": "Click to Payは初めてのようですね。まずは、カード情報を入力してください。",
-      "cta": "続ける",
-      "tab": {
-        "label_a11y": "新規ユーザー",
-        "label": "新しい"
-      },
-      "legal_info": "あなたの個人情報は、より良い顧客体験を提供するために決済ネットワークおよびサービスプロバイダと共有されます。"
-    },
+    "header": "より簡単なオンライン決済がはじまります。",
+    "input_label": "メールアドレス",
+    "invalid_input_label": "無効なメールアドレス",
     "sign_in": {
+      "cta": "続ける",
+      "legal_info": "メールアドレスを入力することにより、決済ネットワークへの個人情報提供に同意したものとみなされます。",
       "tab": {
         "label": "戻ります",
         "label_a11y": "以前にご利用いただいたユーザー"
-      },
-      "cta": "続ける",
-      "legal_info": "メールアドレスを入力することにより、決済ネットワークへの個人情報提供に同意したものとみなされます。"
+      }
     },
     "src": {
       "create_account": {
@@ -1576,19 +1577,19 @@
           "returning_user": "続行されることで、VisaのprivacyNotice に同意いただいたと見なされます。"
         }
       },
+      "errors": {
+        "lockout": "保存されたデータにアクセスできません。カード情報を入力してから続行してください。"
+      },
+      "header": "簡単で便利なオンラインチェックアウト",
       "legal": {
         "privacy_notice": "プライバシー通知",
         "terms": "利用規約"
       },
-      "header": "簡単で便利なオンラインチェックアウト",
-      "we_accept": "同意します",
-      "errors": {
-        "lockout": "保存されたデータにアクセスできません。カード情報を入力してから続行してください。"
-      },
       "sub_heading": {
         "new": "支払うためにクリックして自信を持ってお支払い",
         "returning": "支払うためにクリックして自信を持ってお支払い"
-      }
+      },
+      "we_accept": "同意します"
     }
   }
 }

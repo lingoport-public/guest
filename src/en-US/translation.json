@@ -1,4 +1,5 @@
 {
+  "lingoport_new_key_from_en_US": "This is net new",
   "accepted_cards": {
     "a11y": {
       "cards_accepted": "'We accept __cards__'"

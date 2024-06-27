@@ -1,4 +1,5 @@
 {
+  "B8651": "possibilité de conserver l'étiquette du kit de préparation sur les fichiers importés",
   "accepted_cards": {
     "a11y": {
       "cards_accepted": "'Nous acceptons __cards__'"

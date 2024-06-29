@@ -8,8 +8,7 @@ public class AntiPattern2 {
    * ordering for all languages.
    */
   public void Test01() {
-    String msg = String.
-    format("%d %s", 1, "hello"); // TestScene 1
+    String msg = String.format("%d %s", 1, "hello"); // TestScene 1
   }
   
   public void Test02() {
@@ -19,7 +18,7 @@ public class AntiPattern2 {
   public void Test03() {
     String msg = new
     String("%d %s"); //TestScene 3
-    msg = msg.formatted(1, "hello");
+    msg = msg.format(1, "hello");
     System.out.println(msg);
   }
   

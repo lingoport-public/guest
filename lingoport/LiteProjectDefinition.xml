@@ -24,9 +24,9 @@
   <save-history>false</save-history>
   <scans>
     <scan>
-      <scan-name>Guest Java</scan-name>
-      <ruleset-name>Guest Java</ruleset-name>
-      <ruleset-owner>demo@lingoport.com</ruleset-owner>
+      <scan-name>Guest Java 2024</scan-name>
+      <ruleset-name>Guest Java 2024</ruleset-name>
+      <ruleset-owner>olibouban@lingoport.com</ruleset-owner>
       <use-machine-learning>false</use-machine-learning>
       <encoding>systemDefault</encoding>
       <checks>

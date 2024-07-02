@@ -6,6 +6,8 @@ public class AntiPattern3 {
      */
     public void Test01() {
         String msg = 100 + "yuan"; // TestScene 1
+        msg+= " thousand";
+        String msg2 = "One " + "yuan";
     }
 
     public void Test02() {

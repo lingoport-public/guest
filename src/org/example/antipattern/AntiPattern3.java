@@ -5,7 +5,7 @@ public class AntiPattern3 {
      * Concatenating strings for messages / Splitting one complete sentence into multiple parts.
      */
     public void Test01() {
-        String msg = "100" + "yuan"; // TestScene 1
+        String msg = 100 + "yuan"; // TestScene 1
     }
 
     public void Test02() {

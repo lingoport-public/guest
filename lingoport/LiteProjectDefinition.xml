@@ -18,7 +18,7 @@
   <report-path>globalyzer-lite-reports</report-path>
   <report-type>ScanDetailedXML</report-type>
   <data-dictionary-location></data-dictionary-location>
-  <filter-with-dictionary>false</filter-with-dictionary>
+  <filter-with-dictionary>true</filter-with-dictionary>
   <scan-timeout>120</scan-timeout>
   <generate-partial-results>false</generate-partial-results>
   <save-history>false</save-history>

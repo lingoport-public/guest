@@ -15,7 +15,7 @@ public abstract class BaseMarketService implements CountryMarketService {
     }
 }
 
-// Specific class for the US market
+// TestScene 1
 public class USMarketService extends BaseMarketService {
     @Override
     public void displayMarketInfo() {
@@ -24,7 +24,7 @@ public class USMarketService extends BaseMarketService {
     }
 }
 
-// Specific class for the UK market
+// TestScene 2
 public class UKMarketService extends BaseMarketService {
     @Override
     public void displayMarketInfo() {
@@ -33,7 +33,7 @@ public class UKMarketService extends BaseMarketService {
     }
 }
 
-// Specific class for the German market
+// TestScene 3
 public class GermanMarketService extends BaseMarketService {
     @Override
     public void displayMarketInfo() {

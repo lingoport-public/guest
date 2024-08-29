@@ -5,7 +5,7 @@
     <version its:translate="no">3.0</version>
 	<properties>
 		<entry key="page.title">PEF Participants</entry>
-		<entry key="information">This is a list of the members in your unit who have participated in the PEF loan program. This information is to assist priesthood leaders in providing support, encouragement, and guidance. We encourage leaders to review this list regularly and offer guidance to the members who are not continuing in school, have not graduated, or are not current on their PEF loan as they may be facing challenges completing their education and becoming self-reliant. The self-reliance committee and self-reliance specialists can work with these members under the direction of priesthood leaders. PEF participants may contact the <unit-card unit-number="{0}" show-org-info="true">PEF Support Center</unit-card> for help of any type, including when facing challenges repaying their loan.</entry>
+		<entry key="information"><![CDATA[This is a list of the members in your unit who have participated in the PEF loan program. This information is to assist priesthood leaders in providing support, encouragement, and guidance. We encourage leaders to review this list regularly and offer guidance to the members who are not continuing in school, have not graduated, or are not current on their PEF loan as they may be facing challenges completing their education and becoming self-reliant. The self-reliance committee and self-reliance specialists can work with these members under the direction of priesthood leaders. PEF participants may contact the <unit-card unit-number="{0}" show-org-info="true">PEF Support Center</unit-card> for help of any type, including when facing challenges repaying their loan.]]></entry>
 		<entry key="school.status">School Status</entry>
 		<entry key="graduation.date">Graduation Date</entry>
 		<entry key="payment.status">Payment Status</entry>
@@ -44,8 +44,8 @@
 		<entry key="school.status.help.graduated">Recognize the success of this member. Offer assistance in finding work. The self-reliance groups are a great resource. This is a potential mentor for potential new PEF participants.</entry>
 		<entry key="school.status.help.in.school">Encourage the member to continue his or her studies and prepare for work. Assist with any needs.</entry>
 		<entry key="school.status.help.unknown">School status is unknown. Ask the member to contact the PEF Support Center to update his or her record.</entry>
-		<entry key="graduation.date.help">Dates in red are in the past, and the member is still in school or graduation is unconfirmed. Ask the member to call the <a href="" ng-click="$ctrl.onClickPefSupportCenter()">PEF Support Center</a>.</entry>
-    <entry key="payment.status.help">Priesthood leaders or self-reliance specialists can encourage members who are not current on their loan to contact the local <a href="" ng-click="$ctrl.onClickPefSupportCenter()">PEF Support Center</a> for help, including loan restructuring and incentives that may reduce the loan balance for participants who submitted their application before March 1, 2018.</entry>
+		<entry key="graduation.date.help"><![CDATA[Dates in red are in the past, and the member is still in school or graduation is unconfirmed. Ask the member to call the <a href="" ng-click="$ctrl.onClickPefSupportCenter()">PEF Support Center</a>.</entry>
+		<entry key="payment.status.help">Priesthood leaders or self-reliance specialists can encourage members who are not current on their loan to contact the local <a href="" ng-click="$ctrl.onClickPefSupportCenter()">PEF Support Center</a> for help, including loan restructuring and incentives that may reduce the loan balance for participants who submitted their application before March 1, 2018. ]]></entry>
 		<entry key="cancelled">Canceled</entry>
 		<entry key="deferred">Deferred</entry>
 		<entry key="withdrew">Withdrew</entry>
@@ -79,7 +79,7 @@
 		<entry key="non.pef.country">PEF loans are not available in your country. The members listed below originated their PEF loans in a different country, then relocated to this country.</entry>
     <entry key="mission.info">Select a unit from above to view the report.</entry>
     <entry key="priesthood.endorsement.form">PEF Priesthood Endorsement Form</entry>
-    <entry key="endorsement.forms">In order for a member to receive a PEF loan, they must obtain an endorsement from their bishop. A PEF loan is used to fund educational programs that assist members in obtaining a self-reliant income. For more information on Perpetual Education Fund loans and to check availability in your country, please visit <a href="http://pef.churchofjesuschrist.org?lang={0}" target="_blank">pef.churchofjesuschrist.org</a>. To endorse a member of your ward after they have been interviewed, enter their name in the box below then click Submit Endorsement.</entry>
+    <entry key="endorsement.forms"><![CDATA[In order for a member to receive a PEF loan, they must obtain an endorsement from their bishop. A PEF loan is used to fund educational programs that assist members in obtaining a self-reliant income. For more information on Perpetual Education Fund loans and to check availability in your country, please visit <a href="http://pef.churchofjesuschrist.org?lang={0}" target="_blank">pef.churchofjesuschrist.org</a>. To endorse a member of your ward after they have been interviewed, enter their name in the box below then click Submit Endorsement. ]]></entry>
     <entry key="priesthood.endorsement.form.english">PEF Priesthood Endorsement Form (English)</entry>
     <entry key="priesthood.endorsement.form.french">PEF Priesthood Endorsement Form (French)</entry>
     <entry key="priesthood.endorsement.form.portuguese">PEF Priesthood Endorsement Form (Portuguese)</entry>
@@ -95,7 +95,7 @@
     <entry key="endorse.member">Endorse Member</entry>
     <entry key="endorsement.confirmation">I have reviewed all interview questions with this member and endorse him or her to receive a PEF loan.</entry>
     <entry key="endorse.invalid.recommend.message">To qualify for a PEF loan, a member must have a current temple recommend or limited-use recommend.</entry>
-    <entry key="endorse.submission.success">{0} has successfully been endorsed for a PEF loan. If they receive a loan, it will show on the <a href="{1}/report/pef?lang={2}" target="_blank">PEF Participants</a> report.</entry>
+    <entry key="endorse.submission.success"><![CDATA[{0} has successfully been endorsed for a PEF loan. If they receive a loan, it will show on the <a href="{1}/report/pef?lang={2}" target="_blank">PEF Participants</a> report. ]]></entry>
     <entry key="endorse.submission.failure">Endorse Member</entry>
     <entry key="interview.questions.title">Perpetual Education Fund Priesthood Endorsement</entry>
     <entry key="submit.endorsement">Submit Endorsement</entry>

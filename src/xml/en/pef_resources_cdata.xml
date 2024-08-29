@@ -44,8 +44,8 @@
 		<entry key="school.status.help.graduated">Recognize the success of this member. Offer assistance in finding work. The self-reliance groups are a great resource. This is a potential mentor for potential new PEF participants.</entry>
 		<entry key="school.status.help.in.school">Encourage the member to continue his or her studies and prepare for work. Assist with any needs.</entry>
 		<entry key="school.status.help.unknown">School status is unknown. Ask the member to contact the PEF Support Center to update his or her record.</entry>
-		<entry key="graduation.date.help"><![CDATA[Dates in red are in the past, and the member is still in school or graduation is unconfirmed. Ask the member to call the <a href="" ng-click="$ctrl.onClickPefSupportCenter()">PEF Support Center</a>.</entry>
-		<entry key="payment.status.help">Priesthood leaders or self-reliance specialists can encourage members who are not current on their loan to contact the local <a href="" ng-click="$ctrl.onClickPefSupportCenter()">PEF Support Center</a> for help, including loan restructuring and incentives that may reduce the loan balance for participants who submitted their application before March 1, 2018. ]]></entry>
+		<entry key="graduation.date.help"><![CDATA[Dates in red are in the past, and the member is still in school or graduation is unconfirmed. Ask the member to call the <a href="" ng-click="$ctrl.onClickPefSupportCenter()">PEF Support Center</a>.]]></entry>
+		<entry key="payment.status.help"><![CDATA[Priesthood leaders or self-reliance specialists can encourage members who are not current on their loan to contact the local <a href="" ng-click="$ctrl.onClickPefSupportCenter()">PEF Support Center</a> for help, including loan restructuring and incentives that may reduce the loan balance for participants who submitted their application before March 1, 2018. ]]></entry>
 		<entry key="cancelled">Canceled</entry>
 		<entry key="deferred">Deferred</entry>
 		<entry key="withdrew">Withdrew</entry>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:its="http://www.w3.org/2005/11/its" locale="eng">
+	<name its:translate="no">pef</name>
+	<application its:translate="no">mlsweb-membership</application>
+    <version its:translate="no">3.0</version>
+	<properties>
+		<entry key="page.title">PEF Participants</entry>
+		<entry key="information">This is a list of the members in your unit who have participated in the PEF loan program. This information is to assist priesthood leaders in providing support, encouragement, and guidance. We encourage leaders to review this list regularly and offer guidance to the members who are not continuing in school, have not graduated, or are not current on their PEF loan as they may be facing challenges completing their education and becoming self-reliant. The self-reliance committee and self-reliance specialists can work with these members under the direction of priesthood leaders. PEF participants may contact the <unit-card unit-number="{0}" show-org-info="true">PEF Support Center</unit-card> for help of any type, including when facing challenges repaying their loan.</entry>
+		<entry key="school.status">School Status</entry>
+		<entry key="graduation.date">Graduation Date</entry>
+		<entry key="payment.status">Payment Status</entry>
+		<entry key="school">School</entry>
+		<entry key="program">Program</entry>
+		<entry key="school.status.help"> <![CDATA[
+			<div>
+				<label>Canceled</label>
+				<p>The participant canceled his or her loan.</p>
+			</div>
+			<div>
+				<label>Deferred</label>
+				<p>The participant paused his or her loan.</p>
+			</div>
+			<div>
+				<label>Withdrew</label>
+				<p>The participant withdrew from school.</p>
+			</div>
+			<div>
+				<label>Graduated</label>
+				<p>The participant confirmed graduation.</p>
+			</div>
+			<div>
+				<label>In-School</label>
+				<p>The participant is attending school.</p>
+			</div>
+			<div>
+				<label>Unknown</label>
+				<p>The graduation date has passed but is not confirmed. Participant should contact the <a href="">PEF Support Center</a> to update his or her graduation status.</p>
+			</div>
+				]]>
+		</entry>
+		<entry key="school.status.help.cancelled">Verify whether the member needs help with completing education. Refer the member to a self-reliance specialist if he or she wants assistance.</entry>
+		<entry key="school.status.help.deferred">There are many types of deferments. If you or the member has any questions, please contact the PEF Support Center.</entry>
+		<entry key="school.status.help.withdrew">Offer support, encouragement, and counsel as the member works to become self-reliant.</entry>
+		<entry key="school.status.help.graduated">Recognize the success of this member. Offer assistance in finding work. The self-reliance groups are a great resource. This is a potential mentor for potential new PEF participants.</entry>
+		<entry key="school.status.help.in.school">Encourage the member to continue his or her studies and prepare for work. Assist with any needs.</entry>
+		<entry key="school.status.help.unknown">School status is unknown. Ask the member to contact the PEF Support Center to update his or her record.</entry>
+		<entry key="graduation.date.help">Dates in red are in the past, and the member is still in school or graduation is unconfirmed. Ask the member to call the <a href="" ng-click="$ctrl.onClickPefSupportCenter()">PEF Support Center</a>.</entry>
+    <entry key="payment.status.help">Priesthood leaders or self-reliance specialists can encourage members who are not current on their loan to contact the local <a href="" ng-click="$ctrl.onClickPefSupportCenter()">PEF Support Center</a> for help, including loan restructuring and incentives that may reduce the loan balance for participants who submitted their application before March 1, 2018.</entry>
+		<entry key="cancelled">Canceled</entry>
+		<entry key="deferred">Deferred</entry>
+		<entry key="withdrew">Withdrew</entry>
+		<entry key="graduated">Graduated</entry>
+		<entry key="in.school">In School</entry>
+		<entry key="unknown">Unknown</entry>
+    <entry key="pre.graduation">Pre-Graduation</entry>
+
+		<entry key="paid.in.full">Paid in Full</entry>
+		<entry key="written.off">Written Off</entry>
+		<entry key="forgiven">Forgiven</entry>
+		<entry key="current">Current</entry>
+		<entry key="not.current">Not Current</entry>
+    <entry key="past.due">Past Due</entry>
+
+		<entry key="filter.school.status">Filter by School Status</entry>
+		<entry key="filter.payment.status">Filter by Payment Status</entry>
+		<entry key="filter.graduation.date">Filter by Graduation Date</entry>
+		<entry key="last.12.months">Last 12 months</entry>
+		<entry key="last.6.months">Last 6 months</entry>
+		<entry key="last.3.months">Last 3 months</entry>
+		<entry key="last.month">Last month</entry>
+		<entry key="next.month">Next month</entry>
+		<entry key="next.3.months">Next 3 months</entry>
+		<entry key="next.6.months">Next 6 months</entry>
+		<entry key="next.12.months">Next 12 months</entry>
+		<entry key="next.24.months">Next 24 months</entry>
+		<entry key="no.time.specified">No time specified</entry>
+
+		<entry key="subheading">Filtered by: {0}</entry>
+		<entry key="non.pef.country">PEF loans are not available in your country. The members listed below originated their PEF loans in a different country, then relocated to this country.</entry>
+    <entry key="mission.info">Select a unit from above to view the report.</entry>
+    <entry key="priesthood.endorsement.form">PEF Priesthood Endorsement Form</entry>
+    <entry key="endorsement.forms">In order for a member to receive a PEF loan, they must obtain an endorsement from their bishop. A PEF loan is used to fund educational programs that assist members in obtaining a self-reliant income. For more information on Perpetual Education Fund loans and to check availability in your country, please visit <a href="http://pef.churchofjesuschrist.org?lang={0}" target="_blank">pef.churchofjesuschrist.org</a>. To endorse a member of your ward after they have been interviewed, enter their name in the box below then click Submit Endorsement.</entry>
+    <entry key="priesthood.endorsement.form.english">PEF Priesthood Endorsement Form (English)</entry>
+    <entry key="priesthood.endorsement.form.french">PEF Priesthood Endorsement Form (French)</entry>
+    <entry key="priesthood.endorsement.form.portuguese">PEF Priesthood Endorsement Form (Portuguese)</entry>
+    <entry key="priesthood.endorsement.form.russian">PEF Priesthood Endorsement Form (Russian)</entry>
+    <entry key="priesthood.endorsement.form.spanish">PEF Priesthood Endorsement Form (Spanish)</entry>
+    <entry key="priesthood.endorsement.form.albanian">PEF Priesthood Endorsement Form (Albanian)</entry>
+    <entry key="priesthood.endorsement.form.chinese">PEF Priesthood Endorsement Form (Chinese)</entry>
+    <entry key="priesthood.endorsement.form.indonesian">PEF Priesthood Endorsement Form (Indonesian)</entry>
+    <entry key="priesthood.endorsement.form.khmer">PEF Priesthood Endorsement Form (Khmer)</entry>
+    <entry key="priesthood.endorsement.form.malay">PEF Priesthood Endorsement Form (Malay)</entry>
+    <entry key="priesthood.endorsement.form.thai">PEF Priesthood Endorsement Form (Thai)</entry>
+    <entry key="pef.endorsement">PEF Endorsement</entry>
+    <entry key="endorse.member">Endorse Member</entry>
+    <entry key="endorsement.confirmation">I have reviewed all interview questions with this member and endorse him or her to receive a PEF loan.</entry>
+    <entry key="endorse.invalid.recommend.message">To qualify for a PEF loan, a member must have a current temple recommend or limited-use recommend.</entry>
+    <entry key="endorse.submission.success">{0} has successfully been endorsed for a PEF loan. If they receive a loan, it will show on the <a href="{1}/report/pef?lang={2}" target="_blank">PEF Participants</a> report.</entry>
+    <entry key="endorse.submission.failure">Endorse Member</entry>
+    <entry key="interview.questions.title">Perpetual Education Fund Priesthood Endorsement</entry>
+    <entry key="submit.endorsement">Submit Endorsement</entry>
+    <entry key="interview.questions">Interview Questions</entry>
+	</properties>
+</resources>

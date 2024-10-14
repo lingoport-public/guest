@@ -1,0 +1,355 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="fNYZfqr55GrsKVkfyD6HqXaqz_c" datatype="pendoguide" source-language="en-US" target-language="">
+    <body>
+      <group id="8_h9w_ORl3zVyj5zYq636W8yT0k">
+        <note />
+        <trans-unit id="46f97b88-6b35-4b6a-932c-bb59d4bfa053|md">
+          <source>
+            Release Notes
+          </source>
+          <target>
+            Release Notes
+          </target>
+          <note>TextView</note>
+        </trans-unit>
+        <trans-unit id="08fe724a-f490-419c-a1fb-0e2230e19a9d|md">
+          <source>
+            ++2024-10-16++
+          </source>
+          <target>
+            ++2024-10-16++
+          </target>
+          <note>TextView</note>
+        </trans-unit>
+        <trans-unit id="67b746a2-a87f-413e-b72a-a823e9b1141e|md">
+          <source>
+            **Combine Insights Report**
+
+* Enables a customer to view deeper insights into their combine fleet
+* Displays detailed combine fleet information in the areas of operational information, mechanical conditions, harvest, comparative, and embedded technology
+* Report can be used to compare operational efficiencies, ground speeds, use of technology features, etc.
+ 
+**Tractor Insights Report**
+
+* Enables a customer to view deeper insights into their tractor fleet
+* Displays detailed tractor fleet information in the areas of operational information, mechanical conditions, and comparative
+* Report can be used to compare operational efficiencies, ground speeds, use of technology features, etc.
+
+**Tillage Data Layers**
+
+* Enables a customer to visualize different tillage attribute layers from select tillage tools
+* Tillage layers include Disk depth, shank depth, leveler depth, &amp; crumbler downforce
+* Available on Ecolo-Tiger 875, Tiger-Mate 255, 345/375, &amp; 335VT Barracuda
+ 
+**ISOXML Variety Zone Export**
+
+* Enables a customer to export variety maps to utilize variety tracking
+* Enables a customer with a Pro1200 display in the combine cab to upload their variety zone map in ISOXML format
+* Within FieldOps, enables a customer to analyze harvest yield vs. hybrids from their planting maps
+
+          </source>
+          <target>
+            **Combine Insights Report**
+
+* Enables a customer to view deeper insights into their combine fleet
+* Displays detailed combine fleet information in the areas of operational information, mechanical conditions, harvest, comparative, and embedded technology
+* Report can be used to compare operational efficiencies, ground speeds, use of technology features, etc.
+ 
+**Tractor Insights Report**
+
+* Enables a customer to view deeper insights into their tractor fleet
+* Displays detailed tractor fleet information in the areas of operational information, mechanical conditions, and comparative
+* Report can be used to compare operational efficiencies, ground speeds, use of technology features, etc.
+
+**Tillage Data Layers**
+
+* Enables a customer to visualize different tillage attribute layers from select tillage tools
+* Tillage layers include Disk depth, shank depth, leveler depth, &amp; crumbler downforce
+* Available on Ecolo-Tiger 875, Tiger-Mate 255, 345/375, &amp; 335VT Barracuda
+ 
+**ISOXML Variety Zone Export**
+
+* Enables a customer to export variety maps to utilize variety tracking
+* Enables a customer with a Pro1200 display in the combine cab to upload their variety zone map in ISOXML format
+* Within FieldOps, enables a customer to analyze harvest yield vs. hybrids from their planting maps
+
+          </target>
+          <note>TextView</note>
+        </trans-unit>
+        <trans-unit id="558536ce-7627-4c0a-8b27-c979a409d753|md">
+          <source>
+            ++2024-08-21++
+          </source>
+          <target>
+            ++2024-08-21++
+          </target>
+          <note>TextView</note>
+        </trans-unit>
+        <trans-unit id="7c9ea9cc-2997-40dd-b1dd-027d91997dce|md">
+          <source>
+            **FieldOps Web**
+Enables a customer a consistent, seamless web and mobile user experience to monitor, plan, and analyze their farming operation
+Improved web portal experience for a customer to manage their equipment and agronomic information
+Cleaner overview page with icons being moved to the outer edges of the page
+
+**FieldOps Mobile**
+In addition to FieldOps Web, a new, built from the ground up mobile app (FieldOps Mobile) has been introduced
+Complements FieldOps Web to enable a customer a consistent, seamless web and mobile user experience to monitor, plan, and analyze their farming operation
+One (1) mobile app to view both equipment fleet and agronomic data to manage anywhere, anytime
+
+**Construction Equipment in FieldOps**
+Enables a customer to view construction equipment in FieldOps
+Allows a customer to view all equipment within their operations
+
+          </source>
+          <target>
+            **FieldOps Web**
+Enables a customer a consistent, seamless web and mobile user experience to monitor, plan, and analyze their farming operation
+Improved web portal experience for a customer to manage their equipment and agronomic information
+Cleaner overview page with icons being moved to the outer edges of the page
+
+**FieldOps Mobile**
+In addition to FieldOps Web, a new, built from the ground up mobile app (FieldOps Mobile) has been introduced
+Complements FieldOps Web to enable a customer a consistent, seamless web and mobile user experience to monitor, plan, and analyze their farming operation
+One (1) mobile app to view both equipment fleet and agronomic data to manage anywhere, anytime
+
+**Construction Equipment in FieldOps**
+Enables a customer to view construction equipment in FieldOps
+Allows a customer to view all equipment within their operations
+
+          </target>
+          <note>TextView</note>
+        </trans-unit>
+        <trans-unit id="09ea8a07-205c-4815-86b6-9f24868a687c|md">
+          <source>
+            ++2024-06-26++
+          </source>
+          <target>
+            ++2024-06-26++
+          </target>
+          <note>TextView</note>
+        </trans-unit>
+        <trans-unit id="eae7b349-c83c-4e25-bf36-bed802e94777|md">
+          <source>
+            **Analyze Data Layers Functionality**
+
+- Ability for a customer to draw a polygon on a specific data layer to narrow in on an area of a field for additional analysis
+- Customer can analyze map layer values within a defined area and compare them to the values outside of the defined area
+
+
+          </source>
+          <target>
+            **Analyze Data Layers Functionality**
+
+- Ability for a customer to draw a polygon on a specific data layer to narrow in on an area of a field for additional analysis
+- Customer can analyze map layer values within a defined area and compare them to the values outside of the defined area
+
+
+          </target>
+          <note>TextView</note>
+        </trans-unit>
+        <trans-unit id="5ffbe260-cb77-421e-bbee-6f78b2e7e6df|md">
+          <source>
+            ++2024-02-14++
+          </source>
+          <target>
+            ++2024-02-14++
+          </target>
+          <note>TextView</note>
+        </trans-unit>
+        <trans-unit id="9c80b768-e3da-4666-be99-c65a8f7dcb2d|md">
+          <source>
+            **Estimated Time to Completion**
+
+- Ability for a customer to see how much time is remaining in a current task for one (1) machine
+- For estimated time to completion to show on a machine card, a field boundary must be utilized within the display
+- This feature answers the logistical question of “How much of the current task remains to be completed and how long will it take?”
+
+**Location History**
+
+- Enhanced view allows for larger map viewing, view moves location history slider to top of webpage, and machine metrics to upper corner of webpage
+
+**Parallel Shift in Guidance Line Management**
+
+- Ability for a customer to shift their current Straight or Heading guidance line by desired unit of measure and spacing
+
+**Create AB Line off of Boundary**
+
+- Ability for a customer to create an AB line off a boundary edge to define first pass around headlands for accuracy
+- Straight or Heading type only
+
+**Forage Harvester Report**
+
+- Ability for a customer to see a detailed forage harvester report under the Insights tab in FieldOps
+- Report displays detailed yield, crop quality, equipment usage, and field data by Grower / Farm / Field, crop type and harvest date in one simple, dynamic interface
+
+**Trimble Guidance Line SHP Export**
+
+- Ability for a customer to export guidance lines via SHP export
+- This allows for proper Trimble SHP attributes, formatting, importing, and proper SHP export to Trimble displays
+- Swaths and boundary export only
+
+**Customer Web FLEET Portal Shutdown**
+
+- FLEET functionality began transitioning to the FieldOps on October 04, 2023, which allows you to easily view both your equipment fleet and agronomic data in one place thus reducing the number of portals to access valuable information about your operation. If you have FLEET as a bookmark in your web browser, you still have access to the FLEET portal. **Effective February 14, 2024, the FLEET portal will be fully shutdown.** Please log into FieldOps before this date and bookmark that web page for future reference. Also, your current login credentials will work with FieldOps. You can access both your equipment and agronomic data via FieldOps by clicking on the following link: caseih.afsconnect.com / newholland.myplmconnect.com / s-fleet.mysteyr.com Thank you for using CNH precision technology and look forward to continuing to service you in the future.
+
+**Trimble API Import**
+
+- Enables the import of ag operations data from Trimble
+- Imports Field Operations Data (As-planted, As-applied, Yield, etc.)
+
+
+          </source>
+          <target>
+            **Estimated Time to Completion**
+
+- Ability for a customer to see how much time is remaining in a current task for one (1) machine
+- For estimated time to completion to show on a machine card, a field boundary must be utilized within the display
+- This feature answers the logistical question of “How much of the current task remains to be completed and how long will it take?”
+
+**Location History**
+
+- Enhanced view allows for larger map viewing, view moves location history slider to top of webpage, and machine metrics to upper corner of webpage
+
+**Parallel Shift in Guidance Line Management**
+
+- Ability for a customer to shift their current Straight or Heading guidance line by desired unit of measure and spacing
+
+**Create AB Line off of Boundary**
+
+- Ability for a customer to create an AB line off a boundary edge to define first pass around headlands for accuracy
+- Straight or Heading type only
+
+**Forage Harvester Report**
+
+- Ability for a customer to see a detailed forage harvester report under the Insights tab in FieldOps
+- Report displays detailed yield, crop quality, equipment usage, and field data by Grower / Farm / Field, crop type and harvest date in one simple, dynamic interface
+
+**Trimble Guidance Line SHP Export**
+
+- Ability for a customer to export guidance lines via SHP export
+- This allows for proper Trimble SHP attributes, formatting, importing, and proper SHP export to Trimble displays
+- Swaths and boundary export only
+
+**Customer Web FLEET Portal Shutdown**
+
+- FLEET functionality began transitioning to the FieldOps on October 04, 2023, which allows you to easily view both your equipment fleet and agronomic data in one place thus reducing the number of portals to access valuable information about your operation. If you have FLEET as a bookmark in your web browser, you still have access to the FLEET portal. **Effective February 14, 2024, the FLEET portal will be fully shutdown.** Please log into FieldOps before this date and bookmark that web page for future reference. Also, your current login credentials will work with FieldOps. You can access both your equipment and agronomic data via FieldOps by clicking on the following link: caseih.afsconnect.com / newholland.myplmconnect.com / s-fleet.mysteyr.com Thank you for using CNH precision technology and look forward to continuing to service you in the future.
+
+**Trimble API Import**
+
+- Enables the import of ag operations data from Trimble
+- Imports Field Operations Data (As-planted, As-applied, Yield, etc.)
+
+
+          </target>
+          <note>TextView</note>
+        </trans-unit>
+        <trans-unit id="656f1520-7a02-457f-bb79-980aee9ae719|md">
+          <source>
+            ++2023-12-13++
+          </source>
+          <target>
+            ++2023-12-13++
+          </target>
+          <note>TextView</note>
+        </trans-unit>
+        <trans-unit id="344d70b9-6a97-4e4a-9721-7ad53b2c6dd9|md">
+          <source>
+            **Machine Creation in FieldOps**  
+
+Ability for a customer to add machines to FieldOps. Machines can be added via the “Setup” or “Add” section of the website.
+
+**Device Creation in FieldOps**  
+
+Ability for a customer to add devices to FieldOps. Devices can be added via the “Setup” or “Add” section of the website.
+
+**View Associated Dealer(s) to a Machine**  
+
+Ability for a customer to view their machine’s associated dealer(s) in FieldOps. Customers can view this information within the Details section of the machine card.
+
+**View Associated Devices to a Machine**  
+
+Ability for a customer to view their machine’s associated devices in FieldOps. Customers can view this information within the Details section of the machine card.
+
+**View Machine Operator Manuals**
+Ability for a customer to view machine manuals within FieldOps. Customers can view this information within the Details section of the machine card
+
+
+          </source>
+          <target>
+            **Machine Creation in FieldOps**  
+
+Ability for a customer to add machines to FieldOps. Machines can be added via the “Setup” or “Add” section of the website.
+
+**Device Creation in FieldOps**  
+
+Ability for a customer to add devices to FieldOps. Devices can be added via the “Setup” or “Add” section of the website.
+
+**View Associated Dealer(s) to a Machine**  
+
+Ability for a customer to view their machine’s associated dealer(s) in FieldOps. Customers can view this information within the Details section of the machine card.
+
+**View Associated Devices to a Machine**  
+
+Ability for a customer to view their machine’s associated devices in FieldOps. Customers can view this information within the Details section of the machine card.
+
+**View Machine Operator Manuals**
+Ability for a customer to view machine manuals within FieldOps. Customers can view this information within the Details section of the machine card
+
+
+          </target>
+          <note>TextView</note>
+        </trans-unit>
+        <trans-unit id="8d0a6146-f291-4a6e-a08f-0ee568095498|md">
+          <source>
+            ++2023-10-04++
+          </source>
+          <target>
+            ++2023-10-04++
+          </target>
+          <note>TextView</note>
+        </trans-unit>
+        <trans-unit id="edad3600-d773-4eba-bc08-85dc064e8e7c|md">
+          <source>
+            FLEET functionality has transitioned to the FieldOps Portal which allows you to easily view both your equipment fleet and agronomic data in one place thus reducing the number of portals to access valuable information about your operation. Your normal means of accessing your equipment will now direct you to the FieldOps portal. If you have FLEET as a bookmark in your web browser, please log into FieldOps and bookmark that web page for future reference. Also, your current login credentials will work with FieldOps with this transition.
+
+You can access both your equipment and agronomic data via FieldOps by clicking on the following link: [**FieldOps Portal**](/).  
+
+Thank you for using CNH precision technology and look forward to continuing to service you in the future.
+
+
+          </source>
+          <target>
+            FLEET functionality has transitioned to the FieldOps Portal which allows you to easily view both your equipment fleet and agronomic data in one place thus reducing the number of portals to access valuable information about your operation. Your normal means of accessing your equipment will now direct you to the FieldOps portal. If you have FLEET as a bookmark in your web browser, please log into FieldOps and bookmark that web page for future reference. Also, your current login credentials will work with FieldOps with this transition.
+
+You can access both your equipment and agronomic data via FieldOps by clicking on the following link: [**FieldOps Portal**](/).  
+
+Thank you for using CNH precision technology and look forward to continuing to service you in the future.
+
+
+          </target>
+          <note>TextView</note>
+        </trans-unit>
+        <trans-unit id="4d8a2367-0dec-4502-85dd-d87da217bb2f">
+          <source>
+            Okay, got it!
+          </source>
+          <target>
+            Okay, got it!
+          </target>
+          <note>Button</note>
+        </trans-unit>
+        <trans-unit id="61dc0cdb-a846-4c21-930f-92c91b97e85d|ariaLabel">
+          <source>
+            Close
+          </source>
+          <target>
+            Close
+          </target>
+          <note>CloseButton</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

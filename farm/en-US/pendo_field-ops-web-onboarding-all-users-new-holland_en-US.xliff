@@ -1,0 +1,769 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+	<file original="uVcOLm-1nK0MR0wk6TTPY1aIW5w" datatype="pendoguide" source-language="en-US" target-language="">
+		<body>
+			<group id="V1mxq05iq5kLS9U1UGzoqDdogt4">
+				<note />
+				<trans-unit id="ce56b7fd-5c95-4cf4-b9d6-0a8b72841c61" translate="no">
+					<source>
+						✖
+					</source>
+					<target>
+						✖
+					</target>
+					<note>Button</note>
+				</trans-unit>
+				<trans-unit id="732d5977-5794-4815-b75f-c77e745ab8ad" translate="no">
+					<source>
+						https://pendo-static-5949596349562880.storage.googleapis.com/uVcOLm-1nK0MR0wk6TTPY1aIW5w/guide-media-3dbe5bc8-3a10-4194-960c-37f5ac9edb60
+					</source>
+					<target>
+						https://pendo-static-5949596349562880.storage.googleapis.com/uVcOLm-1nK0MR0wk6TTPY1aIW5w/guide-media-3dbe5bc8-3a10-4194-960c-37f5ac9edb60
+					</target>
+					<note>insert.io.ImageView</note>
+				</trans-unit>
+				<trans-unit id="a50a52f4-cb49-4716-8586-b087e1549904|md">
+					<source>
+						See a Snapshot of Your Operation
+					</source>
+					<target>
+						See a Snapshot of Your Operation
+					</target>
+					<note>TextView</note>
+				</trans-unit>
+				<trans-unit id="024e9c1f-f58a-42d7-ac3e-96a54e31757c|md">
+					<source>
+						View the progress of recent activities and the machines that are in work.
+					</source>
+					<target>
+						View the progress of recent activities and the machines that are in work.
+					</target>
+					<note>TextView</note>
+				</trans-unit>
+				<trans-unit id="66847e24-9b72-4293-8679-92699cec3886">
+					<source>
+						Next
+					</source>
+					<target>
+						Next
+					</target>
+					<note>Button</note>
+				</trans-unit>
+				<trans-unit id="1a4906d1-7260-4b93-964d-f31c5d060e2a" translate="no">
+					<source>
+						https://pendo-static-5949596349562880.storage.googleapis.com/uVcOLm-1nK0MR0wk6TTPY1aIW5w/guide-media-b4c7f1f3-c8d2-4b96-a0ff-92fadd7f0d0a
+					</source>
+					<target>
+						https://pendo-static-5949596349562880.storage.googleapis.com/uVcOLm-1nK0MR0wk6TTPY1aIW5w/guide-media-b4c7f1f3-c8d2-4b96-a0ff-92fadd7f0d0a
+					</target>
+					<note>insert.io.ImageView</note>
+				</trans-unit>
+				<trans-unit id="f07ab188-476b-4404-816f-18c75477913e|ariaLabel" translate="no">
+					<source>
+						Close
+					</source>
+					<target>
+						Close
+					</target>
+					<note>CloseButton</note>
+				</trans-unit>
+			</group>
+			<group id="Wft2NiDyqdXwU3l927EuZLUgd0c">
+				<note />
+				<trans-unit id="83378a8d-2ab2-4282-9112-9379f98fa022" translate="no">
+					<source>
+						✖
+					</source>
+					<target>
+						✖
+					</target>
+					<note>Button</note>
+				</trans-unit>
+				<trans-unit id="41e4c53a-c918-45fc-873b-6bd77246e2ce" translate="no">
+					<source>
+						https://pendo-static-5949596349562880.storage.googleapis.com/uVcOLm-1nK0MR0wk6TTPY1aIW5w/guide-media-ed78faf4-25d1-485d-97c7-bc43c1a2329e
+					</source>
+					<target>
+						https://pendo-static-5949596349562880.storage.googleapis.com/uVcOLm-1nK0MR0wk6TTPY1aIW5w/guide-media-ed78faf4-25d1-485d-97c7-bc43c1a2329e
+					</target>
+					<note>insert.io.ImageView</note>
+				</trans-unit>
+				<trans-unit id="01cb1ae0-42e6-4896-94e4-32a69b5b8e89|md">
+					<source>
+						Monitor Machines in Real-Time
+					</source>
+					<target>
+						Monitor Machines in Real-Time
+					</target>
+					<note>TextView</note>
+				</trans-unit>
+				<trans-unit id="eaa51902-1ee8-4c95-93c5-6daf723772d4|md">
+					<source>
+						Precise location and duty status, robust performance data, and 24-hour history.
+					</source>
+					<target>
+						Precise location and duty status, robust performance data, and 24-hour history.
+					</target>
+					<note>TextView</note>
+				</trans-unit>
+				<trans-unit id="907031a3-eeba-4452-b96d-0f715c29261a">
+					<source>
+						Back
+					</source>
+					<target>
+						Back
+					</target>
+					<note>Button</note>
+				</trans-unit>
+				<trans-unit id="1b9ba93e-9aa9-4d35-a693-80dd95ac21d4">
+					<source>
+						Next
+					</source>
+					<target>
+						Next
+					</target>
+					<note>Button</note>
+				</trans-unit>
+				<trans-unit id="8b3608c1-5595-451c-b200-a47cbc3d540f" translate="no">
+					<source>
+						https://pendo-static-5949596349562880.storage.googleapis.com/uVcOLm-1nK0MR0wk6TTPY1aIW5w/guide-media-c10cb8f4-ee85-488b-9acd-fb30fe8bf4b9
+					</source>
+					<target>
+						https://pendo-static-5949596349562880.storage.googleapis.com/uVcOLm-1nK0MR0wk6TTPY1aIW5w/guide-media-c10cb8f4-ee85-488b-9acd-fb30fe8bf4b9
+					</target>
+					<note>insert.io.ImageView</note>
+				</trans-unit>
+				<trans-unit id="ae4fa10e-369f-4a03-a0b4-75a214a5dd97|ariaLabel">
+					<source>
+						Close
+					</source>
+					<target>
+						Close
+					</target>
+					<note>CloseButton</note>
+				</trans-unit>
+			</group>
+			<group id="TPsvYh9aD278KVi3kee_IJ9CQDU">
+				<note />
+				<trans-unit id="6be966d0-e58b-481d-90d0-7e2d8bdd1a1a" translate="no">
+					<source>
+						✖
+					</source>
+					<target>
+						✖
+					</target>
+					<note>Button</note>
+				</trans-unit>
+				<trans-unit id="54ccbfd1-a2f6-490c-88f1-5c66822f8fa7" translate="no">
+					<source>
+						https://pendo-static-5949596349562880.storage.googleapis.com/TzZjLgI1XSNMojRPc9r9x8dA9t4/guide-media-81028a08-7eaf-4a58-bcfd-597a90591c14
+					</source>
+					<target>
+						https://pendo-static-5949596349562880.storage.googleapis.com/TzZjLgI1XSNMojRPc9r9x8dA9t4/guide-media-81028a08-7eaf-4a58-bcfd-597a90591c14
+					</target>
+					<note>insert.io.ImageView</note>
+				</trans-unit>
+				<trans-unit id="bf6e2840-700b-4146-8d85-bf33bf418332|md">
+					<source>
+						Visualize Agronomic Data Layers
+					</source>
+					<target>
+						Visualize Agronomic Data Layers
+					</target>
+					<note>TextView</note>
+				</trans-unit>
+				<trans-unit id="d7028c5e-f62a-4b8a-ac3f-9fa85ec937bc|md">
+					<source>
+						See your in-field activities over the season and across years.
+					</source>
+					<target>
+						See your in-field activities over the season and across years.
+					</target>
+					<note>TextView</note>
+				</trans-unit>
+				<trans-unit id="f9fd5dc1-c732-41de-9e58-e722138e0ec9">
+					<source>
+						Back
+					</source>
+					<target>
+						Back
+					</target>
+					<note>Button</note>
+				</trans-unit>
+				<trans-unit id="d5ce91e2-ac5e-48b7-b5da-be1f5570ece6">
+					<source>
+						Next
+					</source>
+					<target>
+						Next
+					</target>
+					<note>Button</note>
+				</trans-unit>
+				<trans-unit id="6b4b61b3-96b9-452c-be2e-9e45dca16610" translate="no">
+					<source>
+						https://pendo-static-5949596349562880.storage.googleapis.com/uVcOLm-1nK0MR0wk6TTPY1aIW5w/guide-media-202324eb-6669-4882-bbf7-6dac2ac592de
+					</source>
+					<target>
+						https://pendo-static-5949596349562880.storage.googleapis.com/uVcOLm-1nK0MR0wk6TTPY1aIW5w/guide-media-202324eb-6669-4882-bbf7-6dac2ac592de
+					</target>
+					<note>insert.io.ImageView</note>
+				</trans-unit>
+				<trans-unit id="ccb9d5a2-b365-4707-a87c-816b01937701|ariaLabel">
+					<source>
+						Close
+					</source>
+					<target>
+						Close
+					</target>
+					<note>CloseButton</note>
+				</trans-unit>
+			</group>
+			<group id="9Q4N8F7HbYaiFRCIjgnPrGMd0mA">
+				<note />
+				<trans-unit id="9096fc76-6834-46ca-a0da-1ee2c7843012" translate="no">
+					<source>
+						✖
+					</source>
+					<target>
+						✖
+					</target>
+					<note>Button</note>
+				</trans-unit>
+				<trans-unit id="7aff57f0-9938-49ed-bc9a-be48c0eb1ca2" translate="no">
+					<source>
+						https://pendo-static-5949596349562880.storage.googleapis.com/uVcOLm-1nK0MR0wk6TTPY1aIW5w/guide-media-914a2d9b-512a-4311-85a1-42b433e834cc
+					</source>
+					<target>
+						https://pendo-static-5949596349562880.storage.googleapis.com/uVcOLm-1nK0MR0wk6TTPY1aIW5w/guide-media-914a2d9b-512a-4311-85a1-42b433e834cc
+					</target>
+					<note>insert.io.ImageView</note>
+				</trans-unit>
+				<trans-unit id="4544d2d6-9908-41b9-950d-b8a0ff2e6dca|md">
+					<source>
+						Setup &amp; Manage Your Operation
+					</source>
+					<target>
+						Setup &amp; Manage Your Operation
+					</target>
+					<note>TextView</note>
+				</trans-unit>
+				<trans-unit id="7eaa3169-d5c5-4f79-a5a7-3ed29a63ea11|md">
+					<source>
+						Maintain control over all of the elements that keep your organization running. 
+					</source>
+					<target>
+						Maintain control over all of the elements that keep your organization running. 
+					</target>
+					<note>TextView</note>
+				</trans-unit>
+				<trans-unit id="dae557c4-ebc8-4e80-96e2-f7f7c272d41b">
+					<source>
+						Back
+					</source>
+					<target>
+						Back
+					</target>
+					<note>Button</note>
+				</trans-unit>
+				<trans-unit id="f09d101d-6cd8-48d1-b2d4-07817ba4e49a">
+					<source>
+						Get Started
+					</source>
+					<target>
+						Get Started
+					</target>
+					<note>Button</note>
+				</trans-unit>
+				<trans-unit id="789b2ca9-14f3-4fe8-9be2-4742cc250b27|ariaLabel">
+					<source>
+						Close
+					</source>
+					<target>
+						Close
+					</target>
+					<note>CloseButton</note>
+				</trans-unit>
+			</group>
+			<group id="5gB0TrILzVAIF2TAtQznWBK_Bxg">
+				<note />
+				<trans-unit id="36095798-adf7-4139-93a9-710fa640c477|ariaLabel">
+					<source>
+						Close
+					</source>
+					<target>
+						Close
+					</target>
+					<note>CloseButton</note>
+				</trans-unit>
+				<trans-unit id="fb9e0573-df7b-4292-bfbb-a65d1cfe6138|md">
+					<source>
+						Welcome to the new FieldOps
+					</source>
+					<target>
+						Welcome to the new FieldOps
+					</target>
+					<note>TextView</note>
+				</trans-unit>
+				<trans-unit id="b9688f95-05db-47a6-9ba8-91e140109a25|md">
+					<source>
+						We've made it easy to set up, plan, monitor, and analyze your operation.
+
+Would you like to take a short 5-click tour?
+					</source>
+					<target>
+						We've made it easy to set up, plan, monitor, and analyze your operation.
+
+Would you like to take a short 5-click tour?
+					</target>
+					<note>TextView</note>
+				</trans-unit>
+				<trans-unit id="218aee7b-2f02-44e6-9dfd-0caa5d5a0864">
+					<source>
+						Remind me tomorrow
+					</source>
+					<target>
+						Remind me tomorrow
+					</target>
+					<note>Button</note>
+				</trans-unit>
+				<trans-unit id="6935af24-cdd1-4cc7-adfe-76d438f12bf6">
+					<source>
+						Skip
+					</source>
+					<target>
+						Skip
+					</target>
+					<note>Button</note>
+				</trans-unit>
+				<trans-unit id="27f49e88-6574-49bf-b07e-e4db62cfdd7f">
+					<source>
+						Take the tour
+					</source>
+					<target>
+						Take the tour
+					</target>
+					<note>Button</note>
+				</trans-unit>
+			</group>
+			<group id="ujaQXpos6qKxCrz2va8aWI3nqxc">
+				<note />
+				<trans-unit id="badafc5e-4d15-4840-b6d5-f724e83612d8|ariaLabel">
+					<source>
+						Close
+					</source>
+					<target>
+						Close
+					</target>
+					<note>CloseButton</note>
+				</trans-unit>
+				<trans-unit id="c4674e37-ab95-41c7-bd02-2e34bdb2a477" translate="no">
+					<source>
+						✖
+					</source>
+					<target>
+						✖
+					</target>
+					<note>Button</note>
+				</trans-unit>
+				<trans-unit id="8b454185-11d1-44bd-a63f-21acd1d8ea89|md">
+					<source>
+						You’ve Skipped the Tour
+					</source>
+					<target>
+						You’ve Skipped the Tour
+					</target>
+					<note>TextView</note>
+				</trans-unit>
+				<trans-unit id="e6bd7c59-b51c-4afd-9376-3db985f0f918|md">
+					<source>
+						Additional resources can be found in the Help Guides.
+					</source>
+					<target>
+						Additional resources can be found in the Help Guides.
+					</target>
+					<note>TextView</note>
+				</trans-unit>
+				<trans-unit id="becaf9b5-1406-4250-b26d-607f95f8e604">
+					<source>
+						Close
+					</source>
+					<target>
+						Close
+					</target>
+					<note>Button</note>
+				</trans-unit>
+			</group>
+			<group id="LkNTmruZaeKMFPyaqk8Y7mEJSjw">
+				<note />
+				<trans-unit id="2a49bd4c-300b-4818-866a-ab0c06c872ef" translate="no">
+					<source>
+						✖
+					</source>
+					<target>
+						✖
+					</target>
+					<note>Button</note>
+				</trans-unit>
+				<trans-unit id="81bd8cbb-efa6-4a68-8401-28a14c150eb2|ariaLabel">
+					<source>
+						Close
+					</source>
+					<target>
+						Close
+					</target>
+					<note>CloseButton</note>
+				</trans-unit>
+				<trans-unit id="03e7d048-b253-41d8-bedb-c9371a4ca075|md">
+					<source>
+						Tour Set for Tomorrow
+					</source>
+					<target>
+						Tour Set for Tomorrow
+					</target>
+					<note>TextView</note>
+				</trans-unit>
+				<trans-unit id="592e6ba0-5290-4d4f-8daa-aa7efe7c82c1|md">
+					<source>
+						In the meantime, additional resources can be found in the Help Guides.
+					</source>
+					<target>
+						In the meantime, additional resources can be found in the Help Guides.
+					</target>
+					<note>TextView</note>
+				</trans-unit>
+				<trans-unit id="e4112cce-115f-47e1-b1d5-d421ef1bf9bb">
+					<source>
+						Close
+					</source>
+					<target>
+						Close
+					</target>
+					<note>Button</note>
+				</trans-unit>
+			</group>
+			<group id="0Ro7Z0LDrbL27LuvB-D5xE19ofs">
+				<note />
+				<trans-unit id="416c0c15-ea2a-4dc7-829f-9e24eee1bd29" translate="no">
+					<source>
+						✖
+					</source>
+					<target>
+						✖
+					</target>
+					<note>Button</note>
+				</trans-unit>
+				<trans-unit id="9b519473-041a-4b02-903b-11aaf950cd7a|ariaLabel">
+					<source>
+						Close
+					</source>
+					<target>
+						Close
+					</target>
+					<note>CloseButton</note>
+				</trans-unit>
+				<trans-unit id="6a550c9b-68c7-4374-af17-5176c1e4c854|md">
+					<source>
+						Main Navigation
+					</source>
+					<target>
+						Main Navigation
+					</target>
+					<note>TextView</note>
+				</trans-unit>
+				<trans-unit id="69974bf1-4f44-4c85-8b58-9249ac76a0dd|md">
+					<source>
+						Use these sections to monitor your equipment, analyze in-field activities to draw insights, and manage your operation.
+					</source>
+					<target>
+						Use these sections to monitor your equipment, analyze in-field activities to draw insights, and manage your operation.
+					</target>
+					<note>TextView</note>
+				</trans-unit>
+				<trans-unit id="27825a4b-4269-46eb-aa30-522d27563ab6">
+					<source>
+						Quit Tour
+					</source>
+					<target>
+						Quit Tour
+					</target>
+					<note>Button</note>
+				</trans-unit>
+				<trans-unit id="c7895e30-3dda-44d7-bc83-8b83a9481347">
+					<source>
+						Back
+					</source>
+					<target>
+						Back
+					</target>
+					<note>Button</note>
+				</trans-unit>
+				<trans-unit id="c07ee992-7b11-4fdc-b89e-1de61b731315">
+					<source>
+						Continue
+					</source>
+					<target>
+						Continue
+					</target>
+					<note>Button</note>
+				</trans-unit>
+			</group>
+			<group id="xTKB5qivOQ8skF1IqtfEXHV6HnY">
+				<note />
+				<trans-unit id="cfdfa743-be1e-4c8b-a97b-d98df0ccb734" translate="no">
+					<source>
+						✖
+					</source>
+					<target>
+						✖
+					</target>
+					<note>Button</note>
+				</trans-unit>
+				<trans-unit id="4953bee3-9ce9-44ef-bb6f-6d37953dfe47|ariaLabel">
+					<source>
+						Close
+					</source>
+					<target>
+						Close
+					</target>
+					<note>CloseButton</note>
+				</trans-unit>
+				<trans-unit id="57cdc04f-3b00-4d70-9e90-474898092bd6|md">
+					<source>
+						Grower / Farm / Season
+					</source>
+					<target>
+						Grower / Farm / Season
+					</target>
+					<note>TextView</note>
+				</trans-unit>
+				<trans-unit id="f1ccf7de-2049-4e3e-a150-93d54a408129|md">
+					<source>
+						Use these settings to filter the Fields and Activities that are visible.
+					</source>
+					<target>
+						Use these settings to filter the Fields and Activities that are visible.
+					</target>
+					<note>TextView</note>
+				</trans-unit>
+				<trans-unit id="cb5ee8ba-818a-4f5c-b5c2-8d68df779d0f">
+					<source>
+						Quit Tour
+					</source>
+					<target>
+						Quit Tour
+					</target>
+					<note>Button</note>
+				</trans-unit>
+				<trans-unit id="b962aebe-2fdc-4aee-ada0-2d3365f83c11">
+					<source>
+						Back
+					</source>
+					<target>
+						Back
+					</target>
+					<note>Button</note>
+				</trans-unit>
+				<trans-unit id="e0e0ff7d-e35c-403b-9707-506d26b7d411">
+					<source>
+						Continue
+					</source>
+					<target>
+						Continue
+					</target>
+					<note>Button</note>
+				</trans-unit>
+			</group>
+			<group id="fUIniTd2RFOJ9mfVa6Qi5rakCDc">
+				<note />
+				<trans-unit id="02580acc-2b74-4cdc-9b76-09e180b67a7e" translate="no">
+					<source>
+						✖
+					</source>
+					<target>
+						✖
+					</target>
+					<note>Button</note>
+				</trans-unit>
+				<trans-unit id="60c8f4b1-0f86-4838-a792-424db111514b|ariaLabel">
+					<source>
+						Close
+					</source>
+					<target>
+						Close
+					</target>
+					<note>CloseButton</note>
+				</trans-unit>
+				<trans-unit id="86688542-0f96-4142-beb8-9cac5588e484|md">
+					<source>
+						Your Account
+					</source>
+					<target>
+						Your Account
+					</target>
+					<note>TextView</note>
+				</trans-unit>
+				<trans-unit id="8bb259ff-e29a-4beb-9fab-8f06a02c8715|md">
+					<source>
+						Here you’ll find user and organization info, as well as any of your Linked Accounts.
+					</source>
+					<target>
+						Here you’ll find user and organization info, as well as any of your Linked Accounts.
+					</target>
+					<note>TextView</note>
+				</trans-unit>
+				<trans-unit id="cf58f498-a3ef-43e2-9d1a-5a05bdbf16d5">
+					<source>
+						Quit Tour
+					</source>
+					<target>
+						Quit Tour
+					</target>
+					<note>Button</note>
+				</trans-unit>
+				<trans-unit id="301e1556-f0df-4519-a658-41021452b332">
+					<source>
+						Back
+					</source>
+					<target>
+						Back
+					</target>
+					<note>Button</note>
+				</trans-unit>
+				<trans-unit id="ea86bd0b-005f-4d6d-9909-03742c64830d">
+					<source>
+						Continue
+					</source>
+					<target>
+						Continue
+					</target>
+					<note>Button</note>
+				</trans-unit>
+			</group>
+			<group id="kUCyaq0ZcJ4WlwOutYvkaS-QPzM">
+				<note />
+				<trans-unit id="d0a2ff8e-481f-4552-ade2-56c10a67b746" translate="no">
+					<source>
+						✖
+					</source>
+					<target>
+						✖
+					</target>
+					<note>Button</note>
+				</trans-unit>
+				<trans-unit id="3e478b93-cd91-487b-82d8-2b3127d2eea0|ariaLabel">
+					<source>
+						Close
+					</source>
+					<target>
+						Close
+					</target>
+					<note>CloseButton</note>
+				</trans-unit>
+				<trans-unit id="d001911d-b99b-445e-a42b-0daefd2c2a6c|md">
+					<source>
+						Map Controls
+					</source>
+					<target>
+						Map Controls
+					</target>
+					<note>TextView</note>
+				</trans-unit>
+				<trans-unit id="4987e2b6-3de3-4af3-ba07-10ff4c644fdc|md">
+					<source>
+						**Top set**: Help you move and zoom the map. 
+**Bottom set**: Let you overlay and filter info like labels and weather.
+					</source>
+					<target>
+						**Top set**: Help you move and zoom the map. 
+**Bottom set**: Let you overlay and filter info like labels and weather.
+					</target>
+					<note>TextView</note>
+				</trans-unit>
+				<trans-unit id="780d9477-b830-49de-ae47-94e4fd1295c7">
+					<source>
+						Quit Tour
+					</source>
+					<target>
+						Quit Tour
+					</target>
+					<note>Button</note>
+				</trans-unit>
+				<trans-unit id="2bf7dca4-e8c9-4cf7-8f6f-20f4c4ba3250">
+					<source>
+						Back
+					</source>
+					<target>
+						Back
+					</target>
+					<note>Button</note>
+				</trans-unit>
+				<trans-unit id="3bd91921-583d-43c3-8b4a-f55ea6ddaa90">
+					<source>
+						Continue
+					</source>
+					<target>
+						Continue
+					</target>
+					<note>Button</note>
+				</trans-unit>
+			</group>
+			<group id="YodEhO_vPhKy6jt26U1mnA6lByM">
+				<note />
+				<trans-unit id="7af4366e-5a21-4eeb-b0ba-232c7f943dbf|ariaLabel">
+					<source>
+						Close
+					</source>
+					<target>
+						Close
+					</target>
+					<note>CloseButton</note>
+				</trans-unit>
+				<trans-unit id="1e513ce6-dfdf-43a7-9602-7dbf66caef79" translate="no">
+					<source>
+						✖
+					</source>
+					<target>
+						✖
+					</target>
+					<note>Button</note>
+				</trans-unit>
+				<trans-unit id="261cc4be-3ac2-494b-aec9-ac9b33e66fa0|md">
+					<source>
+						Resource Center
+					</source>
+					<target>
+						Resource Center
+					</target>
+					<note>TextView</note>
+				</trans-unit>
+				<trans-unit id="e28275d9-d134-43ea-88f0-85b3aa7420bf|md">
+					<source>
+						Here you will find in-depth tutorials and guides on how to get the most value from your FieldOps.
+					</source>
+					<target>
+						Here you will find in-depth tutorials and guides on how to get the most value from your FieldOps.
+					</target>
+					<note>TextView</note>
+				</trans-unit>
+				<trans-unit id="82f95139-4ab0-4189-981a-116eb8482783">
+					<source>
+						Back
+					</source>
+					<target>
+						Back
+					</target>
+					<note>Button</note>
+				</trans-unit>
+				<trans-unit id="6ee5b76d-9f1f-49b9-8aad-2faa7ebcab63">
+					<source>
+						End Tour
+					</source>
+					<target>
+						End Tour
+					</target>
+					<note>Button</note>
+				</trans-unit>
+			</group>
+		</body>
+	</file>
+</xliff>

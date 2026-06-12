@@ -1,5 +1,5 @@
 {
-  "_LRM_PKTAG26": "guest_localyzer_4_2 - CHANGES-ONLY",
+  "_LRM_PKTAG868": "guest_Claude_1_2 - CHANGES-ONLY",
   "lingoport_new_key_from_en_US": "C'est à nouveau neuf",
   "B8651": "capacité de conserver l'étiquette du kit de préparation sur les fichiers importés",
   "accepted_cards": {
@@ -10,9 +10,9 @@
   "account_locked": {
     "customer_support_link": "Contacter notre assistance utilisateurs",
     "description": "Veuillez réessayer plus tard ou saisissez les informations de votre carte sur l'écran d'accueil pour continuer.",
-    "header": "Votre compte a été temporairement verrouillé.",
+    "header": "Vous avez été temporairement bloqué",
     "notifications": {
-      "unable_to_confirm": "Désolés, nous n'avons pas pu confirmer votre code."
+      "unable_to_confirm": "Désolé, nous n'avons pas pu confirmer votre code."
     },
     "primary_cta_text": "Poursuivre vos achats",
     "secondary_cta_text": "Saisir la carte"

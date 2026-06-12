@@ -1,5 +1,5 @@
 {
-  "_LRM_PKTAG868": "guest_Claude_1_2 - CHANGES-ONLY",
+  "_LRM_PKTAG157": "guest_Mistral_2_2 - CHANGES-ONLY",
   "lingoport_new_key_from_en_US": "C'est à nouveau neuf",
   "B8651": "capacité de conserver l'étiquette du kit de préparation sur les fichiers importés",
   "accepted_cards": {
@@ -9,8 +9,8 @@
   },
   "account_locked": {
     "customer_support_link": "Contacter notre assistance utilisateurs",
-    "description": "Veuillez réessayer plus tard ou saisissez les informations de votre carte sur l'écran d'accueil pour continuer.",
-    "header": "Vous avez été temporairement bloqué",
+    "description": "Veuillez réessayer plus tard ou saisissez vos informations de carte à l'écran d'accueil pour continuer.",
+    "header": "Vous avez été temporairement bloqué(e)",
     "notifications": {
       "unable_to_confirm": "Désolé, nous n'avons pas pu confirmer votre code."
     },
